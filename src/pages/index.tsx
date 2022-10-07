@@ -9,11 +9,11 @@ import { useState } from "react";
 
 const Articles = ({ articles }: { articles: string[] }) => {
   return (
-    <div>
+    <ol>
       {articles?.map((article) => (
-        <h1 id={article}>{article}</h1>
+        <li id={article}>{article}</li>
       ))}
-    </div>
+    </ol>
   );
 };
 

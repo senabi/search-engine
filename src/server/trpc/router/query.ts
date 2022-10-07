@@ -17,17 +17,12 @@ const loadPageRanks = () => {
     const lines = data.split("\n");
     for (const line of lines) {
       const content = line.split("\t");
-      const word = content[0];
-      if (word) {
-        const filesContent = content[1]?.split(",");
-        const fileTitles = [];
-        for (const fileContent of filesContent ?? []) {
-          const fileName = fileContent.split(":")[0];
-          if (fileName) {
-            fileTitles.push(fileName);
-          }
+      const artTitle = content[0];
+      if (artTitle) {
+        const pageRank = content[1]?.split(":")[1];
+        if (pageRank) {
+          pageRanks.set(artTitle, parseFloat(pageRank));
         }
-        invIdx.set(word, fileTitles);
       }
     }
   } catch (e) {
@@ -74,7 +69,21 @@ const findArticlesByText = (text: string) => {
   if (pageRanks.size === 0) {
     loadPageRanks();
   }
-  return invIdx.get(text);
+
+  const words = text.split(" ");
+  let articles: string[] = [];
+  for (const word of words) {
+    articles = articles.concat(invIdx.get(word) ?? []);
+  }
+  articles.sort((artA, artB) => {
+    const pageRankA = pageRanks.get(artA);
+    const pageRankB = pageRanks.get(artB);
+    if (!pageRankA) return 1;
+    if (!pageRankB) return -1;
+    return pageRankA - pageRankB;
+  });
+
+  return articles;
 };
 
 export const queryRouter = t.router({
