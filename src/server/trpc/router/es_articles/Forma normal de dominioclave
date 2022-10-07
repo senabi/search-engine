@@ -1,0 +1,99 @@
+La forma normal de dominio/clave (DKNF) es una forma normal usada en normalización de bases de datos que requiere que la base de datos contenga restricciones de dominios y de claves.
+
+Una restricción del dominio especifica los valores permitidos para un atributo dado, mientras que una restricción clave especifica los atributos que identifican únicamente una fila en una tabla dada.
+
+Esta es el santo grial de la Base de datos y es alcanzado cuando cada restricción en la relación es una consecuencia lógica de la definición de claves y dominios, y, haciendo cumplir las restricciones y condiciones de la clave y del dominio, causa que sean satisfechas todas las restricciones. Así, esto evita todas las anomalías no-temporales.
+
+Es mucho más fácil construir una base de datos en forma normal de dominio/clave que convertir pequeñas bases de datos que puedan contener numerosas anomalías. Sin embargo, construir con éxito una base de datos en forma normal de dominio/clave sigue siendo una tarea difícil, incluso para programadores experimentados de bases de datos. Así, mientras que la forma normal de dominio/clave elimina los problemas encontrados en la mayoría de las bases de datos, tiende para ser la forma normal más costosa de alcanzar. Sin embargo, el no poder alcanzar la forma normal de dominio/clave puede llevar costos ocultos a largo plazo, debido a anomalías que aparecen con el tiempo en las bases de datos que solamente se adhieren a formas normales más bajas.
+
+Una violación de DKNF ocurre en la siguiente tabla:
+
+{| class="wikitable"
+ |+ Persona rica
+ |-
+ ! DNI Persona rica
+ ! Tipo de persona rica
+ ! Valor neto en dólares
+ |-
+ | 123
+ | Millonario excéntrico
+ | 124,543,621
+ |-
+ | 456
+ | Multimillonario malvado
+ | 6,553,228,893
+ |-
+ | 789
+ | Multimillonario excéntrico
+ | 8,829,462,998
+ |-
+ | 012
+ | Millonario malvado
+ | 495,565,211
+|}
+
+Asuma que el dominio para la DNI Persona rica consiste en los DNI's de toda la gente rica en una muestra predefinida de gente rica; el dominio para el Tipo de persona rica consiste de los valores 'Millonario excéntrico', 'Multimillonario excéntrico', 'Millonario malvado', y 'Multimillonario malvado'; y el dominio para el Valor neto en dólares consiste de todos los números enteros mayor que o igual a 1.000.000.
+
+Hay una restricción que liga el Tipo de persona rica al Valor neto en dólares, incluso aunque no podamos deducir uno del otro. La restricción dicta que un Millonario excéntrico o Millonario malvado tendrá un valor neto de 1.000.000 a 999.999.999 inclusive, mientras que un Multimillonario excéntrico o un Multimillonario malvado tendrá un valor neto de 1.000.000.000 o más. Esta restricción no es ni una restricción de dominio ni una restricción de clave; por lo tanto no podemos confiar en las restricciones de dominio y las de clave para garantizar que una combinación de anómala de Tipo de persona rica / Valor neto en dólares no tenga cabida en la base de datos.
+
+La violación de la DKNF podría ser eliminada alterando dominio Tipo de persona rica para hacer que sea consistente con solo dos valores, 'Malvado' y 'Excéntrico' (el estatus de persona rica como un millonario o un multimillonario es implícito en su Valor neto en dólares, así que no se pierde ninguna información útil).
+
+{| class="wikitable"
+ |+ Persona rica
+ |-
+ ! DNI Persona rica
+ ! Tipo de persona rica
+ ! Valor neto en dólares
+ |-
+ | 123
+ | Excéntrico
+ | 124,543,621
+ |-
+ | 456
+ | Malvado
+ | 6,553,228,893
+ |-
+ | 789
+ | Excéntrico
+ | 8,829,462,998
+ |-
+ | 012
+ | Malvado
+ | 495,565,211
+|}
+
+{| class="wikitable"
+ |+ Estado de riqueza
+ |-
+ ! Estado
+ ! Mínimo
+ ! Máximo
+ |-
+ | Millonario
+ | 1,000,000
+ | 999,999,999
+ |-
+ | Multimillonario
+ | 1,000,000,000
+ | 999,999,999,999
+|}
+
+DKNF es frecuentemente difícil de alcanzar en la práctica.
+
+Referencias 
+
+ Ronald Fagin (1981) A Normal Form for Relational Databases That Is Based on Domains and Keys, Communications of the ACM, vol. 6, pp. 387-415
+
+Véase también 
+
+ 1NF - 2NF - 3NF - BCNF - 4NF - 5NF - DKNF - Denormalización
+
+Enlaces externos 
+ Database Normalization Basics by Mike Chapple (About.com)
+ An Introduction to Database Normalization by Mike Hillyer.
+ Normalization by ITS, University of Texas.
+ Rules of Data Normalization by Data Model.org
+ A tutorial on the first 3 normal forms by Fred Coulson
+ Description of the database normalization basics by Microsoft
+
+DKNF

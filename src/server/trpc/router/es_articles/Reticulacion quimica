@@ -1,0 +1,67 @@
+El curado o reticulación química (en inglés: Curing) es un término de la química de los polímeros y de la ingeniería de procesos que se refiere al endurecimiento del material polímero por enlace cruzado ( cross-linking ) de cadenas de polímeros hecho por aditivos químicos, radiación ultravioleta, rayos catódicos (electron beam) o el calor. De hecho las cadenas de un solo polímero reaccionan entre sí formando una sola retícula tridimensional.  En el caucho la reticulación también se llama vulcanización
+
+Reticulación de resinas 
+A pesar de la gran variedad de formulaciones de resinas termoestables ( epoxi, viniléster, poliéster, etc.), su comportamiento reticulado es cualitativamente idéntico. La viscosidad de la resina cae inicialmente con la aplicación de calor, pasa por una región de máximo flujo y comienza a incrementarse con las reacciones químicas. Este proceso continúa hasta llegar al estadio conocido como gelación (gelation). Para conseguir la vitrificación en la resina, normalmente es necesario un aumento de temperatura después de la gelación.
+
+Descripción del proceso 
+derecha|miniaturadeimagen|320x320px| Figura 1: Estructura de una cola epoxi reticulada. La triamina, agente de reticulación, se muestra en rojo, la resina en negro. El material está muy reticulado y contiene muchos grupos OH, que le confieren las propiedades adhesivas. 
+Durante el proceso, las cadenas de polímero se unen para formar estructuras de peso molecular a medida que crecen para crear una celosía que se extiende por toda el tamaño de la muestra . En esta condición, el sistema ha llegado al punto de gelación, es decir, el punto de que el sistema ha perdido la solubilidad y su viscosidad tiende al infinito. Las cadenas restantes aún libres continuarán unidos a los celos, espesándose hasta el final de la reacción química . 
+
+El proceso puede requerir algún tipo de activación, que puede ser mediante la administración de calor, radiación, flujos de electrones o catalizadores químicos.
+
+Formas de monitorització 
+El control de la reacción es muy importante, por ejemplo, en la producción de materiales compuestos donde una matriz, inicialmente líquida, puede tener que fluir en un molde antes de solidificarse. El tiempo disponible antes del inicio de la solidificación es un parámetro muy importante para controlar la producción del producto.
+
+Análisis reológico 
+miniaturadeimagen| Figura 2: Evolución en el tiempo de los componentes conservadores y disipadores del módulo complejo, durante un proceso de curación. 
+Una de las maneras de controlar el proceso de curado de un material es medir la variación de sus propiedades mecánicas en el tiempo.  Una de las propiedades mecánicas que varía significativamente durante el proceso es el módulo elástico . 
+
+Para medir el módulo elástico de un material durante la reticulación, se puede utilizar un reómetro .  Mediante el análisis mecánica dinámica es posible medir el módulo dinámico (G) y los componentes conservadores (G ') y disipativos (G ") correspondientes. La variación de los dos componentes a lo largo del tiempo es una indicación del grado de progreso de la reacción. 
+
+Tal como se muestra en la figura 2, después de un cierto tiempo de inducción, los dos componentes empiezan a crecer a velocidades diferentes hasta que se cruzan. Este punto es, para varios autores, el punto de hielo, momento en que hay una celosía continua en todo el polímero . Posteriormente, las dos velocidades disminuyen y los dos componentes tienden a un valor constante. Una vez alcanzado este valor, la reacción es completa. 
+
+El grado de reticulación, , Puede ser también definido como: 
+
+  
+
+Va de cero (al comienzo de la reacción) a un (final de la reacción). La pendiente de la curva cambia con el paso del tiempo y tiene su máximo aproximadamente en medio de la reacción.
+
+Análisis térmico 
+Si las reacciones químicas que tienen lugar en el material durante la reticulación son exotèmicas, el grado de reticulación se puede correlacionar con el calor emitido durante la reacción. Cuanto mayor sea el número de enlaces formados, mayor será el calor emitido hasta que el flujo de calor se agote el final de la reacción. Para medir el flujo de calor emitido por un sistema de escaneado diferencial del sistema se puede utilizar. 
+
+Suponiendo que cada enlace químico formado libera la misma cantidad de calor, el grado de reticulación, , Se puede definir de la siguiente manera: 
+
+  
+
+donde  es el calor emitido hasta un cierto tiempo ,  es la velocidad de calor instantánea y  es el calor total emitida al final del proceso en un tiempo  .  También en este caso el grado de reticulación pasa de cero (cuando la reacción aún no ha comenzado) a una (cuando la reacción ha terminado). La pendiente de la curva cambia con el paso del tiempo y tiene su máximo aproximadamente en medio de la reacción.
+
+Otros análisis
+
+Análisis espectroscópico 
+Se pueden utilizar diferentes métodos espectroscópicos para controlar el proceso mediante la medida de: 
+
+ El cambio en la concentración de un reactivo presente en el sistema inicial, que desaparece gradualmente durante el proceso de reticulación, mediante medidas espectroscópicas ( FTIR y Raman ); 
+ El cambio del índice de refracción o la fluorescencia de la resina;
+
+Análisis de ultrasonidos 
+Este método está relacionado con la relación entre el cambio de las propiedades del material y la forma en que se propagan las ondas ultrasónicas en su interior.
+
+Véase también 
+
+ Acrilonitrilo
+ Curado por UV 
+ Vulcanización
+Viniléster
+
+Referencias
+
+Bibliografía 
+
+ 
+ 
+ I. Partridge i G. Maistros, Dielectric Cure Monitoring for Process Control, Capítol 17, Vol. 5, Enciclopèdia de materials compostos (2001), Elsevier Science, Londres, pàg. 413.
+ P. Ciriscioli i G. Springer, Smart Autoclave cure in Composites, (1991), Technomic Publishing, Lancaster, PA.
+
+Categoría:Procesos químicos
+Categoría:Polímeros
+Categoría:Wikipedia:Páginas con traducciones sin revisar

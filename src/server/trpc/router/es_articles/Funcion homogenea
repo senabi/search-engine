@@ -1,0 +1,94 @@
+En matemática, una función homogénea es una función que presenta un comportamiento multiplicativo de escala interesante: si todos los argumentos se multiplican por un factor constante, entonces el valor de la función resulta ser un cierto número de veces el factor multiplicativo elevado a una potencia. Dicha potencia es el grado de la función homogénea (véase Definición formal).
+
+1. Ihomogénea
+
+Dada una función real de n variables tal que f: D⊂ Rn
+
+→ R, en donde su dominio 
+
+es un cono , se dice que es homogénea de grado r si verifica: 
+
+f(t x) = t r
+
+f(x), ∀x ∈ D con t>0, r∈ R 
+
+NOTA 1: Se exige que D sea un cono para garantizar que t x ∈ D. 
+
+NOTA 2: Justificación de t > 0: 
+
+- Evita problemas de falta de definición o inexistencia: 
+
+f(t x) = t r
+
+f(x). 
+
+Ejemplo : Si 2
+
+1
+
+r = y t < 0 ⇒ f(t x) ∉ R. 
+
+- Interpretación económica: Al trabajar con determinadas variables económicas 
+
+(cantidades a consumir, a emplear o a producir, por ejemplo), el sentido económico 
+
+impone su no negatividad, por lo que con t > 0 se tiene garantizado que t xi va a seguir 
+
+manteniendo ese mismo sentido económico. 
+
+xi ≥ 0 y t > 0 ⇒ t xi ≥ 0 (sentido económico). 
+
+NOTA 3: r∈R ⇒ r puede ser positivo o negativo; entero, racional o irracional. 
+
+Si r es entero (positivo o negativo), t > 0 es una restricción superflua. El valor 
+
+de r tiene importancia a la hora de la interpretación económica de funciones 
+
+homogéneas. 
+
+Ejemplo 1:
+
+f(x,y,z) = 3x + 2yz.
+
+Definición formal 
+Supongamos una función cuya definición es  entre dos espacios vectoriales sobre el mismo cuerpo . Entonces se dice que  es homogénea de grado k si:
+
+Ejemplos
+
+Las funciones lineales 
+Cualquier función lineal  es homogénea de grado 1, puesto que por definición se tiene:
+
+para todo  y . Del mismo modo, cualquier función multilineal  es homogénea de grado n, por definición.
+
+para todo  y . Se sigue que la n-ésima derivada de Fréchet de una función  entre dos espacios de Banach  y  es homogénea de grado .
+
+Polinomios homogéneos 
+Los monomios de  variables reales definen funciones homogéneas. Por ejemplo,
+
+es homogénea de grado 10 puesto que:
+
+Un polinomio homogéneo es un polinomio tal que todos sus términos tienen el mismo grado. Por ejemplo, 
+
+es un polinomio homogéneo de grado 5.
+
+Propiedades 
+ El teorema de Euler sobre funciones homogéneas establece: 
+
+Teorema: Sea  es diferenciable y homogénea de grado k. Entonces sus derivadas parciales de primer orden  son funciones homogéneas de grado k-1. es decir 
+
+Éste resultado se prueba de la misma manera que el teorema de Euler.
+
+Aplicación a las EDOs 
+La substitución  convierte la ecuación diferencial ordinaria (EDO)
+
+Donde  y  son funciones homogéneas del mismo grado, en la ecuación diferencial separable:
+
+Referencia
+
+Bibliografía
+
+Enlaces externos 
+ Función homogénea en Planet Math
+
+Categoría:Álgebra lineal
+Homogenea

@@ -1,0 +1,52 @@
+PHP Shell o Shell PHP es un programa o script desarrollado íntegramente en PHP. Su principal función es la posibilidad de ejecutar los famosos shell-commands en el servidor donde se encuentre.
+
+Algunos tienen bastas funciones, como la de explorar los directorios en el servidor en que se encuentre, crear archivos y eliminar, crear directorios y eliminar, editar archivos en texto plano, establecer una conexión MySQL, PostgreSQL u Oracle, establecer una conexión con NetCat, cambiar permisos a los elementos del servidor, etc.
+
+Este método de administración remota ha sido usado en sustitución del famosísimo SSH (Secure SHell).
+
+Muchas veces estos programas o scripts son utilizados para fines maliciosos, como rootear servidores, cambiar Indexs a páginas, etc.
+
+Historia 
+
+Actualmente hay muchas creaciones de scripts PHP Shell:
+
+ c99Shell hecho por "Captain Crunch Security Team"
+ K. Script v6.0 hecho por "Kenshin"
+
+o modificaciones a PHP Shell de otros autores como:
+
+  hecho por "Locus7s"
+ SaTeLuCo Shell hecho por "SaTeLuCo"
+
+Instalación 
+
+Su instalación es muy básica, lo único que se debe de hacer es colocar el script en el directorio público de su servidor seguido de configurarlo para una contraseña, si es que este tiene la posibilidad de hacerlo.
+
+En resumen 
+Es un script para administrar un servidor vía web.
+
+Véase también 
+ SSH
+ SSHFS
+ NetCat
+
+Enlaces externos 
+ 
+ {{}} 
+ Seguridad de Debian Sitio oficial. (en inglés)
+ Sitio Oficial de OpenSSH (en inglés)
+ {{}}
+  Crear un túnel SSH al servidor MySQL. (en inglés)
+ Herramientas libres PuTTY para conexiones SSH (en inglés)
+
+Categoría:Software para Unix
+Categoría:Software para Linux
+SSH
+SSH
+
+ar:صدفة آمنة
+fr:Secure shell
+gl:Secure shell
+ko:SSH
+pl:SSH
+uk:Secure Shell

@@ -1,0 +1,70 @@
+derecha|miniaturadeimagen|400px|Reflexión deslizada, un tipo de movimiento euclídeo
+
+En geometría, un movimiento se define como una isometría de un espacio métrico, es decir, es una aplicación entre coordenadas que conserva las distancias entre puntos de la posición original en la nueva posición.
+
+Por ejemplo, un plano que cuenta con la distancia euclidiana como métrica, es un espacio métrico, en el que cualquier aplicación que asocia figuras originales y sus imágenes mediante una relación de congruencia es un movimiento. De forma más general, el término movimiento es un sinónimo de isometría para funciones sobreyectivas en geometría métrica, incluyendo la geometría elíptica y la geometría hiperbólica. En este último caso, el movimiento hiperbólico proporcionan un enfoque muy útil para visualizar el concepto.
+
+Los movimientos se pueden dividir en directos e indirectos:
+
+ Los movimientos directos (también denominados propios o rígidos), como la traslación y la rotación, conservan la orientación quiral de las figuras sobre las que se aplican.
+
+ Los movimientos indirectos o inpropios son aquellos como la reflexión, la reflexión deslizada y la rotación impropia, que invierten la orientation de un quiralidad de las formas.
+
+Algunos geómetras definen el movimiento de tal manera que únicamente los movimientos directos son considerados movimientos propiamente dichos.
+
+En geometría diferencial
+
+En geometría diferencial, un difeomorfismo se denomina movimiento si induce una isometría entre el espacio tangente en un punto de una variedad y el espacio tangente en la imagen de ese punto.
+
+Grupo de movimientos
+
+Dada una geometría, el conjunto de movimientos forma una estructura de grupo bajo la composición de las aplicaciones que definen movimientos. Este grupo de movimientos se destaca por sus propiedades. Por ejemplo, el grupo euclídeo incluye el subgrupo normal de las traslaciones. En el plano, un movimiento euclidiano directo es una traslación o una rotación, mientras que en el espacio cada movimiento euclidiano directo puede expresarse como un desplazamiento sobre un eje helicoidal de acuerdo con el teorema de Chasles. Cuando el espacio subyacente es una variedad de Riemann, el grupo de movimientos es un grupo de Lie. Además, la trayectoria tiene curvatura constante si y solo si, para cada par de puntos existe un movimiento que lleva un punto al otro de forma que se induce una isometría.
+
+La idea de un grupo de movimientos para describir la teoría de la relatividad especial se desarrolló en el concepto de movimientos lorentzianos, sobre los que se presentaron desarrollos fundamentales para un plano caracterizado por la forma cuadrática  en el American Mathematical Monthly.
+
+Los movimientos en el espacio-tiempo de Minkowski fueron descritos por Sergei Novikov en 2006:
+ El principio físico de la velocidad constante de la luz se expresa mediante el requisito de que el cambio de un sistema de referencia inercial a otro esté determinado por un movimiento del espacio de Minkowski, es decir, por una transformación
+ 
+ preservando los intervalos espacio-tiempo. Esto significa que
+ 
+ para cada par de puntos x e y en R1,3.
+
+Historia
+Alhacén (965 a 1039) dio una apreciación temprana del papel del movimiento en la geometría. Su trabajo "El espacio y su naturaleza" utiliza comparaciones de las dimensiones de un cuerpo móvil para cuantificar el vacío del espacio imaginario.
+
+En el siglo XIX, Felix Klein se convirtió en un defensor de la teoría de grupos como un medio para clasificar las geometrías de acuerdo con sus "grupos de movimientos". Propuso utilizar el grupo de simetría en su Programa de Erlangen, una sugerencia que fue ampliamente adoptada. Señaló que cada congruencia euclidiana es una transformación afín, y cada una de estas es una homografía; por lo tanto, el grupo de proyectividades contiene el grupo de aplicaciones afines, que a su vez contiene el grupo de congruencias euclidianas. El término movimiento, más conciso que transformación, pone más énfasis en los adjetivos: proyectivo, afín o euclidiano. De este modo, el contexto se amplió tanto que "En topología, los movimientos permitidos son deformaciones invertibles continuas, que pueden identificarse con elongamientos elásticos".
+
+La ciencia de la cinemática está dedicada a convertir el movimiento físico en su expresión como transformación matemática. Con frecuencia, la transformación se puede escribir utilizando álgebra vectorial y aplicaciones lineales. Un ejemplo simple es un giro descrito como una multiplicación de números complejos:  donde . La rotación en el espacio se puede modelizar mediante el uso de cuaterniones, y las transformación de Lorentz del espacio-tiempo mediante el uso de bicuaterniones. A principios del siglo XX, se examinaron los sistemas de números hipercomplejos. Más tarde, los grupos de automorfismos llevaron a grupos excepcionales como el grupo G2.
+
+En la década de 1890, los lógicos estaban reduciendo los conceptos fundamentales de la geometría sintética a un mínimo absoluto. Giuseppe Peano y Mario Pieri utilizaron la expresión movimiento para la congruencia de pares de puntos. Alessandro Padoa celebró la reducción de nociones primitivas a meramente punto y movimiento en su informe al Congreso de Filosofía Internacional de 1900. Fue en este congreso cuando Bertrand Russell recibió la influencia de la lógica desarrollada en la Europa continental a través de Peano. En su libro Principles of Mathematics (1903), Russell consideró que un movimiento era una isometría euclidiana que conserva la orientación.
+
+En 1914, D. M. Y. Sommerville utilizó la idea de un movimiento geométrico para establecer el concepto de la distancia en geometría hiperbólica cuando escribió "Elementos de la geometría no euclidiana". Explica:
+ Por un movimiento o desplazamiento en el sentido general no se entiende un cambio de posición de un solo punto o de cualquier figura delimitada, sino un desplazamiento de todo el espacio o, si estamos tratando con solo dos dimensiones, de todo el plano. Un movimiento es una transformación que cambia cada punto P en otro punto P' de tal manera que las distancias y los ángulos no cambian.
+
+Axiomas del movimiento
+
+Laszio Redei da como axiomas del movimiento:
+
+ Cualquier movimiento es una aplicación uno a uno del espacio R sobre sí mismo, de modo que cada tres puntos en una recta se transformarán en (tres) puntos en una recta.
+ La aplicación identidad del espacio R es un movimiento.
+ El producto de dos movimientos es un movimiento.
+ La aplicación inversa de un movimiento es un movimiento.
+ Si se tienen dos planos A, A'; dos ​​rectas g, g'; y dos puntos P, P'; de manera que P está en g; g está en A; P' está en g'; y g' está en A'; entonces existe un movimiento que asigna A a A'; g a g'; y P a P'.
+ Dados un plano A, una recta g, y un punto P; tales que P está en g y g está en A; entonces existen cuatro movimientos que aplican A, g y P sobre sí mismos, respectivamente, y no más de dos de estos movimientos pueden tener cada punto de g como un punto fijo, mientras que hay uno de ellos (es decir, la identidad) para el que se fija cada punto de A.
+ Sean tres puntos A, B, P en la recta g, de manera que P esté entre A y B. Para cada punto C (distinto de P) entre A y B, hay un punto D entre C y P para el que no existe un movimiento con P como punto fijo que asigne a C un punto que se encuentre entre D y P.
+
+Los axiomas 2 a 4 implican que los movimientos forman un grupo.
+
+El Axioma 5 implica que existe un movimiento que aplica toda recta en otra recta.
+
+Notas y referencias
+
+ Tristan Needham (1997)  Visual Complex Analysis , movimiento euclidiano p 34, movimiento directo p 36, movimiento opuesto p 36, movimiento esférico p 279, movimiento hiperbólico p 306, Oxford University Press, .
+ Miles Reid y Balázs Szendröi (2005)  Geometry and Topology , Cambridge University Press, , .
+
+Enlaces externos
+ Motion. I.P. Egorov (creador),  Encyclopedia of Mathematics .
+ Grupo de movimientos. I.P. Egorov (creador),  Encyclopedia of Mathematics .
+
+Categoría:Geometría métrica
+Categoría:Geometría diferencial

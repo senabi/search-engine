@@ -1,0 +1,52 @@
+La ecuación hipsométrica o ecuación altimétrica es una ecuación utilizada en meteorología y oceanografía que relaciona un cociente entre presiones atmosféricas con el grosor equivalente de una capa atmosférica asumiendo temperatura y gravedad constantes. Se deriva de la ecuación hidrostática y de la ley de los gases ideales.
+
+Ecuación 
+La ecuación hipsométrica se expresa como:
+
+donde:
+
+ = grosor de la capa atmosférica [m],
+ = altitud [m],
+ = constante de los gases específica para el aire seco: ,
+ = temperatura media de la capa en kelvin [K],
+ = aceleración gravitacional estándar [m/s2],
+ = presión [Pa].
+
+En meteorología,  y  son superficies isobáricas. En altimetría, con la Atmósfera Estándar Internacional, la ecuación hipsométrica se emplea para computar la presión a una altitud dada en capas isotérmicas en la estratosfera superior e inferior.
+
+Derivación de la ecuación 
+
+La ecuación hidrostática:
+
+donde  es la densidad [kg/m3], se usa para generar la ecuación del equilibrio hidrostático, expresada en forma diferencial:
+
+Esto se combina con la ley de los gases ideales: 
+
+ 
+
+Recordar que en todo el desarrollo que sigue  no es la Constante de los gases ideales sino la constante específica para el aire, es decir aquí  es la constante de los gases dividida por la masa molar del aire.
+
+Para eliminar :
+
+Esta expresión se integra entre  y :
+
+R y g son constantes respecto de z, por lo que se pueden sacar fuera de la integral. Si la variación de la temperatura es lineal respecto de z (como se supone en la Atmósfera Estándar Internacional), también se puede sacar de la integral reemplazándola por , la temperatura media entre  y .
+
+Al integrar, se obtiene:
+
+que se simplifica a:
+
+Reordenando los términos, queda:
+
+o, alternativamente, eliminando el logaritmo neperiano (ln):
+
+Referencias
+
+Enlaces externos 
+
+Categoría:Ecuaciones de la física
+Categoría:Mecánica de fluidos
+Categoría:Presión
+Categoría:Temperatura
+Categoría:Meteorología
+Categoría:Termodinámica

@@ -1,0 +1,28 @@
+La dimensión fractal local, dimensión puntual o exponente de Hölder es un límite definido punto a punto para ciertas medidas definidas sobre un espacio métrico y que puede ser usado para caracterizar dichas medidas.
+
+Definición 
+La dimensión fractal local o exponente de Hölder de una medida finita definida sobre  se define punto a punto como el límite:
+
+El límite anterior no siempre existe por lo que común mente se defienen los límites superior e inferior para la misma magnitud:
+
+Propiedades 
+Si  es un conjunto de Borel y  es una medida finita, se cumple que:
+ Si  para todo  y  entonces .
+ Si  para todo  entonces .
+ Si  para todo  y  entonces .
+ Si  para todo  entonces .
+Donde:
+, es la dimensión de Hausdorff-Besicovitch.
+, es la dimensión de empaquetado.
+
+Aplicaciones 
+El análisis multifractal de una medida finita sobre un espacio métrico se usa la dimensión fractal local, que puede diferir en algunos puntos de la dimensión fractal de Hausdorff-Besicovitch, para definir el llamado espectro multifractal que se usa para caracterizar a la propia medida.
+
+Referencia
+
+Bibliografía
+
+Véase también 
+ Dimensión fractal
+
+Categoría:Fractales

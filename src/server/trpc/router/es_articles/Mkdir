@@ -1,0 +1,45 @@
+thumb|Captura de pantalla salida mkdir --help.
+mkdir es una orden de los sistemas operativos UNIX, DOS, OS/2 y Microsoft Windows usada para crear un nuevo subdirectorio o carpeta del sistema de archivos. 
+
+mkdir tiene su origen en las palabras make subdirectory que significan crear subdirectorio en inglés.
+
+Sinopsis 
+
+ mkdir [opciones] directorio...
+
+Opciones 
+
+ -m modo, --mode=modo
+
+Establece los permisos de los directorios creados a modo, que puede ser simbólico como en chmod y entonces emplea el modo predeterminado como el punto de partida.
+
+ -p, --parents
+
+Crea los directorios padre que falten para cada argumento directorio.  Los permisos para los directorios padre se ponen a la umask modificada por u+rwx.  No hace caso de argumentos que correspondan a directorios existentes. (Así, si existe un directorio /a, entonces mkdir /a es un error, pero mkdir -p /a no lo es.)
+
+ --verbose
+
+Muestra un mensaje para cada directorio creado. Esto es más útil con --parents.
+
+Ejemplos 
+Si dentro de un sector utilizado por un usuario x, llamado por ejemplo, USUARIO, se desea crear un directorio en dicho lugar, la manera de realizar esta acción sería similar a:
+
+ $ mkdir directorio 
+ $ cd directorio     
+ $ pwd
+ /home/USUARIO/directorio
+
+Donde directorio es el nombre del directorio que desea ser creado dentro del sector /home/USUARIO.
+
+Para crear varios directorios a la vez usaremos:
+
+ mkdir -p /dir1/dir2/dir3/...
+
+donde dir1, dir2, dir3 son los nombres de los respectivos directorios.
+
+Enlaces externos 
+ 
+
+Categoría:Software para Unix
+Categoría:Software para Linux
+Categoría:Utilidades Unix SUS2008

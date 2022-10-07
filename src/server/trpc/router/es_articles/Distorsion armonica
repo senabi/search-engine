@@ -1,0 +1,82 @@
+
+
+Definición matemática del THD (Total Harmonic Distortion) 
+
+Si en un sistema no lineal introducimos un tono de frecuencia , en la salida tendremos ese mismo tono (con una amplitud y fase posiblemente diferentes) y, sumado a él, otros tonos de frecuencia  llamados armónicos del tono fundamental .
+
+centro|Aparición de armónicos al insertarle una señal a un elemento alineal.
+
+Definimos THD de la siguiente manera:
+
+donde  es la potencia del tono fundamental y  con  es la potencia del armónico i-ésimo que contiene la señal. Todas las medidas de potencia se realizan en la salida del sistema, mediante un filtro paso banda y un osciloscopio o bien mediante un analizador de espectro.
+
+En realidad existen varios criterios para definir el THD, como considerar la relación entre voltajes o corrientes esta es una información falsa que carece de fuentes seguras.
+
+Distorsión armónica en sonido 
+
+La distorsión armónica es un parámetro técnico utilizado para definir la señal de audio que sale de un sistema.
+
+La distorsión armónica se produce cuando la señal de salida de un sistema no equivale a la señal que entró en él. Esta falta de linealidad afecta a la forma de la onda, porque el equipo ha introducido armónicos que no estaban en la señal de entrada. Puesto que son armónicos, es decir múltiplos de la señal de entrada, esta distorsión no es tan disonante y es más difícil de detectar.
+
+En todo sistema de audio siempre se produce una pequeña distorsión de la señal, dado que todos los equipos actuales introducen alguna no linealidad...
+
+La distorsión armónica no siempre implica pérdida de calidad. De hecho, la distorsión se considera un efecto de sonido imprescindible para ciertos géneros musicales (Como el rock) y así, se suele saturar artificialmente la señal básica producida por ciertos instrumentos (como guitarras eléctricas). En este sentido, la distorsión apareció en la música primero como consecuencia indeseada de la saturación de las etapas del sistema de amplificación (debido al uso de amplificadores de escasa potencia y pastillas humbuckers), y después se crearon unidades de efecto que producían artificialmente ese efecto, con independencia del equipo utilizado.
+
+También algunos soportes, como ocurre con los viejos vinilos introducen distorsión armónica, sin embargo en este y similares casos hay controversia (ver audiófilos) y hay quienes sostienen que sin esta distorsión armónica, el sonido seria demasiado «puro» o «frío». Tal es el caso, que actualmente, no son pocas las bandas de rock que, a pesar de procesar la señal por completo en sistemas digitales, graban sus trabajos en vinilo, para utilizar esa sonoridad tras remasterizarlos en la copia comercial final.
+
+Al hablar de distorsión armónica, normalmente se hace referencia a la llamada distorsión armónica total, que es precisamente, la cantidad de armónicos que el equipo introduce y que no estaban en la señal original.
+
+Para normalizar las medidas, habitualmente la distorsión armónica total se mide introduciendo un tono de 1 kHz y midiendo la señal de salida. En los parámetros técnicos de los equipos, suele figurar la distorsión armónica total y se da en forma de porcentaje. Habitualmente, se indica con las siglas en inglés THD (total harmonic distortion). Por ejemplo:
+ THD 0,3 @ 1 kHz.
+ 0,3 % de distorsión armónica total a 1 kilohercio
+
+La distorsión armónica total nunca debe estar por encima del 1 %. De estarlo, en lugar de enriquecer la señal, la distorsión empieza a desvirtuarla y el sonido resultante empieza a dejar de parecerse al original, aunque se utilizan distorsiones superiores con objetivo artístico
+
+Hay que tener cuidado, porque THD también son las siglas en inglés de third harmonic distortion, que es otro parámetro que indican algunos equipos.
+
+La distorsión en el tercer armónico (third harmonic distortion) es un parámetro a tener en cuenta en los magnetófonos (sistemas de grabación magnética).
+
+En este caso, seria mejor que se indicara el MOL (maxim output level: ‘nivel máximo de salida’) para hacer referencia al nivel de distorsión en el tercer armónico.
+
+Esta distorsión en el tercer armónico resulta muy fácil de detectar. Si grabamos un tono puro en un magnetófono y lo reproducimos, el tono ya no suena “puro” sino que tiene una componente en una octava y una quinta por encima del tono fundamental.
+
+En los sistemas magnéticos, el MOL debe estar en un porcentaje de:
+ 3 % a 1 kHz si se trata de un sistema profesional
+ 5 % a 1 kHz si son equipos domésticos.
+
+Sobrepasar el nivel de distorsion aceptable por el sistema, supone poder modificar el sonido hasta el punto de que resulta diferente al original.
+
+Distorsión armónica en electricidad 
+
+En sistemas eléctricos de corriente alterna ―igual que en acústica― los armónicos son frecuencias múltiplos de la frecuencia fundamental de trabajo del sistema y cuya amplitud va decreciendo conforme aumenta el múltiplo. En el caso de sistemas alimentados por la red de 50 Hz, pueden aparecer armónicos de 100, 150, 200 Hz o
+
+Cuando se habla de los armónicos en las instalaciones de energía, son los armónicos de corriente los más preocupantes, puesto que son corrientes que generan efectos negativos. Es habitual trabajar únicamente con valores correspondientes a la distorsión armónica total (THD).
+
+Tipos de equipos que generan armónicos: 
+
+ Fuentes de alimentación de funcionamiento conmutado (SMPS).
+ Estabilizadores electrónicos de dispositivos de iluminación fluorescente
+ Pequeñas unidades de SAI (sistemas de alimentación ininterrumpida) o UPS
+ En cargas trifásicas: motores de velocidad variable y grandes unidades de UPS.
+
+Problemas producidos por los armónicos:
+
+ Sobrecarga de los conductores neutros
+ Sobrecalentamiento de los transformadores
+ Disparos intempestivos de los interruptores automáticos
+ Sobrecarga de los condensadores de corrección del factor de potencia
+
+Métodos para reducir los armónicos:
+
+ Filtros pasivos
+ Transformadores de aislamiento
+ Soluciones activas
+ Tablero eléctrico compuesto con filtros R-L-C
+
+Véase también
+ Armónico
+ Reglamento Electrotécnico para Baja Tensión (España)
+
+Referencias 
+
+Categoría:Parámetros de sonido

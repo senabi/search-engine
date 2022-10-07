@@ -1,0 +1,29 @@
+thumb|SIMM de 30 pines y 72 pines SIMM (siglas en inglés de single In-line Memory Module) es un formato para módulos de memoria RAM que consisten en placas de circuito impreso sobre las que se montan los integrados de memoria DRAM. Estos módulos se insertan en zócalos encima de la placa base. Los contactos en ambas caras están interconectados, esta es la mayor diferencia respecto de sus sucesores los DIMMs. Fueron muy populares desde principios de los 80 hasta finales de los 90, el formato fue estandarizado por JEDEC bajo el número JESD-21C.
+
+Historia de la memoria SIMM 
+En los tiempos de la prehistórica Computadora doméstica y del computador personal, los circuitos integrados de memoria (por lo general DIP de 14 o 16 pines) se soldaban o se insertaban en zócalos sobre la tarjeta madre como cualquier otro componente de la misma. Esto suponía el uso de un área muy grande ya que los integrados iban colocados uno al lado del otro, además que en el caso de un fallo, la reparación era difícil o imposible condenando toda la placa. La actualización de memoria no se contemplaba en equipos individuales, dado que el mercado de memoria no era tan común. Con el desarrollo de nuevas tarjetas madre se hicieron claras esas desventajas y en un principio se plantearon formatos SIPP (no estándar en computadores 80286) que fueron las primeras presentaciones modulares de memoria RAM y el antecedente directo de las SIMM. 
+
+Skip Coppola propuso durante su estancia en IBM usar un SIPP de 3,5 pulgadas sin los pines que tan fácilmente se quebraban. IBM los adopta como estándar en su gama IBM Personal System/2, y se extienden a todos los compatibles con CPU Intel 80286 e Intel 80386. Es también adoptado por Apple para sus Mac (el Macintosh IIfx usa unos SIMMs no estándar de 64 pines, y la VRAM de los Macintosh LC de 68), y más tardíamente por Atari (en los Atari STe y Atari MEGA STe, aunque de los primeros existen unos pocos con SIPPs en lugar de SIMMs) y Commodore para los Amiga (los fabricantes de ampliaciones lo hicieron mucho antes). Se construyen de 8 chips + uno de paridad (9 bits) o sin paridad (8 bits, con el ahorro de un chip, pero menor fiabilidad), mayoritariamente de doble cara, y con capacidades de 256 KiB, 1 MiB, 4 MiB, 16 MiB. En algunos sistemas debían usarse a pares ya que cada banco de memoria estaba integrado por dos módulos.
+
+La aparición del Intel 80486 trae también el paso al nuevo formato de 108 mm (4,25 pulgadas) y 72 pines. Esto era debido a que en un 386/486 era necesario instalar 4 SIMMs de 30 pines para completar una bancada de memoria. Dicha bancada podía sustituirse por un solo DIMM de 72 pines (dos en los equipos Pentium) lo que permitió conservar el factor de forma Baby AT en las placas madre pese a cuadruplicarse la capacidad de memoria. Se fabrican con memoria EDO/FPM/ECC y capacidades de 1 MiB, 2 MiB, 4 MiB, 8 MiB, 16 MiB, 32 MiB, 64 MiB, 128 MiB (estos últimos sólo usados en servidores).
+
+El factor de forma de memoria RAM utilizado en PC es una presentación de los módulos de memoria que fue utilizado en los sistemas cuyos buses de datos eran de 32 bits o menos. A partir del uso de buses de 64 bits han sido reemplazados por los DIMM, que son el nuevo factor de forma estándar para los módulos de memoria usados en ordenadores personales, en los que la capacidad de almacenamiento ya se mide en gigabytes.
+
+Un PC usa tanto memoria de nueve bits (ocho bits para datos y un bit para chequeo, o control, de paridadad, en 9 chips de memoria RAM dinámica) como memoria de ocho bits sin paridad.
+
+Patillajes
+
+SIMM de 30 contactos 
+
+ QP y DP no está conectados en los modelos sin paridad
+ A9 no está conectado en los de 256 KiB.
+ A10 no está conectado en los de 256 KiB y 1 MiB.
+ A11 no está conectado en los de 256 KiB, 1 MiB y 4 MiB.
+
+SIMM de 72 contactos
+
+Enlaces externos 
+ Tipología de Memorias y Diagramas
+
+Categoría:Acrónimos de informática
+Categoría:Memorias informáticas

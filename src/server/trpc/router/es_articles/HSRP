@@ -1,0 +1,59 @@
+El Hot Standby Router Protocol es un protocolo propiedad de CISCO que permite el despliegue de enrutadores redundantes tolerantes de fallos en una red. Este protocolo evita la existencia de puntos de fallo únicos en la red mediante técnicas de redundancia y comprobación del estado de los routers. Evitar puntos únicos de fallo en la red es muy importante para dotar de alta disponibilidad al servicio de red. Es un protocolo muy similar a VRRP, que no es propietario. Es por ello que CISCO reclama que VRRP viola una serie de patentes que le pertenecen.
+
+Características 
+El funcionamiento del protocolo HSRP es el siguiente: Se crea un grupo (también conocido por el término inglés Clúster) de routers en el que uno de ellos actúa como maestro, enrutando el tráfico, y los demás actúan como respaldo a la espera de que se produzca un fallo en el maestro. HSRP es un protocolo que actúa en la capa 3 del modelo OSI administrando las direcciones virtuales que identifican al enrutador que actúa como maestro en un momento dado.
+
+Funcionamiento 
+
+La mecánica es similar a la de los protocolos VRRP y CARP.
+
+Supongamos que disponemos de una red que cuenta con dos enrutadores redundantes, RouterA y RouterB. Dichos enrutadores pueden estar en dos posibles estados diferentes: maestro (Enrutador A) y respaldo (Enrutador B). Ambos enrutadores intercambian mensajes, concretamente del tipo HSRP hello, que le permiten a cada uno conocer el estado del otro. Estos mensajes utilizan la dirección multicast 224.0.0.2 y el puerto UDP 1985 en versión 1 y multicast 224.0.0.102 y el puerto  puerto UDP 1985 en versión 2.
+
+Si el enrutador maestro no envía mensajes de tipo hello al enrutador de respaldo dentro de un determinado período, el enrutador respaldo asume que el maestro está fuera de servicio (ya sea por razones administrativas o imprevistas, tales como un fallo en dicho enrutador) y se convierte en el enrutador maestro. La conversión a enrutador activo consiste en que uno de los enrutador que actuaban como respaldo obtiene la dirección virtual que identifica al grupo de enrutadores.
+
+HSRP se encuentra disponible desde CISCO IOS 10.0, pero se han incorporado nuevas funcionalidades en las versiones 11 y 12.
+
+Elección del enrutador "maestro" 
+
+Para determinar cuál es el enrutador maestro se establece una prioridad en cada enrutador. La prioridad por defecto es 100. El enrutador de mayor prioridad es el que se establecerá como activo. Hay que tener presente que HSRP no se limita a dos enrutadores, sino que permite grupos de enrutadores que trabajen en conjunto de modo que se dispondría de múltiples enrutadores actuando como respaldo en situación de espera.
+
+para optimizar procesos...
+
+Paso de estado "respaldo" a estado "maestro" 
+
+El enrutador en espera toma el lugar del enrutador maestro, una vez que el temporizador holdtime expira (un equivalente a tres paquetes hello que no vienen desde el enrutador activo, timer hello por defecto definido a 3 y holdtime por defecto definido a 10).
+
+Los tiempos de convergencia dependerán de la configuración de los temporizadores para el grupo y del tiempo de convergencia del protocolo de enrutamiento empleado.
+
+Por otra parte, si el estado del enrutador maestro pasa a down, el enrutador decrementa su prioridad. Así, el enrutador respaldo lee ese decremento en forma de un valor presente en el campo de prioridad del paquete hello, y se convertirá en el enrutador maestro si ese valor decrementado es inferior a su propia prioridad. Este proceso decremental puede ser configurado de antemano estableciendo un valor por defecto del decremento (normalmente, de 10 en 10).
+
+Ejemplo de configuración 
+
+Para el Enrutador A, que vamos a establecer como maestro o primario:
+
+ Configuración de la dirección IP de la interfaz Ethernet.
+ Configuración de la dirección IP virtual.
+ Configuración de la prioridad HSRP con un valor igual a 100.
+
+Para el Enrutador B:
+
+ Configuración de la dirección IP de la interfaz Ethernet.
+ Configuración de la dirección IP virtual.
+ Configuración de la prioridad HSRP con un valor menor a 100.
+
+En los terminales conectados a los enrutadores se configura la dirección IP virtual como default gateway, no la dirección real de la interfaz de los dispositivos. De este modo, si uno de los dispositivos queda fuera de servicio el otro toma su lugar automáticamente y de modo transparente para los nodos. El tiempo requerido para este cambio es menor a los 10 segundos.
+
+Véase también 
+ 
+ CISCO
+ VRRP
+ Enrutador
+ Topología de red
+
+Referencias
+
+Enlaces externos 
+
+ Web oficial de Cisco Systems, propietaria del protocolo HSRP
+
+Categoría:Protocolos de nivel de red

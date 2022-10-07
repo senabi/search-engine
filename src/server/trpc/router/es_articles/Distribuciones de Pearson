@@ -1,0 +1,184 @@
+La distribución de Pearson es una familia de distribuciones probabilísticas continuas. Fue publicada por primera vez por Karl Pearson  en 1895 y subsecuentemente extendida por él en 1901 y 1916 en una serie de artículos de bioestadística.
+
+Historia 
+El sistema Pearson fue originalmente ideado en un esfuerzo para modelar observaciones visiblemente asimétricas. Era bien conocido en aquel tiempo cómo ajustar un modelo teórico para acomodar los primeros dos cumulantes o los momentos de observados datos: Cualquier distribución de probabilidad puede estar extendida directamente para formar una familia de escala de posición. Excepto en los casos patológicos, una familia de escala de posición puede estar hecha para acomodar la media (primer cumulante) y la varianza (segundo cumulante) arbitrariamente bien. Sin embargo, no era conocido cómo construir distribuciones de probabilidad en las cuales la asimetría (tercer cumulante estándar) y la curtosis (cuarto cumulante estándar) pudieron estar ajustados igualmente. Esta necesidad surgió al intentar acomodar modelos teóricos conocidos a datos observados que exhibieron asimetría. Los ejemplos de Pearson incluyen datos de supervivencia, cuáles son usualmente asimétricos.
+En su escrito original, Pearson (1895, p. 360) identificó cuatro tipos de distribuciones (numeradas del I al IV) además de la distribución normal  (la cual era originalmente conocida como tipo V). La clasificación dependió en si las distribuciones estaban definidas en un intervalo definido, en una semirrecta, o en los reales y si estaban potencialmente asimétricas o necesariamente simétricas. Un segundo escrito (Pearson 1901) arregló dos omisiones: Redefinió la distribución de tipo V (originalmente incluía la distribución normal, ahora incorporaba la distribución gamma inversa) e introdujo la distribución de tipo VI. Conjuntamente los primeros dos documentos de identificación cubren los cinco tipos principales del sistema Pearson (I, III, VI, V y IV). En un tercer escrito, Pearson (1916) introdujo aún más casos especiales y subtipos (del VII al XII).
+
+Rhind (1909, pp. 430–432) ideó una forma sencilla de visualizar el espacio de parámetros del sistema Pearson, el cual fue adoptado por Pearson (1916, plate 1 and pp. 430ff., 448ff.). Los tipos de Pearson son caracterizados por dos cantidades, comúnmente referidas como β1 y β2. El primero es el cuadrado de la asimetría:   donde γ1 es la asimetría o el tercer momento estandarizado. El segundo es el curtosis tradicional o cuarto momento estandarizado: β2 = γ2 + 3. Tratamientos modernos definen kurtosis γ2  en términos de cumunlant en vez de momentos, por lo tanto una distribución normal tenemos γ2 = 0 y β2 = 3. Aquí seguimos el precedente histórico y usamos β2. EL diagrama a la derecha muestra dada una distribución concreta a qué tipo de Pearson pertenece (identificado por el punto (β1, β2)).
+Muchas de las distribuciones asimétricas y no mesocúrtica que hoy nos son familiares, no eran conocidas a principios de 1890. Lo que hoy se conoce como distribución beta había sido usada por Thomas Bayes como la Probabilidad a posteriori del parámetro de la distribución de Bernoulli en su trabajo de 1763 sobre la probabilidad inversa. La distribución beta ganó prominencia debido a su pertenencia al sistema Pearson y era conocida hasta los años 1940 como la distribución Pearson tipo I.
+
+(La distribución de Pearson tipo II es un caso especial derivada del tipo I, pero ya no es tratada por separado.) La distribución gamma originada como resultado del trabajo de Pearson (Pearson 1893, p. 331; Pearson 1895, pp. 357, 360, 373–376) y era conocida como la distribución de Pearson tipo III, antes de adquirir su nombre moderno en 1930s y 1940s.
+. El artículo de Pearson escrito en 1895 introdujo la distribución de tipo IV, la cual contiene la distribución t-Student como caso especial, precediendo por varios años a William Sealy Gosset. En su artículo de 1901 introdujo la distribución gamma inversa (tipo V) y la distribución beta prima (tipo VI).
+
+Definición
+Una función de densidad de Pearson, p, está definida para ser una solución válida a una ecuación diferencial (cf. Pearson 1895, p. 381) 
+
+donde:
+ 
+ 
+ 
+Según Ord, Pearson ideó la forma subyacente de la ecuación (1), con base, primeramente, en la fórmula para la derivada del logaritmo de la función de densidad de la distribución normal (la cual da una función lineal) y, en segundo lugar , de una relación de recurrencia para los valores en la función de probabilidad de la masa de la distribución hipergeométrica  (que produce la función lineal dividida por una estructura cuadrática).
+
+En la ecuación (1), el parámetro a determina un punto estacionario, y por lo tanto bajo ciertas condiciones un moda de la distribución, ya que 
+
+sale directamente de la ecuación diferencial.
+
+Dado que nos enfrentamos a una ecuación diferencial lineal de primer orden con coeficientes variables, su solución es directa: 
+
+La integral en esta solución simplifica considerablemente cuando ciertos casos especiales de integrando son considerados. Pearson (1895, p. 367) distingue dos casos principales, determinados por el signo del discriminante (y por tanto el número de raíces reales) de la función cuadrática.
+
+Tipos particulares de distribución
+
+Caso 1, discriminante negativo. La distribución de Pearson tipo IV 
+Si el discriminante de la función cuadrática (2) es negativo () no tiene raíces reales. Luego se define 
+
+   y
+
+Observe que α es un número real bien definido y α ≠ 0, porque por suposición  y por tanto b2 ≠ 0. Aplicando estas tres sustituciones, la función cuadrática (2) es transformada en
+
+La ausencia de raíces reales es obvio en esta formulación ya que α2 es necesariamente positiva.
+
+Ahora expresamos la solución de la ecuación diferencial (1) en función de y:
+
+Pearson (1895, p. 362) lo llamó el "caso trigonométrico" , debido a la integral 
+
+Involucra la función trigonométrica inversa arcotangente. Entonces 
+
+Finalmente sea
+
+   y
+
+Aplicando estas sustituciones, obtenemos la función paramétrica :
+
+Esta función de densidad sin normalizar tiene soporte en toda la línea real. Depende del parámetro de escala α > 0  y el parámetro de forma m>1/2 y v. Un parámetro se perdió cuando preferimos encontrar la solución a la ecuación diferencial(1) como una función de y o de x. Por lo tanto volvemos a introducir un cuarto parámetro, llamado parámetro de  posición λ. Así hemos derivado la función densidad de la distribución de tipo Pearson IV:
+
+La normalización de las constantes involucra función gamma compleja (Γ) y la función beta (B).
+
+Distribución de Pearson tipo VII 
+
+El parámetro de la forma ν de la distribución de Pearson tipo IV controla su asimetría. Si fijamos su valor a cero, obtenemos una familia simétrica de tres parámetros. Este caso especial es conocido como Distribución de Pearson tipo VII (cf. Pearson 1916, p. 450). Su función de densidad es 
+
+donde B denota la función Beta.
+
+Una parametrización alternativa (y una ligera especialización) de la distribución tipo VII es obtenida permitiendo
+
+Lo cual requiere m>3/2. Esto conlleva una pérdida menor de generalidad pero asegura que la varianza de la distribución existe y es igual a σ2. Ahora el parámetro m solo controla la curtosis de la distribución. Si m tiende a infinito como λ y σ se mantiene constante, la distribución normal emerge como un caso especial:
+
+Esta es la función de densidad de la distribución normal con media λ y desviación estándar σ.
+
+Es conveniente exigir que m > 5/2 y dejar que:
+
+Esta es otra especialización, y garantiza que los primeros cuatro momentos de la distribución existan. Más aún, la distribución de Pearson tipo VII parametrizada en términos de (λ, σ, γ2) tiene como media λ, como desviación estándar σ, asimetría cero y curtosis exceso es γ2).
+
+Distribución t-Student
+
+La distribución de Pearson tipo VII es equivalente a la distribución t-Student no estandarizada con parámetros ν > 0, μ, σ2 aplicando las siguientes sustituciones a su parametrización original.
+
+  y
+
+Observe que la restricción m > ½ se satisface.
+
+La función de densidad resultante es: 
+
+La cual es más conocida como la densidad de distribución t-student.
+
+Note además que esto implica que la Distribución de Pearson tipo VII subsume la distribución t-Student estándar y también la distribución de Cauchy estándar. En particular, la distribución t-Student estándar emerge como un subcaso cuando μ = 0 y σ2 = 1, equivalente a las siguientes sustituciones.
+
+   y
+
+La densidad de está restringida familia de un solo parámetro es una t-student estándar:
+
+Caso 2, discriminante no negativo
+
+Si la función cuadrática (2) tiene discriminante no negativo ((), tiene como raíces reales a1 y a2 (no necesariamente distintas):
+
+En presencia de raíces reales, la función cuadrática (2) puede ser escrita como
+
+y por lo tanto la solución de la ecuación diferencial es:
+
+Pearson (1895, p. 362)  la llamó el "caso logarítmico", debido a la integral
+
+involucra solo la función logarítmica, y no la función arcotangente como en el caso anterior.
+
+Usando la sustitución
+
+obtenemos la siguiente solución a la ecuación diferencial (1):
+
+Dado que esta densidad es solo sabida hasta una constante escondida de proporcionalidad, esa constante puede variarse y la densidad puede escrita como sigue:
+
+Distribución de Pearson tipo I 
+La Distribución de Pearson tipo I (una generalización de la distribución beta surge cuando las raíces de la ecuación cuadrática (2) son de signos opuestos, eso es , . Luego la solución p es soportada en intervalo . Aplicando la sustitución 
+
+la cual produce una solución en términos de y que está soportada en el intervalo (0, 1):
+
+Uno puede definir
+
+Reagrupando las constantes y parámetros, esto se simplifica a:
+
+Así  sigue a   con .
+
+Resulta que m1, m2 > −1 es necesario y suficiente para que p sea una función de densidad de probabilidades.
+
+Distribución de Pearson tipo II 
+La distribución de Pearson de tipo II es un caso especial de la familia de Pearson de tipo I restringida a distribuciones simétricas.
+
+Para la curva de Pearson de tipo II,
+
+Donde
+
+La ordenada, y, es la frecuencia de . La curva de Pearson de tipo II es usada en computar la tabla de coeficientes de correlación significativos para el coeficiente de correlación de Spearman cuando el número de elementos en una serie es menor a 100(o 30 dependiendo en algunas fuentes). Luego, la distribución imita una distribución t- student estándar. Para la tabla de valores, ciertos valores son usados como constantes en la ecuación previa:
+
+Los momentos de x usada son
+
+Distribución de Pearson tipo III 
+
+ es 
+La distribución de Pearson tipo III es una distribución gamma o una distribución chi-cuadrado.
+
+Distribución de Pearson tipo V 
+Definiendo nuevos parámetros:
+
+ sigue una 
+La distribución de Pearson tipo V es una distribución gamma inversa.
+
+Distribución de Pearson tipo VI 
+
+ sigue una :
+La distribución de Pearson tipo VI es una distribución beta prima o una Distribución F.
+
+Relación con otras Distribuciones 
+La familia Pearson subsume las siguientes distribuciones, entre los otros:
+
+ Distribución beta (tipo I)
+ Distribución beta prima (tipo VI)
+ Distribución de Cauchy (tipo IV)
+ Distribución chi cuadrado (tipo III)
+ Distribución uniforme continua (límite del tipo I)
+ Distribución exponencial (tipo III)
+ Distribución gamma (tipo III)
+ Distribución F (tipo VI)
+ Distribución chi cuadrado inversa (tipo V)
+ Distribución gamma inversa (tipo V)
+ Distribución Normal (El límite de tipo I, III, IV, V, o VI)
+ Distribución t de Student (tipo VII, la cual es el subtipo simétrico del tipo IV)
+
+Aplicaciones 
+
+Estos modelos son utilizados en los mercados financieros, dado su habilidad para ser parametrizadas de un modo que tiene significado intuitivo para comerciantes de mercado. Un número de modelos está en uso actual que la captura la naturaleza estocástica de la volatilidad de tasas, acciones etcétera. Esta familia de distribuciones puede resultar ser una de lo más importantes.
+En los Estados Unidos, el Log Pearson III es la distribución predeterminada para el análisis de frecuencias de la inundación.
+
+Notas
+
+Fuentes
+
+Fuentes Primarias
+
+Fuentes Secundarias 
+ Milton Abramowitz and Irene A. Stegun (1964). Handbook of Mathematical Functions with Formulas, Graphs, and Mathematical Tables. National Bureau of Standards.
+
+Referencias 
+Elderton, Sir W.P, Johnson, N.L. (1969) Systems of Frequency Curves. Cambridge University Press.
+Ord J.K. (1972) Families of Frequency Distributions. Griffin, London.
+
+Categoría:Distribuciones continuas
+Categoría:Distribuciones de probabilidad

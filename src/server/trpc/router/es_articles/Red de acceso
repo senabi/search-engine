@@ -1,0 +1,39 @@
+thumb|300px|Esquema general de una red de telecomunicaciones donde se pueden observar los distintos niveles, siendo la red de acceso la que interacciona directamente con los dispositivos de los usuarios.
+Red de acceso hace mención a aquella parte de la red de comunicaciones que conecta a los usuarios finales con algún proveedor de servicios y es complementaria al núcleo de red. Muchos de los avances tecnológicos que se pueden percibir directamente en el área de las telecomunicaciones corresponden a esta parte de la red, la misma que puede subdividirse en red de distribución/agregación y red de último kilómetro. Esta denominación es independiente de los medios o protocolos utilizados.
+
+Aun cuando en la literatura y en la industria se encuentran una gran cantidad de posibles tecnologías, en la práctica sólo se pueden identificar dos grandes tipos de redes de acceso:
+ Acceso por cable físico
+ Acceso inalámbrico
+
+En el primer caso, encontramos accesos mediante un cable que puede ser tan simple como un par telefónico o tan especializado como un cable de fibra óptica.
+
+En el segundo caso, los avances más importantes se dan en los accesos de tipo celular, WiFi y recientemente WiMax.
+
+Acceso por cable físico 
+Como se mencionó, hay dos posibles tipos de cables: de cobre o fibra óptica.
+
+Par de cobre 
+El medio físico más extendido en las redes de telecomunicaciones a nivel global es mediante un par de cobre, usado tradicionalmente para el servicio de teléfono, pero sus características de propagación le permiten transportar una mayor cantidad de información, en efecto a la fecha es capaz de transportar señales de voz, vídeo y datos en forma simultánea, tal es el caso de VDSL2 con un ancho de banda superior a 200 Mbit/s.
+
+Cable coaxial 
+El cable coaxial prácticamente se encuentra solo en los accesos para proveer el servicio de televisión por cable y mediante la adición de componentes electrónicos adecuados también es capaz de soportar lo que se conoce como triple play (teléfono, televisión y acceso a Internet).
+
+Fibra óptica 
+
+El mejor de los medios físicos es indiscutiblemente la fibra óptica, que en teoría puede ser capaz de transportar volúmenes de información en el orden de los terabit/s.
+
+Redes híbridas coaxial-fibra 
+Nada impide que se usen combinaciones de tecnologías para llevar el servicio hasta el usuario final y ese es el caso de las redes híbridas de fibra óptica y cable coaxial (conocidas por sus siglas inglesas: HFC).
+
+Acceso inalámbrico 
+El desarrollo tecnológico experimentado en los últimos años que aprovecha la propagación de señales electromagnéticas a través del espacio libre (reflexión y refracción) ha permitido un explosivo crecimiento de los servicios de telecomunicaciones. Las distintas tecnologías (GSM, 3G, WiFi, WiMax, LMDS, etc.) permiten proporcionar acceso a los más variopintos dispositivos (portátiles, teléfonos móviles, tabletas, videoconsolas portátiles, etc.).
+
+Acceso fijo 
+
+Generalmente el acceso fijo se lo asocia a conexión de cableado cobre, Fibra u otro medio de tecnología inalámbrica que al usuario no le permite movilidad, y proporcionan grandes anchos no son flexibles a los cambios.
+
+Acceso móvil 
+Todo tipo de dispositivos móviles puede disponer de acceso por medio de una o más tecnologías, así se puede disponer, por ejemplo de tabletas que permiten el acceso vía WiFi o 3G, de forma indiferente, para proporcionarle acceso a datos.
+
+Categoría:Redes de telecomunicación
+Categoría:Acceso a Internet

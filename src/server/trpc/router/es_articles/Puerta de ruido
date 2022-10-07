@@ -1,0 +1,20 @@
+Una puerta de ruido, compuerta de ruido o Noise Gate es un procesador dinámico de señal diseñado para eliminar los ruidos durante las pausas, pero también ofrece un efecto de barrido de volumen automático. Es decir; la función de una puerta de ruido es cortar el paso de toda señal que no supere un umbral prefijado. En un estudio de grabación la puerta de ruido se utiliza para que no entre ruido cuando el batería por ejemplo deje de tocar; o para que no entren mucho los platos por el micro de la caja. En directo se utiliza menos que en estudio, se usa para evitar la entrada de otros instrumentos por micrófonos ajenos; o para cerrar el ruido del escenario cuando nadie toca ni habla.
+
+Entre algunos de los parámetros dinámicos de las compuertas encontramos el tiempo de ataque y el tiempo de decaimiento, que se encargan de controlar con qué rapidez reaccionará la compuerta de ruido ante un aumento de la señal sopor encima del nivel de umbral. El tiempo de ataque (milisegundos) debe generalmente ser mucho más corto que el tiempo de decaimiento (varios milisegundos).
+
+Ajustar una compuerta de ruido requiere gran cantidad de controles para evitar que la compuerta se abra en falso. Dichos controles son umbral, ratio, ataque, hold y release.
+
+Control y ajuste 
+ Umbral (threshold): cuando la señal no sobrepasa el umbral, la puerta de ruido no se abre, cuando la señal sobrepasa el umbral la puerta se abre para la señal que lo sobrepasa. Cuando la señal es alta y baja hasta pasar el umbral la puerta de ruido actúa e impide el paso de la señal.
+ Tiempo de ataque (attack time): Es el tiempo que tarda en actuar la puerta de ruido. Es el tiempo que tarda en abrirse la puerta de ruido desde que la señal sobrepasa el umbral. Según para su uso se fija el tiempo de ataque; por ejemplo para una caja el tiempo de ataque tiene que ser más pequeño porque el ataque al golpear es más rápido; sin embargo para un instrumento de viento se podría poner un tiempo de ataque más lento, ya que el sonido no comienza de golpe, sino que comienza de forma más progresiva.
+ Tiempo de relajación (release time/ decay time): Es el tiempo que tarda en cerrarse la puerta desde que la señal es inferior al umbral. Los tiempos de relajación o liberación son más grandes; es decir se suele poner más lento el release para evitar cortar la cola al sonido, ya que sino quedaría un sonido muy sintetizado; aunque si se pone un release muy grande puede que disminuya su efecto
+ Bypass: generalmente es un botón que permite comparar la señal sin la actuación de la puerta de ruido; es decir la señal original; con la señal procesada; es decir con la puerta de ruido activada.
+
+Enlaces externos 
+www.mixnsound.com
+www.doctorproaudio.com
+
+www.backline.es
+www.doctorproaudio.com
+
+Categoría:Procesamiento de señales de audio

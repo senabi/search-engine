@@ -1,0 +1,52 @@
+FIGlet es una aplicación informática que genera banners de texto, en varias tipografías, formadas por letras compuestas por conglomerados de caracteres ASCII más pequeños.
+
+Historia
+De acuerdo con su página web, FIGlet significa "Frank, Ian and Glenn's LETters", los nombres de sus creadores, Glenn Chappell (el programador principal), Ian Chai y Frank, cuya firma de correo electrónico inspiró el programa.  Las tipografías del programa se inspiraron a partir de varios artículos y firmas de la Usenet.
+
+Uso
+FIGlet puede leer el mensaje desde la entrada estándar (standard input) o como parte de la línea de comandos.  La salida es en la consola estándar.  Algunos argumentos comúnmente usados son:
+-f para seleccionar una tipografía.
+-d para seleccionar el directorio de las tipografías.
+-c centra el texto de salida.
+-l alinea el texto a la izquierda.
+-r alinea el texto a la derecha.
+-w especifica un tamaño de salida.
+-k habilita el kerning, creando cada letra de forma separada en vez de fundirse con las adyacentes.
+
+Ejemplos
+Un ejemplo generado con FIGlet se muestra a continuación:
+
+ figlet es.wikipedia.org
+
+da como resultado
+ 
+                     _ _    _                _ _
+   ___  _____      _(_) | _(_)_ __   ___  __| (_) __ _   ___  _ __ __ _
+  / _ \/ __\ \ /\ / / | |/ / | '_ \ / _ \/ _` | |/ _` | / _ \| '__/ _` |
+ |  __/\__ \\ V  V /| |   <| | |_) |  __/ (_| | | (_| || (_) | | | (_| |
+  \___||___(_)_/\_/ |_|_|\_\_| .__/ \___|\__,_|_|\__,_(_)___/|_|  \__, |
+                             |_|                                  |___/
+El siguiente comando
+
+ figlet -ct -f roman Wikipedia
+
+da como resultado
+ 
+ oooooo   oooooo     oooo  o8o  oooo         o8o                             .o8   o8o            
+  `888.    `888.     .8'   `"'  `888         `"'                            "888   `"'            
+   `888.   .8888.   .8'   oooo   888  oooo  oooo  oo.ooooo.   .ooooo.   .oooo888  oooo   .oooo.   
+    `888  .8'`888. .8'    `888   888 .8P'   `888   888' `88b d88' `88b d88' `888  `888  `P  )88b  
+     `888.8'  `888.8'      888   888888.     888   888   888 888ooo888 888   888   888   .oP"888  
+      `888'    `888'       888   888 `88b.   888   888   888 888    .o 888   888   888  d8(  888  
+       `8'      `8'       o888o o888o o888o o888o  888bod8P' `Y8bod8P' `Y8bod88P" o888o `Y888""8o 
+                                                   888                                            
+                                                  o888o
+
+Enlaces externos 
+ Sitio web principal de FIGlet (en inglés)
+ Un servidor de FIGlet (en inglés)
+ Otro servidor FIGlet (en inglés)
+ Otro servidor (en inglés)
+ Biblioteca de fuentes para FIGlet (en inglés)
+
+Categoría:Software de gráficos

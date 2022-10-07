@@ -1,0 +1,11 @@
+Open-E DSSV7 es un Software de Almacenamiento del Datos desarrollado por la Compañía Open-E, Inc. basado en GNU/Linux utilizado para construir y dirigir Servidores de Almacenamiento de Datos Centralizados: red almacenamiento sujetado (NAS) y Red de Área del Almacenamiento (SAN), incluyendo Canal de Fibra, NFS, iSCSI y InfiniBand.  El software puede ser utilizado para almacenamiento de virtualización, grupos de almacenamiento de disponibilidad altos, entornos de red con muchos clientes y Copias de Seguridad o Backup. Con activo-pasivo failover para NFS y iSCSI, activo-activo failover para NFS y iSCSI, replicaciones, snapshots,  agentes de copia de seguridad, multipath I/O, NICs bonding y más. Open-E DSS V7 funciona con VMware, Citrix y Microsoft  Hyper-V.
+
+Tolerancia de fallos Activo-Pasivo de NFS y iSCSI 
+La Tolerancia de fallos Activo-Pasivo proporciona alta disponibilidad a través de la replicación sincrónica de recursos de red compartido por NFS y volúmenes de iSCSI. Se utilizan dos nodos en la configuración Activo-Pasivo. Una vez configurados, todos los datos escritos en el servidor principal se reflejan al servidor secundario. En caso de que falle el servidor primario, el software cambia automáticamente todas las operaciones al servidor secundario. Además, cuando el servidor primario falla, los bloqueos de NFS y iSCSI se reasignan al servidor secundario.
+Tolerancia de fallos Activo-Activo de NFS y iSCSI 
+Con el paquete de funciones de Tolerancia de fallos Activo-Activo de NFS y iSCSI para Open-E DSS V7 se puede duplicar el rendimiento de su sistema de almacenamiento, aumentar el rendimiento secuencial de lectura y escritura por 100%, y reducir el tiempo de recuperación por casi dos veces en comparación con la recuperación de la configuración Activo-Pasivo. La razón es la forma en que funciona el equilibrio de carga en un clúster activo-activo, se utiliza el máximo de todos los recursos de almacenamiento. Sin un único punto de fallo, el tráfico de lectura, escritura y replicación puede ser equilibrado en ambos nodos.  Si falla un nodo, el otro se hace cargo automáticamente y todos los servicios de aplicaciones continúan ejecutándose sin interrupción.
+
+Referencias
+
+Enlaces externos 
+ Sitio web oficial

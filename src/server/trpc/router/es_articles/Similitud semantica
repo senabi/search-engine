@@ -1,0 +1,9 @@
+La similitud semántica en el área de procesamiento de lenguajes naturales, es la medida de la interrelación existente entre dos palabras cualesquiera en un texto. Este concepto se fundamenta en la idea que se tiene en lingüística sobre la coexistencia de palabras y del discurso coherente. Dos palabras o términos por el hecho de tener su existencia en un mismo documento poseen un contexto similar. Se entiende que estas dos palabras están relacionadas, y por lo tanto se puede deducir su distancia semántica.
+
+Concepto 
+
+La medida de la similitud semántica entre palabras se realiza mediante la relación existente entre los conceptos de la red semántica.  La relación existente entre las palabras y su discurso coherente forma parte de la propiedad natural del lenguaje humano y al mismo tiempo la base para el desarrollo de los sistemas de desambiguación automáticos.
+
+Referencias 
+
+Categoría:Lingüística computacional

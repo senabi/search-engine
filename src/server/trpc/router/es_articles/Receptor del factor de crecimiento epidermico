@@ -1,0 +1,75 @@
+El receptor del factor de crecimiento epidérmico (EGFR, ErbB-1 o HER1 en el ser humano ) es el receptor celular de la superficie de la célula de los miembros de la familia del factor de crecimiento epidérmico (familia EGF) de los ligandos de las proteínas extracelulares. Se encuentra codificado en humanos por el gen . El factor de crecimiento epidérmico es un miembro de la familia de receptores ErbB, una subfamilia relacionada con los receptores tirosina quinasa: EGFR (ErbB-1), HER2/c-neu (ErbB-2), Her 3 (ErbB-3) y Her 4 (ErbB-4 ). Las mutaciones que afectan a la expresión o actividad del EGFR pueden provocar cáncer.
+
+Función 
+right|400px|thumb|Diagrama del receptor del EGF destacando los dominios importantes.
+
+El EGFR (receptor del factor de crecimiento epidérmico) se encuentra en la superficie celular y se activa mediante la unión de sus ligandos específicos, incluyendo el factor de crecimiento epidérmico y el factor de crecimiento transformante alfa (TGFα). El ErbB2 no tiene ningún ligando de activación directo conocido, y puede estar en un estado activado constitutivamente o hacerse activo mediante heterodimerización con otros miembros de la familia como el EGFR.
+
+Tras la activación del factor de crecimiento por sus ligandos, el EGFR sufre una transición de una forma monomérica inactiva a una forma homodimérica activa - aunque hay algunas pruebas que demuestran que los dímeros inactivos pre-formados también pueden existir antes de la unión del ligando. Además de la formación de homodímeros después de la unión del ligando, el EGFR puede unirse a otro miembro de la familia de receptores ErbB, como el ErbB2/Her2/neu, para crear un heterodímero activado. También hay pruebas que sugieren que se forman grupos de EGFRs activados, aunque no está claro si esta agrupación es importante para activarse por sí sola o si ocurre como consecuencia de la activación de los dímeros individuales.
+
+La dimerización del EGFR estimula la actividad intrínseca de la proteína intracelular tirosina quinasa. Como resultado, en el dominio C-terminal del EGFR se produce la auto-fosforilación de varios residuos de tirosina (Y), como Y992, Y1045, Y1068, Y1148 y Y1173, tal y como se muestra en el diagrama. Esta auto-fosforilación provoca la activación en cascada y la señalización por varias otras proteínas que se asocian con las tirosinas fosforiladas mediante la unión en los dominios SH2 de la fosfotirosina. Estas proteínas de señalización inician cascadas de transducción de varias señales, principalmente la MAPK, AKT y las vías de JNK, que conducen a la síntesis de ADN y a la proliferación celular. Estas proteínas modulan fenotipos tales como la migración celular, la adhesión y proliferación. La activación del receptor es importante para la respuesta inmune innata en la piel humana. El dominio de la quinasa del EGFR también puede cruzar residuos de tirosina fosforilada de otros receptores con los que está unido, y puede activarse de esta manera.
+
+Aplicaciones clínicas 
+Las mutaciones que llevan a la sobre-expresión del EGFR (conocidas como regulación positiva) o la hiperactividad se han asociado con un número de cánceres, incluyendo el cáncer de pulmón y el glioblastoma multiforme. En este último caso, una mutación más o menos específica del EGFR, llamada EGFRvIII se observa a menudo. Las mutaciones, ampliaciones o falta de regulación del EGFR o miembros de la familia están implicados en el 30% de todos los cánceres epiteliales.
+Mutaciones que afectan al EGFR podrían dar lugar a su activación constante, que podría provocar una división celular descontrolada - una predisposición al cáncer. En consecuencia, las mutaciones del EGFR se han identificado en varios tipos de cáncer, y es el objetivo de muchas terapias contra el cáncer.
+
+La identificación del EGFR como un oncogén ha llevado al desarrollo de terapias contra el cáncer dirigidas contra el EGFR, como el gefitinib y el erlotinib para el cáncer de pulmón, y el cetuximab para el cáncer de colon.
+Muchos enfoques terapéuticos están dirigidos a los receptores EGFR. El cetuximab y el panitumumab son ejemplos de inhibidores de anticuerpos monoclonales. Sin embargo, la primera es de tipo IgG1 y el último de tipo IgG2; las consecuencias sobre los anticuerpos dependientes de la citotoxicidad celular pueden ser muy diferentes. Otros anticuerpos monoclonales en desarrollo clínico son zalutumumab, nimotuzumab y matuzumab. Gefitinib, erlotinib y lapatinib son ejemplos de inhibidores de quinasas. Los anticuerpos monoclonales bloquean la unión del ligando extracelular al dominio. Con el lugar de unión bloqueado, las moléculas señal ya no la pueden atacar y activan la tirosina quinasa. Otro método es utilizar pequeñas moléculas para inhibir la tirosina quinasa del EGFR, que está en el lado citoplasmático del receptor. Sin actividad quinasa, el EGFR es incapaz de activarse, un requisito previo para la unión en cascada de las proteínas adaptadoras. Aparentemente, al detener la cascada de señales en células que dependen de esta vía para el crecimiento, la proliferación y la migración tumoral se ve disminuida. Hay varios métodos cuantitativos disponibles que usan la detección de la fosforilación de las proteína para identificar inhibidores de la familia EGFR.
+
+La eficiente conversión de la luz fuertemente absorbida por nanopartículas plasmónicas de oro en energía térmica y su fácil bio-conjugación sugieren su uso como agentes fototérmicos selectivos en el alcance molecular de la célula cancerosa. Dos variedades de células escamosas del carcinoma (HSC 313 y ESPECIAL 3 Clone 8) y una variedad de células epiteliales benignas (hacat) fueron incubadas con anticuerpos del receptor del factor de crecimiento epitelial (EGFR) conjugados con nanopartículas de oro y después expuestas al láser visible continuo de iones de argón de 514 nm. Se ha descubierto que para matar las células malignas se requiere menos de la mitad de la energía del láser que las células benignas tras la incubación con el anticuerpo anti-EGFR conjugado con nanopartículas de oro. Ninguna destrucción fototérmica se observa para todos los tipos de células en ausencia de las nanopartículas en cuatro veces la energía requerida para matar las células malignas con anti-EGFR/Au conjugados. Las nanopartículas de oro ofrecen así una nueva clase de agentes fototérmicos selectivos utilizando un láser de baja potencia.
+
+En julio de 2007 se descubrió que la proteína de coagulación de la sangre fibrinógeno activa el EGFR, bloqueando así la regeneración de las células neuronales heridas en la espina dorsal.
+
+Otros inhibidores naturales son los inhibidores de la carboxipeptidasa de patata (PCI), que contiene un pequeño módulo rico en cisteína, llamado nudo T-knot, que es compartido por varias familias de proteínas, incluida la familia del EGF. Similitudes estructurales con estos factores pueden explicar el efecto antagonista de la ICP.
+
+EGFR y el cáncer de pulmón 
+Nuevos fármacos como Tarceva están dirigidos directamente a los receptores EGFR. Los pacientes pueden dividirse en EGFR positivos o EGFR negativos, según si una prueba de tejido muestra una mutación o no. Los pacientes EGFR positivos han mostrado un 60% de respuesta con Tarceva que supera la tasa de supervivencia con la quimioterapia convencional.
+
+Interacciones 
+El receptor del factor de crecimiento epidérmico ha demostrado ser capaz de interaccionar con:
+ Receptor de andrógeno
+ ARF4
+ Beta-catenina
+ Caveolina 1
+ Caveolina 3
+ Cbl (gen)
+ CBLB
+ CBLC
+ CDC25A
+ CRK (gen)
+ Decorina
+ Factor de crecimiento epidérmico
+ GRB14
+ Grb2
+ Janus quinasa 2
+ MUC1
+ NCK1
+ NCK2
+ PKC alfa
+ PLCG1
+ PLSCR1
+ PTPN1
+ PTPN11
+ PTPN6
+ SH2D3A
+ SH3KBP1
+ SHC1
+ SOS1
+ Src (gen)
+ STAT1
+ STAT3
+ STAT5A
+ Ubiquitina C
+ Proteína del síndrome de Wiskott-Aldrich
+
+Referencias
+
+Bibliografía
+
+Enlaces externos 
+ 
+
+Categoría:Tirosina proteína quinasas
+Categoría:Receptores celulares
+Categoría:Oncogenes
+Categoría:EC 2.7.10

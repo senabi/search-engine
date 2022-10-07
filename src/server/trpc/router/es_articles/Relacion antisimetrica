@@ -1,0 +1,54 @@
+Una relación binaria  sobre un conjunto  es antisimétrica cuando se da que si dos elementos de  se relacionan entre sí mediante , entonces estos elementos son iguales.
+
+Es decir, 
+ 
+
+Para todo a, b de A, si se cumple que a está relacionado con b y b está relacionado con a, entonces a es igual a b.
+
+En tal caso, se dice que  cumple con la propiedad de antisimetría.
+
+La aplicación de cualquier relación  sobre un conjunto , se representa con el par ordenado .
+
+Representación 
+Sea  una relación antisimétrica aplicada sobre un conjunto , entonces  tiene una representación particular para cada forma de describir una relación binaria.
+
+ Como pares ordenados, .
+ Como matriz de adyacencia , la matriz  no tiene ningún 2 salvo, a lo sumo, en la diagonal.
+ Como grafo, dos nodos no podrán estar conectados por dos aristas dirigidas en ambas direcciones. Sin embargo, sí podría tener bucles.
+
+Ejemplos 
+
+Sea  un conjunto cualquiera:
+
+ Sea ,  ("mayor o igual que") es antisimétrica, al igual que  ("mayor estricto que"), pues en este último caso, el antecedente de la definición nunca se cumple.
+
+ Sea ,  ("menor o igual que") es antisimétrica, al igual que  ("menor estricto que"), pues en este último caso, el antecedente de la definición nunca se cumple.
+
+ La relación "ser más alto que" es antisimétrica, pues el hecho que a sea más alto que b y b sea al mismo tiempo más alto que a, es imposible.
+
+Antisimetría  asimetría 
+280px|derecha
+La antisimetría no es lo opuesto de la simetría.
+
+Existen relaciones que son simétricas y antisimétricas al mismo tiempo (como la igualdad), otras que no son simétricas ni antisimétricas, otras que son simétricas pero no antisimétricas (como la relación de congruencia módulo n), y otras que son antisimétricas pero no simétricas (como la relación "menor que").
+
+Véase también 
+Propiedades de la relación binaria homogénea:
+
+ Relación reflexiva
+ Relación irreflexiva
+
+ Relación simétrica
+ Relación antisimétrica
+
+ Relación transitiva
+ Relación intransitiva
+
+ Relación total
+
+ Relación bien fundada
+ Acotado
+
+Referencias 
+
+Categoría:Relaciones

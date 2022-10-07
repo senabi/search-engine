@@ -1,0 +1,138 @@
+El método de Van Der Pauw es una técnica usada comúnmente para medir la resistividad y el coeficiente de Hall de una muestra. Su poder yace en la habilidad de medir exactamente las propiedades de una muestra de cualquier forma arbitraria, mientras la muestra sea aproximadamente bidimensional (por ejemplo si es mucho más delgado que ancho), sólida (sin agujeros), y los electrodos estén colocados en su perímetro.
+
+A partir de las mediciones hechas, las siguientes propiedades del material pueden ser calculadas:
+ La resistividad del material
+ El tipo de dopado (por ejemplo si es un material Tipo-P o Tipo-N)
+ La densidad laminar de portadores del portador mayoritario (el número de portadores mayoritarios por unidad de área). A partir de esta se puede encontrar la densidad de carga y el nivel de dopado.
+ La movilidad de los portadores mayoritarios.
+El método fue propuesto por primera vez por Leo J. van der Pauw en 1958.
+
+Condiciones 
+Hay cinco condiciones que deben ser satisfechas para usar esta técnica:
+1. La muestra debe tener una forma plana de grueso uniforme
+2. La muestra no debe tener ningún agujero aislado
+3. La muestra debe ser homogénea e isotrópica
+4. Los cuatro contactos deben estar localizados en los extremos de la muestra
+5. El área de contacto de un contacto individual debe tener al menos un orden de magnitud menor que el área total de la muestra.
+
+Preparación de la muestra 
+Para usar el método de Van der Pauw, el espesor de la muestra debe ser mucho menor que el ancho y el largo de la muestra. Para reducir los errores en los cálculos, es preferible que la muestra sea simétrica. Tampoco debe haber agujeros aislados en la muestra.
+
+thumb|right|Algunos posibles lugares de contacto
+
+Las mediciones requieren que se coloquen cuatro contactos óhmicos en la muestra. Se deben cumplir ciertas condiciones:
+ Deben estar en los límites de la muestra (o tan cerca como sea posible)
+ Deben ser infinitamente pequeños. Prácticamente deben ser lo más pequeños posibles; cualquier error dado por su tamaño estará en el orden de D/L, donde D es el diámetro promedio del contacto y L es la distancia entre los contactos.
+
+Además de esto, el cable de los contactos debe ser construido a partir del mismo lote de cables para reducir efectos termoeléctricos. Por la misma razón, los cuatro contactos deben ser del mismo material.
+
+Definiciones de medida 
+ Los contactos son enumerados de 1 a 4 en un orden en contra de las manecillas de reloj, empezando en la parte superior izquierda.
+ La corriente I12 es corriente directa positiva inyectado al contacto 1 y tomado por el contacto 2, la medición es medida en amperes (A).
+ El voltaje V34 es un voltaje de corriente directa medida entre los contactos 3 y 4 sin un campo magnético aplicado, medido en Volts.
+ La resistividad p es medida en ohms-metros (Ω*m).
+ El espesor t de la muestra es medida en metros (m).
+ La resistencia de la lámina es medida en Ohms (Ω).
+
+Mediciones de Resistividad 
+La resistencia promedio de una muestra está dada por p = Rs*t, donde la resistencia laminar Rs es determinada a continuación. Para un material anisotrópico, las componentes de las resistencias individuales, por ejemplo, px o py, pueden ser calculadas usando el método Montgomery.
+
+Mediciones básicas 
+Para hacer una medición, una corriente eléctrica se hace fluir a lo largo de un borde de la muestra (por ejemplo I12) y el voltaje a través del borde opuesto (en este caso, V34) es medido. A partir de estos dos valores, una resistencia (para este ejemplo, R12,34) puede ser encontrada por la ley de Ohm:
+
+En este artículo, van der Pauw mostró que la resistencia laminar de las muestras con formas arbitrarias pueden ser determinadas a partir de dos de estas resistencias - una puede ser medida a lo largo del borde vertical, como R12,34, y otra medida a lo largo del borde horizontal, como R23,41. La resistencia laminar real para estas resistencias están relacionadas por la fórmula de Van Der Pauw:
+
+Mediciones recíprocas 
+El teorema de reciprocidad nos habla de
+
+Por lo tanto, es posible obtener un mayor valor de precisión para las resistencias R12,34 y R23,41 para hacer dos mediciones adicionales de sus valores recíprocos R34,12 y R41,23 y promediando los resultados.
+
+Definimos
+
+y
+
+entonces, la fórmula de van der Pauw se vuelve
+
+Mediciones de polaridad inversa 
+Una mejora adicional en la precisión de los valores de resistencias puede ser obtenida por repetir las mediciones de las resistencias después de cambiar las polaridades de la fuente de corriente y el medidor de voltaje. Puesto que esto está midiendo la misma porción de la muestra, justo en la dirección opuesta, los valores de Rvertical y Rhorizontal pueden ser calculadas como el promedio de las mediciones estándar y polaridad inversa. El beneficio de hacer esto es que cada voltaje impreso, tal como los potenciales termoeléctricos debido al efecto Seebeck, se cancelará.
+
+Al combinar estos métodos con las mediciones reciprocas de arriba nos lleva a que las fórmulas para las resistencias sean:
+
+y
+
+Entonces, la fórmula de Van Der Pauw toma la misma forma que en la sección previa.
+
+Precisión de las mediciones 
+Los dos procedimientos de arriba comprueban la repetitividad de las mediciones. Si alguna de las mediciones de polaridad inversa no concuerdan a un grado suficiente de precisión (usualmente dentro del 3%) con la medida correspondiente de polaridad estándar, entonces probablemente haya una fuente de errores en algún lugar del equipo, el cual debe ser investigado antes de continuar. El mismo principio aplica para las mediciones reciprocas – deben concordar a un grado suficiente antes de ser usadas en cualquier cálculo.
+
+Calculando la resistencia laminar 
+En general, la fórmula de Van Der Pauw no puede ser re acomodada para dar la resistencia laminar RS en términos de funciones conocidas. La excepción más notable es cuando Rvertical = R = Rhorizontal; en este escenario la resistencia laminar está dada por:
+
+En la mayoría de los escenarios, un método iterativo es usado para resolver la fórmula de Van de Pauw numéricamente para RS. Desafortunadamente, la fórmula no cumple las condiciones previas para el Teorema de Punto Fijo de Banach, por lo que métodos basados en este no funcionan. En lugar de eso, Intervalos Anidados convergen lenta pero firmemente.
+
+Mediciones Hall 
+Cuando una partícula cargada – tal como, el electrón – es colocada en un campo eléctrico, esta experimenta una fuerza de Lorentz proporcional a la fuerza del campo y a la velocidad a la cual se encuentra viajando a través de él. Esta fuerza es mayor cuando la dirección de movimiento es perpendicular a la dirección del campo magnético, en este caso la fuerza:
+
+Donde es la carga de la partícula en coulombs, es la velocidad a la cual se encuentra viajando la partícula (en centímetros por segundo) y es la fuerza del campo magnético (Wb/cm2). Nótese que la medición en centímetros es más usada, dentro de la industria de semiconductores, esto en lugar de las unidades del SI en metros.
+
+El efecto Hall y su aplicación en el método.
+
+(a) – Una corriente fluye a través de un material semiconductor
+(b) – El flujo de electrones debido a una corriente
+(c) – Los electrones acumulándose en un borde del material debido al campo de fuerza magnética
+(d) – El campo eléctrico resultando y el voltaje Hall
+
+Cuando es aplicada una corriente a una pieza de material semiconductor, esto resulta en un flujo estable de electrones a través del material (como se muestra en el inciso (a) y (b) de la figura anexada). La velocidad a la cual se encontraran los electrones viajando es (véase corriente eléctrica):
+
+Donde es la densidad de electrones, es el área de la sección transversal del material y la carga elemental (1.602×10−19 coulombs).
+
+Si un campo magnético externo es aplicado perpendicular a la dirección de flujo, entonces la fuerza de Lorentz resultante causara que los electrones se acumulen en un borde de la muestra (vea parte (c) de la figura). Combinando las dos ecuaciones anteriores, y notando que es la carga e un electrón, entonces resulta una fórmula para la fuerza de Lorentz que experimentan los electrones:
+
+Este acumulamiento creara un campo eléctrico a través el material debido a la desigual distribución de carga, como se observa en la parte (d) de la figura. Esto tiende a crear una diferencia de potencial a través del material, conocida como el voltaje de Hall. Sin embargo, la corriente continua fluyendo a lo largo del material, lo cual indica que la fuerza en los electrones debida al campo eléctrico está de una manera balanceada con la fuerza de Lorentz. Debido a que la fuerza de un electrón ejercida por un campo eléctrico es, podemos decir que la fuerza del campo eléctrico es por lo tanto:
+
+Finalmente, la magnitud del voltaje de Hall es simplemente la fuerza del campo eléctrico multiplicado por el ancho del material, esto es:
+
+Donde es la profundidad del material. Debido a que la densidad de la hoja está definida como la densidad de electrones multiplicada por la profundidad del material, podemos definir el voltaje e Hall en términos de la densidad electrónica como:
+
+Haciendo mediciones 
+Es necesario hacer dos conjuntos de mediciones: uno con un campo magnético en la dirección z positiva como se muestra arriba, y uno con ella en la dirección z negativa. De aquí en adelante, los voltajes son guardados con un campo negativo, tendrán un subíndice N (por ejemplo, V13,N). Para todas las mediciones la magnitud de la corriente introducida deberá mantenerse la misma; la magnitud del campo magnético también debe ser la misma en ambas direcciones.
+
+En primer lugar con un campo magnético positivo, la corriente I24 es aplicada a la muestra y el voltaje V13,P es guardado; nótese que el voltaje puede ser positivo o negativo. Esto es repetido para I13 y V42,P.
+Igual que antes, podemos tomar ventaja del teorema de reciprocidad para confirmar la precisión de esas mediciones. Si invertimos la dirección de las corrientes (por ejemplo, aplicando la corriente I42 y medir V31,P, y repetir para I31 y V24,P, entonces V13,P debe ser el mismo que V31,P para estar en pequeño margen de error apropiado. Del mismo modo, V42,P y V24,P, deben concordad. Al haber completado las mediciones, un campo magnético negativo es aplicado en lugar de uno positivo, y el procedimiento de arriba es repetido para obtener las mediciones de voltajes V13,N, V42,N, V31,N y V24,N.
+
+Cálculos 
+En primer lugar, la diferencia de voltajes para campos magnéticos positivos y negativos necesitan ser elaborados:
+
+V13 = V13, P − V13, NV24 = V24, P − V24, N
+V31 = V31, P − V31, NV42 = V42, P − V42, N
+
+El Voltjae Hall total es entonces
+
+.
+
+La polaridad de este Voltaje Hall indica el tipo de material de lo que está compuesta la muestra; si es positivo, el material es tipo-P, y si es negativo, el material es tipo-N.
+
+La fórmula dada en segundo plano puede ser reacomodada para mostrar la densidad de la lámina
+
+Note que la fuerza del campo magnético B necesita estar en unidades Wb/cm² si ns es en cm-2. Por ejemplo, sin la fuerza de campo magnético está dada en unidades de teslas, puede ser convertida multiplicando por 10-4.
+
+Otros cálculos de movilidad 
+La resistividad de un material semiconductor puede ser mostrada por
+
+donde n y p son la concentración de electrones y huecos en el material, respectivamente, y μn y μp son la movilidad de los electrones y los huecos, respectivamente.
+
+Generalmente, el material se dopa suficientemente de modo que hay diferencia de muchos órdenes de magnitud entre las dos concentraciones, y por lo que esta ecuación se puede simplificar a
+
+donde nm y μm son el nivel de dopaje y la movilidad del portador mayoritario respectivamente.
+Si a continuación, observamos que la resistencia de la lámina RS es la resistividad dividida por el espesor de la muestra, y que la densidad de la lámina nS es el nivel de dopaje multiplicado por el espesor, podemos dividir la ecuación a través de por el espesor para obtener
+
+Esto puede ser reorganizado para dar la mayor movilidad de portadores previamente calculados en términos de la resistencia de la lámina y en términos de la densidad de la lámina
+
+Notas
+
+Referencias 
+ 
+ 
+ 
+
+Categoría:Ingeniería eléctrica

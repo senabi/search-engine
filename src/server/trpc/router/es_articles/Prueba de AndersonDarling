@@ -1,0 +1,7 @@
+En estadística, la prueba de Anderson-Darling es una prueba no paramétrica sobre si los datos de una muestra provienen de una distribución específica. La fórmula para el estadístico A determina si los datos  (observar que los datos se deben ordenar) vienen de una distribución con función acumulativa 
+
+donde
+
+El estadístico de la prueba se puede entonces comparar contra las distribuciones del estadístico de prueba (dependiendo que  se utiliza) para determinar el P-valor.
+
+Categoría:Estadística no paramétrica

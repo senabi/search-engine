@@ -1,0 +1,53 @@
+En teoría de la probabilidad y estadística, la desviación estándar geométrica describe cómo se distribuye un conjunto de números cuyo promedio de referencia es su media geométrica.
+
+Se debe tener en cuenta que, a diferencia de la desviación estándar aritmética (lo más habitual es calcular la desviación típica respecto a la media aritmética), la desviación estándar geométrica es un factor multiplicativo, y por lo tanto, es una magnitud adimensional, en lugar de tener la misma dimensión que los valores de entrada. Por lo tanto, la desviación estándar geométrica puede denominarse más apropiadamente factor geométrico de desviación estándar (abreviadamente, factor geométrico de DS).
+
+Cuando se usa junto con la media geométrica, debe describirse como "el rango comprendido desde "la media geométrica dividida por el factor geométrico de DS", hasta "la media geométrica multiplicada por el factor geométrico de DS". No tiene sentido sumar o restar el factor geométrico de DS a / desde la media geométrica.
+
+Definición
+Si la media geométrica de un conjunto de números {A1, A2, ..., An} se denota como μg, entonces la desviación estándar geométrica es
+
+Demostración
+
+Si la media geométrica es
+
+ 
+
+tomando el logaritmo natural de ambos lados resulta
+
+ 
+
+El logaritmo de un producto es una suma de logaritmos (asumiendo que  es positivo para todo ), por lo que
+
+ 
+
+Ahora se puede ver que  es la media aritmética del conjunto , y por lo tanto, la desviación estándar aritmética de este mismo conjunto debe ser
+
+ 
+
+Esto se simplifica a
+
+Valor geométrico estándar
+
+La versión geométrica de la unidad tipificada es
+
+ 
+
+Si se conocen la media geométrica, la desviación estándar y el valor z de un dato, entonces el dato en bruto puede ser reconstruido usando la fórmula
+
+Relación con la distribución log-normal
+La desviación estándar geométrica se usa como una medida de la dispersión log-normal de manera análoga a la media geométrica. Como la transformación de log de una distribución log-normal resulta en una distribución normal, entonces la desviación estándar geométrica es el valor exponencial de la desviación estándar de los valores transformados de registro, es decir, .
+
+Como tal, la media geométrica y la desviación estándar geométrica de una muestra de los datos de una población logarítmicamente distribuida se pueden usar para encontrar los límites de los intervalos de confianza de manera análoga a la forma en que se utilizan la media aritmética y la desviación estándar para vincular los intervalos de confianza para una distribución normal (véase también distribución log-normal).
+
+Referencias
+
+Véase también
+ Cálculo multiplicativo
+
+Enlaces externos
+ sitio web de cálculo no newtoniano
+
+Categoría:Análisis de datos
+Categoría:Dispersión estadística
+Categoría:Estadística descriptiva

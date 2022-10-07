@@ -1,0 +1,42 @@
+derecha|thumb|Los 78 grafos posibles de amigos-extraños con 6 vértices. En cada grafo, las aristas de color azul/rojo muestran la relación mutua de amigos/extraños.
+
+El teorema de amigos y extraños o teorema de la amistad es un teorema en el campo matemático llamado teoría de Ramsey.
+
+Formulación del teorema
+Supóngase que en una fiesta hay 6 personas. Considérese a dos cualquiera de ellos. Puede ser que se reúnan por primera vez, en cuyo caso son mutuamente extraños, o puede ser que se hayan conocido antes, en cuyo caso se les llamará mutuamente conocidos. Ahora, el teorema de la amistad dice:
+
+Conversión a grafos
+Es conveniente expresar este problema usando el lenguaje de teoría de grafos.
+
+Supóngase  que un grafo tiene 6 vértices y cada par de vértices está unido por una arista. Este grafo se llama  grafo completo. Un grafo completo de n vértices  se denota por . En el caso de un grafo de 3 vértices y en donde cada vértice es adyacente a los demás, se trata del grafo completo  o del ciclo de longitud 3: , comúnmente llamado triángulo.
+
+Ahora tómese un . Este grafo completo tiene 15 aristas en total. Sean las 6 personas de la fiesta representadas por los 6 vértices. Sean las aristas coloreadas con los colores rojo o azul dependiendo de si las dos personas representadas por los vértices incidentes a la arista son mutuamente conocidos o desconocidos, respectivamente. El teorema de la amistad afirma ahora:
+
+Prueba
+
+Elíjase uno de los vértices P. Hay cinco aristas incidentes a P, cada una coloreada con el color rojo o azul. Según el principio del palomar, al menos tres aristas deben ser del mismo color, porque si hay menos de tres de un solo color, por ejemplo roja, entonces hay al menos tres que son de color azul.
+
+Sean A, B, C, los otros vértices extremos de estas tres aristas, todas del mismo color, por ejemplo azul. Si alguna de las aristas  AB, BC, CA es azul, entonces esta arista junto con las dos aristas incidentes a P forman los lados de un triángulo azul. Si ninguna de las aristas AB, BC, CA es azul, entonces las tres aristas son de color rojo y se tiene un triángulo rojo de vértices ABC.
+
+Trabajo de Ramsey 
+La total simplicidad de este argumento, que produce con tanta fuerza una interesante conclusión, es lo que hace atractivo este teorema. En 1930, en un trabajo titulado «On a Problem in Formal Logic» (Sobre un problema en lógica formal), Frank P. Ramsey demostró un teorema muy general, conocido en la actualidad como teorema de Ramsey en el que el teorema de la amistad es un caso particular. El teorema de Ramsey es la base en la que sostiene el área  de la combinatoria conocida como teoría de Ramsey.
+
+Ámbito del teorema de la amistad
+thumb|Un coloreado de dos colores de K5 sin un K3 monocromo.
+
+La conclusión del teorema de la amistad no se tiene en grupos de menos de seis personas. Para demostrar esto, se colorea K5 de rojo y azul de forma que no contenga un triángulo cuyos lados sean todos del mismo color. Dibujamos K5 como un pentágono que rodea una estrella y coloreamos de rojo los lados del pentágono y de azul los de la estrella. Por lo tanto, 6 es el mínimo número para el cual se puede dar por buena la conclusión del teorema de la amistad. En la teoría de Ramsey, esto se denota por:
+
+Referencias
+V. Krishnamurthy. Culture, Excitement and Relevance of Mathematics, Wiley Eastern, 1990. ISBN 81-224-0272-0.
+
+Véase también
+ Coloración de grafos
+
+Enlaces externos
+ 
+
+Categoría:Teoría de Ramsey
+Amistad
+Categoría:Ciencia y tecnología de Reino Unido del siglo XX
+Categoría:Ciencia de 1928
+Categoría:Reino Unido en 1928

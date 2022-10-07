@@ -1,0 +1,32 @@
+derecha|miniaturadeimagen|400x400px|Una representación habitual de la ley de Heaps. El eje X representa el tamaño del texto, y el eje Y representa el número de palabras distintas (vocabulario) presentes en el texto.
+En lingüística, la ley de Heaps (también llamada ley de Herdan) es una ley empírica que describe el número de palabras distintas en un documento (o conjunto de documentos) como una función de la longitud del documento. Pueda ser formulado como:
+
+ 
+
+Donde VR es el número de palabras distintas en un texto de tamaño n. K Y β son los parámetros libres que se determinan empíricamente. Con un texto en inglés, típicamente K es entre 10 y 100, y β es entre 0,4 y 0,6.
+
+La ley es frecuentemente atribuida a Harold Stanley Heaps, pero fue originalmente descubierta por Gustav Herdan (1960). Bajo suposiciones suaves, la ley de Herdan-Heaps es una la ley asintóticamente equivalente a la ley de Zipf, que concierne a las frecuencias de palabras individuales dentro de un texto. Esto es una consecuencia del hecho de que la relación typo-token (en general) de un texto homogéneo puede ser derivado de la distribución de sus typos.
+
+La ley de Heaps significa que cuando más texto es generado, costará más tiempo encontrar palabras nuevas.
+
+La ley de Heaps también aplica a las situaciones en que el «vocabulario» es algún conjunto de distintas clases de alguna colección de objetos. Por ejemplo, los objetos podrían ser personas, y las clases podrían ser países de origen de la persona. Si las personas están seleccionadas aleatoriamente (es decir, no están seleccionadas las personas en función del país de origen), entonces la ley de Heaps dice cuán rápido encontraremos representantes de los países (en proporción al número de personas seleccionadas al azar) y predice que será más difícil cada vez encontrar personas de un país no incluido en la muestra.
+
+Referencias
+
+Citas
+
+Fuentes 
+
+ .
+ .
+ 
+ .
+.
+ .
+ .
+ 
+
+Categoría:Leyes estadísticas
+Categoría:Lingüística computacional
+Categoría:Lingüística cuantitativa
+Categoría:Lexicología

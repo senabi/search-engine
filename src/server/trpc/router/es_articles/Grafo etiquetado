@@ -1,0 +1,39 @@
+En matemáticas, en la disciplina de teoría de grafos, un grafo etiquetado es la asignación de etiquetas, tradicionalmente representada mediante enteros, a las aristas o vértices, o ambos, de un grafo.
+
+Formalmente, dado un grafo G, un vértice etiquetado es una función que hace corresponder vértices de G a un conjunto de etiquetas. Un grafo con tal función definida es llamado grafo de vértices etiquetados. De la misma manera, una arista etiquetada es una función de asignación de aristas de G tal conjunto de «etiquetas». En este caso, G es llamado como grafo de aristas etiquetadas.
+Cuando las etiquetas de las aristas pertenecen a un conjunto ordenado ('es decir, los números reales), ésta puede ser llamada como grafo ponderado.
+
+Cuando es usado sin calificación, el término grafo etiquetado generalmente se refiere a un grafo con vértices etiquetados con todas las etiquetas distintas. Tal grafo puede ser equivalentemente etiquetado mediante enteros consecutivos {1, ..., n}, donde n es el número de vértices en el grafo.
+Para muchas aplicaciones, a las aristas y los vértices le corresponde etiquetas que tienen un significado en el dominio asociado. Por ejemplo, las aristas pueden ser asignadas mediante pesos que representan el «coste» de atravesar entre los vértices implicados.
+
+En la definición de arriba se entiende como grafo un grafo simple indirecto finito. Sin embargo, la noción de etiquetado puede ser aplicada a todas las extensiones y generalizaciones de grafos. Por ejemplo, en teoría de autómatas y teoría de lenguaje formal es conveniente considerar multigrafos etiquetados, es decir, un par de vértices puede ser conectado por varias aristas etiquetadas.
+
+Historia 
+
+La mayoría de los grafos etiquetados tienen sus origenesen los etiquetados presentados por Alex Rosa en un artículo en 1967. Rosa identificó tres tipos de etiquetado, a los cuales llamó α-, β-, y ρ-etiquetado. Los β-etiquetados fueron más tarde renombrados como elegantes por S. W. Golomb y el nombre se ha hecho popular desde entonces.
+
+Casos especiales
+
+Etiquetado elegante 
+
+thumb|Un etiquetado elegante. Las etiquetas de los vértices están en negro, las etiquetas de las aristas en rojo.
+
+Un grafo es denominado como elegante cuando sus vértices son etiquetados desde 0 a , el tamaño del grafo, y este etiquetado induce un etiquetado de aristas desde 1 a . Para cualquier arista e, los etiquetas de e son la diferencia positiva entre dos vértices incidentes con e. En otras palabras, si e es incidente con los vértices etiquetados k y j, e será etiquetado como . Así pues, un grafo  es elegante si y sólo si existe una inyección que induce una biyección de E a los enteros positivos hasta .
+
+En su trabajo original, Rosa demostró que todos los grafos eulerianos con orden equivalente a 1 o 2 (mod 4) no son elegantes. El si ciertas familias de grafos son elegantes o no es una área de la teoría de grafos que está bajo intenso estudio. Podría decirse que, la conjetura no demostrada más grande de etiquetado de grafos es la conjetura de Ringel-Kotzig, la cual conjetura que todos los árboles son elegantes. Esto ha sido demostrado para todos los caminos, orugas, y muchas otras familias infinitas de los árboles. El mismo Kotzig ha llamado al esfuerzo de demostrar la conjetura una «enfermedad».
+
+Etiquetado armonioso 
+
+Un grafo armonioso es un grafo con k aristas que permiten una inyección de los vértices de G al grupo de enteros módulo k que induce una biyección entre las aristas de G y los enteros positivos hasta . Para cualquier arista e, los etiquetados de e son la suma de las etiquetas de dos vértices incidentes con e (mod q).
+
+Coloración de grafos 
+
+thumb|Una coloración por vértices para un grafo de Petersen, donde cada color representa una etiqueta.
+La coloración de grafos es un caso especial de grafos etiquetados, tales que los vértices adyacentes y las aristas coincidentes deben tener diferentes etiquetas.
+
+Referencias 
+
+ Rosa, A. «On certain valuations of the vertices of a graph.» Theory of Graphs (Internat. Symposium, Rome, July 1966), Gordon y Breach, N. Y. y Dunod Paris. (1967) 349-355.
+ Gallian, Joseph A. «A Dynamic Survey of Graph Labeling.» The Electronic Journal of Combinatorics (2005). 20 de diciembre de 2006 .
+
+Categoría:Teoría de grafos

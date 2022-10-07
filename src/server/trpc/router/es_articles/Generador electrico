@@ -1,0 +1,126 @@
+thumb|230px|Generador de una fase que genera una corriente eléctrica alterna (cambia periódicamente de sentido), haciendo girar un imán permanente cerca de una bobina.
+Un generador eléctrico es todo dispositivo capaz de mantener una diferencia de potencial eléctrica entre dos de sus puntos (llamados polos, terminales o bornes) transformando la energía mecánica en eléctrica. Esta transformación se consigue por la acción de un campo magnético sobre los conductores eléctricos dispuestos sobre una armadura (denominada también estátor). Si se produce mecánicamente un movimiento relativo entre los conductores y el campo, se generará una fuerza electromotriz (F.E.M.). Este sistema está basado en la ley de Faraday.
+
+Aunque la corriente generada es corriente alterna, puede ser rectificada para obtener una corriente continua. En el diagrama adjunto se observa la corriente inducida en un generador simple de una sola fase. La mayoría de los generadores de corriente alterna son de tres fases.
+
+El proceso inverso sería el realizado por un motor eléctrico, que transforma energía eléctrica en mecánica.
+
+Historia 
+
+Antes de que se descubriera la conexión entre el magnetismo y la electricidad, ya se habían inventado los generadores electrostáticos. Funcionaban según principios electrostáticos, mediante el uso de cintas, placas y discos cargados eléctricamente que llevaban la carga hasta un electrodo de alto potencial. La carga se generaba utilizando uno de dos mecanismos, inducción electrostática o efecto triboeléctrico. Tales generadores producían muy altos voltajes y baja corriente. Debido a su ineficiencia y a la dificultad de aislamiento de las máquinas que producían esos voltajes tan altos, los generadores electrostáticos tenían niveles de potencia bajos y nunca se utilizaron para la generación de cantidades comercialmente significativas de energía eléctrica. Sus únicas aplicaciones prácticas consistían en alimentar los primeros tubos de rayos X y, posteriormente, en algunos aceleradores de partículas atómicas.
+
+Generador de disco de Faraday 
+
+El principio de funcionamiento de los generadores electromagnéticos fue descubierto en los años 1831-1832 por Michael Faraday. El principio, más tarde llamado ley de Faraday, es que se genera una fuerza electromotriz en un conductor eléctrico que rodea un flujo magnético variable.
+
+También construyó el primer generador electromagnético, llamado disco de Faraday; un tipo de generador homopolar, que utiliza un disco de cobre que gira entre los polos de un imán de herradura. Se produce una pequeña tensión continua.
+
+Este diseño era ineficiente debido a los contraflujos de auto-cancelación de la corriente en las regiones del disco que no estaban bajo la influencia del campo magnético. Mientras que la corriente se inducía directamente debajo del imán, la corriente circulaba hacia atrás en las regiones que estaban fuera de la influencia del campo magnético. Este contraflujo limitaba la salida de potencia en los cables de captación e inducía el calentamiento de los residuos del disco de cobre. Los generadores homopolares posteriores resolverían este problema utilizando una serie de imanes dispuestos alrededor del perímetro del disco para mantener un efecto de campo estable en una dirección de flujo de corriente.
+
+Otra desventaja era que el voltaje de salida era muy bajo, debido a disponer de una única trayectoria de la corriente a través del flujo magnético. Los experimentadores descubrieron que el uso de múltiples vueltas de cable en una bobina podía producir voltajes más altos y más útiles. Dado que el voltaje de salida es proporcional al número de vueltas, los generadores podrían diseñarse fácilmente para producir cualquier voltaje deseado variando el número de vueltas. Los devanados de alambre se convirtieron en una característica básica de todos los diseños de generadores posteriores.
+
+Jedlik y el fenómeno de la autoexcitación 
+Independientemente de Faraday, el húngaro Ányos Jedlik comenzó a experimentar en 1827 con los dispositivos giratorios electromagnéticos a los que llamó autorrotores electromagnéticos. En el prototipo del arrancador eléctrico monopolar (terminado entre 1852 y 1854) tanto las partes estacionarias como las giratorias eran electromagnéticas. También fue el descubrimiento del principio de autoexcitación de la dinamo, que reemplazó los diseños de imanes permanentes. También puede haber formulado el concepto de dínamo en 1861 (antes de que lo hicieran Siemens y Wheatstone) pero no lo patentó porque pensó que no era el primero en darse cuenta de ello.
+
+Generadores de corriente continua 
+
+Una bobina de cable que gira en un campo magnético produce una corriente que cambia de dirección con cada rotación de 180°, una corriente alterna (CA). Sin embargo, muchos usos tempranos de la electricidad requerían corriente continua (CD). En los primeros generadores eléctricos prácticos, llamados dinamos, la CA se convertía en CC con un conmutador, un conjunto de rotantes contactos de interruptor en el eje del inducido. El conmutador invertía la conexión del devanado de inducido al circuito cada 180° de rotación del eje, creando una corriente continua pulsante. Una de las primeras dinamos fue construida por Hippolyte Pixii en 1832.
+
+La dínamo fue el primer generador eléctrico capaz de entregar energía para la industria. El generador eléctrico Woolrich de 1844, ahora en Thinktank, Birmingham Science Museum, fue el primer generador eléctrico utilizado en un proceso industrial. Fue utilizado por la firma de  Elkingtons  para la galvanoplastia comercial.
+
+La dinamo moderna, apta para uso en aplicaciones industriales, fue inventado de forma independiente por Charles Wheatstone, Werner von Siemens y Samuel Alfred Varley. Varley obtuvo una patente el 24 de diciembre de 1866, mientras que Siemens y Wheatstone anunciaron sus descubrimientos el 17 de enero de 1867, y este último entregó un documento sobre su descubrimiento a la Royal Society.
+
+La «máquina dinamoeléctrica» (dynamo-electric machine) ​​empleaba bobinas de campo electromagnético autoalimentadas en lugar de imanes permanentes para crear el campo del estator. El diseño de Wheatstone era similar al de Siemens, con la diferencia de que en el diseño de Siemens los electroimanes del estator estaban en serie con el rotor, pero en el diseño de Wheatstone estaban en paralelo.  El uso de electroimanes en lugar de imanes permanentes aumentó considerablemente la potencia de salida de la dinamo y permitió la generación de altas potencias por primera vez. Esta invención llevó directamente a los primeros usos industriales principales de la electricidad. Por ejemplo, en la década de 1870, Siemens usó dinamos electromagnéticas para alimentar hornos de arco eléctrico para la producción de metales y otros materiales.
+
+La máquina de dinamo que se desarrolló consistía en una estructura estacionaria, que proporcionaba el campo magnético, y un conjunto de devanados giratorios que giraban dentro de ese campo. En máquinas más grandes, el campo magnético constante es proporcionado por uno o más electroimanes, que generalmente se denominan bobinas de campo.
+
+Las dínamos de gran generación de energía ahora rara vez se ven debido al uso casi universal de la corriente alterna para la distribución de energía. Antes de la adopción de la CA, los dinamos de corriente continua muy grandes eran los únicos medios de generación y distribución de energía. La CA ha llegado a dominar debido a la capacidad de la CA para transformarse fácilmente desde y hacia voltajes muy altos para permitir bajas pérdidas en la transmisión a grandes distancias.
+
+Generadores síncronos (generadores de corriente alterna) 
+
+ 
+Gracias a una serie de descubrimientos, la dinamo fue seguida por muchos inventos posteriores, especialmente el alternador de CA, que era capaz de generar corriente alterna. Es comúnmente conocido como generador sincrónico (SG). Las máquinas síncronas están conectadas directamente a la red y deben estar correctamente sincronizadas durante el inicio. Además, están excitadas con un control especial para mejorar la estabilidad del sistema de energía.
+
+Los sistemas de generación de corriente alterna eran conocidos en formas simples a partir del descubrimiento original de Michael Faraday de la inducción magnética de la corriente eléctrica. El mismo Faraday construyó un temprano alternador. Su máquina era un "rectángulo giratorio", cuya operación era heteropolar: cada conductor activo pasaba sucesivamente a través de regiones donde el campo magnético estaba en direcciones opuestas.
+
+Los grandes generadores de corriente alterna de dos fases fueron construidos por un electricista británico,  J.E.H. Gordon, en 1882. La primera demostración pública de un "sistema de alternador" fue realizada por William Stanley, Jr., un empleado de Westinghouse Electric en 1886.
+
+Sebastian Ziani de Ferranti fundó la compañía Ferranti, Thompson and Ince en 1882 para comercializar su alternador Ferranti-Thompson, inventado con la ayuda del renombrado físico Lord Kelvin. Sus primeros alternadores produjeron frecuencias entre 100 y 300  Hz. Ferranti pasó a diseñar la central eléctrica Deptford para la London Electric Supply Corporation en 1887 utilizando un sistema de corriente alterna. Una vez que se completó en 1891, fue la primera estación de energía verdaderamente moderna, que suministraba energía de CA de alto voltaje que luego se "reducía" para uso del consumidor en cada calle. Este sistema básico sigue en uso hoy en día en todo el mundo.
+
+Después de 1891, se introdujeron los alternadores polifásicos para suministrar corrientes de múltiples fases diferentes. Los alternadores posteriores se diseñaron para variar las frecuencias de corriente alterna entre dieciséis y aproximadamente cien hertzios, para su uso con iluminación de arco, iluminación incandescente y motores eléctricos.
+
+Autoexcitación 
+
+A medida que aumentaban los requerimientos para la generación de energía a gran escala, surgió una nueva limitación: los campos magnéticos disponibles a partir de imanes permanentes. El desvío de una pequeña cantidad de la energía generada por el generador hacia una bobina de campo electromagnético permitió que el generador produjera sustancialmente más energía. Este concepto fue denominado autoexcitación.
+Las bobinas de campo eran conectadas en serie o en paralelo con el devanado de la armadura. Cuando el generador comenzaba a girar, la pequeña cantidad de magnetismo remanente presente en el núcleo de hierro proporcionaba un campo magnético para iniciarlo, generando una pequeña corriente en la armadura. Esta fluye a través de las bobinas de campo, creando un campo magnético más grande que genera una corriente de armadura más grande. Este proceso de "arranque" continúa hasta que el campo magnético en el núcleo se desactiva debido a la saturación y el generador alcanza una potencia de salida estable.
+Los generadores de centrales eléctricas muy grandes a menudo utilizaban un generador más pequeño separado para excitar las bobinas de campo de los más grandes. En el caso de que se produzca una interrupción generalizada del suministro eléctrico, es posible que las estaciones deban realizar un arranque en negro para excitar los campos de sus generadores más grandes, a fin de restablecer el servicio de energía del cliente.
+
+Otros sistemas de generación de corrientes eléctricas 
+miniaturadeimagen|Generador eléctrico inverter portátil
+miniaturadeimagen|Recargable con la luz del sol, energía renovable
+thumb|230px|Generador en la central eléctrica de Bridal veil Falls, Telluride, Colorado. Se trataría del generador más antiguo que se mantiene en servicio (año 1984) en Estados Unidos.
+No solo es posible obtener una corriente eléctrica a partir de energía mecánica de rotación, sino que es posible hacerlo con cualquier otro tipo de energía como punto de partida.
+Desde este punto de vista más amplio, los generadores se clasifican en dos tipos fundamentales: 
+ Primarios: Convierten en energía eléctrica la energía de otra naturaleza que reciben o de la que disponen inicialmente, como alternadores, dinamos, etc.
+ Secundarios: Entregan una parte de la energía eléctrica que han recibido previamente, es decir, en primer lugar reciben energía de una corriente eléctrica y la almacenan en forma de alguna clase de energía. Posteriormente, transforman nuevamente la energía almacenada en energía eléctrica. Un ejemplo son las pilas o baterías recargables.
+
+Se agruparán los dispositivos concretos conforme al proceso físico que les sirve de fundamento.
+
+Generadores primarios 
+
+Se indican de modo esquemático la energía de partida y el proceso físico de conversión. Se han considerado en todos los casos conversiones directas de energía. Por ejemplo, el hidrógeno posee energía química y puede ser convertida directamente en una corriente eléctrica en una pila de combustible. También sería su combustión con oxígeno para liberar energía térmica, que podría expansionar un gas obteniendo así energía mecánica que haría girar un alternador para obtener finalmente, por inducción magnética, la corriente deseada.
+
+thumb|220px|Generador termoeléctrico de radioisótopos de la sonda espacial Cassini
+
+En la mayoría de los casos, el rendimiento de la transformación es tan bajo que es preferible hacerlo en varias etapas. Por ejemplo, convertir la energía nuclear en energía térmica, posteriormente en energía mecánica de un gas a gran presión que hace girar una turbina a gran velocidad, para obtener finalmente, por inducción electromagnética, una corriente alterna en un alternador, el generador eléctrico más importante desde un punto de vista práctico como fuente de electricidad para casi todos los usos actuales.
+
+Generadores ideales 
+
+Desde el punto de vista teórico (teoría de circuitos) se distinguen dos tipos de generadores ideales:
+
+* Generador de voltaje o tensión: un generador de voltaje ideal mantiene un voltaje fijo entre sus terminales con independencia de la resistencia de la carga Rc que pueda estar conectada entre ellos.
+
+thumb|220px|left|Figura 1: Generador de tensión ideal; E = I×Rc
+
+* Generador de corriente o intensidad: un generador de corriente ideal mantiene una corriente constante por el circuito externo con independencia de la resistencia de la carga que pueda estar conectada entre ellos.
+
+En la (figura 1) se ve el circuito más simple posible, constituido por un generador de tensión constante E conectado a una carga Rc y en donde se cumpliría la ecuación:
+
+E = I×Rc
+thumb|220px|Figura 2: E = I×(Rc+Ri)
+
+El generador descrito no tiene existencia real en la práctica, ya que siempre posee lo que se ha dado en llamar convencionalmente resistencia interna, que aunque no es realmente una resistencia, en la mayoría de los casos se comporta como tal.
+
+En la (figura 2) se puede ver el mismo circuito anterior, pero donde la resistencia interna del generador viene representada por una resistencia Ri, en serie con el generador, con lo que la ecuación anterior se transforma en:
+
+E = I×(Rc+Ri)
+
+Así, un generador real puede considerarse en muchos casos como un generador ideal de tensión con una resistencia interna en serie, o bien como un generador ideal de intensidad en paralelo con una resistencia.
+
+ Componentes de un generador 
+
+Además del motor y el generador, los generadores eléctricos incluyen generalmente un suministro de combustible, un regulador de velocidad del motor constante (gobernador) y un regulador de tensión del generador, sistemas de refrigeración y de escape y el sistema de lubricación.
+
+Las unidades mayores de 1kW de potencia a menudo tienen una batería y un motor de arranque eléctrico; además, unidades muy grandes pueden comenzar con aire comprimido o bien con un motor de arranque accionado por aire o introducido directamente a los cilindros del motor para iniciar la rotación del motor. Las unidades generadoras de energía de reserva incluyen a menudo un sistema automático de arranque y un interruptor de transferencia para desconectar la carga de la fuente de energía de la red cuando hay un fallo de alimentación y conectarlo al generador.
+
+ Fuerza electromotriz de un generador 
+
+Una característica de cada generador es su fuerza electromotriz (F.E.M.), simbolizada por la letra griega epsilon (ε) y definida como el trabajo que el generador realiza para pasar la unidad de carga positiva del polo negativo al positivo por el interior del generador.
+
+La F.E.M. (ε) se mide en voltios, y en el caso del circuito de la Figura 2'' sería igual a la tensión E, mientras que la diferencia de potencial entre los puntos a y b, Va-b es dependiente de la carga Rc.
+
+La F.E.M. (ε) y la diferencia de potencial coinciden en valor en ausencia de carga, ya que en este caso, al ser I = 0, no hay caída de tensión en Ri y por tanto Va-b = E.
+
+Véase también 
+
+ Dinamo (generador eléctrico)
+ Alternador
+ Ley de Ohm
+
+Referencias 
+
+Generador electrico
+Categoría:Ciencia y tecnología de Reino Unido del siglo XIX
+Categoría:Inventos de Reino Unido del siglo XIX
+Categoría:Ciencia de 1832
+Categoría:Reino Unido en 1832

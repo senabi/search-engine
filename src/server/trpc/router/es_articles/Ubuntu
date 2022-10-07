@@ -1,0 +1,374 @@
+Ubuntu (; estilizado como ubuntu) es un tipo de rubencio y abeloncio sistema operativo de software libre y código abierto. Es una distribución de Linux basada en Debian. Puede correr en computadores de escritorio y servidores. Está orientado al usuario promedio, con un fuerte enfoque en la facilidad de uso y en mejorar la experiencia del usuario. Está compuesto de múltiple software normalmente distribuido bajo una licencia libre o de código abierto. Estadísticas web sugieren que la cuota de mercado de Ubuntu dentro de las distribuciones Linux es, aproximadamente, del 52 %, y con una tendencia a aumentar como servidor web.
+
+Su patrocinador, Canonical, es una compañía británica propiedad del empresario sudafricano Mark Shuttleworth. Ofrece el sistema de manera gratuita, y se financia por medio de servicios vinculados al sistema operativo y vendiendo soporte técnico. Además, al mantenerlo libre y gratuito, la empresa es capaz de aprovechar los desarrolladores de la comunidad para mejorar los componentes de su sistema operativo. Extraoficialmente, la comunidad de desarrolladores proporciona soporte para otras derivaciones de Ubuntu, con otros entornos gráficos, como Kubuntu, Xubuntu, Ubuntu MATE, Edubuntu, Ubuntu Studio, Mythbuntu, Ubuntu GNOME y Lubuntu.
+
+Canonical, además de mantener Ubuntu, provee una versión orientada a servidores, Ubuntu Server, una versión para empresas, Ubuntu Business Desktop Remix, una para televisores, Ubuntu TV, otra versión para tabletas Ubuntu Tablet, también Ubuntu Phone y una para usar el escritorio desde teléfonos inteligentes, Ubuntu for Android.
+
+Cada seis meses se publica una nueva versión de Ubuntu. Esta recibe soporte por parte de Canonical durante nueve meses por medio de actualizaciones de seguridad, parches para bugs críticos y actualizaciones menores de programas. Las versiones LTS (Long Term Support), que se liberan cada dos años, reciben soporte durante cinco años en los sistemas de escritorio y de servidor.
+
+Inicio de Ubuntu 
+
+Ubuntu es una bifurcación del código base del proyecto Debian. El objetivo inicial era hacer de Debian una distribución más fácil de usar y entender para los usuarios finales, corrigiendo varios errores de este y haciendo más sencillas algunas tareas como la gestión de programas. Su primer lanzamiento fue el 20 de octubre de 2004.
+
+Ubuntu usa primariamente software libre, haciendo excepciones en el caso de varios controladores privativos (además de firmware y software). Antes de cada lanzamiento, se lleva a cabo una importación de paquetes, desde Debian, aplicando las modificaciones específicas de Ubuntu. Un mes antes del lanzamiento, comienza un proceso de congelación de importaciones, ayudando a que los desarrolladores puedan asegurar que el software sea suficientemente estable.
+
+Desde el inicio del proyecto, Shuttleworth proporcionó el soporte económico gracias a los beneficios obtenidos después de vender su empresa Thawte a VeriSign, por unos 575 millones de dólares estadounidenses.
+
+El 8 de julio de 2005, Shuttleworth anunció la creación de la Fundación Ubuntu y aportaron 10 millones de dólares como presupuesto inicial. El propósito de la fundación es el de asegurar soporte y desarrollo para todas las futuras versiones de Ubuntu.
+
+El 12 de marzo de 2009, Ubuntu anunció soporte para plataformas externas de administración de computación en nube, como Amazon EC2.
+thumb|Fotografía de un CD de Ubuntu 7.10
+
+Enfoque en el software 
+A principios de 2009 los ingenieros y diseñadores de Canonical se dan cuenta de que la gestión de paquetes e instalación de aplicaciones es demasiado fragmentada y hasta compleja, por ende se planifica la creación de una aplicación central para el manejo e instalación de aplicaciones. En octubre de 2009 Canonical lanza oficialmente el Centro de software de Ubuntu (Ubuntu Software Center), permite buscar, instalar, desinstalar aplicaciones, y además permite agregar repositorios de terceros. En octubre de 2010 se introduce la venta de aplicaciones por medio de pagos en línea en el Centro de software de Ubuntu.
+
+El 3 de junio de 2010, Mark Shuttleworth anuncia el trabajo en conjunto con el proyecto Linaro y su desarrollo de código abierto para Linux en procesadores con tecnología ARM. A fines de septiembre se da a conocer antes del lanzamiento de Ubuntu 10.10, que esta versión incluiría un mejor y más estable soporte para procesadores ARM.
+
+En octubre y noviembre de 2010, se anuncian drásticos e importantes cambios en el escritorio de Ubuntu, la inclusión de la interfaz de usuario Unity (creada por Canonical), la cual será utilizada en la versión de escritorio de Ubuntu. También Mark Shuttleworth anuncia que en futuras versiones de Ubuntu, Unity se implementará en el servidor gráfico Wayland, y no en el servidor gráfico X (como se hacía habitualmente). Sin embargo, en 2013 se decide que no será Wayland el servidor gráfico elegido, sino que uno nuevo creado por Canonical, llamado Mir.
+
+El 18 de enero de 2011, Mark Shuttleworth anuncia la inclusión de aplicaciones creadas en Qt para ser lanzadas a partir de «Natty+1» (después del lanzamiento de Ubuntu 11.04) y en futuras versiones de Ubuntu. Una de las metas de esta decisión es facilitar la integración al sistema de aplicaciones Qt, en comparación con las típicas aplicaciones desarrolladas en GTK que lucen nativas en la interfaz de usuario de Ubuntu. Para terminar con las dificultades técnicas de configuración y preferencias del sistema entre Qt y GTK, se crearán enlaces dconf para las aplicaciones Qt, con lo que se pretende centralizar la configuración del sistema, ya sea GTK o Qt, en un solo lugar.
+
+El 9 de marzo de 2011, Canonical anuncia la discontinuidad de 'Ubuntu Netbook Edition', debido a la integración de la interfaz Unity en su versión de escritorio a partir de Ubuntu 11.04, y así eliminar la redundancia de sus versiones con un mismo escritorio. Canonical también anuncia que los nombres 'Ubuntu Desktop Edition' y 'Ubuntu Server Edition' se eliminan, dejando solamente el nombre 'Ubuntu' para uso en todo tipo de computadoras, y 'Ubuntu Server' para su uso en servidores.
+
+Expansión de Ubuntu a otros dispositivos 
+right|thumb|250px|Ubuntu para Android.
+El 31 de octubre de 2011, durante la presentación del Ubuntu Developer Summit, Mark Shuttleworth anuncia la integración de Ubuntu en varios otros dispositivos, tales como tabletas, televisores, teléfonos y computadores tradicionales. Toda esta integración concluyó en la versión 14.04, en abril de 2014.
+
+En enero de 2012, durante la feria tecnológica CES 2012, Canonical revela Ubuntu TV, la cual ofrece una interfaz simple e intuitiva para organizar contenidos y servicios para TV.
+
+En febrero de 2012, Canonical anuncia 'Ubuntu para Android', el cual permite ejecutar el escritorio de Ubuntu directo desde un teléfono inteligente Android al conectarse en un monitor por medio de una base. Características como la sincronización de contactos, sincronización de redes sociales, y vista de aplicaciones Android son posibles. Ubuntu para Android tiene compatibilidad con teléfonos inteligentes con múltiples núcleos ARM, y la ventaja de compartir el mismo núcleo con Android.
+
+El 2 de enero de 2013, Canonical anuncia 'Ubuntu para teléfonos', para ser lanzado en dispositivos durante el año 2014. Ubuntu para teléfonos utiliza una interfaz basada en Unity, pero construida bajo QML al igual que sus aplicaciones. Su interfaz solo utiliza gestos táctiles a través de la pantalla, al no usar botones físicos de acceso en el frente. Además, los teléfonos inteligentes más avanzados con Ubuntu podrán conectar el dispositivo a un dock con monitor externo para poder utilizar la interfaz de escritorio de Ubuntu.
+
+El 19 de febrero de 2013, Canonical anuncia 'Ubuntu para tabletas'. Sus principales características son la interfaz multitarea para usar dos aplicaciones al mismo tiempo, multiusuario seguro, con la posibilidad de usar diferentes cuentas de usuario, controles usados por voz, al igual que gestos para interactuar con la interfaz. Ubuntu para tabletas también puede cargar la interfaz de escritorio si este se conecta a un dock con teclado y mouse externo.
+
+El 4 de marzo de 2013, Canonical anuncia Mir, un nuevo servidor gráfico que se utilizará a través de todos los dispositivos con Ubuntu, esto incluye escritorio, teléfonos, tabletas y televisores, con fecha de lanzamiento para su uso público en abril de 2014, para Ubuntu 14.04. Además de Mir, también anuncia Unity Next, la siguiente versión de la interfaz Unity construida en QML/Qt, la cual también se usará en todos los dispositivos con Ubuntu y disponible para el público en abril de 2014. Con esto, Mir pasa a reemplazar al servidor gráfico X que era usado en el escritorio, y Unity Next con QML pasa a reemplazar la versión de Unity basada en Nux. Más adelante se anuncia que se adelantará el lanzamiento del nuevo servidor gráfico Mir, y se lanzará junto con Ubuntu 13.10. También incluirá XMir, una nueva implementación montada en Mir para dar compatibilidad a aplicaciones y ambientes basados en el antiguo servidor X.
+
+El 19 de marzo de 2013, la junta técnica de Ubuntu decide acortar el soporte técnico de las versiones no-LTS de Ubuntu a solo 9 meses de soporte, anteriormente con soporte de 18 meses.
+
+En julio de 2013, se anuncia la campaña para Ubuntu Edge, el propósito de la campaña es recaudar 32 millones de dólares durante 31 días en el sitio Indiegogo, para crear y distribuir un teléfono móvil que servirá como base para desarrollar y usar Ubuntu para teléfonos, además de utilizar la interfaz de escritorio al conectar el dispositivo a un monitor y de proporcionar doble arranque para usar Android. Entre las características de hardware que más destacan se indica que usará una estructura de metal unificada, procesador con múltiples núcleos aún sin definir, 128GB de almacenamiento, 4GB de RAM, pantalla de cristal zafiro de 4,5 pulgadas con una resolución de 1280x720 píxeles, batería de silicio-ánodo Li-ion, dos antenas de conexión LTE, Wi-Fi de doble banda, comunicación inalámbrica NFC, cámara trasera de 8MP con respuesta rápida a baja luz y cámara delantera de 2MP, y otros sensores de hardware utilizados actualmente en dispositivos móviles como GPS, giroscopio, barómetro, acelerómetro, proximidad, y brújula.
+
+Interfaz de usuario 
+thumb|250px|Tablero con aplicaciones de Ubuntu 14.04
+Ubuntu desde su primer lanzamiento utilizó la interfaz de usuario predeterminada del escritorio GNOME Panel, con un panel inferior para listar ventanas y un panel superior para menús e indicadores de sistema. Desde la versión 11.04 el equipo de Canonical decidió lanzar su propia interfaz de usuario; de esa manera Unity fue diseñado para optimizar el espacio e interacción de la interfaz de Ubuntu, aunque en la versión 18.04 regresó a GNOME utilizando el GNOME Shell ligeramente modificado.
+
+Diseño 
+La actual interfaz de usuario de Ubuntu está compuesta por tres elementos: la barra superior para indicadores de sistema y menús (donde aparecen los menús superiores (Archivo, Editar,...) de cada aplicación, si así se configura), el lanzador de aplicaciones al costado izquierdo, y el tablero o Dash, ubicado en la parte superior del lanzador de aplicaciones, que despliega accesos a aplicaciones y medios.
+
+Además de la interfaz Unity, Canonical ha diseñado varios elementos para ésta: set de iconos Ubuntu Mono y Humanity, temas visuales ligeros (Ambiance y Radiance), tipografía Ubuntu con varios estilos de escritura, barras de desplazamiento superpuestas, notificaciones OSD, pantalla de inicio de sesión Unity Greeter, gestos multitáctil uTouch, temas de sonido de inicio de sesión, y los menús globales de aplicaciones.
+
+El logo de Ubuntu es una marca registrada y carece de la mayúscula característica de un nombre propio.
+
+Características 
+En su última versión, Ubuntu soporta oficialmente dos arquitecturas de hardware en computadoras personales y servidores: 32-bit (x86) y 64-bit (x86 64) Sin embargo, extraoficialmente, Ubuntu ha sido portado a más arquitecturas: ARM, PowerPC, SPARC e IA-64.
+
+A partir de la versión 9.04, se empezó a ofrecer servicio técnico extraoficial para procesadores ARM, comúnmente usados en dispositivos móviles. Al igual que la mayoría de los sistemas de escritorio basados en Linux, Ubuntu es capaz de actualizar a la vez todas las aplicaciones instaladas en la máquina a través de repositorios. Ubuntu está siendo traducido a más de 130 idiomas, y cada usuario es capaz de colaborar voluntariamente a esta causa, a través de Internet.
+
+Ubuntu y la comunidad 
+Los usuarios pueden participar en el desarrollo de Ubuntu, escribiendo código, solucionando bugs, probando versiones inestables del sistema, etc. Además, en febrero de 2008 se puso en marcha el sitio Brainstorm que permite a los usuarios proponer sus ideas y votar las del resto. También se informa de las ideas propuestas que se están desarrollando o están previstas.
+
+Software incluido 
+thumb|250px|Centro de software de Ubuntu de Ubuntu 14.04
+Ubuntu posee una gran gama de aplicaciones para llevar a cabo tareas cotidianas, entretenimiento, desarrollo y aplicaciones para la configuración de todo el sistema. La interfaz predeterminada de Ubuntu es Unity y utiliza en conjunto las aplicaciones de GNOME. Existen otras versiones extraoficiales mantenidas por la comunidad, con diferentes escritorios, y pueden ser instalados independientemente del instalado predefinido en Ubuntu.
+
+Aplicaciones de Ubuntu
+Ubuntu es conocido por su facilidad de uso y las aplicaciones orientadas al usuario final. Las principales aplicaciones que se incluyen en Ubuntu de forma predeterminada son: navegador web Mozilla Firefox, cliente de mensajería instantánea Empathy, cliente de correo Thunderbird, reproductor multimedia Totem, reproductor de música Rhythmbox, gestor y editor de fotos Shotwell, administrador de archivos Nautilus, cliente de BitTorrent Transmission, cliente de escritorio remoto Remmina, grabador de discos Brasero, suite ofimática LibreOffice, lector de documentos PDF Evince, editor de texto Gedit, cliente para sincronizar y respaldar archivos en línea Ubuntu One (desarrollada por Canonical y discontinuada el 1 de junio de 2014), y la tienda de aplicaciones para instalar/eliminar/comprar aplicaciones Centro de software de Ubuntu (también desarrollada por Canonical).
+
+Archivo de Paquetes Personales  
+Un Archivo de Paquetes Personales ( o PPA) es un repositorio de software para subir paquetes de fuentes que serán construidos y publicados como un repositorio de Advanced Packaging Tool (APT) por Launchpad. Mientras que el término es usado exclusivamente dentro de Ubuntu, el anfitrión de Launchpad, Canonical, prevé la adopción más allá de la comunidad de Ubuntu.
+
+thumb|250px|Configuración del sistema de Ubuntu 14.04
+Seguridad y accesibilidad
+El sistema incluye funciones avanzadas de seguridad y entre sus políticas se encuentra el no activar, de forma predeterminada, procesos latentes al momento de instalarse. Por eso mismo, no hay un cortafuegos predeterminado, ya que supuestamente no existen servicios que puedan atentar a la seguridad del sistema. Para labores o tareas administrativas en la línea de comandos incluye una herramienta llamada sudo (de las siglas en inglés de SwitchUser do), con la que se evita el uso del usuario administrador. Posee accesibilidad e internacionalización, de modo que el sistema esté disponible para tanta gente como sea posible. Desde la versión 5.04, se utiliza UTF-8 como codificación de caracteres predeterminado.
+thumb|Ubuntu 14.04 Actualizando a Ubuntu 15.10
+No solo se relaciona con Debian por el uso del mismo formato de paquetes .deb. También tiene uniones con esa comunidad, aunque raramente contribuyendo con cualquier cambio directa e inmediatamente, o solo anunciándolos. Esto sucede en los tiempos de lanzamiento. La mayoría de los empaquetadores de Debian son los que realizan también la mayoría de los paquetes importantes de Ubuntu.
+
+Organización del software 
+thumb|Ubuntu 15.10 Escritorio
+Ubuntu internamente divide todo el software en cuatro secciones, llamadas «componentes», para mostrar diferencias en licencias y la prioridad con la que se atienden los problemas que informen los usuarios. Estos componentes son: main, restricted, universe y multiverse.
+
+De forma predeterminada se instalan paquetes de los componentes main y restricted Los paquetes del componente universe de Ubuntu generalmente se basan en los paquetes de la rama inestable (Sid) y en el repositorio experimental de Debian.
+
+ main: contiene solamente los paquetes que cumplen los requisitos de la licencia de Ubuntu, y para los que hay soporte disponible por parte de su equipo. Está pensado para que incluya todo lo necesario para la mayoría de los sistemas Linux de uso general. Los paquetes de este componente poseen ayuda técnica garantizada y mejoras de seguridad oportunas.
+ restricted: contiene paquetes soportados por los desarrolladores de Ubuntu debido a su importancia, pero que no está disponible bajo ningún tipo de licencia libre para incluir en main. En este lugar se incluyen los paquetes tales como los controladores propietarios de algunas tarjetas gráficas, como los de ATI y NVIDIA. El nivel de la ayuda es más limitado que para main, puesto que los desarrolladores pueden no tener acceso al código fuente.
+ universe: contiene una amplia gama de programas, que pueden o no tener una licencia restringida, pero que no recibe apoyo por parte del equipo de Ubuntu sino por parte de la comunidad. Esto permite que los usuarios instalen toda clase de programas en el sistema guardándolos en un lugar aparte de los paquetes soportados: main y restricted.
+ multiverse: contiene los paquetes sin soporte debido a que no cumplen los requisitos de software libre.
+
+Lanzamientos y soporte 
+
+Las versiones no-LTS se liberan cada 6 meses, y Canonical proporciona soporte técnico y actualizaciones de seguridad durante 9 meses a partir de la versión 13.04 hacia adelante, anteriormente eran 18 meses de soporte para las versiones no-LTS. Las versiones LTS (Long Term Support) ofrecen un soporte técnico de 5 años para la versión de escritorio y servidor, a partir de la fecha del lanzamiento.
+
+Los nombres
+Desde sus inicios, cada uno de los ciclos de desarrollo de Ubuntu ha tenido un nombre en clave compuesto por el nombre de un animal y un epíteto que con la misma inicial (Precise Pangolin). Además, desde la versión 6.06 (Dapper Drake), estos nombres han seguido una progresión por orden alfabético.
+
+LTS: Soporte técnico extendido 
+Cada 2 años se libera una versión con soporte técnico extendido a la que se añade la terminación LTS.
+
+Esto significa que los lanzamientos LTS contarán con actualizaciones de seguridad de paquetes de software por un periodo de tiempo extendido. En versiones anteriores, era de 3 años en el entorno de escritorio y 5 años en el servidor por parte de Canonical LTD, a diferencia de los lanzamientos de cada 6 meses de Ubuntu que solo cuentan con 9 meses de soporte (anteriormente 18 meses). Desde la versión 12.04 LTS (Precise Pangolin), el soporte es de 5 años en las dos versiones (Escritorio y Servidor).
+
+La primera LTS fue la versión 6.06 de la cual se liberó una remasterización (la 6.06.1) para la edición de escritorio y dos remasterizaciones (6.06.1 y 6.06.2) para la edición servidor, ambas incluían actualizaciones de seguridad y corrección de errores. La segunda LTS fue la versión 8.04, de la cual ya va por la cuarta y última revisión de mantenimiento (la 8.04.4). La tercera LTS fue la versión 10.04, fue liberada en abril de 2010, y cuya última versión de mantenimiento fue la 10.04.4. La cuarta versión LTS que ha sido lanzada es la 12.04, que fue liberada en abril de 2012 y va en su versión 12.04.5, la quinta es Ubuntu 14.04 lts que cuyo cambio notable es su mejor adaptación a placas de video multiuniverse.
+
+Ubuntu 17.04 
+
+Ubuntu 17.04 (nombre clave Zesty Zapus - Ratoncito Entusiasta) fue lanzado el 13 de abril de 2017. Esta versión destaca principalmente por ser la última que incluye el entorno de escritorio Unity, ya que Mark Shuttleworth, líder del proyecto, anunció el abandono de dos de sus principales proyectos: Unity, en favor de GNOME, y Mir, en favor de su hasta entonces competidor, Wayland. Entre las mejoras más destacables están la actualización del núcleo a la versión 4.10 y la actualización de Mesa 17
+
+Ubuntu 17.10 
+
+Ubuntu 17.10 (nombre clave Artful Aardvark - Cerdo Hormiguero Habilidoso) fue lanzado el 19 de octubre de 2017. Tal y como se anunció, esta versión incluye la vuelta al entorno de escritorio GNOME y la adopción de Wayland. El núcleo se actualizó a la versión 4.13. Otro dato importante es que esta versión es la última en incluir soporte para las arquitecturas i386 de 32 bits.
+
+Ubuntu 18.04 
+thumb|Ubuntu 18.04 LTS Bionic Beaver
+
+Ubuntu 18.04 (nombre clave Bionic Beaver - Castor Biónico) es la versión LTS lanzada el 26 de abril de 2018, con soporte de cinco años. El 5 de febrero de 2018 se anunció que incluiría un nuevo tema creado por la comunidad de Ubuntu. Sin embargo, el nuevo tema no pudo terminarse y depurarse a tiempo, por lo que Ubuntu 18.04 LTS no lo incluye, y en su lugar mantiene el tema Ambiance desde 2010 como el tema por defecto. Aun así, el nuevo tema estará disponible como un paquete .snap.
+
+Ubuntu 18.04 LTS introdujo nuevas características como color emoji, una nueva aplicación  To-Do preinstalada en la instalación por defecto, y agrega la opción de "Instalación mínima" al instalador, la cual sólo instala un navegador web y herramientas de sistema. El servidor gráfico por defecto de Ubuntu 18.04 LTS es nuevamente el Xorg para más estabilidad y fiabilidad; sin embargo, Wayland aún se incluye como parte de la instalación por defecto.
+
+Esta versión utiliza el núcleo Linux versión 4.15, el cual incorpora un controlador de CPU para la interface cgroup v2, soporte para encriptación segura de memoria de AMD y un SATA Link Power Management mejorado.
+
+En una revisión de Ubuntu 18.04 LTS, Michael Larabel de Phoronix escribió:
+
+Respecto a la revisión para servidor, Larabel defiende que el instalador basado en texto recientemente desarrollado supone una mejora importante con respecto a los anteriores.
+
+Ubuntu 18.10 
+
+Ubuntu 18.10 (nombre clave Cosmic Cuttlefish - Sepia Cósmica) fue lanzado el 18 de octubre de 2018 y se anticipa que el fin de soporte llegará en julio de 2019. Ubuntu 18.10 incluye el núcleo actualizado a la versión 4.18. El otro gran paquete actualizado incluye OpenSSL 1.1.1 con soporte técnico extendido. Cabe destacar que 18.10 no ofrece actualización para i386 porque Ubuntu está considerando descontinuar el soporte para los procesadores de 32 bits.
+
+En el escritorio, las mayores actualizaciones incluyen GNOME 3.30, Firefox 63, y LibreOffice 6.1.2, y el tema nuevo Yaru. En el servidor, las nuevas actualizaciones incluyen: qemu, libvirt, dpdk, Open vSwitch, cloud-init, curtin, y s390x.
+
+Ubuntu 19.04 
+
+Ubuntu 19.04 (nombre clave Disco Dingo) fue lanzado el 18 de abril de 2019. Incorpora la versión Linux núcleo 5.0 que añade soporte para la tecnología de sincronización de pantalla AMD FreeSync, compatibilidad con el algoritmo de cifrado Adiantum, particiones swap en formato Btrfs, nuevos componentes de hardware y mejoras para el USB 3.2 y USB tipo C.
+
+La versión principal utiliza GNOME Shell Desktop 3.32 que incluye un nuevo conjunto de iconos, mayor rendimiento, animaciones más suaves, control de la intensidad de la luz nocturna y permisos de aplicación avanzados. El administrador de archivos por defecto es Nautilus 3.32 que ahora soporta archivos favoritos. También se ha añadido la versión 19 de los controladores de gráficos de código abierto Mesa. Además, el menú Grub permite ahora un modo de 'gráficos seguros', en caso de problemas con tarjetas gráficas o controladores de gráficos. Hay mejoras en la gestión de las máquinas virtuales de  VMWare que incluyen la integración de herramientas open-vm dentro de Ubuntu, lo que permite compartir archivos y portapapeles bidireccionales.
+
+Ubuntu 19.10 
+
+Ubuntu 19.10 (nombre clave Eoan Ermine) fue lanzado el 17 de octubre de 2019. Núcleo 5.3.
+
+Ubuntu 20.04 
+thumb|Ubuntu 18.04 LTS Bionic Beaver
+
+Ubuntu 20.04 (nombre clave Focal Fossa) fue lanzado el 23 de abril de 2020. Se trata de una versión LTS, con 5 años de soporte. Viene con el Núcleo 5.4, que permite acceder a ExFAT así como el nuevo WireGuard VPN. En comparación con la última LTS el tiempo de instalación se ha reducido considerablemente.
+
+Escritorio, teléfono, tableta, televisión 
+A partir del núcleo de Ubuntu y su interfaz Unity, Canonical decidió desarrollar versiones enfocadas a diferentes dispositivos, tales como televisores, teléfonos inteligentes y futuras versiones móviles para tabletas. Estas son las actuales y en desarrollo de versiones de Ubuntu mantenidas por Canonical, las cuales van dirigidas a diferentes ambientes y dispositivos.
+
+right|thumb|250px|Ubuntu Phone.
+ Ubuntu Desktop: Orientado para usuarios con computador de escritorio. Cuenta con miles de aplicaciones para entretenimiento y desarrollo.
+ Ubuntu Phone: Orientado para usuarios con teléfonos inteligentes. Cuenta con una interfaz por gestos para teléfonos y con la posibilidad de iniciar el escritorio de Ubuntu desde un dock con monitor externo. En el año 2017 Canonical decidió dejar el desarrollo y soporte de Ubuntu Touch, que pasó a quedar en manos de la comunidad a través de UBPorts.
+ Ubuntu Tablet: Orientado para usuarios con tabletas portátiles. Al igual que la versión para teléfonos, cuenta con una interfaz por gestos, aunque también puede utilizar una interfaz multitarea para utilizar dos aplicaciones al mismo tiempo, la posibilidad de usar cuentas multiusuario para proteger el contenido de cada usuario y por último cargar el escritorio de Ubuntu al conectar el dispositivo a un dock con teclado y mouse externo. Está en el mismo estado de desarrollo que Ubuntu Phone
+ Ubuntu TV: Orientado para usuarios con televisor inteligente. Provee de una interfaz simple e intuitiva para organizar contenidos y servicios para TV. Actualmente en desarrollo.
+ Ubuntu for Android: Orientada para usuarios con teléfono inteligente Android. Permite ejecutar el escritorio de Ubuntu al conectar el teléfono a un dock con monitor externo. También permite la sincronización de contactos y redes sociales con Android, y ejecución de aplicaciones Android desde el escritorio.
+ Ubuntu Server: Orientado a servidores. Permite instalar Ubuntu en un computador usado como servidor. No instala una interfaz gráfica de usuario predefinida.
+ Ubuntu Business Desktop Remix: Orientada al sector empresarial con varias herramientas instaladas de forma predeterminada, como: Adobe Flash Plugin, VMware View, OpenJDK 6 Java, Canonical Landscape, se han eliminado aplicaciones sociales y juegos. Ofrece soporte para Windows RDP 7.1 y el diagrama Microsoft Visio en LibreOffice Draw.
+
+Dex Station es un dock para móviles de Samsung que fue presentado el pasado mes de enero (2017). Permite convertir algunos de los teléfonos inteligentes de la conocida marca surcoreana en un ordenador de escritorio, siendo además una de las últimas grandes apuestas de las relacionadas con el concepto de la convergencia con Ubuntu.
+
+Fabricantes de hardware asociados 
+thumb|250px|Ubuntu en el Mobile World Congress 2012.
+En junio de 2010, después del lanzamiento de Ubuntu 10.04, Dell destaca el uso de Ubuntu como «social desde el principio, rápido inicio del sistema, simple y elegante, diseñado para internet y Ubuntu es seguro» entre otros puntos. Dell algunas veces ofrece netbooks y notebooks con Ubuntu desde el año 2007 hasta la actualidad.
+
+Durante 2010, los fabricantes System76 y ZaReason comienzan a vender computadores de escritorio, servidores, y netbooks/notebooks con Ubuntu 10.10.
+
+A partir de 2011, el fabricante Kogan Technologies comenzó a vender laptops con Ubuntu instalado.
+
+En febrero de 2011, Canonical publica una lista de las computadoras certificadas y probadas con Ubuntu, en aquella lista se encuentran fabricantes como Dell, Acer, HP, Lenovo, IBM, Toshiba, Asus, System76, Intel, Samsung, etc.
+
+En mayo de 2011, Canonical anuncia un plan de colaboración con el fabricante Lenovo en China que desde sus orígenes como división de portátiles IBM hasta ahora siempre ha ofrecido equipos con SuSE preinstalado. Con ello se certifican oficialmente 30 diferentes modelos de Thinkpad de Lenovo con Ubuntu, y más por venir en el resto del año. La lista también incluye el ThinkPad Edge 14.
+
+En junio de 2011, el fabricante Asus comienza a vender netbooks Eee PC con Ubuntu 10.10, siendo tres modelos los que se lanzan 1001PXD, 1011PX y 1015PX, y más modelos en lo que resta del año. Además Canonical se asocia con los desarrolladores Mobica y Pelagicore para implementar la tecnología de Ubuntu Core en dispositivos fijos de siguiente generación con conexión a Internet, como televisores inteligentes, set-top box, dispositivos digitales para el hogar, y en vehículos con dispositivos de entretenimiento.
+
+En octubre de 2011, el fabricante Dell en conjunto con Canonical, anuncian la llegada de computadoras con Ubuntu a China en 220 tiendas. Y el fabricante System76 anuncia que pasará todas sus computadoras a Ubuntu 11.10. Además Vodacom y Canonical se asocian para lanzar el Vodafone Webbook con Ubuntu en 1.200 tiendas de Sudáfrica.
+
+En noviembre de 2011, Canonical LTD y Asus se asocian para comenzar a vender portátiles Eee PC 1215P en 100 tiendas de Portugal. Remarcando la delgadez, ligereza y batería de 9 horas de duración.
+
+En diciembre de 2011, el fabricante CTL anuncia el lanzamiento del notebook MB40U con Ubuntu 11.10.
+
+En mayo de 2012, Dell anuncia el lanzamiento del ultrabook XPS13 con Ubuntu 12.04, pero orientado exclusivamente a desarrolladores. Además el fabricante System76 lanza tres notebooks con Ubuntu 12.04, los modelos son Lemur Ultra, Pangolin Performance y Gazelle Professional.
+
+En junio de 2012, Canonical y Dell anuncian la venta de laptops con Ubuntu en 850 tiendas en India, los laptops son Inspiron 14R y Inspiron 15R, con más modelos dentro del año. Y la disponibilidad de laptops Dell con Ubuntu en China aumentará a 350 tiendas. Además Asus lanza dos modelos Eee PC con Ubuntu instalado, los modelos son 1225C y 1015CX.
+
+En agosto de 2012, el fabricante ZaReason lanza el ultrabook UltraLap 430 con Ubuntu 12.04.
+
+En octubre de 2012, Asus lanza a la venta en Alemania el netbook F201E con Ubuntu. Además System76 lanza a la venta el computador de escritorio todo-en-uno Sable Complete con Ubuntu 12.10.
+
+En noviembre de 2012, Mark Shuttleworth anunció durante el Ubuntu Developer Summit la asociación con HP para lanzar computadores con Ubuntu en China. También informó que Ubuntu está siendo distribuido a través de los cuatro más grandes fabricantes; Dell, Lenovo, Asus y HP. Además System76 lanza el notebook Bonobo Extreme, enfocado en usuarios que exijan grandes requerimientos de hardware.
+
+En febrero de 2013, Dell actualiza su ultrabook XPS13 que viene con Ubuntu 12.04 LTS, con nueva alta resolución 1080p.
+
+En marzo de 2013, HP lanza el computador todo en uno HP Pavilion 20 con Ubuntu.
+
+En abril de 2013, Dell lanza el computador de escritorio Alienware X51 con Ubuntu, orientado para jugadores destacando a Steam y aplicaciones de Ubuntu. Dividiéndose entre 4 modelos desde los $599 hasta los $1049 dólares. También ese mes, HP en colaboración con Canonical, anuncia sus nuevos servidores HP Moonshot con procesador ARM y x86 con Ubuntu. Además, el fabricante alemán Cirrus7, anuncia el equipo de escritorio Nimbus con Ubuntu 12.04 LTS y Ubuntu 13.04 a elección para instalar.
+
+En junio de 2013, el fabricante System76 anuncia el ultrabook Galago UltraPro con la nueva tecnología Haswell de Intel, el cual será puesto a la venta desde julio con Ubuntu instalado.
+
+En julio de 2013, el fabricante israelí CompuLab anuncia el mini computador con procesador ARM Utilite con Ubuntu instalado, su pre-venta iniciaría en agosto de ese año a un precio de $99 dólares.
+
+Recepción y uso 
+En la LinuxWorld Conference and Expo celebrada en Londres, Ubuntu fue premiada con el «Reader Award» por la mejor distribución Linux de 2005.
+
+Una de las múltiples distribuciones Linux que usa Google en escritorio es una derivada de Ubuntu a la que denominaron Goobuntu (no confundir con Gobuntu).
+
+En agosto de 2006 una encuesta de 14 535 lectores de DesktopLinux.com le adjudicó a Ubuntu el 60,5 % de las instalaciones de Linux en computadoras de escritorio. Dicha encuesta se repitió en 2007 con 38 500 participantes y con Ubuntu como la distribución más popular con una cuota de uso del 60,5 %.
+
+Jamie Hyneman, copresentador de la serie de televisión Mythbusters (Cazadores de mitos), ha optado por Linux, específicamente con el ejemplo de Ubuntu, como alternativa al software propietario, citando el software inflado como un obstáculo importante en los sistemas operativos propietarios.
+
+También ha recibido buenas críticas en publicaciones en línea y escritas, y ha ganado el premio Bossie de InfoWorld, en 2007, por «Best Open Source Client OS».
+
+En 2007, el Ministerio de Educación y Ciencia de la República de Macedonia (hoy, Macedonia del Norte) desplegó más de 180 000 equipos de escritorio con Ubuntu preinstalado para su uso en las aulas, y animó a cada estudiante del país a usar computadoras con Ubuntu.
+
+Ubuntu también recibió evaluaciones negativas (por ejemplo, a principios de 2008, cuando la revista PCWorld criticó la falta de un gestor de efectos de escritorio integrado), aunque esto no les impidió nombrar a Ubuntu como la «mejor distribución Linux disponible a día de hoy».
+
+En octubre de 2008, Wikipedia migró sus servidores a Ubuntu Server.
+
+En enero de 2009, el periódico New York Times informó que Ubuntu tenía unos 10 millones de usuarios y en junio del mismo año se podía leer en ZDNet: «A nivel mundial, hay 13 millones de usuarios activos de Ubuntu, distribución la cual su uso crece a un ritmo mayor que cualquiera otra.»
+
+La policía francesa, desde 2009, está en proceso de instalar Ubuntu en 90 000 estaciones de trabajo, demostrando un 70 % de ahorro en el presupuesto de TI sin tener que reducir su capacidad.
+
+En abril de 2010, Chris Kenyon, vicepresidente de Canonical Ltd. estimó que había 12 millones de usuarios de Ubuntu.
+
+En octubre de 2011, Canonical anuncia que Ubuntu tiene un incremento activo de 20 millones de usuarios.
+
+Desde noviembre de 2011 hasta el primer trimestre de 2012, el Estado Plurinacional de Bolivia entregó 120 000 computadoras a maestros de estado, que fueron distribuidas en todo el país, en las que se instaló Ubuntu en una instalación compartida con Windows.
+
+En mayo de 2012, estudiantes universitarios en Pakistán recibieron 125 000 laptops con Ubuntu, gracias a la iniciativa One Laptop Per Child.
+
+Entre mayo y junio de 2012, importantes desarrolladores de videojuegos se interesan en publicar sus juegos a través del Centro de software de Ubuntu. Electronic Arts publica dos juegos inicialmente y Humble Indie Bundle V publica al menos ocho juegos, además Unity Technologies anuncia que la siguiente versión de su motor de juegos Unity 4 tendrá soporte para Ubuntu.
+
+A finales de junio de 2012, Jane Silber, CEO de Canonical, anuncia que la adopción de Ubuntu en India creció a un 160 % el año pasado.
+
+En junio de 2012, Valve anuncia el desarrollo de Steam para Ubuntu. Al portar el motor de videojuego Source y el cliente Steam a Linux, pero sin fecha de lanzamiento aún. Anunciando que el desempeño de los juegos será igual de bueno que en Windows.
+
+En septiembre de 2012, 220 000 computadoras con una derivada de Ubuntu llamada Guadalinex se repartieron entre 2 000 escuelas de Andalucía, España, y la empresa Isotrol junto Canonical preveían el soporte técnico.
+
+En febrero de 2013, Valve anuncia la primera versión estable de Steam para Ubuntu, con la posibilidad de descargarlo desde el Centro de software de Ubuntu.
+
+En marzo de 2013, Canonical en colaboración con el gobierno de China y el Ministerio de Tecnología de Información anuncian Ubuntu Kylin. Una versión de Ubuntu que estará disponible junto con la versión 13.04, enfocada en promover el uso de software libre en China y tener una arquitectura de referencia más flexible y abierta para el país.
+
+En abril de 2013, el editor de video profesional Lightworks, usado en varias películas comerciales anuncia su primera versión beta para Ubuntu.
+
+Ubuntu Carrier Advisory Group 
+En junio de 2013, Canonical anuncia el primer Grupo Asesor de Carrier (Carrier Advisory Group), el cual es conformado por las operadoras móviles Deutsche Telekom, Everything Everywhere, Korea Telecom, Telecom Italia, LG UPlus, Portugal Telecom, SK Telecom, PT Smartfren Telecom, China Unicom, Verizon Wireless, MTN Group, Telstra, T-Mobile USA y una operadora internacional española aún sin confirmar.
+
+El objetivo del grupo es para ser informados y participar activamente en el desarrollo de Ubuntu Phone en móviles, ver futuros planes con fabricantes de teléfonos móviles, y además de verse involucrados en el lanzamiento de nuevos dispositivos con Ubuntu.
+
+Ubuntu Developer Summit 
+thumb|250px|UDS, mayo de 2012 en Oakland, California. Con la presentación de inicio de jornada de Mark Shuttleworth.
+La cumbre de desarrolladores de Ubuntu (Ubuntu Developer Summit) cumple con la función específica de reunir a los principales desarrolladores de Ubuntu junto con los ingenieros de Canonical.
+
+Cumbre en línea
+Actualmente y a partir de marzo de 2013, la cumbre se realiza remotamente a través de Internet cada 3 meses y dura 2 días, se participa con reuniones por medio de Hangouts (Google+, Gmail chat) con videoconferencia abierta al público, chats, contenido en línea y listado de correos, los videos se publican en YouTube y las notas de las reuniones se publican en el sitio Launchpad y el sitio del UDS. Anteriormente el evento se realizaba cada 6 meses y duraba 5 días en un país pre-determinado para decidir e informar sobre el desarrollo de Ubuntu. En los días que dura el evento se realizan diferentes sesiones con respecto al enfoque que habrá durante los siguientes 3 meses con respecto a Ubuntu y proyectos adyacentes. En las sesiones se promueven las ideas, discusiones, planes, y colaboración.
+
+Las primeras cumbres no llevaban como nombre Ubuntu Developer Summit, solo eran catalogadas como «eventos de Ubuntu», siendo el primero realizado en Londres, Reino Unido (sede central de Canonical), en donde asistieron solamente los miembros del equipo de Canonical en abril de 2004. A partir de junio de 2006 fue catalogado como Ubuntu Developer Summit en París, Francia. El último UDS realizado en un lugar físico fue en Copenhague, Dinamarca, en octubre de 2012.
+
+Instalación 
+thumb|450px|Menú de instalación del Live CD.
+
+Requisitos 
+thumb|250px|Pantalla de inicio.
+Los requisitos mínimos «recomendados», teniendo en cuenta los efectos de escritorio, deberían permitir ejecutar una instalación de Ubuntu Server 12.04 LTS.
+ Procesador x86 a 700 MHz.
+ Memoria RAM de 512 Mb.
+ Disco Duro de 5 GB (swap incluida).
+ Tarjeta gráfica y monitor capaz de soportar una resolución de 1024x768.
+ Lector de DVD o puerto USB.
+ Conexión a Internet puede ser útil.
+
+Los efectos de escritorio, proporcionados por Compiz, se activan de forma predeterminada en las siguientes tarjetas gráficas:
+
+ Intel (i915 o superior, excepto GMA 500, nombre en clave «Poulsbo»)
+ NVidia (con su controlador propietario o el controlar abierto incorporado Nouveau)
+ ATI (a partir del modelo Radeon HD 2000 puede ser necesario el controlador propietario fglrx)
+
+Para una instalación óptima, y sobre todo si se dispone de más de 3 GiB de RAM, existe también una versión de Ubuntu para sistemas de 64 bits.
+
+Imágenes ISO oficiales 
+Las imágenes ISO de Ubuntu se pueden descargar desde el sitio oficial, para elegir la versión Desktop o Server. También mediante la compra directa en el sitio Ubuntu Shop con discos y pendrives con Ubuntu instalado, o mediante los equipos de distribución LoCoTeam de cada país que distribuye solo las versiones LTS.
+
+Además de la descarga de imágenes ISO por descarga directa, también se puede descargar a través de redes P2P como BitTorrent, reduciendo así la carga en los servidores. Para ser grabados en DVD o unidades portátiles USB.
+
+Otras instalaciones 
+ Wubi: Un instalador libre y oficial de Ubuntu para sistemas operativos Windows, cuyo objetivo es permitir que los usuarios puedan instalar Ubuntu dentro de Windows sin formatear o perder información. A partir de Ubuntu 13.04, se abandonó el soporte para Wubi y no sería compatible desde esa versión en adelante, esto también se suma a que en la versión anterior se había perdido compatibilidad con Windows 8.
+ LiveUSB: Una herramienta que viene de serie y que permite la creación de un LiveUSB de la distribución, de modo que se pueda cargar el sistema desde una memoria USB permitiendo guardar datos y configuraciones en el mismo, pero con la limitación de que solo funciona en una computadora cuya placa base soporte el arranque desde un medio USB.
+ LiveDVD personalizado: Existen herramientas como Reconstructor, UCK o remastersys que permiten a cualquiera crear fácilmente un LiveDVD personalizado de una instalación existente de Ubuntu.
+ CD de instalación mediante red: Se trata de una imagen ISO de apenas unos 10 MB que contiene los paquetes necesarios para descargar el sistema base desde los repositorios oficiales de Ubuntu y posteriormente elegir el escritorio deseado.
+
+Usuarios
+Ubuntu crea durante la instalación un usuario básico, que debe emplear sudo cuando necesite ser superusuario.
+
+Actualización tras instalación
+Una nueva versión de Ubuntu es distribuida cada seis meses. El Gestor de actualizaciones del Sistema de Administración de Ubuntu informa al usuario si hay una nueva versión para descargar y, si la hay, mostrará una caja en el borde superior de la ventana diciendo que está disponible. La actualización es incremental, es decir, solo se puede actualizar la versión de Ubuntu a la última lanzada si se está ejecutando la última versión previa a la actual. Si posee una versión aún anterior deberá actualizar su versión a la siguiente de aquella y así sucesivamente hasta que esté ejecutando la versión más reciente. Por ejemplo, los usuarios de la versión 7.10 deberían actualizar primero a la versión 8.04 antes de actualizar a la versión 8.10. Una excepción a esta regla son las versiones LTS (Long Term Support/Soporte de largo plazo). Es posible actualizar directamente desde la versión LTS previa a la actual.
+
+Ubuntu Certified Professional 
+En el año 2006 Canonical Ltd. y Linux Professional Institute firman un acuerdo para proveer un examen específico de Ubuntu, Ubuntu Certified Professional que permita certificar los conocimientos de los profesionales de Ubuntu.
+
+Los requisitos para ser Ubuntu Certified Professional son:
+ Tener el nivel LPIC-1 (acredita conocimientos Linux independientes de la distribución)
+ Realizar el examen específico de Ubuntu (LPI 199)
+
+Los exámenes de certificación habilitan a los estudiantes para:
+
+ Instalación y configuración de sistemas Ubuntu.
+ Trabajo productivo en la línea de comandos de Linux.
+ Configurar la conectividad de red y de los principales servicios de red.
+ Realizar tareas de administración de rutina: arrancar y apagar el sistema, administrar cuentas de usuario y sistemas de archivos, y mantener la seguridad del sistema.
+
+Variantes 
+thumb|160px|right|Árbol de la familia de Ubuntu
+
+Existen diversas variantes de Ubuntu mantenidas por la comunidad pero reconocidas por la Fundación Ubuntu., las cuales poseen lanzamientos simultáneos con Ubuntu. Las más significativas son:
+
+ Kubuntu - Utiliza el entorno de escritorio KDE.
+ Xubuntu - Utiliza el entorno de escritorio Xfce.
+ Lubuntu - Utiliza el entorno de escritorio LXDE.
+ Ubuntu MATE - Utiliza el entorno de escritorio MATE.
+ Ubuntu GNOME - Utiliza el entorno de escritorio GNOME.
+ Edubuntu - Diseñado para entornos escolares.
+ Ubuntu Studio - Diseñado para el trabajo con multimedia.
+ Ubuntu Budgie - Utiliza el entorno de escritorio Budgie.
+ Mythbuntu - Diseñado para crear un sistema de PC con MythTV. Discontinuada.
+ Elbuntu - Utiliza el entorno de escritorio Enlightenment. Anunciado en 2006, pero discontinuado al poco tiempo.
+
+Anécdotas
+
+«Ubuntu es software libre» 
+Aunque las carátulas se imprimen en inglés, a partir de la versión 5.10 y hasta la 9.10, se incluyó el texto Ubuntu es software libre, usando la palabra en español «libre», para eliminar la ambigüedad del término free (del inglés free software) que puede significar tanto «libre» como «gratis».
+
+La existencia de software no libre en los repositorios de Ubuntu (concretamente en los componentes restricted y multiverse), además de firmware no libre en el núcleo Linux dio lugar a derivaciones no oficiales y rigurosamente libres de software no libre. Como respuesta a esto, el 10 de julio de 2007 se anunció Gobuntu, una derivación oficial de Ubuntu caracterizada por «una visión ultra-ortodoxa de licenciamiento: sin firmwares, controladores, imágenes realizadas previamente, sonidos, aplicaciones, u otro contenido que no incluya completamente las fuentes y venga con todos los derechos de modificación, remezclado y redistribución».
+
+Sin embargo, después del lanzamiento de Hardy Heron, el desarrollo de Gobuntu quedó descontinuado y se anunció que pasaría a funcionar como una opción de instalación de «solo software libre» en Ubuntu y no una distribución independiente.
+
+«Ubuntu» es una palabra conocida por muchos como software libre, pero es mucho más que eso. Tiene un trasfondo que es muy interesante: «yo soy porque nosotros somos». Es una regla ética sudafricana enfocada en la lealtad de las personas y las relaciones entre estas. La palabra proviene de las lenguas zulú y xhosa. Ubuntu es visto como un concepto africano tradicional.
+
+Tras la senda de Apple y Microsoft 
+Mark Shuttleworth estima que su referencia es Apple aunque su competencia es Microsoft. En declaraciones hechas al diario argentino La Nación el 31 de octubre de 2008, manifiesta que «Apple es la compañía por vencer si es que queremos que los usuarios disfruten de una experiencia de usuario realmente atractiva. No hay que mirar a Microsoft por su participación de mercado y por ser el estándar, sino a Apple porque son muy buenos en lo que hacen, sobre todo en algo que históricamente la comunidad del software libre no hizo bien, que es diseñar una experiencia de usuario atractiva».
+
+Corrección del primer bug 
+
+El 20 de agosto de 2004 Mark Shuttleworth creaba el primer bug registrado en Ubuntu, en ese momento faltaban dos meses para hacer pública su primera versión. El error se transformó en todo un referente para los usuarios de los sistemas GNU/Linux: «Microsoft posee la mayoría de usuarios en el Escritorio».
+
+Con casi diez años trascurridos, el 30 de mayo de 2013, Mark Shuttleworth determinó cerrar este bug y posteriormente concedió las siguientes declaraciones en la página relativa al fallo:
+
+El fundador de la distribución, dentro de los argumentos que otorga para la resolución del error, cita un artículo del portal ZDNet que mostraba el constante descenso de los usuarios de Microsoft.
+
+Véase también 
+
+ Anexo:Versiones de Ubuntu
+ Distribuciones basadas en Ubuntu
+ Endless OS
+
+Referencias
+
+Bibliografía
+
+Enlaces externos 
+
+ Wiki oficial de Ubuntu (en inglés)
+ Ubuntu online en OnWorks
+
+Categoría:Distribuciones Linux
+Categoría:Distribuciones basadas en Debian GNU/Linux
+Categoría:Live CD
+Categoría:Sistemas operativos PowerPc
+Categoría:Software de 2004
+Categoría:Ubuntu

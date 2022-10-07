@@ -1,0 +1,29 @@
+OpenPHPNuke (OPN) es un sistema de gestión de contenidos Web open source, encapsulado en un sistema base eficiente y estable, al cual se le pueden adaptar las funciones y los módulos que sean necesarios y se deseen. Existe una gran variedad de módulos que sobrepasan la cifra de cien en disponibilidad.
+
+Características 
+
+En el desarrollo se han utilizado técnicas modernas para proporcionar un sistema seguro y estable. Un usuario y una herencia de permisos similar a la del sistema operativo Unix, herramientas extensas y de gran alcance para la administración eficiente y rápida del sitio. Desde que es distribuido como OpenSource, el código fuente está disponible para todo el mundo, lo que facilita independencia. Los usuarios comerciales pueden recibir soporte y características recién desarrolladas.
+
+Con su clara interfaz, los usuarios cómodamente interactúan en su navegador web; la administración del sitio será muy fácil, sin tener que programar en lo más mínimo. Las interfaces bien documentadas posibilitan la integración de sus aplicaciones en OPN. Está desarrollado por un equipo seriamente cooperativo de programadores. Un equipo de “betatesters” fue incluido en el proceso de desarrollo en las primeras etapas.
+
+Está siendo mantenido y desarrollado en un esfuerzo continuo, a fin de que ideas innovadoras se desarrollen en el futuro. Adicionalmente, ofrece funciones específicas de actualización que son completamente nuevas para este tipo de CMS.
+
+Origen 
+
+Las raíces se encuentran en MyPHPNuke, que a su vez se creó a partir de PHPNuke 4. Esta nueva versión, aparte de corregir fallos, reescribe parte del código y mejora el rendimiento general, posee nuevas funcionalidades como un módulo de bolsa de trabajo.
+
+Hoy, del código original solamente sigue habiendo la frase Nuke. La mayor parte del código del sistema base se reescribió por completo, diseñado para un framework. Se desarrollaron algunos estándares de programación y el código HTML se cambió para cumplir los estándares actuales; el contenido y la disposición están separados, y todos los módulos son válidos XHTML. No hay advertencias suprimidas de PHP como se encuentran en otros sistemas; a estos se les llamas bugs y se eliminan, dando como resultado una funcionamiento y velocidad superiores.
+
+Entre diciembre del 2001 y septiembre del 2003, un equipo de 3 programadores trabajó hasta publicar la primera versión, apoyados por aproximadamente 30 betatesters. Al contrario de otros sistemas, el beta no fue publicado, para crear un ambiente tranquilo sobre la calidad del código.
+
+Enlaces externos 
+
+ International OpenPHPNuke Community
+ German OpenPHPNuke Community
+ OpenPHPNuke Demo Page
+ OpenPHPNuke Themes Center
+ OpenPHPNuke Bug Center
+ OpenPHPNuke Documentations Project
+
+Categoría:Sistemas de administración de contenidos libres
+Categoría:PHP

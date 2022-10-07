@@ -1,0 +1,50 @@
+JACK Audio Connection Kit o simplemente JACK es un servidor de sonido o demonio que provee conexión de baja latencia entre aplicaciones tipo jackified, para audio y datos MIDI. Fue creado por Paul Davis y otros. El servidor está licenciado bajo GNU GPL, mientras que las bibliotecas están licenciadas bajo GNU LGPL.
+
+Aplicaciones 
+thumb|Pestaña de audio de QjackCtl.
+thumb|QjackCtl gestionando JACK.
+
+Algunos programas que funcionan con JACK:
+
+ Aqualung - un reproductor de música basado en GTK+
+ QjackCtl - herramienta basada en Qt para controlar JACK
+ Ardour - a free digital audio workstation program for Linux, macOS and Windows
+ Baudline - a signal analysis tool
+ SuperCollider - a real-time audio programming language
+ ChucK - a real-time audio programming language
+ CheeseTracker - an Impulse Tracker clone
+ Rosegarden - a free digital audio workstation program for Linux
+ Freqtweak - a digital EQ
+ Hydrogen - an advanced drum machine
+ Music on Console - un reproductor de audio escrito en ncurses
+ Music Player Daemon
+ MusE - a Qt-based MIDI/audio sequencer
+ Pure data - a graphical programming language for multimedia
+ XMMS - a free music player for X11
+ XMMS2 - client/server based redesign of XMMS
+ ZynAddSubFX - an opensource software synthesizer
+
+Hoy en día, son muchas las aplicaciones con soporte para JACK; la mayoría de reproductores de video conocidos soportan JACK como salida de audio, y casi todas las aplicaciones de audio de juego para Linux soportan JACK.
+
+Bibliotecas 
+ Allegro - a game programming library
+ bio2jack - a library that allows for simple porting of blocked I/O (bio) OSS/ALSA audio applications to JACK
+ libjackasyn - a library that converts programs written for the OSS system into JACK-aware applications
+
+Véase también 
+
+ Advanced Linux Sound Architecture (ALSA)
+ LADSPA
+ Software de audio libre
+ PulseAudio
+ aRts
+
+Referencias
+
+Enlaces externos 
+ Sitio web oficial
+ JACK Design Documentation
+
+Categoría:Software de audio libre
+Categoría:Bibliotecas de audio
+Categoría:Acrónimos de informática

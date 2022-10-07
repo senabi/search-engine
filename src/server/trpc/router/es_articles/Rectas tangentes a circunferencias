@@ -1,0 +1,191 @@
+En la geometría del plano euclídeo, una línea recta tangente a una circunferencia es aquella que toca la circunferencia exactamente en un punto, sin entrar nunca en su interior. Las líneas rectas tangentes a circunferencias dan lugar a numerosos teoremas y juegan un papel importante en muchas construcciones geométricas y demostraciones. Dado que la recta tangente a una circunferencia en un punto P es perpendicular al radio que incide en ese punto, los teoremas que involucran líneas tangentes a menudo también contienen rectas radiales y circunferencias ortogonales.
+
+Rectas tangentes a una circunferencia 
+Una línea recta t tangente a una circunferencia C la interseca en un solo punto T. A modo de comparación, las rectas secantes se cruzan con una circunferencia en dos puntos, mientras que otras rectas pueden no cruzarla. Esta propiedad de las rectas tangentes se conserva bajo muchas transformaciones geométricas, como el escalado, la rotación, las traslaciones, las inversiones y las proyecciones cartográficas. En lenguaje técnico, estas transformaciones no cambian la estructura de incidencia de la recta y de la circunferencia tangentes, aunque ambas puedan ser deformadas. 
+
+El radio de una circunferencia es perpendicular a la recta tangente a través de su punto final en la circunferencia. Por el contrario, la perpendicular a un radio a través del mismo punto final es una recta tangente. La figura geométrica resultante de la circunferencia y la recta tangente presenta simetría especular respecto a un eje coincidente con el radio. 
+mini| Según el teorema de la potencia de un punto, el producto de las longitudes PM·PN para cualquier rayo PMN es igual al cuadrado de PT, la longitud del segmento de la recta tangente marcado en color rojo 
+No se puede dibujar una recta tangente a través de un punto dentro de un círculo, ya que dicha recta debe ser una secante. Sin embargo, se pueden dibujar dos rectas tangentes a una circunferencia desde un punto P situado fuera de la circunferencia. La figura geométrica de una circunferencia y ambas tangentes también posee una simetría de reflexión sobre el eje radial que une P al punto O, centro de la circunferencia. Por lo tanto, las longitudes de los segmentos desde P hasta los dos puntos tangentes son iguales. Según el teorema de la tangente-secante, el cuadrado de esta longitud tangente es igual a la potencia del punto P respecto a la circunferencia C. Esta potencia es igual al producto de distancias desde P a cada uno de los dos puntos de intersección de la circunferencia con una recta secante que pasa por P. 
+mini| El ángulo θ entre una cuerda y una tangente es la mitad del arco que cubre la cuerda 
+La recta tangente t y el punto de tangencia T tienen una relación conjugada entre sí, que se ha generalizado en la idea de puntos polares y líneas polares. La misma relación recíproca existe entre un punto P fuera de la circunferencia y la recta secante que une sus dos puntos de tangencia. 
+
+Si un punto P es exterior a una circunferencia con centro O, y si las rectas tangentes desde P tocan el círculo en los puntos T y S, entonces los ángulos ∠TPS y ∠TOS son suplementarios (suman 180°). 
+
+Si se traza una cuerda TM desde el punto de tangencia T del punto exterior P, y el ángulo ∠PTM ≤ 90°, entonces el ángulo ∠PTM = (1/2) ∠TOM.
+
+Construcciones con regla y compás 
+Es relativamente sencillo construir una recta t tangente a un punto T de una circunferencia 
+
+ Se traza una recta a desde O, el centro de la circunferencia, a través del punto T; 
+ La recta t es la perpendicular a la recta a. 
+
+mini| Construcción de una tangente a un círculo dado (negro) desde un punto exterior dado (P) 
+El teorema de Tales se puede usar para construir las líneas tangentes a un punto P externo al círculo C: 
+
+ Se dibuja una circunferencia centrada en el punto medio del segmento OP, que tiene un diámetro OP, donde O es nuevamente el centro de C. 
+ Los puntos de intersección T1 y T2 de la circunferencia C y la nueva circunferencia son los puntos tangentes para las rectas que pasan por P, según el siguiente argumento. 
+
+Los segmentos de línea OT1 y OT2 son radios de la circunferencia C. Como ambos están inscritos en una semicircunferencia, son perpendiculares a los segmentos PT1 y PT2 respectivamente. Pero solo una recta tangente es perpendicular al radio. Por lo tanto, las dos rectas desde P que pasan a través de T1 y T2 son tangentes a la circunferencia C. 
+
+Otro método para construir las rectas tangentes desde un punto P externo a la circunferencia usando solo una regla: 
+
+ Dibujar tres rectas diferentes a través del punto P dado que intersequen la circunferencia dos veces. 
+ Sean  los seis puntos de intersección, con la misma letra correspondiente a la misma recta y el índice 1 correspondiente al punto más cercano a P. 
+ Sea D el punto donde las rectas  y  se cortan, 
+ Del mismo modo, se determina E para las rectas  y . 
+ Trazar una recta a través de D y E. 
+ Esta recta se encuentra con la circunferencia en dos puntos, F y G. 
+ Las tangentes son las líneas PF y PG.
+
+Polígonos tangenciales 
+Un polígono tangencial es aquel que tiene sus lados tangentes a una circunferencia, llamada incírculo. Cada triángulo es un polígono tangencial, como lo es cada polígono regular de cualquier número de lados. Además, para cada número de lados de un polígono existe un número infinito de polígonos tangenciales no congruentes.
+
+Teorema del cuadrilátero tangente y las circunferencias inscritas 
+Un cuadrilátero tangencial ABCD es una figura cerrada de cuatro lados rectos que son tangentes a una circunferencia dada C. De manera equivalente, la circunferencia C está inscrita en el cuadrilátero ABCD. Según el teorema de Pitot, las sumas de los lados opuestos de cualquiera de estos cuadriláteros son iguales, es decir, 
+
+ 
+
+mini| Cuadrilátero tangencial 
+Esta conclusión se deriva de la igualdad de los segmentos tangentes de los cuatro vértices del cuadrilátero. Sean los puntos tangentes P (en el segmento AB), Q (en el segmento BC), R (en el segmento CD) y S (en el segmento DA). Los segmentos tangentes simétricos alrededor de cada punto de ABCD son iguales, por ejemplo, BP = BQ = b, CQ = CR = c, DR = DS = d, y AS = AP = a. Pero cada lado del cuadrilátero está compuesto por dos segmentos tangentes 
+
+ 
+
+demostrando el teorema. 
+
+Lo contrario también es cierto: se puede inscribir una circunferencia en cada cuadrilátero en el que las longitudes de los lados opuestos suman el mismo valor. 
+
+Este teorema y su recíproco tienen varios usos. Por ejemplo, muestran de inmediato que ningún rectángulo puede tener un círculo inscrito a menos que sea un cuadrado, y que cada rombo tiene un círculo inscrito, mientras que un paralelogramo general no.
+
+Rectas tangentes a dos circunferencias 
+mini| El centro homotético S externo (arriba) e interno (abajo) de las dos circunferencias
+
+Para dos circunferencias, generalmente hay cuatro rectas distintas que son tangentes a ambas (bitangentes), si las dos circunferencias están fuera una de la otra, pero en casos degenerados puede haber cualquier número entre cero y cuatro rectas bitangentes, casos que se abordan más adelante. Para el caso de circunferencias separadas, existen dos tangentes externas que dejan ambas circunferencias del mismo lado; y en el caso de las dos tangentes internas, las circunferencias caen en lados opuestos de cada recta. Las rectas tangentes externas se cruzan en el centro de homotecia externo, mientras que las rectas tangentes internas se cruzan en el centro de homotecia interno. Los centros de homotecia externo e interno se encuentran situados en la recta de centros (la recta que conecta los centros de las dos circunferencias). El externo se halla más cerca del centro de la circunferencia más pequeña, mientras que el centro interno se localiza en el segmento entre las dos circunferencias. Si las dos circunferencias tienen el mismo radio, todavía hay cuatro bitangentes, pero las tangentes externas son paralelas y no hay un centro externo en el plano afín; en el plano proyectivo, el centro homotético externo se encuentra en el punto del infinito correspondiente a la pendiente de estas rectas.
+
+Tangente exterior 
+mini|Encontrar la tangente exterior. Tangentes exteriores de dos circunferencias
+
+La línea recta roja que une los puntos  y  es la tangente externa entre las dos circunferencias. Dados los puntos , , los puntos ,  se pueden calcular fácilmente con ayuda del ángulo : 
+
+ 
+
+Aquí R y r indican los radios de las dos circunferencias y el ángulo  se puede calcular usando trigonometría básica. Dado que , con  y
+
+Tangente interior 
+mini|Tangente interior. Las rectas tangentes externas pasan a través del centro de homotecia interno
+
+Una tangente interna es aquella que cruza el segmento que une los centros de las dos circunferencias. Téngase en cuenta que la tangente interna no se definirá para los casos en que las dos circunferencias se corten.
+
+Construcción 
+Las rectas bitangentes pueden determinarse construyendo los centros de homotecia, como se describe en ese artículo, y luego trazando desde estos centros las tangentes a una de las dos circunferencias por uno de los métodos descritos anteriormente. Las rectas resultantes también serán tangentes a la otra circunferencia. Alternativamente, las tangentes y los puntos de tangencia se pueden determinar más directamente, como se detalla a continuación. Téngase en cuenta que en casos degenerados estas construcciones quedan invalidadas. Para simplificar la exposición, esta circunstancia no se trata en esta sección, pero los métodos de construcción pueden funcionar en casos límite (como por ejemplo, dos circunferencias tangentes en un punto).
+
+Geometría sintética 
+Sean O1 y O2 los centros de las dos circunferencias, C1 y C2 y sean r1 y r2 sus radios, con r1 > r 2; en otras palabras, la circunferencia C1 se define como la mayor de las dos. Se pueden usar dos métodos diferentes para construir las rectas tangentes externas e internas. 
+
+ Tangentes externas 
+
+mini| Construcción de la tangente exterior
+
+Se dibuja una nueva circunferencia C3 de radio r1 − r2 centrada en O1. Usando el método anterior, se dibujan dos rectas desde O2 que son tangentes a esta nueva circunferencia. Estas rectas son paralelas a las tangentes buscadas, porque la situación corresponde a reducir ambas circunferencias C1 y C2 en una cantidad constante r2, lo que convierte a C2 a un punto. Se pueden dibujar dos rectas radiales desde el centro O1 a través de los puntos tangentes en C3, que se cruzan con C1 en los puntos tangentes buscados. Las líneas rectas tangentes externas son las líneas perpendiculares a estas líneas radiales en esos puntos tangentes, que pueden construirse como se describió anteriormente. 
+
+ Tangentes internas 
+
+mini| Construcción de la tangente interior
+
+Se dibuja una nueva circunferencia C3 de radio r1 + r2 centrada en O1. Usando el método anterior, se dibujan dos líneas de O2 que son tangentes a esta nueva circunferencia. Estas rectas son paralelas a las tangentes buscadas, porque la situación corresponde a reducir C2 a un punto, mientras que se expande C1 en una cantidad constante, r2. Se pueden dibujar dos líneas rectas radiales desde el centro O1 a través de los puntos de tangencia en C3, que se cruzan con C1 en los puntos de tangencia buscados. Las tangentes internas son las rectas perpendiculares a estas rectas radiales en los puntos de tangencia, que pueden construirse como se describió anteriormente.
+
+Tangentes comunes a dos cónicas 
+
+Si en vez de dos circunferencias tenemos dos cónicas cualesquiera no degeneradas, aún podemos dar una construcción de las tangentes comunes a ambas. El método se basa en que los polos de las tangentes a una cónica respecto de otra forman una cónica (lo que se puede probar analíticamente).
+Dadas dos cónicas c1 y c2 tomamos 5 puntos en c1 y tazamos sus tangentes en ellos a c1. Obtenemos los polos de estas rectas respecto a la cónica c2 y dibujamos la cónica que determinan estos 5 puntos. La intersección de la cónica obtenida con c2 dan los 4 puntos de tangencia buscados ( 2 tangentes exteriores y 2 interiores)
+vínculo=link=Special:FilePath/Tangentes_comunes_a_dos_cónicas.PNG|alt=|miniaturadeimagen|Tangentes comunes a dos cónicas
+Recíprocamente, el problema de hallar la homología que transforma una cónica en otra dada, es equivalente a saber hallar las tangentes comunes a ambas cónicas.
+vínculo=link=Special:FilePath/Conocida_homología_que_conecta_dos_cónicas,_se_conoce_su_tangente_común.PNG|alt=|miniaturadeimagen|Conocida homología que conecta dos cónicas, se conoce su tangente común
+vínculo=link=Special:FilePath/Conocidas_tangentes_comunes_a_dos_cónicas,_se_conoce_la_homología_que_las_conecta.PNG|alt=|miniaturadeimagen|Conocidas tangentes comunes a dos cónicas, se conoce la homología que las conecta
+
+Geometría analítica 
+Sean las circunferencias de centros c1 = (x1, y1) y c2 = (x2, y2) con radios r1 y r2 respectivamente. Expresando una recta por la ecuación  con la normalización a2 + b2 = 1, entonces una recta bitangente satisface: 
+
+ ax1 + by1 + c = r1 y 
+ ax2 + by2 + c = r2. 
+
+Resolviendo para  restando la primera ecuación de la segunda, se obtiene 
+
+ aΔx + bΔy = Δr 
+
+donde Δx = x2 − x1, Δy = y2 − y1; y además Δr = r2 − r1. 
+
+Si  es la distancia de c1 a c2 que se puede normalizar haciendo X = Δx/d, Y = Δy/d y R = Δr/d para simplificar las ecuaciones, produciendo las expresiones aX + bY = R y a2 + b2 = 1, que se resuelven para obtener dos soluciones (k = ±1) para las dos tangentes externas: 
+
+ a = RX − kY√(1 − R2)
+ b = RY + kX√(1 − R2)
+ c = r1 − (ax1 + by1)
+
+Geométricamente, esto corresponde a calcular el ángulo formado por las tangentes y la recta de centros, y luego usarlo para rotar la ecuación de la recta de centros para generar la ecuación de la tangente. El ángulo se calcula mediante las funciones trigonométricas de un triángulo rectángulo cuyos vértices son el centro de homotecia (externo), el centro de una circunferencia y un punto tangente; la hipotenusa se encuentra en la tangente, el radio es opuesto al ángulo y el lado adyacente se halla en la recta de centros. 
+
+(X, Y) es el vector unitario que apunta de c1 a c2, mientras que R es , siendo  el ángulo entre la recta de centros y una tangente. Entonces,  es  (dependiendo del signo de , equivalente a la dirección de rotación), y las ecuaciones anteriores son rotación de (X, Y) por  usando la matriz de rotación: 
+
+  
+ k = 1 es la tangente a la derecha de las circunferencias mirando de c1 a c2. 
+ k = −1 es la tangente a la derecha de las circunferencias mirando de c2 a c1.
+
+Lo anterior supone que cada circunferencia tiene un radio positivo. Si r1 es positivo y r2 negativo, entonces c1 se ubicará a la izquierda de cada recta y c2 a la derecha, y las dos tangentes se cruzarán. De esta forma se obtienen las cuatro soluciones. El cambio de signos de ambos radios equivale a cambiar k = 1 y k = −1.
+
+Vectores 
+mini| Encontrar la tangente exterior. Tangentes a las circunferencias
+
+En general, los puntos de tangencia t1 y t2 para las cuatro rectas tangentes a dos circunferencias con centros v1 y v2 y radios r1 y r2 se obtienen resolviendo las ecuaciones simultáneas: 
+
+ 
+
+Estas ecuaciones expresan que la recta tangente, que es paralela a  es perpendicular a los radios, y que los puntos tangentes se encuentran en sus respectivos círculos. 
+
+Estas son cuatro ecuaciones cuadráticas en dos variables vectoriales bidimensionales, y en general la posición tendrá cuatro pares de soluciones.
+
+Casos degenerados 
+Dos circunferencias distintas pueden tener entre cero y cuatro rectas bitangentes, según su configuración. Los casos pueden clasificarse en términos de los radios y de la distancia entre los centros. Si se tiene en cuenta la multiplicidad (contando una tangente común dos veces) hay cero, dos o cuatro rectas bitangentes, que se pueden generalizar a circunferencias con radio negativo o cero. Los casos degenerados y las multiplicidades también se pueden entender en términos de límites de otras configuraciones, por ejemplo, un límite de dos circunferencias que casi se tocan, y se mueve una para que se toquen, o un circunferencia con un radio pequeño que se reduce a una circunferencia de radio cero. 
+
+ Si las circunferencias están una fuera de la otra (), que es una posición general, hay cuatro bitangentes. 
+ Si se tocan externamente en un punto (), es decir, tienen un punto de tangencia externa, entonces poseen dos bitangentes externas y una bitangente interna, es decir, la recta del punto de tangencia común. Esta tangente común tiene multiplicidad dos, ya que separa las circunferencias (una a la izquierda, otra a la derecha) para cualquier orientación (dirección). 
+ Si las dos circunferencias se cruzan en dos puntos (), entonces poseen dos bitangentes externas, pero no tienen bitangentes internas (no se pueden separar, porque se cruzan, y por lo tanto no hay bitangentes internas). 
+ Si las dos circunferencias se tocan internamente en un punto (), es decir, tienen un punto de tangencia interna, entonces no tienen bitangentes internas y una bitangente externa, es decir, la tangente común, que tiene multiplicidad dos, como se indicó anteriormente. 
+ Si una circunferencias está completamente dentro de la otra () entonces no tienen bitangentes, ya que una tangente a la circunferencia exterior no se cruza con la circunferencia interna, o una línea tangente a la circunferencia interna es una recta secante a la circunferencia externa. 
+
+Finalmente, si las dos circunferencias son idénticas, cualquier tangente es una tangente común y, por lo tanto, bitangente (externa), por lo que existe un número infinito de bitangentes. 
+
+Además, la noción de rectas bitangentes se puede extender a circunferencias con radio negativo (el mismo lugar geométrico de puntos,  pero considerado "de adentro hacia afuera"), en cuyo caso si los radios tienen signo opuesto (un círculo tiene radio negativo y el otro tiene radio positivo), los centros homotéticos externos e internos y las bitangentes externas e internas se cambian, mientras que si los radios tienen el mismo signo (ambos radios positivos o ambos radios negativos) "externo" e "interno" tienen el mismo sentido habitual (cambiar un signo los cambia, por lo que cambiar ambos los vuelve a cambiar). 
+
+Las bitangentes también se pueden definir cuando una o ambas circunferencias tienen radio cero. En este caso, la circunferencia con radio cero es un punto doble y, por lo tanto, cualquier recta que lo cruce es tangente con multiplicidad dos, y por lo tanto se considera "tangente". Si una circunferencia tiene radio cero, una bitangente es simplemente una recta tangente a la circunferencia que pasa por el punto, y se cuenta con la multiplicidad dos. Si ambas circunferencias tienen radio cero, entonces la bitangente es la recta que definen, que cuenta con la multiplicidad cuatro. 
+
+Téngase en cuenta que en estos casos degenerados el centro homotético externo e interno generalmente todavía existe (el centro externo está en el infinito si los radios son iguales), excepto si las circunferencias coinciden, en cuyo caso el centro externo no está definido, o si ambas circunferencias tienen radio cero, en cuyo caso el centro interno no está definido.
+
+Aplicaciones
+
+Problema de la correa 
+Las líneas tangentes internas y externas son útiles para resolver el problema de la correa, que consiste en calcular la longitud de una correa necesaria para ajustarse exactamente entre dos poleas. Si se considera que la correa es una línea matemática de grosor insignificante, y si se supone que ambas poleas se encuentran exactamente en el mismo plano, el problema consiste en calcular la suma de las longitudes de los segmentos de recta tangente con las longitudes de los arcos circulares subtendidos por la correa. Si la correa se enrolla alrededor de las ruedas de forma que se cruza entre ellas, entonces se deben calcular los segmentos de las tangentes interiores. Por el contrario, si la correa se enrolla exteriormente alrededor de las poleas, entonces se deben calcular los segmentos de las rectas tangentes exteriores. Este caso a veces se denomina el problema de la polea.
+
+Líneas tangentes a tres circunferencias: el teorema de Monge 
+Para tres circunferencias denotadas por C1, C2 y C3, hay tres pares de círculos (C1C2, C2C3 y C1C3). Dado que cada par de circunferencias tiene dos centros homotéticos, hay seis centros homotéticos en total. Gaspard Monge demostró a principios del  que estos seis puntos se encuentran en cuatro rectas, y que cada recta incluye tres puntos colineales. Esta proposición se denomina el teorema de Monge.
+
+Problema de Apolonio 
+derecha|mini| Animación que muestra la transformación inversa de un problema de Apolonio. Las circunferencias azul y roja se agrandan hasta la tangencia, y se invierten en la circunferencia gris, produciendo dos líneas rectas. Las soluciones amarillas se encuentran deslizando una circunferencia entre ellas hasta que toca desde adentro o desde afuera la circunferencia verde transformada. 
+Muchos casos especiales del problema de Apolonio implican encontrar una circunferencia que sea tangente a una o más rectas. El más simple de estos es construir circunferencias que sean tangentes a tres líneas rectas dadas (el problema LLL). Para resolver este problema, el centro de cualquier circunferencia de este tipo debe estar en una bisectriz de cualquier par de rectas. Hay dos líneas de corte para cada intersección de dos líneas. Las intersecciones de estas bisectrices determinan los centros de las circunferencias solución del problema. Existen cuatro circunferencias de este tipo en general, la circunferencia inscrita del triángulo formado por la intersección de las tres rectas y las tres circunferencias descritas. 
+
+Un problema general de Apolonio se puede transformar en el problema más simple de circunferencia tangente a una circunferencia y dos rectas paralelas (un caso particular del caso especial LLC). Para lograr esto, es suficiente escalar dos de las tres circunferencias dadas hasta que se tocan, es decir, son tangentes. Una inversión en su punto tangente con respecto a un círculo de radio apropiado transforma las dos circunferencias que se tocan en dos rectas paralelas, y la tercera circunferencia dada en otra circunferencia. Por lo tanto, las soluciones se pueden encontrar deslizando una circunferencia de radio constante entre dos líneas paralelas hasta que entre en contacto con la tercera circunferencia transformada. Deshaciendo la inversión se obtienen las soluciones correspondientes al problema original.
+
+Generalizaciones 
+derecha|mini| El concepto de una recta tangente y un punto tangente se puede generalizar a un punto polar Q y su correspondiente recta polar q. Los puntos P y Q son inversos entre sí con respecto a la circunferencia. 
+El concepto de una recta tangente a uno o más círculos puede generalizarse de varias maneras. Primero, la relación conjugada entre puntos tangentes y rectas tangentes se puede generalizar a puntos polares y rectas polares, en las que los puntos polares pueden estar en cualquier lugar, no solo en la circunferencia. En segundo lugar, la unión de dos circunferencias es un caso especial (reducible) de una curva plana cuártica, y las tangentes externas e internas son las bitangentes de esta curva cuártica. Una curva cuártica genérica tiene 28 bitangentes. 
+
+Una tercera generalización considera circunferencias tangentes, en lugar de rectas tangentes. Una recta tangente se puede considerar como una circunferencia tangente de radio infinito. En particular, las rectas tangentes externas a dos circunferencias son casos límite de una familia de circunferencias que son tangentes interna o externamente a ambas circunferencias, mientras que las rectas tangentes internas son casos limitantes de una familia de circunferencias que son tangentes internamente a una y tangentes externamente a la otra de las dos circunferencias. 
+
+En la geometría inversa o en la de Möbius, las rectas consideran circunferencias que pasan a través de un "punto del infinito" y para cualquier recta y cualquier circunferencia, hay una transformación de Möbius que las correlaciona entre sí. En la geometría de Möbius, la tangencia entre una recta y una circunferencia se convierte en un caso especial de tangencia entre dos circunferencias. Esta equivalencia se extiende aún más en la geometría de la esfera de Lie. 
+
+El radio y la recta tangente son perpendiculares en un punto de una circunferencia, e hiperbólicos-ortogonales en un punto de una hipérbola unitaria. La representación paramétrica de la hipérbola unitaria a través del vector radial, es . La derivada de p(a) apunta en la dirección de la línea tangente en p(a), y es . El radio y la tangente son ortogonales hiperbólicos en a dado que  son simétricos entre sí respecto a la asíntota y = x de la hipérbola unitaria. Cuando se interpretan como números complejos hiperbólicos (donde jj = +1), los dos números satisfacen que
+
+Referencias
+
+Enlaces externos 
+ 
+ 
+
+Categoría:Círculos

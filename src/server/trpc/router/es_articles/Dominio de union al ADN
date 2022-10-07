@@ -1,0 +1,67 @@
+Un dominio de unión al ADN (DBD por sus siglas en inglés) es un dominio proteico independientemente plegado que contiene al menos un motivo estructural que reconoce hebras de ADN
+dobles o simples. Un dominio de unión al ADN puede reconocer una secuencia específica de ADN (una secuencia de reconocimiento) o tener una afinidad general hacia el ADN. Algunos dominios de unión al ADN pueden incluir ácidos nucléicos en su estructura.
+
+Función 
+right|thumb|300x300px|Ejemplo de un dominio de unión al ADN en el contexto de una proteína. El dominio N-terminal ADN-bindng (etiquetado) de represor Lac está regulado por un dominio regulador terminal C (etiquetado). El dominio regulador une a una molécula de efectores alostéricos (verde). La respuesta de la proteína alostérica es comunicada desde el dominio regulador a del dominio obligatorio del ADN a través de la región del vinculador. [2]
+Uno o más dominios de unión al ADN son a menudo parte de una proteína más grande, consiste en dominios adicionales con la función de diferenciación. Los dominios adicionales a menudo regulan la actividad del dominio de unión al ADN. La función de enlace de ADN es cualquier regulación transcripción estructural o participación, con los dos papeles a veces superpuestos.
+
+Dominios de unión al ADN con funciones que involucran la estructura del ADN tienen funciones biológicas en la replicación, reparación, almacenamiento y modificación del ADN, como la metilación. 
+
+Muchas proteínas implicadas en la regulación de la expresión génica contienen dominios de unión a ADN. Por ejemplo, las proteínas que regulan la transcripción atando ADN se denominan factores de transcripción. El resultado final de cascadas de señalización celulares más es la regulación génica.
+
+El DBD interactúa con los nucleótidos del ADN de manera no-secuencia-específica o secuencia de ADN, pero aún no secuencia específico reconocimiento implica a algún tipo de complementariedad molecular de proteína y ADN. El reconocimiento de ADN por el DBD puede ocurrir en el surco mayor o menor del ADN o en el azúcar-fosfato ADN (ver la estructura del ADN). Cada tipo específico de reconocimiento de ADN está adaptado a la función de la proteína. Por ejemplo, la enzima ADN-corte ADNasa I cortes ADN casi al azar y así debe enlazar al ADN de una manera no específicos de secuencia. Pero, aun así, ADNasa reconoce una cierta estructura 3D de ADN, produciendo un patrón de escote algo específico del ADN que puede ser útil para el estudio de reconocimiento de ADN por una técnica llamada huella de ADN.
+
+Muchos dominios de unión a ADN deben reconocer secuencias específicas de ADN, como DBD de factores de transcripción que activan los genes específicos, o de las enzimas que modifican el ADN en sitios específicos, como enzimas de restricción y la telomerasa. El patrón de la vinculación del hidrógeno en el surco mayor del ADN es menos degenerado que el surco menor del ADN, proporcionando un sitio más atractivo para el reconocimiento de ADN específicos de secuencia. 
+
+La especificidad de las proteínas de unión a ADN puede ser estudiada mediante muchas técnicas bioquímicas y biofísicas, tales como electroforesis en gel, ultracentrifugación, calorimetría, mutación de la DNA, estructura de la proteína mutación o modificación, resonancia magnética nuclear, la Cristalografía de rayos X, resonancia de plasmones de superficie, resonancia paramagnética electrónica, Cross-linking y microescala Thermophoresis (MST).
+
+Tipos de dominio de unión al ADN
+
+Hélice-vuelta-hélice 
+Originalmente descubierta en las bacterias, el motivo hélice-giro-hélice se encuentra comúnmente en las proteínas de represor y es de cerca de 20 aminoácidos de largo. En eucariotas, el homeodominio consta de 2 hélices, una de los cuales reconoce el ADN (también conocido como hélice de reconocimiento). Son comunes en las proteínas que regulan los procesos de desarrollo (HTH PROSITE).
+
+Dedo de zinc 
+thumb|300x300px|Estructura cristalográfica (PDB 1R4O) de un dímero del dedo de cinc que contiene DBD del receptor de glucocorticoides (arriba) destinada a ADN (parte inferior). Los átomos de zinc están representados por esferas grises y las coordinación cisteína cadenas laterales son descritas como palos.
+El dominio del dedo del cinc es generalmente de entre 23 y 28 aminoácidos de largo y está estabilizado mediante la coordinación de los iones de zinc con residuos de cinc-coordinación regularmente espaciados (histidinas o cisteínas). La clase más común del dedo de cinc (Cys2His2) coordina un ion de zinc solo y consiste en una hélice de reconocimiento y una hoja beta 2 hebras. [3] en los factores de transcripción estos dominios se encuentran a menudo en arreglos de discos (generalmente separados por secuencias cortas vinculador) y dedos adyacentes están espaciados a intervalos 3 basepair cuando estén unidas al ADN.
+
+Cremallera de leucina 
+El dominio de la cremallera (bZIP) leucina básico contiene una hélice alfa con una leucina en cada aminoácido 7. Si estas dos hélices encuentran uno al otro, los leucines pueden interactuar como los dientes de una cremallera, permitiendo la dimerización de dos proteínas. Si se enlaza con el ADN, residuos de aminoácidos básicos se unen a la azúcar-fosfato mientras las hélices sentaren en las ranuras principales. Regula la expresión génica.
+
+Dominio de hélice alado 
+Consiste en unos 110 aminoácidos, el dominio de hélice alado (WH) tiene cuatro hélices y una hoja de dos hebras beta.
+
+Dominio alado hélice vuelta hélice 
+El dominio de hélice vuelta hélice alado (wHTH) SCOP 46785 es típicamente de entre 85-90 aminoácidos de largo. Está formado por un paquete 3-helicoidal y una hoja beta 4 hebras (ala).
+
+Helix-Bucle-helix 
+El dominio hélice-bucle-hélice se encuentra en algunos factores de transcripción y se caracteriza por dos hélices α conectados por un lazo. Una hélice es generalmente más pequeña y debido a la flexibilidad del bucle, permite dimerización doblando y embalaje contra otra hélice. La hélice más grande normalmente contiene las regiones de unión a DNA.
+
+HMG-Cajas 
+Los dominios de la HMG-caja se encuentran en las proteínas de grupo de alta movilidad que participan en una variedad de procesos dependiente de ADN como la replicación y la transcripción. El dominio se compone de tres hélices alfa separadas por bucles.
+
+Wor3 ámbito 
+Los dominios Wor3, nombrados después de que el blanco – opaco regulador 3 (Wor3) en Candida albicans se presentaron recientemente en el tiempo evolutivo más anteriormente descrito dominios de unión a ADN y están restringidas a un pequeño número de hongos. [4]
+
+Dominios de ADN inusuales
+
+Pliegue de inmunoglobulina 
+El ámbito de inmunoglobulina () consta de una beta-estructura de hoja con grande conectando bucles, los cuales sirven para reconocer cualquier ADN surcos importantes o antigens. Normalmente encontrado en proteínas de inmunoglobulina, son también presentes en Stat proteínas del cytokine pathway. Esto probablemente puede porque el cytokine pathway evolucionó relativamente recientemente y ha hecho uso de sistemas que era ya funcional, más que crear su propio.
+
+Dominio B3  
+El DBD B3 (IPR003340, 117343 SCOP) se encuentra exclusivamente en los factores de transcripción de las plantas más altas y endonucleasas de restricción EcoRII y BfiI y típicamente consiste en residuos de 100-120 aminoácidos. Incluye siete hojas beta y dos hélices alfa, que forman un pliegue pseudobarrel proteína de unión al ADN.
+
+Dominio TAL ADN de efector obligatorio 
+Los efectores TAL están encontrados en bacterias patógenas de plantas y están implicados en regular los genes de la planta anfitriona para facilitar virulencia bacterial, proliferación, y diseminación. Contienen una región central de tándem 33-35 residuo repite y cada cual repite la región codifica una base de ADN sola en el sitio obligatorio del CUENTO.
+
+ARN-ADN guiado obligatorio 
+El sistema CRISPR/Cas de Streptococcus pyogenes puede programarse para dirigir tanto activación [8] y la represión a los promotores eucariotas naturales y artificiales a través de la ingeniería simple de guía de los ARNs con complementariedad de bases para sitios de ADN blanco. [9] Cas9 puede utilizarse como una plataforma personalizable de unión a DNA RNA-dirigida. Dominio Cas9 puede ser funcionalizados con dominios reguladores de interés (e.g., activation, represión o epigenético eﬀector) o con dominio de endonucleasa como una herramienta versátil para el genoma ingeniería biología. [10] [11] y luego dirigirse a múltiples loci utilizando diferentes guía ARNs.
+
+Véase también 
+ ADN-proteína obligatoria
+ Simulacros de ácido nucleico
+ Activadores de transcripción en Eukaryotes
+
+Referencias 
+
+Categoría:Genética molecular
+Categoría:Proteínas

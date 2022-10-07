@@ -1,0 +1,76 @@
+mini|300px|Tren estadounidense circulando por una curva de gran desarrollo.
+
+En ingeniería ferroviaria, la resistencia en curva es parte de la resistencia a la rodadura adicional que un tren debe superar cuando circula por un tramo de vía en curva. Normalmente se mide en milésimas (tanto por mil), equiparándose al efecto de que un tren supere una rampa virtual con esta misma inclinación. En términos mecánicos, las unidades que expresan correctamente esta resistencia son Newton por kiloNewton (N/kN), correspondiendo los kN al peso del tren. Los textos antiguos cuantificaban esta resistencia en kilopondios por tonelada, combinando una unidad de fuerza (obsoleta) y una unidad de masa. A veces también se usaba el kg/t, asimilando la fuerza de resistencia con una masa. 
+
+Las fórmulas clásicas experimentales, basadas en los ensayos de Desdovits de 1890, solo tienen en consideración el ancho de vía y el radio de curvatura. Otras fórmulas empíricas, como la de la AREMA, consideran el desarrollo angular unitario de la curva que recorre el tren, que es inversamente proporcional al radio de la curva dada.
+
+Sin embargo, como demostraron los ensayos realizados en Rusia en la década de 1960, la resistencia en curva también depende de otros factores, como el peralte de una curva y la velocidad a la que se recorre. Dado que las curvas generalmente están peraltadas, existirá cierta velocidad a la que no habrá fuerza lateral en el tren y, por lo tanto, la resistencia del paso por la curva es mínima. A velocidades más altas o más bajas, la resistencia en la curva puede ser algo mayor o incluso varias veces mayor.
+
+Fórmulas aproximadas 
+Las fórmulas típicamente utilizadas en la ingeniería ferroviaria están basadas en las experiencias publicadas en 1890 por Desdovits, que permitieron establecer empíricamente la expresión siguiente, denominada fórmula de Desdovits: 
+
+siendo  la resistencia en curva expresada en milésimas de pendiente equivalentes,  el ancho de vía (o trocha, por lo que a veces figura como ), y  el radio de la curva (expresado en la misma unidad que el ancho de vía). 
+
+Según estas fórmulas, la resistencia se calcula como inversamente proporcional al radio de la curva y directamente proporcional al ancho de vía, ignorando el hecho de que la resistencia también depende tanto de la velocidad como del peralte. 
+
+Dado que el ancho de vía suele ser una constante propia de cada sistema ferroviario, la fórmula se simplifica aproximando el resultado de multiplicar el ancho de vía por 500. 
+
+Así, por ejemplo, en la URSS (con un ancho de vía de 1,520 m), la fórmula estándar es rc (resistencia de la curva en partes por mil o kgf/tonelada) = 700/R, donde R es el radio de la curva en metros. Otros países a menudo usan la misma fórmula, pero con una constante de numerador diferente. Por ejemplo, en EE. UU. se utilizó 446/R, en España e Italia 800/R, en Inglaterra 600/R, y en China 573/R.
+
+En Alemania, Austria, Suiza, Checoslovaquia, Hungría y Rumanía, se utiliza el término R-b en el denominador (en lugar de solo R), donde b es una constante. Por lo general, estas expresiones se conocen como la fórmula de Röckl:
+
+ para  > 300 metros
+ para  ≤ 300 metros
+
+El hecho de que, para radio 300 metros, los dos valores de la fórmula de Röckl difieran en más del 30%, muestra que estas fórmulas son estimaciones aproximadas en el mejor de los casos.
+
+Para los EE. UU., la normativa AREMA (American Railway Engineering; p.57) establece que la resistencia en curva (expresada en pendiente equivalente en %) es:
+
+  (equivalente a 8 lbf/ton por ; o a 4 kgf/tonelada por )
+
+siendo  el grado de curvatura de la curva considerada, expresado en grados sexagesimales, calculado a partir del radio de la curva. Si se conoce el radio de la curva (expresado en pies), entonces:
+
+En este último caso, para transformar a milésimas la resistencia en curva obtenida, basta multiplicar el resultado por 10.
+
+Los experimentos realizados en Rusia citados a continuación muestran que todas estas fórmulas son inexactas. A la velocidad de equilibrio, dan una resistencia en curva varias veces demasiado alta. Sin embargo, estas fórmulas aproximadas todavía figuran en prácticamente todos los libros de texto estándar de ingeniería ferroviaria. Por ejemplo, el libro de texto de Hay también afirma que la resistencia en curva es independiente del peralte, y artículos de internet de 2011 indican que en Rusia se sigue utilizando la fórmula 700/R. Por su parte, los libros de texto alemanes contienen las fórmulas de Röckl.
+
+Dependencia de la velocidad y del peralte según los experimentos rusos 
+mini|Gráfico de resistencia en curva de un estudio ruso.
+
+En la década de 1960, se realizó en la Unión Soviética una serie de experimentos para caracterizar la resistencia en curva, determinándose que para una curva dada, depende tanto de la velocidad de paso como del peralte de la curva, como puede verse en el gráfico anterior. Si un vagón de tren recorre una curva a su velocidad de equilibrio (de forma que la componente de la fuerza centrífuga en la dirección lateral hacia el exterior de la curva y paralela al plano de la vía, sea igual a la componente de la fuerza gravitacional en la dirección opuesta) la resistencia en curva se reduce considerablemente. A esta velocidad de equilibrio, la insuficiencia de peralte se anula, y resulta en un giro inclinado sin fricción. Pero si su velocidad se aleja de esta velocidad de equilibrio (ya sea mayor o menor), la resistencia de la curva aumenta debido al desequilibrio en las fuerzas que tienden a tirar del vehículo hacia los lados. Téngase en cuenta que para los vagones de ferrocarril vacíos (cargas bajas sobre las ruedas) la resistencia en curva específica es mayor, similar al fenómeno de una mayor resistencia a la rodadura para vagones vacíos en una vía recta. 
+
+Sin embargo, estos experimentos no proporcionaron fórmulas utilizables para la resistencia en curva, porque desafortunadamente, todos los experimentos se realizaron en una pista de prueba con la misma curvatura (radio = 955 metros). Por lo tanto, no está claro cómo tener en cuenta la curvatura. Los experimentos rusos trazan la resistencia de la curva contra la velocidad para varios tipos de vagones de ferrocarril y varias cargas por eje. Todas las gráficas muestran curvas convexas suaves con los mínimos a la velocidad de equilibrio, donde la pendiente de la curva representada es cero. Estas gráficas tienden a mostrar que la resistencia de la curva aumenta más rápidamente con disminuciones en la velocidad por debajo de la velocidad de equilibrio, que por incrementos en la velocidad (en las mismas cantidades) por encima de las velocidades de equilibrio. No se encuentra ninguna explicación para este "efecto de velocidad asimétrica" en las referencias citadas, ni tampoco se encuentra ninguna explicación que justifique las gráficas de curvas convexas suaves mencionadas anteriormente (excepto para explicar cómo se determinaron experimentalmente). 
+
+Schmidt propuso también que la resistencia de la curva se minimice a la velocidad de equilibrio en 1927, pero desafortunadamente las pruebas que realizó fueron todas por debajo de la velocidad de equilibrio. Sin embargo, todos sus resultados muestran que la resistencia de la curva disminuye al aumentar la velocidad de conformidad con esta premisa.
+
+Método ruso de medición en los años 1960 
+Para determinar experimentalmente la resistencia en curva de un determinado vagón de ferrocarril con una carga dada sobre sus ejes, se probó el mismo vagón tanto en una vía curva como en una recta. Se supuso que la diferencia en la resistencia medida (a la misma velocidad) era la resistencia de la curva. Para obtener un promedio de varios vagones del mismo tipo, y para reducir el efecto de la resistencia aerodinámica, se probó un grupo del mismo tipo de vagones acoplados (un tren corto sin locomotora). La pista curva utilizada en los experimentos fue la pista de prueba circular del Instituto Nacional de Investigación Científica del Transporte Ferroviario (ВНИИЖТ). Una sola prueba puede encontrar la resistencia del tren (fuerza) a varias velocidades, al permitir que el material rodante que se está probando descienda de una velocidad más alta a una velocidad más baja, mientras se mide continuamente la desaceleración y usando la segunda ley de movimiento de Newton (fuerza = aceleración * masa) para encontrar la fuerza de resistencia que está causando la desaceleración de los vagones de ferrocarril. En tales cálculos, se debe tener en cuenta el momento de inercia de las ruedas de los vagones, agregando una masa equivalente (la de las ruedas girando) a la masa del tren. Por lo tanto, la masa efectiva de un vagón de ferrocarril utilizada para aplicar la segunda ley de Newton es mayor que la masa del vagón tal como se pesa en una báscula de pesaje. Esta masa equivalente adicional corresponde a determimar la masa equivalente de cada conjunto de eje de ruedas de acuerdo con su momento de inercia. Véase "Resistencia de inercia" (para ruedas de automóviles, pero es la misma fórmula para ruedas de ferrocarril). 
+
+La desaceleración se midió a partir de la distancia recorrida (usando lo que podría llamarse un odómetro de registro o por marcadores de distancia colocados a lo largo de la pista, por ejemplo, cada 50 metros), en función del tiempo. Una división de la distancia por el tiempo da como resultado la velocidad y luego las diferencias en las velocidades divididas por el tiempo dan la desaceleración. Una hoja de datos de ejemplo muestra el tiempo (en segundos) que se registra con 3 dígitos después del punto decimal (en milésimas de segundo). 
+
+Resulta que no hay necesidad de conocer la masa del material rodante para encontrar la resistencia específica del tren en kgf/tonelada. Esta unidad es la fuerza dividida por la masa, que es la aceleración según la segunda ley de Newton. Pero se deben multiplicar kilogramos de fuerza por g (gravedad) para obtener fuerza en la unidad métrica (Newton). Entonces, la fuerza específica (el resultado) es la desaceleración multiplicada por una constante que es 1/g veces un factor para tener en cuenta la masa equivalente debida a la rotación de las ruedas. Entonces esta fuerza específica en kgf/kg debe multiplicarse por 1000 para obtener kgf/tonelada, ya que una tonelada es 1000 kg.
+
+Fórmulas que intentan explicar el efecto del peralte 
+Астахов propuso el uso de una fórmula que cuando se representa está en desacuerdo sustancial con las curvas de resultados experimentales mencionadas anteriormente. Su fórmula para la resistencia de la curva (en kgf/tonelada) es la suma de dos términos. El primer término es un término k/R convencional (R es el radio de la curva en metros) con k = 200 en lugar de 700. El segundo término es directamente proporcional (1,5 veces) al valor absoluto de la aceleración sin compensar en el plano de la vía y perpendicular al raíl, siendo la aceleración lateral igual a la aceleración centrífuga , menos la componente de la gravedad que se opone a esta aceleración: g·tan(θ), donde θ es el ángulo de inclinación debido al peralte y v es la velocidad del tren en m/s.
+
+Véase también 
+ Peralte 
+ Insuficiencia de peralte 
+ Resistencia a la rodadura
+
+Enlaces externos 
+ Teoría del Movimiento Universidad de Zaragoza
+ PDF de Ingeniería Ferroviaria Americana
+
+Referencias
+
+Bibliografía
+ Астахов П.Н.  "Сопротивление движению железнодорожного подвижного состава" (Resistencia al movimiento del material rodante ferroviario) Труды ЦНИИ МПС (). Выпуск 311 (Vol. 311). - Москва: Транспорт, 1966. - 178 pp. 
+ Амелин, С.В., Андреев, Г.Е.  "Устройство и эксплуатация пути" (Estructura y funcionamiento de la vía). Учебное пособие- Москва: Транспорт, 1986. - 238 pp. 
+ Деев В.В., Ильин Г.А., Афонин Г.С.  "Тяга поездов" (Tracción de trenes). Учебное пособие. - Москва: Транспорт, 1987. - 264 pp. 
+  
+ Newland, DE "Características de dirección de los bogíes "The railway gazette, 4 de octubre de 1968, pp.745–750. Nota: "bogie" (Reino Unido) = "truck" (Estados Unidos). 
+ Schmidt, Edward C.: Resistencia en curva del tren de carga en una curva de un grado y en una curva de tres grados. Boletín de la Universidad de Illinois, vol. XXIV, 12 de julio de 1927 (núm. 45).  
+
+Categoría:Infraestructuras ferroviarias
+Categoría:Tecnología ferroviaria

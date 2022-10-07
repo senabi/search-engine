@@ -1,0 +1,178 @@
+En matemáticas, una función generadora o función generatriz es una serie formal de potencias cuyos coeficientes codifican información sobre una sucesión an cuyo índice corre sobre los enteros no negativos.
+
+Hay varios tipos de funciones generadoras: funciones generadoras ordinarias, funciones generadoras exponenciales, la serie de Lambert, la serie de Bell y la serie de Dirichlet; de las cuales abajo se ofrecen definiciones y ejemplos. Cada sucesión tiene una función generadora de cierto tipo. El tipo de función generadora que es apropiada en un contexto dado depende de la naturaleza de la sucesión y los detalles del problema que se analiza.
+
+Las funciones generadoras son expresiones cerradas en un argumento formal x. A veces, una función generadora se «evalúa» en un valor específico x=a pero hay que tener en cuenta que las funciones generadoras son series formales de potencias, por lo que no se considera ni se analiza el problema de la convergencia en todos los valores de x.
+
+Por lo mismo es importante observar que las funciones generadoras no son realmente funciones en el sentido usual de ser mapeos entre un dominio y un codominio; el nombre es únicamente el resultado del desarrollo histórico de su estudio.
+
+Función generadora ordinaria 
+
+La función generadora ordinaria de una sucesión (an) = a0, a1, a2, a3 ... se define como
+
+Es común usar la expresión función generadora sin mayor calificativo, para referirse a este tipo de función.
+
+ Ejemplo.
+La sucesión de Fibonacci definida por la recurrencia
+
+es la sucesión 0,1,1,2,3,5,8,13,21,...
+
+Su función generadora es
+
+puesto que el desarrollo en serie de potencias de tal función es
+
+y los coeficientes de tal desarrollo son precisamente 0,1,1,2,3,5,8,13,...
+Es posible definir funciones generadoras sobre varias variables. Por ejemplo, la función generadora ordinaria en 2 variables de (am,n) donde n y m son índices que recorren los enteros no negativos, es
+
+Aplicaciones 
+Si bien las funciones generadoras son una herramienta usada ampliamente en combinatoria, no existen métodos detallados que proporcionen solución a los problemas en cada situación. Sin embargo existen ideas generales que pueden ser modificadas y adaptadas en las diferentes situaciones que se presentan. A continuación se ilustran varios usos de las funciones generadoras junto con la idea general que se está usando.
+
+Determinación de la función generadora a partir de una recurrencia 
+
+En esta situación lo que se hace es multiplicar ambos lados de la recurrencia por xn y sumar sobre todos los índices. Después se efectúan transformaciones para que la igualdad entre sumas que se obtiene se convierta en una ecuación que involucra la función generadora y se procede a resolverla.
+
+Como ilustración, considere la recurrencia
+
+que da origen a la sucesión (an)=1,5,17,53,161,485,1457...
+
+Multiplicando ambos lados por xn y sumando sobre todos los valores de n se obtiene:
+
+El lado izquierdo es casi la función generadora, pero los índices están desfasados. Pero notando que
+
+se deduce que el lado izquierdo es
+
+El lado derecho se desarrolla como
+
+Al final, se aplicó la fórmula para sumar una serie geométrica:
+
+Igualando ambas simplificaciones, se obtiene la ecuación
+
+que al resolverse arroja por resultado
+
+Ejemplo de aplicación práctica 
+Si cn es el número de formas en que se puede pagar n pesos usando monedas de 1, 2 y 5 pesos, entonces la función generadora de la sucesión (cn) es
+
+ya que el coeficiente de xn es igual al número de formas de escoger a, b, c tales que
+
+y que corresponen a usar a monedas de 1 peso, b monedas de 2 pesos y c monedas de 5 pesos.
+
+La aplicación de la fórmula de Taylor es demasiado compleja en este caso, por lo que aplicaremos el siguiente artificio debido a Ronald Graham.
+
+Cada uno de los denominadores (1-x), (1-x2) y (1-x5) son divisores de (1-x10), por lo que podemos reescribir
+
+para un A(x) en donde:
+
+Finalmente, desarrollando la función generadora
+
+obtenemos
+
+De la expresión anterior se puede leer con detalle el valor exacto del coeficiente de xn, es decir, el número cn de formas de pagar n pesos con monedas de 1,2 y 5 pesos. Por ejemplo, el número de formas de pagar 77 pesos se obtiene calculando el término correspondiente a x77:
+
+y se concluye que hay 328 formas de pagar 77 pesos con monedas de 1, 2 o 5 pesos.
+
+Otras funciones generadoras
+
+Función generadora exponencial 
+
+La función generadora exponencial de una sucesión an es
+
+Función generadora de Poisson 
+
+La función generadora de Poisson de una sucesión an es
+
+Serie de Lambert 
+
+La serie de Lambert de una sucesión an es
+
+Nótese que en una serie de Lambert, el índice n comienza en el 1, no en 0.
+
+Serie de Bell 
+
+La serie de Bell de una función aritmética f(n) y un número primo p es
+
+Función generadora de la serie de Dirichlet 
+
+Las series de Dirichlet a menudo se clasifican como funciones generadoras, aunque no son estrictamente series formales de potencias. La función generadora de la serie de Dirichlet de una sucesión an es
+
+La función generadora de la serie de Dirichlet es especialmente útil cuando an es una función multiplicativa, cuando tiene una expresión de producto de Euler en términos de la serie de Bell de la función
+
+Si an es un carácter de Dirichlet, entonces su función generadora de la serie de Dirichlet se llama serie L de Dirichlet.
+
+Funciones generadoras de sucesiones polinómicas 
+
+El concepto de funciones generadoras puede extenderse a sucesiones de otros objetos. Así, por ejemplo, las sucesiones polinómicas de tipo binomial se generan por
+
+donde pn(x) es una sucesión de polinomios y  f(t) es una función de cierta forma. Las sucesiones de Sheffer se generan de modo similar. Véase el artículo principal polinomio generalizado de Appell para más información.
+
+Ejemplos 
+
+Cuando se trabaja con funciones generadoras, es importante reconocer las expresiones de algunas sucesiones fundamentales.
+
+Funciones generadoras ordinarias 
+
+La más fundamental de todas es la sucesión constante 1,1,1,1,..., cuya función generadora ordinaria es
+
+La expresión de la derecha se puede justificar multiplicando la serie de potencias de la izquierda por , y comprobando que su resultado sea la serie constante de potencias 1; en otras palabras, que todos los coeficientes desaparezcan excepto el de X0. (Por lo demás, no puede haber otra serie de potencias con esta propiedad, ya que un anillo de series de potencias como Z[[X]] es un dominio de integridad.) El lado de la derecha, por lo tanto, designa la inversa de  en el anillo de series de potencias.
+
+Fácilmente se derivan para ésta expresiones para la generación ordinaria de otras sucesiones. Por ejemplo, para la serie geométrica
+1,a,a2,a3,... para cada constante a se tiene
+
+y en particular
+
+También se pueden introducir «brechas» regulares en la sucesión sustituyendo X por alguna potencia de X; así, por ejemplo, para la sucesión1,0,1,0,1,0,1,0,.... se obtiene la función generadora
+
+Calculando el cuadrado de la función generadora inicial, fácilmente se ve que los coeficientes forman la sucesión 1,2,3,4,5,..., así que se tiene
+
+y el cubo tiene como coeficientes los números triangulares 1,3,6,10,15,21,... cuyo término n es el coeficiente binomial , de manera que
+
+Dado que , se puede encontrar la función generadora ordinaria para la sucesión 0,1,4,9,16,... de números cuadrados por combinación lineal de las sucesiones precedentes;
+
+Función generadora exponencial
+
+Serie de Bell
+
+Función generadora de la serie de Dirichlet
+
+Aplicaciones 
+
+Las funciones generadoras se emplean para
+
+ encontrar una forma cerrada para una sucesión dada en una relación de recurrencia. Por ejemplo, considérense los números de Fibonacci;
+ encontrar relaciones de recurrencia para sucesiones: la forma de una función generadora puede sugerir una fórmula de recurrencia;
+ encontrar relaciones entre sucesiones: si las funciones generadoras de dos sucesiones tienen una forma similar, entonces las propias sucesiones probablemente están relacionadas;
+ explorar el comportamiento asintótico de las sucesiones;
+ demostrar identidades que implican sucesiones;
+ resolver problemas de enumeración en combinatoria;
+ evaluar sumas infinitas.
+
+Otras funciones generadoras 
+Ejemplos de sucesiones polinómicas generadas por funciones generadoras más complejas son:
+
+ Difference polynomials
+ Generalized Appell polynomials
+ Q-difference polynomials
+
+Véase también 
+ Función generadora de momentos
+ Aplicaciones a particiones.
+ Transformada Z
+
+Referencias 
+
+ Herbert S. Wilf, Generatingfunctionology (Second Edition) (1994) Academic Press. ISBN 0-12-751956-4.
+ Donald E. Knuth, The Art of Computer Programming, Volume 1 Fundamental Algorithms (Third Edition) Addison-Wesley. ISBN 0-201-89683-4. Section 1.2.9: Generating Functions, pp.87–96.
+ Ronald L. Graham, Donald E. Knuth, y Oren Patashnik, Concrete Mathematics. A foundation for computer science (Second Edition) Addison-Wesley. ISBN 0-201-55802-5. Chapter 7: Generating Functions, pp. 320–380.
+ Gabriel Poveda Ramos, Funciones generatrices, Editorial de la Universidad Pontificia Bolivariana, ISBN 958-696-539-2, 90 pp., Medellín (Colombia) 2006.
+
+Notas
+
+Enlaces externos 
+ Funciones generadoras, índices de potencias y cambio de moneda (en inglés) en Cut-the-knot.org (consultado el 1 de agosto de 2008)
+ Versión descargable en inglés de Generatingfunctionology, de H. Wilf (consultado el 1 de agosto de 2008)
+ 1031 Generating Functions (consultado el 1 de agosto de 2008)
+ Ignacio Larrosa Cañestro, León-Sotelo, Marko Riedel, Georges Zeller, Suma de números equilibrados, newsgroup es.ciencia.matemáticas
+ Frederick Lecue; Riedel, Marko, et al., Permutation, Les-Mathematiques.net, en francés (el título desorienta un tanto)
+ "Generating Functions" por Ed Pegg, Jr., en el sitio web The Wolfram Demonstrations Project, 2007. (consultado el 1 de agosto de 2008)
+
+Categoría:Combinatoria
+Categoría:Exponenciales

@@ -1,0 +1,17 @@
+thumb|Un grafo autocomplementario: el grafo azul N es isomorfo a su complemento, el grafo rojo con línea punteada Z.
+Un grafo autocomplementario es un grafo que es isomorfo a su complemento. Los grafos autocomplementarios más simples son el camino de 4 vértices y el ciclo de 5 vértices.
+
+Ejemplos 
+Todo grafo de Paley es autocomplementario. Todo grafo fuertemente regular y autocomplementario con menos de 37 vértices es un grafo de Paley; pero, hay grafos fuertemente regulares con 37, 41 y 49 vértices que no son grafos de Paley.
+
+El grafo de Rado es un grafo infinito autocomplementario.
+
+Propiedades 
+Un grafo autocomplementario de n vértices tiene exactamente la mitad de aristas que su grafo completo, en este caso, n(n − 1)/4 aristas, y (si tiene más de un vértice) debe tener diámetro 2 o 3. Como n(n −1) debe ser divisible por 4, n debe ser congruente con 0 o 1 mod 4; por ejemplo, un grafo de 6 vértices no puede ser autocomplementario.
+
+Complejidad computacional 
+Los grafos autocomplementarios son interesantes por su relación con el problema de isomorfismo de grafos: determinar si dos grafos autocomplementarios que son isomorfos y comprobar si un determinado grafo que es autocomplementario son a su vez polinómicamente equivalentes al problema general de isomorfismo de grafos.
+
+Referencias 
+
+Autocomplementario

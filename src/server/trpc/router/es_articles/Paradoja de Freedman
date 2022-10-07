@@ -1,0 +1,10 @@
+En estadística, la paradoja de Freedman, en honor a David Freedman, describe un problema en la selección de un modelo mediante el cual las variables de predicción que no tienen ningún poder explicativo pueden aparecer artificialmente importantes. Freedman demostró (a través de la simulación y el cálculo asintótico) que esta es una ocurrencia común cuando el número de variables es similar al número de puntos de datos. Recientemente, nuevos avances en la teoría de la información se han desarrollado en un intento de reducir este problema, además de generar un sesgo de selección de modelos, c los estimadores de variables de predicción que tienen una relación débil con la variable de respuesta son sesgados.
+
+Referencias
+
+Categoría:Estadística
+Categoría:Paradojas matemáticas
+Categoría:Paradojas epónimas
+Categoría:Ciencia de 1983
+Categoría:Ciencia y tecnología de Estados Unidos del siglo XX
+Categoría:Estados Unidos en 1983

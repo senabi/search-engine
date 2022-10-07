@@ -1,0 +1,10 @@
+Mundo pequeño es una propiedad que presentan algunas redes sociales. Se da en aquellas redes en las que, a pesar de existir un gran número de nodos, es posible encontrar sendas cortas que conecten dos nodos cualesquiera.
+
+Características 
+Básicamente, el modelo consiste en una red matricial donde cada nodo está conectado con sus vecinos directos hasta una distancia dada, estableciéndose además enlaces aleatorios con nodos situados a cualquier distancia de la red. Se demuestra que en dichas redes, si el número de nodos n tiende a infinito, la distancia media entre dos de ellos crece según un polinomio en log(n), esto es, la distancia media entre dos nodos, medida a través del número de enlaces que los separa, crece muchísimo más despacio que el número de enlaces de la red.
+
+Véase también 
+ Experimento del Mundo Pequeño
+ Seis grados de separación
+
+Categoría:Redes sociales

@@ -1,0 +1,53 @@
+En física teórica, la transformación de Bogoliubov, también conocida como transformación de Bogoliubov-Valatin, ya que fue desarrollada independientemente en 1958 por Nikolái Bogoliúbov y John George Valatin para encontrar soluciones de la teoría BCS en un sistema homogéneo. La transformación de Bogoliubov es un isomorfismo bien del álgebra de relaciones de conmutación canónicas o bien del álgebra de relaciones de anticonmutación canónicas. Esto induce una autoequivalencia en las respectivas representaciones. La transformación de Bogoliubov se suele utilizar para diagonalizar hamiltonianos, lo que lleva a la solución estacionaria de la ecuación de Schrödinger correspondiente. La transformación de Bogoliubov también es importante para comprender el efecto Unruh, la radiación de Hawking, efectos de paridad en física nuclear y muchos otros temas.
+
+Ejemplo del modo de un único bosón 
+Se considera la relación de conmutación canónica para operadores bosónicos de creación y aniquilación en la base armónica: 
+
+Se define un nuevo par de operadores:
+
+donde el último es el conjugado hermítico del primero.
+
+La transformación de Bogoliubov es la transformación canónica que lleva los operadores  y  a  y . Para encontrar las condiciones en las constantes u y v tales que la transformación sea canónica, el conmutador se evalúa, respectivamente:
+
+Es de esta forma evidente que  es la condición para que la transformación sea canónica.
+
+Dado que la forma de esta condición recuerda a la identidad hiperbólica
+
+Las constantes u y v pueden parametrizarse fácilmente como
+
+Aplicaciones 
+La aplicación más importante es la del propio Nikolái Bogoliúbov en el campo de la superfluidez. Otras aplicaciones comprenden el trabajo con hamiltonianos y excitaciones en la teoría del antiferromagnetismo. Cuando se calcula teoría cuántica de campos en un espacio-tiempo curvado, la definición del vacío cambia y se puede realizar una transformación de Bogoliubov entre estos diferentes vacíos.
+
+Modo fermiónico 
+Para la relación de anticonmutación
+
+la misma transformación con u y v llega a
+
+Para hacer la transformación canónica, se puede parametrizar u y v como
+
+Aplicaciones 
+La aplicación más importante es nuevamente la del propio Nikolái Bogoliúbov, esta vez en la teoría BCS de la superconductividad. El punto en el que la necesidad de realizar una transformación de Bogoliubov se vuelve obvia es aquel en que la aproximación de campo medio del hamiltoniano del sistema puede escribirse en ambos casos como suma de términos bilineales en los operadores de creación y aniquilación originales, incluyendo un número finito de términos , esto es, se necesita ir más allá del método de Hartree-Fock habitual. El método también es aplicable en física nuclear, ya que describe la energía de enlace de los nucleones en un elemento pesado.
+
+Ejemplo multimodo 
+El espacio de Hilbert bajo consideración incluye estos operadores, y de ahora en adelante describe un oscilador armónico cuántico de más dimensiones (habitualmente uno de dimensión infinita).
+
+El estado fundamental del hamiltoniano correspondiente resulta aniquilado por todos los operadores de aniquilación:
+
+Todos los estados excitados se obtienen como combinaciones lineales del estado fundamental excitado por operadores de creación:
+
+Se pueden redefinir los operadores de creación y aniquilación con una redefinición lineal:
+
+donde los coeficientes  deben satisfacer ciertas reglas para garantizar que los operadores de aniquilación y los operadores de creación , definidos por la ecuación del conjugado hermítico, tienen el mismo conmutador para bosones y anticonmutador para fermiones.
+
+La ecuación de encima define la transformación de Bogoliubov de los operadores.
+
+El estado fundamental aniquilado por todo  es diferente del estado fundamental original , y pueden verse como las transformaciones de Bogoliubov del otro utilizando la correspondencia operador-estado. También pueden definirse como estados coherentes comprimidos. La función de onda BCS es un ejemplo de estado coherente comprimido de fermiones.
+
+Referencias
+
+Bibliografía 
+ J.-P. Blaizot y G. Ripka: Quantum Theory of Finite Systems, MIT Press (1985)
+ A. Fetter y J. Walecka: Quantum Theory of Many-Particle Systems, Dover (2003)
+ Ch. Kittel: Quantum theory of solids, Wiley (1987)
+
+Categoría:Teoría cuántica de campos

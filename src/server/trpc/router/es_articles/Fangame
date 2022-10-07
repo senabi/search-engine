@@ -1,0 +1,65 @@
+Un fangame es un videojuego no oficial creado desde cero por fans (la palabra significa "juego de los seguidores") basado en una franquicia ya existente. Los desarrolladores de fangames suelen intentar imitar a sus juegos favoritos, o bien intentar mejorarlos, generalmente añadiendo cosas que muchos fans echarán en falta en los originales.
+
+La mayoría de fangames suelen ser algo pobres debido a la inexperiencia de muchos de sus programadores, aunque algunos brillan con luz propia.
+miniaturadeimagen|Juego creado por fans del super smash bros.
+Hay fangames de muchas franquicias conocidas, como Sonic the Hedgehog o Super Mario, que han llegado a formar comunidades enteras de este tipo de juegos.
+
+Desarrollo de fangames
+
+Los fangames se desarrollan como juegos independientes no oficial de una franquicia, con sus propios motores, algunos muy populares son el RPG Maker XP, el GameMaker: Studio, Unity, etc. Los juegos independientes son generalmente accesibles al público, pero a menudo puede ser más difícil o su desarrollo consume más tiempo.
+
+Juegos independientes (Indies)
+
+Los fangames se desarrollan utilizando herramientas de desarrollo de videojuegos o motores de videojuego. El motor Unity y Adobe Flash permiten a los aficionados para desarrollar juegos independientes, al igual que otros programas como GameMaker: Studio, Construct, RPG Maker XP, o cualquiera de los productos de Clickteam (como The Games Factory y Multimedia Fusion 2).
+
+Los desarrolladores fangame a menudo seleccionan y utilizan los motores de juego libre y de código abierto (como OGRE, Crystal Space, Darkplaces y Spring) para ayudar a los fans a crear juegos sin el costo de licenciar una alternativa comercial. Estos motores pueden ser alterados y rediseñados dentro de los términos de su licencia de código abierto y, a menudo mucho más reducidos que las opciones comerciales, pero no siempre permiten a los desarrolladores crear fácilmente efectos visuales de alta gama sin esfuerzo adicional.
+
+También es posible para los aficionados para desarrollar motores de juegos originales a partir de cero utilizando un lenguaje de programación como C ++, pero al hacerlo, toma mucho más tiempo y la capacidad técnica de la modificación de una partida ya existente.
+
+Las modificaciones a los juegos existentes
+
+Los fangames a veces se desarrollan como una modificación de un juego existente, utilizando características y software proporcionadas por muchos motores de juego. A los modificadores por lo general no se les permite modificar los gráficos originales de cuentos y juegos, sino más bien ampliar el contenido actual que fue proporcionado por el desarrollador original. Modificar un juego existente es a menudo más barato que desarrollar un fangame desde cero.
+
+Debido a la complejidad del desarrollo de un juego completamente nuevo, los fangames se hacen a menudo el uso de herramientas ya existentes que, o bien se incluye con el juego original, o son fácilmente disponibles en otros lugares. Algunos juegos, como Unreal Tournament 2004 y Neverwinter Nights, vienen con herramientas de mapa de edición y scripting para permitir a los aficionados para desarrollar mods utilizando el motor se suministra con el juego original. Juegos tales como Doom tienen la edad suficiente (al final de su vida) para que su código fuente sea puesto a la disposición del público, lo que permite que cambios radicales tengan lugar.
+
+Otra forma de modificar juegos proviene de editar las ROM de juegos antiguos, como los de SNES. Programas como Lunar Magic permiten al usuario modificar los datos de la ROM, tales como niveles o gráficos. Aunque por lo general son creados para ser jugados en emulador, técnicamente pueden unirse a una memoria Flash para cartuchos, permitiendo así jugarlos en el hardware original. Un ejemplo notable es "The Legend of Zelda: Parallel Worlds".
+
+Desafíos de desarrollo
+
+A pesar de las buenas intenciones y la dedicación de los creadores, el desarrollo de muchos fangames terminó en abandono. A pesar de los problemas legales que enfrentan estos fans convertidos en desarrolladores (ver Cuestiones jurídicas),  estas personas se enfrentan a numerosos desafíos de desarrollo cuando se trata de desarrollar un fangame de principio a fin. Estos fallos están relacionados con la falta de experiencia de desarrollo, tiempo, recursos, dinero, intereses, talento y otros factores. No está claro qué proporción de fangames intentados se ha creado y lanzado con éxito.
+
+Excluyendo juegos hechos a parte por modificaciones (no son fangames, sino desarrolladores de hack ROMs), la gran mayoría de fangames que se han completado con éxito y son publicados son juegos de aventura. Esto probablemente refleja la larga historia de este género en relación con otros géneros y la disponibilidad de muchas herramientas de terceros libres o motores para hacer estos juegos. Lo más importante, tiene una pasión inquebrantable por un grupo de aficionados que se extiende durante años para superar cualquier obstáculo encontrado durante el desarrollo del proyecto. Este sacrificio quedó plasmado por Britney Brimhall de AGD Interactive, quien en 2001 lanzó una nueva versión de King Quest I. En sus propias palabras, «creo que mucha gente no se da cuenta cuando inician un proyecto de juego del mucho sacrificio que requerirá. Mientras que la mayoría la gente disfruta de escribir una historia o hacer una obra de arte, la mayoría no gozaría de escribir cientos de páginas de diálogo o dibujar más de cien imágenes cuando podrían estar con los amigos o jugar a videojuegos.»
+
+Cuestiones jurídicas
+
+Algunas empresas cerraron fangames debido a infracciones de derechos de autor. El término "foxed" se utiliza a menudo para describir a estos incidentes, derivada de la acuñación original del cierre de 20th Century Fox ante una conversión total de Quake basada en Aliens. Los titulares de derechos de autor originales pueden ordenar un cese y desista a proyectos fangames, ya que los fangames por definición son usos no autorizados de la propiedad con derechos de autor. Muchos fangames van tan lejos como para usar la música y los gráficos directamente de los juegos originales. 
+
+Un caso notable a finales de 2005 involucró a Vivendi Universal y cerrar un proyecto de fans de King Quest, King Quest IX:Every Cloak has a Silver Lining. Iba a ser una secuela no oficial que permitiría el cierre de la serie, que tuvo su último lanzamiento en 1998. Después de la campaña de envío de cartas de fans y protestas, Vivendi revocó su decisión y dio permiso para que el juego se hiciera. [Cita requerida] Como parte de las negociaciones, se ha instado a los desarrolladores a eliminar "King's Quest" del título. De forma similar, El Amuleto de Monkey Island, la secuela no oficial de la saga Monkey Island desarrollada por el grupo argentino Metamorfo Entertainment fue cancelada en 2008 por LucasArts. Por el contrario, las protestas de fans para el cierre de Chrono Resurrection (una demo remake de Chrono Trigger) en 2004 han arrojado ningún resultado sobre la acción de Square Enix para bloquear el proyecto.
+
+Otras veces, las empresas han respaldado fangames. Por ejemplo, Capcom ha mostrado al fangame Mega Man 2.5D de Pedro Sjöstrand en su sitio de la comunidad más de una vez. Sin embargo, el vicepresidente Senior de Capcom, ha declarado que, aunque legalmente pueden sancionar fangames, ellos tampoco irán contra ellos. Más recientemente, Capcom tomó Street Fighter X Mega Man de Seo Zong Hui y lo financió para promocionarlo desde un simple fangame a un juego Mega Man real freeware. 
+
+Los fangames casi siempre se desarrollan con un presupuesto relativamente bajo. Un fangame rara vez está disponible en un sistema de la consola; los derechos de licencia son demasiado prohibitivos. Sin embargo, homebrew en ocasiones ha hecho consolas con juegos homebrew prolíficos, como Dreamcast, PlayStation Portable y Game Boy Advance.
+
+Véase también 
+
+Trabajo fan
+Desarrollo de videojuegos
+GameMaker: Studio
+Homebrew
+Dōjin soft
+M.U.G.E.N.
+Suites juego de Enterbrain
+RPG Maker
+Fighter Maker
+Sim RPG Maker
+
+Enlaces externos
+
+ Sonic Fan Games HQ (comunidad de fangames de Sonic en inglés)
+
+Categoría:Cultura de los videojuegos
+Categoría:Terminología de los videojuegos
+Categoría:Tipos de videojuegos
+Categoría:Homebrew
+Categoría:Consolas dedicadas
+Categoría:Desarrollo de videojuegos

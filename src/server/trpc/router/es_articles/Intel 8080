@@ -1,0 +1,77 @@
+El Intel 8080 fue un microprocesador temprano diseñado y fabricado por Intel. La CPU de 8 bits fue lanzada en abril de 1974. Corría a 2 MHz, y generalmente se lo considera el primer diseño de microprocesador verdaderamente útil.
+
+Varios fabricantes importantes fueron segundas fuentes para el procesador, entre los cuales estaban AMD, Mitsubishi, NatSemi, NEC, Siemens, y Texas Instruments. También en el bloque oriental se hicieron varios clones sin licencias, en países como la Unión de Repúblicas Socialistas Soviéticas y la República Democrática de Alemania.
+
+Descripción
+
+Modelo de programación 
+
+El Intel 8080 fue el sucesor del Intel 8008, esto se debía a que era compatible a nivel fuente en el lenguaje ensamblador porque usaban el mismo conjunto de instrucciones desarrollado por Computer Terminal Corporation. Con un empaquetado más grande, DIP de 40 pines, se permitió al 8080 proporcionar un bus de dirección de 16 bits y un bus de datos de 8 bits, permitiendo el fácil acceso a 64 KB de memoria. Tenía siete registros de 8 bits, seis de los cuales se podían combinar en tres registros de 16 bits, un puntero de pila en memoria de 16 bits que reemplazaba la pila interna del 8008, y un contador de programa de 16 bits.
+
+Registros 
+
+ Registros generales
+ +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+ |       A       |     Flags     |  S Z A P C
+ +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+ |       B       |       C       | BC
+ +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+ |       D       |       E       | DE
+ +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+ |       H       |       L       | HL
+ +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+ 
+ Stack Pointer y Program Counter
+ +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+ |               SP              |
+ +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+ |               PC              |
+ +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+Esquema de entrada/salida 
+
+El 8080 tenía 256 puertos de I/O (entrada/salida) que podían ser usados por los programas mediante instrucciones dedicadas de I/O, cada una de esas instrucciones tomando una dirección de puerto de I/O como su operando. Este esquema, que usaba un espacio de direcciones separado para las entradas/salidas, es ahora usado menos comúnmente que el de mapeo de memoria para dispositivos o puertos de I/O. En el tiempo del lanzamiento 8080, el esquema de mapeo de I/O era visto como una ventaja, pues liberaba el número limitado de pines de dirección del procesador para usarlo en el espacio de dirección de la memoria. Sin embargo, en la mayoría de las otras arquitecturas de CPU, el mapeo de los puertos de I/O en un espacio de direcciones común para la memoria y el I/O, daba un conjunto de instrucciones más simple, con ninguna necesidad de instrucciones separadas de I/O.
+
+Chips de soporte 
+
+Un factor clave en el éxito del 8080 fue el amplio rango de chips de soporte disponibles, proporcionando, entre otras funciones, comunicaciones, contadores/temporizadores, entrada/salida, acceso directo a memoria y controlador de interrupciones programable.
+
+ 8251. Controlador de comunicaciones.
+ 8253. Temporizador programable de intervalos.
+ 8255. Interface programable de periféricos.
+ 8257. Controlador de DMA.
+ 8259. Controlador programable de interrupciones.
+
+El impacto industrial 
+
+El 8080 fue usado en muchos de los primeros microcomputadores, tales como la Altair 8800 de MITS y el IMSAI 8080, formando la base para las máquinas que corrían el sistema operativo CP/M. Posteriormente, en 1976, aparece el microprocesador Zilog Z80, completamente compatible con el 8080 pero más capaz, el cual capitalizaría en esto, convirtiéndose el Z80 y el CP/M en la combinación dominante de CPU y OS del período, bastante parecido al x86 y el MS-DOS para el PC de la década posterior, los (años 1980). El primer microcomputador en una simple tarjeta fue construido en base al 8080.
+
+Poco después el lanzamiento del 8080, fue introducido el diseño competidor, el Motorola 6800, y después de ese, el 6502, la variante del 6800 desarrollada por MOS Technology. En Intel, el 8080 fue seguido en 1976 por el compatible y eléctricamente más elegante 8085, y más adelante, en junio de 1978, por el 8086 de 16 bits y en junio de 1979 por el 8088 de 8/16 bits, que eran compatibles a nivel del lenguaje ensamblador con el 8080. El 8088 fue seleccionado por IBM para su nuevo IBM PC para ser lanzado en 1981. A su vez, por medio su arquitectura de conjunto de instrucciones (ISA), el 8080 hizo un impacto duradero en historia del computador.
+
+Véase también 
+ Intel 4004
+ Intel 4040
+ Intel 8008
+ Intel 8085
+
+Microprocesadores similares al 8080
+ AMD Am9080 (Clon del 8080 producido por AMD)
+ Intel 8085 (Versión mejorada del 8080 desarrollada por Intel)
+ Zilog Z80 (Versión muy mejorada del 8080 producida por Zilog)
+
+Microprocesadores de la competencia
+ Motorola 6800
+ MOS 6502
+ Zilog Z80 (Versión muy mejorada del 8080 producida por Zilog)
+
+Otros
+ (8080) Intel, asteroide al que da nombre.
+
+Enlaces externos
+
+ Historia de los microprocesadores Intel del 8008 al 8086 (en inglés)
+Hoja de datos del Intel 8080
+
+Categoría:Microprocesadores Intel
+Categoría:Informática de 1974
+Categoría:Introducciones relacionadas a la ciencia de la computación de 1974

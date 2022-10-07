@@ -1,0 +1,36 @@
+Los Formatos de paquetes en GNU/Linux son diferentes formatos de archivo utilizados por los paquetes de software de varias distribuciones GNU/Linux. 
+Existen las siguientes clases principales de paquetes en GNU/LinuxLinux:
+ Paquetes binarios
+ Paquetes de código fuente
+
+Ejemplos 
+ deb — paquete originario de la distribución Debian GNU/Linux. Es usado también por distros derivadas de Debian, tales como Ubuntu, y muchas otras.
+
+ ebuild — un script en Bash que contiene información sobre cómo obtener, compilar e instalar un paquete en el sistema Portage, pkgcore o Paludis originarios de Gentoo. A partir de estos también se pueden crear paquetes binarios. Las distribuciones basadas en Gentoo, utilizan también el sistema ebuilds, compartiendo total o parcialmente mismo árbol de Portage.
+
+ FPM, el formato de paquetes estándar de la distribución Frugalware Linux, que utiliza el gestor de paquetes Pacman de Arch Linux.
+
+ RPM — Red Hat Package Manager, originario de Red Hat, ahora es utilizado por muchas otras distribuciones, como también por openSUSE y Mandriva.
+
+ PISI fue utilizado por Pardus hasta que finalmente dicha distribución pasó a basarse en Debian. Actualmente está en desarrollo una nueva distribución denominada PISI Linux que utiliza dicho formato de paquetes.
+
+ tgz, txz o tar.gz — el estándar Tar + gzip, posiblemente con algunos archivos de control extra - utilizado por Slackware y otras distribuciones Linux, o a veces al distribuir de forma muy simple paquetes hechos a mano.
+
+ pkg.tar.xz o pkg.tar.gz, el formato de paquetes estándar de Arch y derivadas, entre ellas Chakra, Manjaro o Antergos. Manejado por Pacman.
+
+ tbz2, el formato de paquetes estándar de Sabayon, manejado por Entropy.
+
+ tlz, el formato de paquetes estándar de Dragora.
+
+ MO — Utilizado por SLAX. Se abre con el Gestor de módulos de SLAX, y a continuación, se instala al menú de KDE como un fichero de configuración de escritorio. Puede ser colocado en la carpeta de los módulos de SLAX CD para instalar en el arranque.
+
+ PUP and PET - usado por el libre y liviano Puppy Linux. Se instala solamente haciendo un click sobre el tipo de paquete. El sistema operativo puede ser instalado en una memoria flash por portabilidad, y traer aplicaciones con él.
+
+Véase también 
+ Sistema de gestión de paquetes
+ CNR
+ VS11Advanced Packaging Tool
+
+Categoría:Software de sistema
+Categoría:Software para Linux
+Categoría:Gestores de paquetes Linux

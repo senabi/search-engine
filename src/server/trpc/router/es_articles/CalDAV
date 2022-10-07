@@ -1,0 +1,101 @@
+Calendaring Extensions to WebDAV, o CalDAV, es un estándar de Internet que permite a un cliente acceder a información de planificación en un servidor remoto. Extiende WebDAV (protocolo basado en HTTP para la manipulación de datos) y utiliza iCalendar como formato para los datos. El protocolo de acceso está definido por [rfc:4791 RFC 4791.] Permite que varios clientes accedan a la misma información, facilitando la cooperación. Muchas aplicaciones, tanto clientes como servidores, son compatibles con este protocolo.  Extensiones de CalDAV para planificar de forma automatizada también están estandarizadas, como RFC 6638.
+
+Ejemplo 
+El ejemplo está basado en el RFC 4791:
+
+Solicitud:
+ REPORT /bernard/work/ HTTP/1.1
+ Host: cal.example.com
+ Depth: 1
+ Content-Type: application/xml; charset="utf-8"
+ Content-Length: xxxx
+ 
+ <?xml version="1.0" encoding="utf-8" ?>
+ <C:free-busy-query xmlns:C="urn:ietf:params:xml:ns:caldav">
+ <C:time-range start="20060104T140000Z" end="20060105T220000Z"/>
+ </C:free-busy-query>
+
+Respuesta:
+ HTTP/1.1 200 OK
+ Date: Sat, 11 Nov 2006 09:32:12 GMT
+ Content-Type: text/calendar
+ Content-Length: xxxx
+ 
+ BEGIN:VCALENDAR
+ VERSION:2.0
+ PRODID:-//Example Corp.//CalDAV Server//EN
+ BEGIN:VFREEBUSY
+ DTSTAMP:20050125T090000Z
+ DTSTART:20060104T140000Z
+ DTEND:20060105T220000Z
+ FREEBUSY;FBTYPE=BUSY-TENTATIVE:20060104T150000Z/PT1H
+ FREEBUSY:20060104T190000Z/PT1H
+ END:VFREEBUSY
+ END:VCALENDAR
+
+Implementaciones
+
+Clientes 
+ Agendav, un cliente web CalDAV de código abierto.
+ Apple Calendar (anteriormente iCal)—El 7 de agosto de 2006, Apple anunció que Mac OS X 10.5 "Leopard" incluiría iCal 3.0, una aplicación compatible con los estándares CalDAV. Mac OS X Server 10.5 incluye iCal Server, el cual implementa el protocolo CalDAV. iCal Server ha sido liberado bajo una licencia de código abierto como el Servidor de Calendario de Darwin.El 17 de marzo de 2009, Apple anunció que CalDAV sería incluido en el iPhone 3.0 SDK.
+ Atmail, una implementación tanto de cliente como de servidor, con soporte para una amplia gama de clientes de escritorio y dispositivos móviles.
+ Bynari WebDAV Collaborator, un plug-in para sincronizar CalDAV y CardDAV en Outlook con la mayoría de servidores DAV.
+ CalendarSync para Android
+ CalDAV-Sync para Android
+ DAVdroid para Android
+ California, una aplicación gratuita y de código abierto para GNOME 3.
+ CalDAV Tasksync para Android
+ CalDavZAP (Aplicación HTML5 / JavaScript basada en la web, Open Source)
+ EVO Collaborator for Outlook añadir la capacidad de sincronizar caldav a Outlook
+ Evolution (Linux, Unix, Windows)
+ Horde Groupware
+ Sunbird o Thunderbird con el plug-in Lightning (Linux, Windows, Unix, Mac OS X)
+ iCal4OL (Ya no está disponible para nuevos clientes)
+ iCal (Desde Mac OS X Leopard !V 10.5)
+
+Servidor 
+La lista del servidor CalDAV incluye::
+ Apples Darwin Servidor de Calendario
+ Atmail (Desde la versión 6.0) 
+ Baikal Servidor CalDAV+CardDAV de peso ligero
+ Bynari Collaboration Suite
+ DAViCal 
+ Dingo Calendar Server
+ EGroupware Desde la versión 1.6
+ EVO Mail Server
+ Horde Groupware
+ Icewarp-E-Mail-Server Desde la versión 8.x
+ Kerio Connect
+ Open-Xchange
+ Oracle Beehive
+ Oracle Communications Calendar Server
+ SOGo
+ SabreDAV
+ Sun Java Calendar Server
+ Yahoo Calendar 
+ Zarafa Desde la versión 6.30.0
+ Zimbra Desde la versión 4.5
+ ownCloud
+Radicale
+
+Véase también 
+ Calendario
+ CardDAV
+ GroupDAV, un esfuerzo para crear un protocolo simplificado para calendarios así como contactos.
+ iCalendar
+ SyncML
+ vCalendar
+ WebDAV
+
+Referencias
+
+RFCs 
+ RFC 2616 @– HTTP
+ RFC 3744 @– WebDAV Protocolo de Control del Acceso
+ RFC 4791 @– CalDAV
+ RFC 4918 @– WebDAV
+ RFC 5545 @– iCalendar
+ RFC 5546 @– iTIP
+
+Categoría:Estándares de calendario
+Categoría:Protocolos de Internet

@@ -1,0 +1,39 @@
+El método de cúmulos en movimiento, del cúmulo móvil o del punto de convergencia, es una técnica empleada en astronomía (sobre todo en el pasado) para medir distancias a cúmulos abiertos. Se basa en la suposición razonable de que todas las estrellas del cúmulo se mueven en el espacio con el mismo vector velocidad y de que por tanto, debido a la perspectiva, desde la Tierra parecen converger hacia un punto definido de la esfera celeste — y divergir de otro.
+
+La suposición es razonable porque las estrellas de un cúmulo abierto se han formado a partir de una misma nube molecular. Precisamente el que aún se vean tan próximas entre sí se debe a que las diferentes perturbaciones posibles en su entorno todavía no han dispersado sus velocidades y por tanto conservan aproximadamente la misma velocidad que tenía la nube.
+
+Las grandes distancias interestelares implican que los movimientos propios de las estrellas sean muy pequeños, por lo que se necesitan observaciones separadas varios años para poder medirlos y aplicar este método. Solo se puede emplear el método en cúmulos relativamente próximos al sistema solar por este mismo motivo.
+
+Historia 
+
+A principios del siglo XX el estudio de los movimientos propios de las estrellas reveló que algunos de estos movimientos convergen, es decir, hay grupos de estrellas que se mueven en direcciones paralelas. Estos datos astrométricos, junto con el cálculo de las velocidades radiales gracias al efecto Doppler observado en el espectro, permitieron el desarrollo de la técnica del cúmulo móvil para medir la distancia a estos cúmulos de estrellas.
+En particular, la medición de la distancia al cúmulo de las Híades mediante este método fue muy importante en su momento para calibrar varias relaciones fundamentales de la astrofísica. Sin embargo con el tiempo esta técnica ha perdido importancia frente a otras.
+
+Deducción y funcionamento 
+dcha
+De la figura se puede ver que 
+
+Es decir, la tangente del ángulo que vemos entre la estrella y el punto de convergencia del cúmulo es igual a la relación entre la velocidad tangencial (Vt, la componente de la velocidad en la dirección perpendicular a la línea de visión) y la velocidad radial (Vr, la componente de la velocidad en la dirección de la línea de visión).
+
+La velocidad radial se puede medir estudiando el efecto Doppler en el espectro de la estrella, y la velocidad tangencial se relaciona con el movimiento propio (μ) de la estrella como sigue
+
+pues el movimiento propio no deja de ser la velocidad tangencial vista a una distancia d, por el mismo razonamiento que haríamos para el espacio recorrido. Las distancias a las que se encuentran los cúmulos son grandes, y entonces tanto la hipotenusa como el cateto adyacente se pueden suponer iguales. Como μ es pequeño, también se puede hacer la aproximación , siempre que μ se exprese en radianes, con lo que queda
+
+y sustituyendo  resulta
+
+.
+
+Para expresar la distancia d en pársecs, y como habitualmente se tiene el movimiento propio μ en segundos de arco por año y la velocidad radial Vr en kilómetros por segundo, debemos transformarla a unidades astronómicas (ua) por año. Como 1 ua/año = 4.74 km/s, entonces
+
+Este cálculo se repite para un conjunto de las estrellas del cúmulo, por lo que la distancia resultante es de carácter estadístico.
+
+Véase también 
+
+Paralaje
+Escalera de distancias cósmicas
+
+Referencias
+
+Bibliografía 
+
+Categoría:Cúmulos estelares

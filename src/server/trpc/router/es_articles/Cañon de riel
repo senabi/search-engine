@@ -1,0 +1,194 @@
+thumb|240px|Diagrama esquemático de un cañón de riel.
+thumb|Diagrama mostrando el corte de un cañón de riel alemán.
+
+El cañón de riel (de rail gun en inglés) es un arma eléctrica que por medio de un campo magnético dispara proyectiles metálicos a alta velocidad.
+
+No hay que confundirlo con el cañón Gauss, un arma electromagnética basada en principios totalmente diferentes del cañón de riel.
+
+Descripción general 
+
+El funcionamiento del arma se basa en el principio del motor homopolar: un par de conductores paralelos (los rieles) son alimentados por una corriente eléctrica. El proyectil se coloca haciendo contacto con ambos, para cerrar el circuito. La corriente que se produce interactúa con los fuertes campos magnéticos generados por el paso de la electricidad a través de los conductores y esto acelera el proyectil linealmente en la dirección de los rieles. 
+
+La idea original de este dispositivo fue la de usarlo para disparar proyectiles a alta velocidad con fines militares. Sin embargo resulta difícil usarlo como arma debido a la enorme cantidad de energía requerida para funcionar con un mínimo de eficiencia y debido a que el espacio que ocupan las fuentes de alimentación y condensadores que utilizan para generar el campo magnético hace que sea muy difícil de transportar para la infantería. Aun así la Armada de Estados Unidos anunció una prueba realizada el 31 de enero de 2008 con el fin de equipar a sus naves con este tipo de armas.
+
+Historia 
+
+thumb|Diagramas del cañón de riel alemán.
+Durante 1918, el inventor francés Louis Octave Fauchon-Villeplee inventó un cañón eléctrico que tiene un gran parecido con el motor lineal. Presentó una solicitud de patente en Estados Unidos el 1 de abril de 1919, la que le fue concedida en julio de 1922 con el N.º 1.421.435, como un "Aparato Eléctrico para Propulsar Proyectiles". En su dispositivo, dos barras conductoras paralelas están conectadas por las aletas del proyectil, y todo el aparato está rodeado por un campo magnético. Al pasar corriente por las barras y el proyectil, se induce una fuerza la cual impulsa el proyectil a lo largo de las barras y hacia el exterior del aparato.
+
+Durante la Segunda Guerra Mundial la idea fue resucitada por Joachim Hänsler de la Oficina de Armamentos alemana, y se propuso un cañón antiaéreo eléctrico. Para fines de 1944 se había trabajado lo suficiente en el campo teórico como para permitir al Comando Antiaéreo de la Luftwaffe emitir una especificación, la cual incluía una velocidad de 2.000 m/s y un proyectil conteniendo 0,5 kg de explosivos. Las armas serían montadas en baterías de 6 cañones disparando 12 disparos por minuto y se utilizaría el afuste existente del 12,8 cm FlaK 40. Nunca se construyó. Cuando la documentación fue descubierta después de la guerra despertó mucho interés y se hizo un estudio más detallado, finalizando con un informe de 1947 que concluyó que era teóricamente factible, pero cada cañón necesitaría energía suficiente como para iluminar la mitad de Chicago.
+
+Durante 1950, Sir Mark Oliphant, un físico australiano y primer Director de la Escuela de Investigación de Ingeniería y Ciencias de la Física en la nueva Universidad Nacional de Australia, inició el diseño y construcción del generador homopolar más grande del mundo (500 MJ). Esta máquina fue usada para alimentar un cañón de riel de gran escala que fue usado como instrumento científico.
+
+Teoría y construcción 
+
+Un cañón de riel consiste en dos rieles de metal paralelos (de ahí el nombre) conectados a un suministro de corriente eléctrica. Cuando un proyectil conductor es insertado entre los rieles (en el extremo conectado a la fuente de corriente), este completa el circuito. Los electrones fluyen del terminal negativo de la fuente de energía al riel negativo, cruza el proyectil, baja por el riel positivo, y vuelve al suministro de corriente.
+
+Esta corriente transforma al cañón de riel en un electroimán, creando un potente campo magnético alrededor de los rieles hasta la posición del proyectil. El campo magnético circula alrededor de cada conductor según la regla de la mano derecha. Dado que la corriente está en dirección opuesta a lo largo de cada riel, el campo magnético neto entre los rieles (B) es dirigido verticalmente. En combinación con la corriente (I) que cruza el proyectil, esto produce una fuerza de Lorentz, que acelera el proyectil a lo largo de los rieles. Existen también otras fuerzas que empujan el riel en otros sentidos, pero debido a que estos están montados firmemente, no pueden moverse. El proyectil se desliza a lo largo de los rieles, desde el extremo que está conectado al suministro de energía, hacia el otro.
+
+Un enorme suministro de energía eléctrica, del orden de los millones de amperios crearán una tremenda fuerza en el proyectil, acelerándolo a velocidades de varios kilómetros por segundo (km/s). 20 km/s han sido alcanzados con proyectiles pequeños inyectados dentro del cañón de riel. A pesar que estas velocidades son teóricamente posibles, el calor generado al propulsar los proyectiles es suficiente para erosionar los rieles rápidamente. Debido a esto, sería necesario reemplazar los rieles frecuentemente, o utilizar materiales resistentes al calor que puedan ser conductores para producir el mismo efecto.
+
+Consideraciones en el diseño del cañón de riel
+
+Materiales 
+
+Los rieles y los proyectiles deben ser construidos de materiales fuertes y conductores; los rieles deben sobrevivir a la violencia de un proyectil acelerado, y al calor producto de las fricciones y el paso de la corriente eléctrica. La fuerza de retroceso que se ejerce sobre los rieles es igual y opuesta a la fuerza que impulsa el proyectil. La ubicación de la fuerza de retroceso es aún objeto de debate. Las ecuaciones tradicionales predicen que la fuerza de retroceso actúa en la "recámara" del cañón. 	
+Otra escuela de pensamiento invoca la Ley de Ampère y afirma que actúa a lo largo de los rieles (que es su eje más fuerte).<ref>[http://adsabs.harvard.edu/abs/2001PhRvE..63e8602C Reply to ``Electrodynamic force law controversy]</ref> Los carriles también se repelen entre ellos a través de una fuerza lateral causada por el campo magnético, al igual que el proyectil. Los rieles necesitan sobrevivir a esto sin doblarse, y deben estar montados en forma segura.
+
+ Consideraciones de diseño 
+
+La fuente de energía debe ser capaz de entregar una corriente muy grande, sostenida y controlada, por un lapso de tiempo utilizable. La medida más importante de la eficacia de la fuente de energía es la corriente que puede entregar. En febrero de 2008, la mayor energía conocida y utilizada para la propulsión de un proyectil de un cañón de riel fue de 32 millones de julios. La fuente de energía más utilizada en cañones de riel son los condensadores y el alternador de pulsos compensado, que son cargados poco a poco de otras fuentes de energía continua o mediante un generador de Van de Graaff.
+
+Los rieles deben soportar enormes fuerzas de repulsión durante el disparo, y estas fuerzas tienden a empujarlos en dirección contraria y lejos del proyectil. Cuando se incrementa la holgura entre el proyectil y los rieles se forman arcos eléctricos, lo que provoca la rápida vaporización y daños en la superficie de los rieles y en los aislantes. Esto limitaba a los primeros investigadores a un único disparo entre reparaciones del cañón de riel.
+
+La inductancia y la resistencia de los rieles y de la fuente de energía limita la eficiencia de un diseño de cañón de riel. Actualmente, diferentes tipos de rieles y configuraciones de cañones están siendo probados, siendo los más notables los de la Armada de Estados Unidos, el Instituto de Tecnología Avanzada y BAE Systems.
+
+ Disipación del calor 
+
+Enormes cantidades de calor son generadas por la electricidad que fluye a través de los rieles, así como también por la fricción del proyectil al abandonar el dispositivo. El calor creado por la fricción puede ocasionar la dilatación de los rieles y el proyectil, aumentando aún más el calor por fricción. Esto provoca tres problemas principales: la fusión de los equipos, disminución de la seguridad del personal y la detección por las fuerzas enemigas.
+Como se explica brevemente más arriba, las fuerzas involucradas en el lanzamiento de este tipo de dispositivos requieren un material muy resistente al calor. De lo contrario los rieles, el cañón y todo el equipo conectado se fundirán o se dañarán irreparablemente.
+En la práctica los rieles son, junto con todos los componentes del cañón de riel, erosionados con cada disparo; y los proyectiles pueden ser objeto de algún grado de ablación también, y esto puede limitar la vida del cañón de riel, en algunos casos severamente.
+
+ Fórmula matemática 
+
+En la física del cañón de riel, la magnitud del vector fuerza puede determinarse por la Ley de Biot-Savart y como resultado de la Fuerza de Lorentz. Puede derivarse matemáticamente en términos de la permeabilidad constante (), el radio del riel (el cual se asume de sección circular) (), la distancia entre los centros de los rieles () y la corriente en ampéres () como sigue:
+
+Se puede demostrar de la ley de Biot-Savart que el campo magnético a una distancia  de un cable conductor semi-infinito por el que pasa una corriente está dado por:
+
+Así, en el espacio entre dos cables conductores semi-infinitos separados por una distancia , la magnitud del campo es:
+
+Para obtener el campo magnético promedio en el espacio entre los dos cables, se supone que  es pequeña en comparación con  y calcular la integral siguiente:
+
+Por la ley de la fuerza de Lorentz, la fuerza magnética sobre un cable conduciendo corriente está dada por , por lo que debido a que el ancho del proyectil conductor es , tenemos que
+
+La fórmula está basada asumiendo que la distancia () entre el punto donde la fuerza () es medida y el comienzo del riel es mayor que la separación de los rieles () por un factor de alrededor de 3 o 4 (). Se asumen otras simplificaciones; para describir las fuerzas en forma más precisa, la geometría de los rieles y del proyectil deben ser consideradas.
+
+ Cohetería 
+
+Se está estudiando el lanzamiento de cohetes asistidos electrodinámicamente. Las aplicaciones espaciales de esta tecnología implica bobinas electromagnéticas especialmente formadas e imanes superconductores. Se utilizan materiales compuestos para estas aplicaciones.
+
+ El cañón de riel como arma 
+
+thumb|Dibujos de proyectiles para cañón de riel.
+Se comenzó a investigar con el cañón de riel disparando proyectiles que no contenían explosivos, pero con velocidades extremadamente altas: 3.500 m/s (aproximadamente Mach 10 al nivel del mar) o más (para comparación, el fusil M16 calibre 5,56 mm tiene una velocidad de boca de 930 m/s, y el FN FAL calibre 7,62 mm, 840 m/s), lo cual le da una energía cinética igual o superior a la generada por un proyectil con carga propulsora de mayor masa. Esto permite transportar mayor munición y eliminar el riesgo de acarrear explosivos en un tanque o un buque de guerra. Además, al disparar a mayor velocidad tiene más alcance, con menor caída de la bala y menor desviación por el viento, pasando por alto el costo y las limitaciones físicas de las armas convencionales – "los límites de la expansión de los gases prohíben lanzar un proyectil no asistido a velocidades mayores de 1,5 km/s y alcances superiores a los 80 km en un sistema de arma convencional." 
+
+Si fuera posible construir un arma automática de tiro rápido con esta tecnología, el cañón de riel tendría otras ventajas agregadas a la velocidad de tiro. El mecanismo de disparo de un arma de fuego convencional debe mover y acomodar el proyectil y la carga propulsora, mientras que en un cañón de riel solo es necesario mover el proyectil. Además, el cañón de riel no necesita extraer una vaina vacía de la recámara, por lo que puede colocarse una munición fresca inmediatamente después de hacer el disparo.
+
+ Pruebas 
+
+thumb|250px|Prueba de disparo con un cañón de riel en el Centro Naval de Guerra de Superficie (Surface Warfare Center) en enero de 2008. Se disparó un proyectil de 3,2 kg a 2.520 m/s, generando 10,64 megajulios.
+Se han construido y disparado modelos a escala real, incluyendo un cañón de 90 mm y 9 megajulios de energía cinética con gran éxito, desarrollado por el DARPA de Estados Unidos. Aún deben resolverse problemas de desgaste del riel y del aislante antes que el cañón de riel comience a reemplazar la artillería convencional. Probablemente el más antiguo sistema consistente y exitoso fue construido por la Defence Research Agency del Reino Unido en el Dundrennan Range en Kirkcudbright, Escocia. Este sistema ha estado funcionando durante más de 10 años y como campo de pruebas de balística intermedia, externa y terminal, estableciendo varias marcas de masa y velocidad.
+
+El VTI de Yugoslavia (VTI, Instituto de Tecnología Militar) desarrolló, en un proyecto llamado EDO-0, un cañón de riel de 7 kJ de energía cinética, en 1985. El proyecto EDO-1, sucesor del anterior, se creó en 1987, usando proyectiles con una masa de 0,7 g alcanzando velocidades de 3.000 m/s, y con una masa de 1,1 g alcanzaba velocidades de 2.400 m/s. Usaba un "cañón" de 70 cm. De acuerdo con los que trabajaron en él, con otras modificaciones fue capaz de alcanzar una velocidad de 4.500 m/s. El objetivo era alcanzar una velocidad de 7.000 m/s. Al día de hoy, es considerado un secreto militar.
+
+Las Fuerzas Armadas de Estados Unidos están financiando los experimentos con los cañones de riel. En el Instituto de Tecnología Avanzada de la Universidad de Texas en Austin, se desarrolló un cañón de riel militar con capacidad de enviar un proyectil antiblindaje de tungsteno con una energía cinética de nueve megajulios. 9 MJ es suficiente energía para enviar un proyectil de 2 kg a 3 km/s; a esa velocidad un dardo de Wolframio u otro material denso puede penetrar fácilmente un tanque, e incluso atravesarlo de lado a lado.
+
+El Centro Naval de Guerra de Superficie (Surface Warfare Center), División Dahlgren, de Estados Unidos, ha mostrado un cañón de riel de 8 MJ disparando proyectiles de 3,2 kg en octubre de 2006, como prototipo de un arma de 64 MJ que será emplazada a bordo de los buques de guerra de la Armada . El principal problema de la Armada al implementar un cañón de riel, es el desgaste del arma, debido al inmenso calor generado en el disparo. Se espera que estas armas sean lo suficientemente potentes como para hacer un daño algo mayor al producido por un misil BGM-109 Tomahawk a una fracción de su costo. Desde entonces, BAE Systems ha enviado un prototipo de 32 MJ a la Marina.
+
+Debido a alta velocidad inicial que se puede alcanzar con un cañón de riel, hay interés en usarlos contra misiles de alta velocidad.
+
+El 31 de enero de 2008 la Armada de los Estados Unidos probó un cañón de riel que disparó un proyectil con una energía de 10,64 MJ con una velocidad inicial de 2.520 m/s. Se espera que alcance más de 5,8 km/s de velocidad inicial, con una precisión suficiente para alcanzar un blanco de 5 metros a más de 200 millas náuticas (463 km), con una velocidad de disparo de 10 tiros por minuto. Se espera que esté listo entre el año 2020 y el año 2025.
+
+El 30 de enero de 2012 un prototipo de la Oficina de Investigación Naval en Estados Unidos, disparó un proyectil con una energía de alrededor de los 32 MJ (megajulios) redondeando la velocidad de 8.960 Km/h, 7,26 veces la velocidad del sonido, sin embargo el prototipo no es más que el sistema disparador, y a la fecha no cuenta con un sistema de puntería, pero una vez desarrollado debería ser capaz de impactar objetivos que se encuentren hasta 180 km.
+
+ En la ficción 
+
+El carácter experimental de esta arma, ha hecho que aparezca en numerosas obras de ficción, en diferentes soportes.
+
+En la película Eraser, la corporación antagonista diseña un fusil de riel, que planean vender ilegalmente.
+
+En la película Transformers: la venganza de los caídos, un destructor de la Marina (USS Kid) posee un prototipo de cañón de riel - absolutamente clasificado - el cual utiliza para destruir al constructicon Devastator, que está atacando una pirámide.-
+
+En Transformers Generation 2, el equipo de Cobra desarrolla el cañón de riel y lo monta a bordo de sus tanques. Megatron se sorprende con la potencia del cañón, así que a cambio de tecnología cybertroniana, ellos le fabricaran un nuevo cuerpo portando un cañón de riel.
+
+En la saga de videojuegos Quake, el cañón de riel es una de las armas más potentes, disparando cargas de uranio. Aunque de baja cadencia, uno o dos disparos son suficientes para destruir a la mayoría de los enemigos.
+
+En la serie Stargate se puede observar que las naves Tau'ri clase Daedalus (BC-304) fueron equipadas con torretas de cañón de riel, siendo estas su armamento principal, hasta antes de la implementación de los cañones de plasma Asgard. Incluso, en el capítulo de Stargate Atlantis "El sitio de Atlantis", los refuerzos llegados de la Tierra colocan muchos cañones de riel a lo largo de la ciudad-nave de Atlantis, para defenderla de la invasión de los Wraith.
+
+En el videojuego Parasite Eve II puede desbloquearse un cañón de riel como arma secreta. Sus disparos hacen un daño devastador ya que la mayoría de enemigos no resiste más de un impacto.
+
+En el videojuego de tiempo real Empires & Allies, por medio del elemento del agua se encuentran a algunos acorazados con este tipo de cañón a los cuales se les denomina: El Cuervo, que cuenta con 2 cañones de riel, uno adelante y otro atrás. Acorazado con cañón de riel, que al igual que el anterior cuenta con 2 cañones adelante y atrás. Yamato II (Elite y Normal) que cuentan con 4 cañones de riel, dos adelante y dos atrás. Acorazado cazabombardero, que a diferencia de los otros acorazados, solo cuenta con un cañón de riel en la parte trasera. El Carnicero, que cuenta con 2 cañones de riel en la parte trasera, además de que es el primer Acorazado en desbloquearse con este tipo de arma, Por el elemento de la tierra, solo se encuentran 2 vehículos, El Buggy Serval, que cuenta con dos cañones de riel en la parte superior. Titan, este es un Robot de alta tecnología, que en un principio no contaba con esta arma, pero conforme se avanzaba en la misión, estos mejoraban a tal grado de contar con dos cañones de riel grandes simulando ser los brazos del titán. Por el elemento del Aire, hasta el momento no se encuentra ningún Vehículo con esta clase de arma.
+
+En el anime Black Cat, su protagonista, Train Heartnet, al recuperarse del efecto de unas nanomáquinas, aprendió a aprovechar la electricidad que quedó en su cuerpo para utilizar su pistola como un cañón de riel, aunque con el tiempo perdió ese poder.
+
+En el anime To Aru Majutsu no Index y To Aru Kagaku no Railgun, el personaje de Misaka Mikoto, una poderosa esper nivel 5 con poderes electromagnéticos, recibe el apodo de "Cañón de riel de Tokiwadai" por ser capaz de lanzar proyectiles metálicos de distintos tamaños con la misma fuerza que teóricamente podría alcanzar un cañón de riel a una distancia de 50 metros.
+
+En el videojuego Metal Gear Solid: Peace Walker uno de los enemigos con IA no tripulados (Chrysalis) posee esta arma.
+
+En el videojuego Metal Gear Solid 2 uno de los personajes secundarios, Fortune, usa el cañón de riel como arma.
+
+En el videojuego Metal Gear Solid el cañón principal del tanque bípedo REX, es un cañón de riel, con el cual dispara misiles tanto de corto alcance, como nucleares.
+
+En el videojuego Metal Gear Solid 4 el protagonista puede obtener un cañón de riel tras derrotar a Crying Wolf, una miembro del escuadrón The Beauty and The Beast.
+
+En el videojuego Metal Gear Solid V: The Phantom Pain el cañón principal del tanque bípedo Sahelanthropus, tiene un cañón de riel.
+
+En el juego Warhammer 40.000, la raza de alienígenas conocida como Tau usa cañones de riel como sus principales piezas de artillería, equipando con ella naves espaciales como el Crucero Clase Héroe (Hero Class), o en sus tanques como el tanque Cabeza de Martillo (Hammerhead gunship) y en armaduras de combate como en las XV-88 Apocalipsis (XV-88 Broadside BattleSuit). Dentro de este juego, el cañón de riel es considerado uno de los mejores cañones que hay.
+
+En el videojuego Fire Warrior de PS2, basado también en el universo de Warhammer 40.000, aparece como un arma que puedes usar una versión prototipo de un cañón de riel compacto que funciona como un fusil de francotirador. Esta versión también está disponible para Los Exploradores Tau (pathfinders) y Drones Francotiradores (Sniper Drones), en el Juego Original de Warhammer 40.000.
+
+En el videojuego S4league, un MMOTPS, el cañón de riel aparece como un fusil de francotirador que al estar cargado elimina a cualquiera de un golpe.
+
+En el videojuego de survival horror Resident Evil 3: Nemesis, Jill usa un cañón de riel para destruir a Nemesis.
+
+En el MMORPG EVE Online, la raza Gallente utiliza principalmente cañones de riel como armas a bordo de sus naves.
+
+En Halo 4, el Jefe Maestro tiene entre su arsenal un cañón de riel llamado ARC-920 (Asimetrical Recoiless Carbine; Carabina Asimétrica sin Retroceso-920 en inglés)
+
+En el videojuego Metro 2033, el Expansion Ranger Pack tiene el Volt Driver, un cañón de riel que dispara proyectiles metálicos de 15 mm, siendo el más poderoso del juego por proyectil usado.
+
+En el videojuego Grand Theft Auto V, es un arma desbloquable luego de la misión "Minor Turbulence".
+
+En el DLC "Final Stand" del videojuego Battlefield 4, se encuentra un cañón de riel como objeto recolectable en los mapas del DLC.
+
+En el videojuego Tanki Online, es una torreta que se puede adquirir en el taller.
+
+En el videojuego Unturned, se puede encontrar en las zonas de radiación, existiendo la variante que posee un cargador de 20 proyectiles y la básica que es monotiro. No tienen caída de bala y al impactar producen una pequeña explosión. Puede matar a cualquier jugador sin accesorios en la cabeza de un solo disparo.
+
+En el videojuego World of Tanks, es el armamento principal del tanque T28 Defender.
+
+En la serie de televisión Salvation pretenden emplear un cañón de riel para destruir un asteroide que se aproxima a la tierra. También lo utilizan para destruir un satélite cargado de ojivas nucleares.
+
+ Véase también 
+Campo magnético
+
+ Referencias 
+
+ Enlaces externos 
+
+ Teoría 
+
+ howstuffworks.com - explanation with animations
+ iop.org - Theoretical limits on exit velocity
+
+ Amateur 
+ PowerLabs Rail Gun research
+ Railgun theory, design, construction, and testing
+ Railgun Blog by Jason Rollette
+ Miniature Experimental Railgun
+ Tim Ventura's 90's-era Railgun Designs
+ American Antigravity's Mass-Driver Demo + Video
+ +EML Laboratory－ Japanese Experiment＋Video
+
+ Universidades 
+ The University of Texas at Austin Rail Gun
+ Auburn University Rail Gun 
+
+ Militares 
+ Electromagnetic Railgun: An Innovative Naval Program
+
+ Prensa 
+ What next? The Electromagnetic Gun? But perhaps we have had our last world war'', Popular Science Monthly, February 1919, p18-19, Scanned by Google Books: http://books.google.com/books?id=7igDAAAAMBAJ&pg=PA18
+ USN sets five-year target to develop electromagnetic gun Jane's Defence Weekly, 20 July 2006
+ US Navy Invents Railgun Wired News blog article, Thurs January 18 2007
+ Electromagnetic Railgun Popular Science Article
+ Video of Navy railgun test firing, Navy Electromagnetic Launch Facility, Test Shot #1, 2 October 2006. Source: Fredericksburg.com, accessed 30 January 2007
+ World’s Most Powerful Rail Gun Delivered to Navy, 14 November 2007
+
+Otros 
+ powerlabs.org
+ railgun.org
+
+Categoría:Aplicaciones electromagnéticas
+Categoría:Armas arrojadizas
+Categoría:Cañones (artillería)

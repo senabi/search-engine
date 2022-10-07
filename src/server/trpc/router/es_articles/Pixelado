@@ -1,0 +1,25 @@
+miniatura|derecha|Ejemplo de pixelado. La imagen aparece correctamente en su formato normal, pero cuando ampliamos una pequeña parte, podemos apreciar los píxeles individuales.
+
+En gráficos por ordenador, el pixelado es un efecto causado por visualizar una imagen o una sección de una imagen a un tamaño en el que los píxeles individuales son visibles al ojo. Una imagen en la que ha pasado esto se dice que está pixelada.
+
+Las primeras aplicaciones gráficas como las de los  videojuegos se ejecutaban con una resolución muy baja, con un pequeño número de colores, y se veían fácilmente los píxeles. Los bordes recortados resultantes daban a los objetos curvos y las líneas diagonales una apariencia poco natural. Sin embargo, cuando el número de colores disponibles se incrementó a 256, fue posible utilizar técnicas de antialiasing para suavizar la apariencia de objetos de baja resolución, sin eliminar el pixelado, pero haciendo que fuese menos discordante para el ojo. Mayores resoluciones pronto hicieron que este tipo de pixelación se hiciesen invisibles en la pantalla, pero la pixelación sigue siendo visible si una imagen de baja resulución se imprime en papel.
+
+En el campo de las imágenes en 3D en tiempo real, la pixelación puede ser un problema. En este caso, las imágenes son aplicadas a polígonos como texturas. Cuando una cámara se acerca a un polígono texturizado, el filtro de textura simple vecino más cercano sólo amplía la imagen, creando una gran pixelación. La solución más común es una técnica llamada interpolación de pixels que mezcla suavemente o interpola el color de un pixel en el color del siguiente pixel adyacente en altos niveles de zoom. Esto crea una imagen más orgánica, pero también más borrosa. Hay varias formas de hacer esto, utilizando distintos filtros de textura.
+
+La pixelación es un problema que sólo afecta a los bitmaps. Alternativas como gráficos vectoriales o modelos puramente geométricos pueden hacer escalados hasta cualquier nivel de detalle. Ésta es una razón por la que los gráficos vectoriales son populares para impresión - la mayoría de las pantallas tienen una resolución de 72 puntos por pulgada y los documentos impresos tienen sobre 4,5 veces más píxeles por área que una pantalla a 300 puntos por pulgada. Otra solución que se usa algunas veces es usar texturas algorítmicas, texturas como los fractales que pueden generarse al momento a cualquier nivel de detalle.
+
+Pixelación deliberada 
+derecha|miniatura|Pixelado para ocultar el rostro de una persona.
+En algunos casos, la resolución de un o porción de una imagen se baja para provocar la pixelación de forma deliberada. Este efecto se usa comúnmente en los telediarios para oscurecer la cara de una persona o para censurar desnudez o gestos vulgares (si bien con el mismo fin se usan parches que pueden llevar o no la inscripción "Censurado"), aunque también se usa como efecto artístico. Este efecto es llamado pixelización. 
+alt=|miniaturadeimagen|Pixelado completo de una imagen
+Hacer que los píxeles sean fácilmente visibles es también una característica principal en pixel art, en la que los gráficos se hacen en baja resolución para conseguir llamar la atención.
+
+Véase también 
+ Dentado
+ Gráficos vectoriales
+
+Enlaces externos 
+ Ampliar sin pixelado, consejos para cámaras digitales por Mark Coffman (en inglés)
+ Pixelación de una fuente por Stephen Wolfram, The Wolfram Demonstrations Project (en inglés).
+
+Categoría:Dispositivos de computación gráfica

@@ -1,0 +1,37 @@
+En matemáticas, el teorema de la hoja compacta de Nóvikov, llamado así en honor a Serguéi Nóvikov, establece lo siguiente:
+
+Teorema de la hoja compacta de Nóvikov para  
+
+Teorema: Una foliación continuamente diferenciable de codimensión uno de una 3-esfera  tiene una hoja compacta. La hoja es un toro  que limita un toro sólido con la foliación de Reeb.
+
+El teorema fue demostrado por Serguéi Nóvikov en 1964. Anteriormente Charles Ehresmann hizo hipótesis que toda foliación continuamente diferenciable de dimensión dos sobre  tiene una hoja compacta, lo que fue cierto para todos los ejemplos conocidos. En particular, la foliación de Reeb tiene una hoja compacta que es un toro.
+
+Teorema de la hoja compacta de Nóvikov para cualquier  
+
+En 1965, S. Nóvikov demostró el teorema para cualquier variedad :
+
+Teorema: Sea  una 3-variedad cerrada con una foliación continuamente diferenciable de codimensión uno. Si se cumple una de las siguientes condiciones:
+
+ el grupo fundamental  es finito,
+ el segundo grupo de homotopía ,
+ existe una hoja  tal que el mapeo  inducido por la inclusión tiene núcleo no trivial,
+
+entonces  tiene una hoja compacta de género .
+
+En términos de espacios recubridores:
+
+Una foliación continuamente diferenciable de codimensión uno de una 3-variedad compacta cuyo recubridor universal no es contráctil debe tener una hoja compacta.
+
+Referencias 
+
+ S. Novikov. The topology of foliations//Trudy Moskov. Mat. Obshch, 1965, v. 14, p. 248-278.
+ I. Tamura. Topology of foliations — AMS, v.97, 2006.
+ D. Sullivan, Cycles for the dynamical study of foliated manifolds and complex manifolds, Invent. Math., 36 (1976), p. 225-255. 
+
+Categoría:Teoremas de topología
+Categoría:Topología diferencial
+Categoría:Foliaciones
+Nóvikov
+Categoría:Ciencia y tecnología de la Unión Soviética
+Categoría:Unión Soviética en 1964
+Categoría:Ciencia de 1964

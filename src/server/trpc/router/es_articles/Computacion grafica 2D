@@ -1,0 +1,16 @@
+thumb|300px|Animación 2D
+La computación gráfica 2D es la generación de imágenes digitales por computadora - sobre todo de modelos bidimensionales (como modelos geométricos, texto e imágenes digitales 2D) y por técnicas específicas para ellos. La palabra puede referirse a la rama de las ciencias de la computación que comprende dichas técnicas, o a los propios modelos.
+
+La computación gráfica 2D se utiliza principalmente en aplicaciones que fueron desarrolladas originalmente sobre tecnologías de impresión y dibujo tradicionales, tales como tipografía, cartografía, dibujo técnico, publicidad, etc. En estas aplicaciones, la imagen bidimensional no es sólo una representación de un objeto del mundo real, sino un artefacto independiente con valor semántico añadido; los modelos bidimensionales son preferidos por lo tanto, porque dan un control más directo de la imagen que los gráficos 3D por computadora (cuyo enfoque es más semejante a la fotografía que a la tipografía).
+
+En muchos dominios, tales como la autoedición, ingeniería y negocios, una descripción de un documento basado en las técnicas de computación 2D pueden ser mucho más pequeñas que la correspondiente imagen digital, a menudo por un factor de 1/1000 o más. Esta representación también es más flexible ya que puede ser renderizada en diferentes resoluciones para adaptarse a los diferentes dispositivos de salida. Por estas razones, documentos e ilustraciones son a menudo almacenados o transmitidos como archivos gráficos en 2D.
+
+Los gráficos 2D por computadora se han iniciado en la década de 1950, basándose en dispositivos de gráficos vectoriales. Estos fueron suplantados en gran parte por dispositivos basados en gráficos raster en las décadas siguientes. El lenguaje PostScript y el protocolo de sistema de ventanas X fueron piezas claves en la evolución histórica del campo.
+
+Referencias
+
+Enlaces externos 
+ José Cortés Parejo. Formatos Gráficos Vectoriales 2D 
+ Genevieve B. Orr. 2D Transformations
+
+Categoría:Computación gráfica

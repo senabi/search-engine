@@ -1,0 +1,63 @@
+La resonancia eléctrica es un fenómeno que se produce en un circuito eléctrico a una frecuencia de resonancia particular cuando la Impedancias o admitancias de los elementos del circuito se cancelan entre sí. En algunos circuitos, esto sucede cuando la impedancia entre la entrada y la salida del circuito es casi cero y la función de transferencia es cercana a uno.
+
+Los circuitos resonantes exhiben timbres y pueden generar voltajes y corrientes más altos que los que les alimentan. Se utilizan ampliamente en la transmisión inalámbrica (radio) tanto para transmisión como para recepción.
+
+Circuito con L y C en serie 
+
+Así en un circuito serie, compuesto únicamente por bobinas y condensadores su impedancia será:
+
+ 
+
+siendo Xs la reactancia del conjunto, tendrá por valor:
+
+ 
+
+debe existir un valor ω tal que haga nulo el valor de Xs, este valor será la pulsación de resonancia del circuito a la que denominaremos ω0 .
+
+Si Xs es nula, entonces:
+
+izquierda|125x125px
+Si se tiene en cuenta que:
+ 
+
+la frecuencia de resonancia f0 será:
+
+Circuito con L y C en paralelo 
+
+En un circuito compuesto únicamente por bobina y condensador en paralelo la impedancia del conjunto (Zp) será la combinada en paralelo de ZL y ZC
+
+Siendo Xp la reactancia del conjunto, su valor será:
+
+Estudiando el comportamiento del conjunto para distintos valores de ω se tiene:
+
+ ω = 0; Xp = 0
+ ω < ω 0; Xp > 0 ===> Comportamiento inductivo
+ ω0² L C = 1; Xp = ∞
+ ω > ω0; Xp < 0 ===> Comportamiento capacitivo
+ ω = ∞; Xp = 0
+
+izquierdaLuego f0 será: 
+
+Siendo f0 la denominada frecuencia de antirresonancia a la cual la impedancia se hace infinita.
+
+Donde L es la inductancia de la bobina expresada en henrios y C es la capacidad del condensador expresada en faradios
+
+Variación de la I y de la Z del circuito en función de la frecuencia 
+Si a un circuito compuesto un elemento resistivo R, uno inductivo L y uno capacitivo C en serie se le aplica una tensión alterna de frecuencia variable y se toman los valores de la intensidad y los correspondientes de la impedancia para cada valor de frecuencia considerado, la gráfica de dichos valores sobre un par de ejes cartesianos permite determinar la denominada "Curva de Resonancia". 
+miniaturadeimagen|centro|A medida que el valor de la frecuencia variable se acerca al valor de la resonancia la intensidad I aumenta a la vez que la impedancia Z disminuye.
+
+Alcanzada la frecuencia de resonancia "fr" la intensidad I del circuito adquiere su máximo valor, al mismo tiempo que la impedancia Z tiene su mínimo valor; es decir: Z = R (Nótese como en la figura anterior la curva violeta de Z coincide en su punto más bajo con la recta roja de R). Para frecuencias menores y mayores a la fr, el circuito tiene comportamiento capacitivo e inductivo respectivamente.
+
+Bibliografía
+
+Véase también 
+ Inductor
+ Condensador eléctrico
+ Condensador variable
+ Filtro electrónico
+ Circuito LC
+
+Enlaces externos 
+
+Categoría:Magnitudes electromagnéticas
+Categoría:Magnitudes electrónicas

@@ -1,0 +1,112 @@
+La fotogrametría es la técnica  cuyo  objeto  es  estudiar  y  definir con precisión la forma, dimensiones y posición en el espacio de un objeto cualquiera, utilizando esencialmente medidas hechas sobre una o varias fotografías de ese objeto.
+
+Una definición  más  actualizada, de la Sociedad  Americana  de  Fotogrametría  y Teledetección  (ASPRS): " es el  arte,  ciencia  y  tecnología  para  la  obtención  de medidas fiables de  objetos  físicos  y  su  entorno,  a  través  de grabación, medida e  interpretación  de  imágenes  y patrones de energía  electromagnética  radiante  y  otros   fenómenos”.
+
+La palabra fotogrametría deriva del vocablo "fotograma" (de "phos", "photós", luz, y "gramma", trazado, dibujo), como algo listo, disponible (una foto), y "metrón", medir.
+
+Por lo que resulta que el concepto de fotogrametría es: "medir sobre fotos". Si trabajamos con una foto podemos obtener información en primera instancia de la geometría del objeto, es decir, información bidimensional. Si trabajamos con dos fotos, en la zona común a éstas (zona de solape), podremos tener visión estereoscópica; o dicho de otro modo, información tridimensional.
+
+Básicamente, es una técnica de medición de coordenadas 3D, que utiliza fotografías u otros sistemas de percepción remota junto con puntos de referencia topográficos sobre el terreno, como medio fundamental para la medición.
+
+Historia de la fotogrametría
+
+Fotogrametría terrestre
+En 1725 se tiene la primera noticia del empleo de perspectivas con fines cartográficos. El suizo Moritz Anton Kappeler cartografía el monte Pilatus con un procedimiento similar al método de las intersecciones de la topografía. Las perspectivas habían sido construidas con un procedimiento ideado por el pintor alemán Alberto Durero en el siglo XVI. Esas perspectivas presentaban una serie de problemas para usarlas en cartografía. Kappeler no obtuvo las precisiones adecuadas y su idea no se generalizó.
+
+En 1839 François Arago inventa la fotografía que en 1859 fue utilizada por el coronel francés Aimé Laussedat para la confección de planos topográficos, que ya en 1846 había empezado a emplear perspectivas dibujadas por medio de una cámara clara o cámara lúcida para el mismo propósito. En 1852 Laussedat comienza a trabajar para reemplazar la cámara clara por la cámara oscura hasta construir en 1859 un prototipo de lo que después sería un fototeodolito. El procedimiento empleado por Laussedat era lo que se conoce como fotogrametría de intersección.
+
+En 1858 Albrecht Meydenbauer utiliza el procedimiento de intersecciones a partir de fotografías para el levantamiento de obras arquitectónicas y lo denomina fotogrametría. Los procesos de Laussedar y Maydenbauer tenía problemas en cuanto a la identificación de un mismo punto en dos fotografías.
+
+En 1901 Carl Pulfrich elimina el problema de la identificación de puntos homólogos con el nacimiento del estereocomparador de Pulfrich, que también permite la medición de coordenadas y paralajes con alta precisión.
+
+En 1914 aparece el estereoautógrafo de von Orel, construido sobre la base de estereocomparador de Pulfrich al que se acopló un dispositivo de regletas mecánicas que transmiten los valores de las coordenadas de los puntos de los fotogramas, permitiendo el trazado continuo de los rasgos cartográficos.
+
+En 1920, en Argentina, se construye el estereógrafo, perfeccionado en 1926. Distintos modelos de este aparato han prestado servicio durante muchos años en el Instituto Geográfico Nacional y en la empresa privada “Instituto Fototopográfico Argentino”, propiedad de los inventores.
+
+En 1923 De la Puente menciona en su libro la construcción del cartógrafo por el Coronel español Jesús Ordovás. En el año 1950 el instrumento seguía en uso en el Instituto Geográfico “con excelente rendimiento”.
+
+Fotogrametría aérea
+
+En 1897, el austríaco T. Scheimpflug comenzó sus importantes trabajos sobre rectificación, técnica que adqueriría gran difusión y, en 1898 sentó las bases de la idea de la proyección doble.
+
+En 1899 S. Finsterwalder propone resolver el problema de la orientación en tres pasos: orientación interior, orientación relativa y orientación absoluta.
+
+El 1915 Gasser, con las ideas de Scheimpflug, construyó su Proyector Doble, primer aparato apto para fotografías aéreas con buen funcionamiento. La observación de las imágenes proyectadas en la mesa medidora se hacía por el método anaglífico.
+
+En 1920 Nistri construyó su Fotocartógrafo, también con el sistema anaglífico.
+
+En 1921 W. Bauersfeld propone una elegante solución para trabajar con el principio Porro-Kope, con la cual Carl Zeiss construye el estereoplanígrafo. A partir de 1921, Ermenegildo Santoni en Italia retomó la proyección mecánica con su autoreductor, al que siguieron toda una serie de diseños.
+
+En 1924 Otto von Gruber resuelve el problema de las orientaciones de manera más sistemánica y completa.
+Desde 1936, Wild, es Suiza produjo solamente instrumentos de proyección mecánica y en 1960 Zeiss Oberkochen también cambió a la proyección mecánica con instrumentos como el Planimap y el Planicart. 
+
+Gasser y von Gruber también propusieron y diseñaron procedimientos para la concatenación de modelos dando nacimiento a la aerotriangulación.
+
+La Fotogrametría Aérea adquiere con los aparatos restituidores analógicos una rápida y formidable difusión. El camino abierto por el estereoautógrafo de von Orel en la Fotogrametría Terrestre se ensancha considerablemente y la producción de mapas y planos de todo tipo se incrementa drásticamente.
+
+Con el advenimiento de la computación, los cálculos pudieron hacerse a altas velocidades. Durante muchos años coexistieron procedimientos analógicos y analíticos. En los años ’60 el Restituidor Analítico, creado por el finlandés Uki Helava, tenía un alto coste. Sólo en los años ’80 su precio comenzó a parecerse al de los analógicos. El restituidor analítico trajo una sensible mejora en la precisión y, además, posibilitó el empleo de cualquier tipo de fotografía o aún de imágenes no fotográficas. Otras ventajas importantes fueron la facilidad con la que se podían corregir errores sistemáticos (distorsión de la lente, variaciones dimensionales de la película y efectos de refracción atmosférica y curvatura terrestre) y el empleo de altas redundancias con un tratamiento por mínimos cuadrados. Sin embargo, los grandes beneficios de la Fotogrametría Analítica no estuvieron en el restituidor analítico, sino en el cambio en las técnicas de Aerotriangulación.
+
+La aerotriangulación analógica concatenaba los modelos de una pasada en los aparatos analógicos. La muy desfavorable propagación de errores tenía una cierta ventaja: el efecto de la doble sumatoria en los errores de transferencia hacía que, aun considerando que los errores fueran accidentales, las deformaciones finales de la pasada tenían una apariencia sistemática, pudiendo evaluarse mediante el empleo de puntos de control terrestre al comienzo, en el medio y al final de cada pasada. La precisión de esos procedimientos era muy limitada porque no respondían a una verdadera compensación por mínimos cuadrados.
+
+El motor del cambio de la evolución de aerotriangulación, en este caso la computadora, era algo que evolucionaba día a día. Soluciones que no requerían computadoras onerosas fueron empleadas en la década del ’70 y aún en la del ’80, a pesar de que no brindaban una solución rigurosa de acuerdo a mínimos cuadrados. En esto tuvo mucho que ver la generosidad de G.H.Schut, que puso sus programas gratuitamente a disposición de la comunidad fotogramétrica internacional. A mediados de la década de los ’80, y con el advenimiento de las computadoras personales, los programas de compensación en bloque por mínimos cuadrados adquirieron una importante difusión. Su precio había descendido considerablemente y pasaron a formar parte del software opcional provisto al adquirir un restituidor analítico. Los desarrollos de software para la compensación de la Triangulación Aérea marcan todo un hito en la historia del diseño y elaboración de técnicas fotogramétricas.
+
+En este tiempo se asiste a la transición que lleva de los procedimientos analíticos a los digitales. Los procedimientos digitales eran de uso corriente en la Teledetección desde el ’70, pero la Fotogrametría se había mantenido casi impermeable a ellos hasta bien entrada la década del ’80. La barrera existente entre los procedimientos digitales y la fotogrametría comenzó a perforarse a partir de los ’90. En los últimos años se ha conseguido la correspondencia de imágenes con precisiones de subpixel. 
+
+Ante la dificultad de montar cámaras digitales en aeronaves, la Fotogrametría ha venido empleando hasta ahora un procedimiento híbrido: obtención de fotografías con la cámara analógica tradicional y posterior digitalización empleando escáneres de alta precisión. Sin embargo, en estos últimos años se han producido grandes avances en la construcción de tales cámaras digitales con una calidad de imagen y precisión similar a la de las cámaras aéreas tradicionales. Los primeros modelos de esas cámaras ya están en el mercado. En cuanto al tratamiento fotogramétrico de imágenes satelitales, se dispone desde hace varios años de imágenes con tamaño de píxel compatible con las precisiones cartográficas de las pequeñas escalas.
+
+La fotogrametría se encuentra hoy ante todo un verdadero desafío.
+
+Fotogrametría de largo alcance 
+El objetivo de la fotogrametría de largo alcance es el conocimiento de las dimensiones y la posición de objetos en el espacio, a través de la medida o medidas realizadas a partir de la intersección de dos o más fotografías, o de una fotografía y el modelo digital del terreno correspondiente al lugar representado, el cual ha de ser realizado anteriormente por intersección de dos o más fotografías.
+
+Esta técnica es básica para la elaboración de toda la cartografía, ya sea topográfica, temática, catastral, etc. 
+
+Puede ayudarse de información espectral y radiométrica de una imagen digital apoyada en la teledetección.
+
+La fotogrametría puede ser terrestre o aérea dependiendo desde donde son obtenidas las imágenes.
+
+Usos  
+Sus aplicaciones son numerosas:Agronomía, Cartografía, Ortofotografía, Arquitectura, Planeamiento y ordenación del territorio, Medio ambiente, Arqueología, Control de estructuras, Mediciones, Topografía, Biomecánica en diversos campos como la Medicina, Ergonomía o Deporte, Investigación policial (reconstrucción de accidentes), Zoología, videojuegos ...
+
+Tipos de fotogrametría 
+Existen varias formas de hacer fotogrametría:
+ Fotogrametría analógica: Son los modelos matemáticos utilizados. Evidentemente, fue la primera parte de la fotogrametría en desarrollarse.
+ Fotogrametría analítica: Se encarga de aplicar los modelos matemáticos a objetos físicos. Fue la segunda parte en desarrollarse.
+ Fotogrametría digital: Con la aparición de los ordenadores, se sustituye la imagen analógica por la imagen digital, del mismo modo que se empiezan a utilizar programas informáticos. En la actualidad la fotogrametria digital convive con la analítica.
+ Fotogrametria aérea: Es cuando las estaciones se encuentran en el aire. Se aplica para la elaboración de planos y/o mapas para el desarrollo de proyectos de ingeniería.
+ Fotogrametria terrestre: En este caso las estaciones se encuentran a nivel del suelo.
+
+Método 
+El método de reconstrucción de objetos o terreno (cartografía) mediante fotogrametría:
+ Fotografiar los objetos: Será necesario una previa Planificación del vuelo y de las tomas de fotografías (se hace en la fase de Proyecto de vuelo), tras la planificación se procede a la Obtención de imágenes(Vuelo), y a un posterior Procesado.
+ Orientación de las imágenes: Colocación de los fotogramas en la posición adecuada con sus marcas fiduciales (orientación interna);Colocar los fotogramas en la misma posición que ocupaban entre ellos en el momento de las tomas (orientación relativa);
+ Formación del modelo por restitución para después aplicarle giros, una traslación y un factor de escala (orientación absoluta) para tener el modelo (objeto) en coordenadas terreno. Incluye también el escalado del objeto para obtener y realizar medidas en las magnitudes reales.
+ Formación del modelo por rectificación, consistente en, una vez aplicados la orientación tanto interna como externa del haz de luz, hallar la intersección entre dicho haz orientado y el modelo digital del terreno correspondiente al espacio que se quiere determinar. Para realizar una rectificación se ha tenido que realizar previamente una restitución de dicho lugar.
+
+La metodología de las técnicas de fotogrametría utilizadas para aplicaciones biomecánicas, dependerá de si es para un estudio bidimensional (2D) o tridimensional (3D).
+
+ Filmación del sistema de referencias: Colocación de cámaras. Aunque el mínimo para los análisis 3D son dos cámaras, la medición automática de puntos sobre toda la superficie de la persona analizada suele implicar la utilización de al menos 4 cámaras. Una vez colocadas las cámaras filmando un mismo espacio, se procederá a establecer un sistema de referencias, difiniendo los ejes y escalas.
+ Filmación de la persona: la fiabilidad del estudio será mayor dentro del espacio calibrado. Sin mover las cámaras se procederá a filmar el movimiento de la persona sujeto a estudio. En función de la rapidez de ese movimiento habrá que ajustar el obturador de las cámaras.
+ Digitalización: 
+ Establecer modelo o sistema biomecánico. Ese modelo implicará qué puntos que deben ser digitalizados.
+ Coordenadas 3D
+
+Véase también 
+ Geodesia
+ Teledetección
+ Estereoscopía
+ Agrimensura
+ TopoFlight
+ Levantamiento de Fachadas
+
+Referencias
+
+Enlaces externos 
+
+ Página con multitud de recursos sobre fotogrametría, cartografía, coordenadas, aplicaciones en línea, etc.
+ Videos con ejemplos de trabajos realizados con fotogrametría
+ Tutorial de Fotogrametria
+ Departamento de fotogrametría de la Universidad de Jaén
+
+ 
+Categoría:Medición

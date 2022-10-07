@@ -1,0 +1,65 @@
+thumb|200px|El índice de la bolsa es un ejemplo de proceso estocástico de tipo no estacionario.
+
+En la teoría de la probabilidad, un proceso estocástico es un concepto matemático que sirve para usar magnitudes aleatorias que varían con el tiempo o para caracterizar una sucesión de variables aleatorias (estocásticas) que evolucionan en función de otra variable, generalmente el tiempo. Cada una de las variables aleatorias del proceso tiene su propia función de distribución de probabilidad y pueden o no estar correlacionadas entre sí.
+
+Cada variable o conjunto de variables sometidas a influencias o efectos aleatorios constituye un proceso estocástico. Un proceso estocástico  puede entenderse como una familia uniparamétrica de variables aleatorias indexadas mediante el tiempo t. Los procesos estocásticos permiten tratar procesos dinámicos en los que hay cierta aleatoriedad.
+
+Ejemplos 
+Los siguientes son ejemplos dentro del amplio grupo de las series temporales:
+
+ señales de telecomunicación;
+ señales biomédicas (electrocardiograma, encefalograma, etc.);
+ señales sísmicas;
+ el número de manchas solares año tras año;
+ el índice de la bolsa segundo a segundo;
+ la evolución de la población de un municipio año tras año;
+ el tiempo de espera en la cola de cada uno de los usuarios que van llegando a una ventanilla;
+ el clima, un gigantesco conjunto de procesos estocásticos interrelacionados (velocidad del viento, humedad del aire, etcétera) que evolucionan en el espacio y en el tiempo;
+ los procesos estocásticos de orden mayor a uno, como el caso de una serie de tiempo de orden 2 y una correlación de cero con las demás observaciones.
+
+Casos especiales 
+ Proceso estacionario: Un proceso es estacionario en sentido estricto si la función de distribución conjunta de cualquier subconjunto de variables es constante respecto a un desplazamiento en el tiempo. Se dice que un proceso es estacionario en sentido amplio (o débilmente estacionario) cuando se verifica que:
+ La media teórica es independiente del tiempo, y
+ Las autocovarianzas de orden s solo vienen afectadas por el lapso de tiempo transcurrido entre los dos periodos y no dependen del tiempo.
+ Proceso homogéneo: variables aleatorias independientes e idénticamente distribuidas. Son proceso donde el dominio tiene cierta simetría y las distribuciones de probabilidad finito-dimensionales tienen la misma simetría. Un caso especial incluye a los procesos estacionarios, también llamados procesos homogéneos en el tiempo.
+ Proceso de Márkov: Aquellos procesos discretos en que la evolución solo depende del estado actual y no de los anteriores.
+ Procesos de tiempo discreto
+ Proceso de Bernoulli son procesos discretos en los que el número de eventos viene dado por una distribución binomial.
+ Proceso de Galton-Watson: es un tipo de proceso de Markov con ramificación.
+ Procesos de tiempo continuo:
+ Proceso de Gauss: Proceso continuo en el que toda combinación lineal de variables es una variable de distribución normal.
+ Proceso de Márkov continuo
+ Proceso de Gauss-Márkov: Son procesos, al mismo tiempo, de Gauss y de Márkov
+ Proceso de Feller: son procesos estocásticos que toman valores sobre espacios de operadores de algún espacio funcional.
+ Proceso de Lévy: son procesos homogéneos de Markov de "tiempo continuo" que generalizan el paseo aleatorio que usualmente se define como de "tiempo discreto".
+ Proceso de Poisson, es caso particular de proceso de Lévy donde el tiempo transcurrido entre saltos sigue una distribución exponencial y, por tanto, el número de eventos en un intervalo viene dado por una distribución de Poisson.
+ Proceso de Wiener, el incremento de la variable entre dos instantes tiene una distribución gaussiana y, por tanto, además de un proceso de Lévy es un proceso de Gauss simultáneamente.
+ Proceso doblemente estocástico, es un tipo de modelo estocástico usado para modelar ciertas series temporales, en el que los parámetros que dan las distribuciones también varían aleatoriamente (de ahí el término de doblemente estocástico).
+ Proceso de Cox es un proceso doblemente estocástico que generaliza el proceso de Poisson, donde el parámetro de intensidad varía aleatoriamente.
+ Proceso estocástico continuo, es un tipo de proceso estocástico de tiempo continuo en que las trayectorias son además caminos continuos.
+
+Definición matemática 
+Un proceso estocástico se puede definir equivalentemente de dos formas diferentes:
+ Como un conjunto de realizaciones temporales y un índice aleatorio que selecciona una de ellas.
+ Como un conjunto de variables aleatorias  indexadas por un índice , dado que , con .
+
+Un proceso se dice «de tiempo continuo» si  es un intervalo (usualmente este intervalo se toma como ) o de "tiempo discreto" si  es un conjunto numerable (solamente puede asumir determinados valores, usualmente se toma ). Las variables aleatorias  toman valores en un conjunto que se denomina espacio probabilístico. Sea  un espacio probabilístico. En una muestra aleatoria de tamaño  se observa un suceso compuesto  formado por sucesos elementales :
+
+El suceso compuesto es un subconjunto contenido en el espacio muestral y es un álgebra de Boole . A cada suceso  le corresponde un valor de una variable aleatoria , de manera que  es función de :
+
+El dominio de esta función o sea el campo de variabilidad del suceso elemental, es el espacio muestral, y su recorrido, o sea el de la variable aleatoria, es el campo de los números reales. Se llama proceso aleatorio al valor en  de un elemento , donde para todo  es una variable aleatoria del valor en .
+
+Si se observa el suceso  en un momento  de tiempo:
+
+.
+
+ define así un proceso estocástico.
+
+Si  es una filtración, se llama proceso aleatorio adaptado, al valor en , de un elemento , donde  es una variable aleatoria  -medible del valor en . La función  se llama la trayectoria asociada al suceso .
+
+Véase también 
+
+ movimiento browniano
+ vuelo de Lévy
+
+Referencias

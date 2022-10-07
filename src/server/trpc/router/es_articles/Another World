@@ -1,0 +1,97 @@
+Another World, también conocido como Out of this World en Norteamérica y como  en Japón, es un videojuego de acción-aventura y plataforma cinemática de 1991 diseñado por Éric Chahi para Delphine Software. 
+
+Originalmente desarrollado para Amiga y posteriormente lanzado para Atari ST, Apple IIGS y DOS, el juego fue ampliamente portado a otros sistemas contemporáneos. Esfuerzos posteriores dieron lugar a diversas recreaciones del motor de juego para permitir su ejecución en ordenadores modernos, consolas y teléfonos móviles.
+
+Another World fue muy innovador en el uso de efectos cinematográficos, tanto en tiempo real y en las escenas cortas, que le valió elogios al juego entre los críticos y el éxito comercial.
+
+Jugabilidad
+
+El jugador puede utilizar el teclado o gamepad para que el protagonista pueda correr, saltar, atacar y realizar otras acciones específicas, como interactuar con el entorno. En la parte inicial del juego, Lester está desarmado y por tanto indefenso, salvo por la posibilidad de dar patadas a pequeñas criaturas. 
+
+Más adelante, el jugador adquiere una pistola láser de un enemigo caído. Sin embargo, el juego utiliza numerosos puntos de guardado que permiten al jugador empezar desde ellos indefinidamente. En Amiga y consolas antiguas sin la posibilidad de guardar el juego, el jugador puede anotar un código alfanumérico que proporcionan estos puntos de guardado para introducirlo en otro momento y continuar la partida desde ese punto.
+
+Argumento
+
+El protagonista del juego es Lester Knight Chaykin, un joven genio de la física. En la cinemática introductoria, Lester llega a su laboratorio subterráneo de alta tecnología durante una tormenta y se va a trabajar en su experimento usando un acelerador de partículas. Inmediatamente antes de que las partículas alcancen su destino previsto, un rayo cae sobre el laboratorio e interfiere con el acelerador, haciendo que Lester se teletransporte a otro planeta.
+
+Tras huir de varios animales indígenas peligrosos, Lester es capturado por una raza de alienígenas humanoides y conducido a un campo de prisioneros subterráneo. Lester se escapa junto con un prisionero alienígena conocido como "Buddy" viajando a través de una serie de lugares peligrosos, luchando contra soldados alienígenas y criaturas salvajes mientras resuelve numerosos rompecabezas para poder sobrevivir. En el clímax del juego, Lester resulta gravemente herido por uno de los aliens, pero, con la ayuda de su amigo alienígena, se las arregla para matar a su atacante y escapar. Cuando Lester cae, se une de inmediato con Buddy, que recoge a Lester, y los dos escapan en una criatura semejante a un dragón, volando hacia el horizonte.
+
+Desarrollo
+
+En agosto de 1989, Chahi quedó impresionado por las animaciones usadas en la versión Amiga de Dragon's Lair, y pensó que sería posible utilizar contornos vectoriales para crear un efecto similar usando mucho menos espacio de almacenamiento. Escribió una rutina poligonal en lenguaje ensamblador en un Atari ST para probar su teoría, con mucho éxito. Fue capaz de aprovechar las capacidades del genlock de Amiga para crear animaciones rotoscópicas utilizando grabaciones de vídeo de sí mismo. Intentó usar polígonos más pequeños para construir los fondos de las escenas empleando gráficos creados con Deluxe Paint, pero el proceso resultaba demasiado lento así que volvió a usar imágenes de mapa de bits.
+
+Mientras que Chahi tenía una idea clara de cómo poner en práctica su motor de juego, el contenido real fue en su mayoría improvisado. Lo que tenía pensado era la creación de un juego de ciencia ficción que fuese similar a Karateka e Impossible Mission. Puesto que quería crear una experiencia cinematográfica dramática, el juego no tiene ningún HUD o diálogo, dando al jugador solo una representación del mundo del juego que lo rodea por medio de los elementos de jugabilidad y las escenas que contribuyen a la narrativa de la historia. Chahi recurrió a desarrollar su propia herramienta con un nuevo lenguaje de programación a través de GFA-BASIC junto con el motor del juego desarrollado mediante el paquete ensamblador Devpac. 
+
+Terminó la secuencia de introducción del videojuego a principios de 1990 y comenzó a trabajar en el primer nivel.  El juego fue terminado en 1991, inspirando el lema del juego: Tuvieron que pasar seis días para crear la Tierra, Another World tardó dos años.
+
+Lanzamiento
+
+El juego fue lanzado originalmente para Amiga y posteriormente para Atari ST en 1991, funcionando a una resolución de pantalla de 320x200 píxeles. Estas versiones fueron menos probadas que el resto, lo que hacía que el juego fuera menos fluido, pero las capacidades de sonido del Amiga ofrecían una alta calidad en comparación con los ports contemporáneos del juego.
+
+Conversiones
+
+Los críticos elogiaron los gráficos, sonido y jugabilidad de la versión original del juego, pero criticaron su corta duración. Chahi respondió con la creación de un nivel adicional, que apareció en la versión para DOS de 1992, a cargo de Daniel Morais. La versión para Macintosh contaba con una resolución más alta que la versión de DOS, pero por lo demás era idéntica a las anteriores.
+
+A través de Interplay, el juego fue lanzado para SNES, Mega Drive, y Apple IIgs en 1992. Las versiones de SNES y Apple IIgs fueron programadas por "Burger" Bill Heineman. Debido a las limitaciones técnicas, la versión de SNES tenía una menor resolución, mientras la versión de Mega Drive tenía menos calidad de sonido y música. Interplay quería que las versiones de consola fueran más difíciles para que los jugadores sintieran que su dinero había sido bien invertido, así que se añadieron nuevos peligros. Interplay quería cambiar la música de Jean-François Freitas por otra banda sonora, pero Chahi no autorizó el cambio, y con ayuda del abogado de Delphine, consiguió que se mantuviese la música original de la introducción. Por su parte, Nintendo solicitó que se eliminaran todas las escenas con sangre, o fluidos similares a la sangre (como la saliva de la planta atrapamoscas alienígena), al igual que los desnudos, que también fueron censurados.
+
+La versión de 3DO fue desarrollada por Interplay y presentaba fondos muy detallados, si bien Chahi consideró que esto realmente perjudicaba al juego al hacer que los personajes poligonales parecieran simples en comparación. La banda sonora del juego se cambió otra vez, aunque esta vez sin problemas legales de por medio, presumiblemente porque Chahi estaba inmerso en un nuevo proyecto.
+
+La versión de 1994 para Sega Mega-CD de Heart of the Alien, la secuela no canónica, incluía una versión mejorada de Another World como bonificación. Esta versión incluía una banda sonora mejorada en CD, compuesta por Jean-François Freitas. El juego también presentaba ligeras mejoras gráficas y nuevas voces para Lester y los aliens. Hay, sin embargo, un pequeño fallo en el juego que hace que en ciertas partes de la secuencia de las cavernas subterráneas, éstas parezcan inundadas, cuando realmente no lo están.
+
+En 1995, se lanzó una versión para Windows 3.x que incluía una reedición en MIDI de la música original.
+
+En 2006 las ediciones Plus y Premium del pack de emulación Amiga Forever contienen una versión exclusiva de Another World.
+
+Más recientemente Chahi adquirió los derechos de Another World que tenía Delphine. Magic Productions ofreció portar el juego a teléfonos móviles y se realizó con la ayuda de Cyril Cogordan. Chahi vio que la jugabilidad podía ser incrementada, así que usó su viejo Amiga para reprogramar ciertas partes. Hizo las sombras de los gráficos más claras para contrarrestar la baja resolución de los teléfonos móviles. 
+
+Después de esto Chahi uso esta versión para crear una nueva versión de Windows orientada a Windows XP. Emmanuel Rivoire incrementó la resolución a 1280x800 píxeles, y Chahi creó fondos más detallados para el juego. Encontró que su elección original de usar polígonos para los personajes del juego, le permitía usar el arte de personajes original a una alta resolución manteniendo un aspecto convincente. El juego aún soporta la resolución de 320x200 así como los fondos originales; presenta dos veces más checkpoints que el original lo que hace que la dificultad sea menor. El juego no incluye la música extra creada por Interplay, pero incluye el nivel extra de la versión de MS-DOS, así como los peligros y enemigos añadidos a las versiones de consola. Esta versión es conocida como Edición del coleccionista, y es considerada por Chahi como la versión definitiva de Another World.
+
+La demo de esta Edición del coleccionista se puede descargar y jugar de manera gratuita, puede ser actualizada a la versión completa por 7€.
+
+En marzo de 2012 el juego fue lanzado para la plataforma móvil Android, permaneciendo prácticamente idéntico a la versión original salvo mejoras a los gráficos y controles adaptados para los móviles con pantallas táctiles.
+
+En 2013, un port para el último sistema de videojuegos de la atari, La Atari Jaguar, está siendo desarrollado por un equipo de desarrolladores homebrew con el soporte y la bendición de Eric Chahi, el creador original del juego, este port se espera que sea 100% fiel al original, debido a que el Atari Jaguar y el Commodore Amiga comparten un procesador similar, el Motorola 68000, además de incluir una opción de cambiar los gráficos originales a Deluxe, que incluye mejoras en los escenarios de fondo.
+
+Secuelas 
+
+Chahi ha declarado que desea que el juego no tenga secuelas y que quiere que el final original del juego permanezca ambiguo para que los fanes puedan sacar sus propias conclusiones. A pesar de esto, hay juegos que normalmente se han considerado como secuelas de Another World.
+
+Una secuela no canónica titulada Heart of the Alien fue lanzada para Sega Mega-CD en 1994. El juego tenía un estilo visual similar a Another World. El jugador controlaba al alien que es amigo de Lester, el protagonista, en el juego original, situando la acción en un tiempo previo a la historia del juego original, a pesar de esto la introducción del juego contiene escenas que muestran eventos del primer juego desde el punto de vista del alien.
+
+Chahi no tuvo nada que ver con el desarrollo del juego, más allá de sugerir la muerte de Lester, y ha lamentado la decisión alegando que no le gustó porque da una terminación definitiva a la historia, la cual Chahi había dejado abierta deliberadamente.
+
+El juego de 1992, Flashback y su secuela de 1995 llamada Fade to Black (ambos de Delphine), son a menudo tomados equivocadamente por secuelas de Another World, debido a su similar estilo de juego y gráficos. Sin embargo estos juegos no tienen nada que ver con Another World y tienen historias completamente distintas. Ambos juegos fueron también hechos sin la participación de Chahi. Flashback parece que hace unas cuantas referencias directas a Another World, incluyendo el destacado uso de campos de fuerza en combate, y el parecido cercano del texto "THE END" (en el fotograma final del juego), y una recreación casi exacta de la cinemática donde se recoge al arma. 
+
+Eric Chahi volvió a este concepto de videojuegos después de dejar Delphine. En 1998, él y su nueva compañía Amazing Studio crean Heart of Darkness, el cual de cierto modo es muy similar al espíritu de Another World, aunque también tienen una historia diferente.
+
+Eric Chahi desapareció de la industria durante algunos años, pero recientemente podría haber recuperado su interés en crear videojuegos. Asistió la conferencia de desarrolladores de videojuegos en 2005, A pesar de criticar a la industria por no apoyar la creatividad, dijo que "aún está muy emocionado" por comenzar a trabajar en un nuevo juego.
+
+Referencias
+
+Enlaces externos
+ DeLaC Aventuras. Review y material de la aventura, en español
+
+Categoría:Videojuegos para Sega Mega-CD
+Categoría:Videojuegos para Sega Mega Drive
+Categoría:Videojuegos para Super Nintendo
+Categoría:Videojuegos para 3DO
+Categoría:Videojuegos para Amiga
+Categoría:Videojuegos para Apple IIGS
+Categoría:Videojuegos para Atari ST
+Categoría:Videojuegos para Mac
+Categoría:Videojuegos para DOS
+Categoría:Videojuegos para Windows
+Categoría:Videojuegos para Symbian
+Categoría:Videojuegos para Windows Mobile
+Categoría:Videojuegos para Game Boy Advance
+Categoría:Videojuegos para Zodiac
+Categoría:Videojuegos para iOS
+Categoría:Videojuegos para Android
+Categoría:Videojuegos de Interplay
+Categoría:Videojuegos de ciencia ficción
+Categoría:Videojuegos de plataformas
+Categoría:Videojuegos de 1991
+Categoría:Videojuegos de Éric Chahi
+Categoría:Videojuegos desarrollados en Francia
+Categoría:Videojuegos de supervivencia
+Categoría:Esclavos ficticios

@@ -1,0 +1,53 @@
+thumb|300px|Máxima digresión occidental de una estrella.En la imagen, E1 sería la máxima digresión occidental de un astro E; en esta posición el triángulo esférico PZE se convierte en rectángulo, reduciendo la complejidad de la fórmula de cálculo para el azimut y altura de la estrella.
+
+En astronomía de posición, las máximas digresiones de una estrella son las dos posiciones que genera una estrella cualquiera, que culmina entre el cenit de un lugar y el polo norte celeste.
+
+Descripción 
+
+Para que se produzcan las máximas digresiones deben darse unas condiciones determinadas: la declinación (δ) de la estrella debe ser mayor que latitud del lugar de observación (φ), y tanto la latitud del lugar como la declinación deben ser mayores que cero.
+
+ δ > φ
+ δ >
+ φ > 0
+
+Si estas condiciones se producen, la variación del azimut de la estrella se realiza entre un máximo y un mínimo comprendido entre 90° y 270° sexagesimales. Estas dos posiciones en el movimiento aparente o movimiento diurno del astro son las máximas digresiones.
+
+Cada máxima digresión recibe el nombre de occidental u oriental, según se encuentre comprendida al oeste o este del lugar de observación.
+
+Frecuentemente las máximas digresiones de estrellas aparecen asociadas a estrellas circumpolares, que cumplen las condiciones antes descritas, pero no debe confundirse la máxima digresión con las estrellas siempre visibles sobre el horizonte.
+
+Posiciones de los astros producidas por el movimiento aparente 
+
+Las máximas digresiones son uno de los tres problemas a los que da lugar el movimiento aparente o movimiento diurno de los astros por la rotación de la Tierra, que son orto, ocaso, máximas digresiones y primera vertical.
+
+Cálculo de la altura y azimut de una estrella en máxima digresión 
+
+PZ = 90° - φ, Z = 180° - A
+ZE = 90° - h, P = H
+PE = 90° - δ, E = 90°
+
+thumb|400px|Deducción de la altura y azimut de una estrella a partir de la declinación de una estrella en su máxima digresión y latitud de un lugar.
+
+En la fórmula se pueden ver las fórmulas simplificadas deducidas a partir de la conversión a triángulo rectángulo.
+
+Enlaces externos 
+
+ Anuario del Observatorio Astronómico Nacional de España, donde aparecen las máximas digresiones de varias estrellas circunpolares.
+ Máxima digresión, posiciones particulares de una estrella.
+Problema sobre máxima digresión.
+
+Referencias
+
+Véase también 
+
+ Astrometría
+ Coordenadas astronómicas
+ Movimiento diurno
+ Ocaso
+ Orto
+ Tiempo sidéreo
+ Trigonometría esférica
+
+Categoría:Geodesia
+Categoría:Astrometría
+Categoría:Coordenadas celestes

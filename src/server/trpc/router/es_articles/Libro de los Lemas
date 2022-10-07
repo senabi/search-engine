@@ -1,0 +1,53 @@
+El Libro de los Lemas es una obra atribuida a Arquímedes por el geómetea árabe Thábit ibn Qurra, aunque su autoría  es cuestionable. Consiste en quince proposiciones (lemas) sobre círculos.
+
+Historia
+
+Traducciones 
+El Libro de los Lemas fue introducido por primera vez en árabe por Thábit ibn Qurra; quien atribuyó el trabajo a Arquímedes. En 1661, el manuscrito árabe fue traducido al latín por Abraham Ecchellensis y editado por Giovanni A. Borelli. La versión latina se publicó bajo el título de Liber Assumptorum. Thomas Heath tradujo el trabajo latino de Heiburg al inglés en The Works of Archimedes.
+
+Autoría 
+La autoría original del Libro de los Lemas ha sido cuestionada porque en la proposición cuatro, el libro se refiere a Arquímedes en tercera persona; sin embargo, se ha sugerido que esta afirmación pudo haber sido agregada por el traductor. Otra posibilidad es que el Libro de los Lemas sea una colección de proposiciones de Arquímedes que luego fuera recopilada por un escritor griego.
+
+Nuevas figuras geométricas 
+El Libro de los Lemas presenta varias figuras geométricas nuevas:
+
+Arbelos 
+
+izquierda|miniaturadeimagen|200x200px| El arbelos es la región sombreada en color gris
+
+Arquímedes presentó por primera vez el arbelos en la proposición cuatro de su libro: 
+La figura se usa en las proposiciones cuatro a ocho. En la proposición cinco, Arquímedes presenta los círculos gemelos de Arquímedes, y en la proposición ocho, utiliza lo que sería la cadena de Papo, introducida formalmente por Papo de Alejandría.
+
+Salinon 
+
+izquierda|miniaturadeimagen|200x200px| El salinon es la región sombreada en color azul 
+Arquímedes presentó por primera vez el salinon en la proposición catorce de su libro: 
+Arquímedes demostró que es posible construir un círculo con igual área que un salinón.
+
+Proposiciones 
+La demostración completa de estas quince proposiciones se puede encontrar en una publicación de la Real Sociedad Matemática Española en el enlace siguiente: "El Libro de los Lemas":
+ Si dos círculos se tocan en A, y si CD, EF son diámetros paralelos, ADF es una línea recta. 
+ Sea AB el diámetro de un semicírculo, y las tangentes a él en B y en cualquier otro punto D se encuentren en T. Si ahora DE se dibuja perpendicular a AB; y si AT y DE se encuentran en F, entonces DF=FE. 
+ Sea P cualquier punto en un segmento de un círculo cuya base es AB, y sea PN perpendicular a AB. Tómese D en AB para que AN=ND. Si ahora PQ es un arco igual al arco PA, y se une BQ, entonces BQ y BD serán iguales. 
+ Si AB es el diámetro de un semicírculo y N cualquier punto en AB, y si los semicírculos se describen dentro del primer semicírculo y tienen AN y BN como diámetros respectivamente, la cifra incluida entre las circunferencias de los tres semicírculos es "lo que Arquímedes llamó αρβηλος" (salinón); y su área es igual al círculo con PN como diámetro, donde PN es perpendicular a AB y se encuentra con el semicírculo original en P. 
+ Sea AB el diámetro de un semicírculo, C cualquier punto en AB y CD perpendicular a él, y sean los semicírculos dentro del primer semicírculo con AC y CB como diámetros. Luego, si se dibujan dos círculos tocando CD en lados diferentes y cada uno toca dos semicírculos, los círculos así dibujados serán iguales. 
+ Sea AB el diámetro de un semicírculo, y se divide en C para que AC=3/2×CB [o en cualquier proporción]. Trácense los semicírculos dentro del primer semicírculo y en AC y CB como diámetros, y supóngase un círculo dibujado tocando los tres semicírculos. Si GH es el diámetro de este círculo, permite encontrar la relación entre GH y AB. 
+ Si los círculos están circunscritos e inscritos en un cuadrado, el círculo circunscrito tiene el doble de área que el inscrito. 
+ Si AB es cualquier cuerda de un círculo cuyo centro es O, y si AB se tiende a C para que BC sea igual al radio; si además CO se encuentra con el círculo en D y se ajusta para tocarse con el círculo la segunda vez en E, el arco AE será igual a tres veces el arco BD. 
+ Si en un círculo dos cuerdas AB, CD que no pasan por el centro se cruzan en ángulo recto, entonces (arco AD)+(arco CB)=(arco de CA)+(arco DB). 
+ Supóngase que TA, TB son dos tangentes a un círculo, mientras que TC lo corta. Sea BD la cuerda a través de B paralelo a TC, y AD se encuentre con TC en E. Entonces, si EH se dibuja perpendicular a BD, se bisecará en H. 
+ Si dos cuerdas AB, CD en un círculo se cruzan en ángulo recto en un punto O, no siendo el centro, entonces AO2+BO2+CO2+DO2=(diámetro)2. 
+ Si AB es el diámetro de un semicírculo, y TP, TQ las tangentes a él desde cualquier punto T, y si AQ, BP se unen reuniéndose en R, entonces TR es perpendicular a AB. 
+ Si un diámetro AB de un círculo cumple con cualquier cuerda CD, no un diámetro, en E, y si AM, BN se dibuja perpendicular a CD, entonces CN=DM. 
+ Sea ACB un semicírculo en AB como diámetro, teniendo AD, BE  la misma longitud medida a lo largo de AB desde A, B, respectivamente. Con AD, BE como diámetros, trazar semicírculos en el lado hacia C, y con DE como diámetro, un semicírculo en el lado opuesto. Sea la perpendicular a AB a través de O, el centro del primer semicírculo, que se encuentra con los semicírculos opuestos en C y F respectivamente. Entonces, el área de la figura delimitada por las circunferencias de todos los semicírculos será igual al área del círculo con CF como diámetro. 
+ Sea AB el diámetro de un círculo, AC un lado de un pentágono regular inscrito, D el punto medio del arco AC. Únase CD y generar BA generado en E;  cortar AC y DB en F y dibujar FM perpendicular a AB. Entonces EM = (radio del círculo).
+
+Referencias
+
+Enlaces externos
+ "Liber assumptorum" (Guirnalda matemática); completa información sobre la historia del libro
+
+Categoría:Lemas (matemáticas)
+Categoría:Geometría euclidiana
+Categoría:Trabajos de Arquímedes
+Categoría:Obras matemáticas de la Antigua Grecia

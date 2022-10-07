@@ -5,8 +5,19 @@ import { trpc } from "../utils/trpc";
 import { useForm } from "react-hook-form";
 import { SearchQueryType, searchQueryValidator } from "../shared/search-query";
 import { zodResolver } from "@hookform/resolvers/zod";
+import { useState } from "react";
 
-const SearchBar = () => {
+const Articles = ({ articles }: { articles: string[] }) => {
+  return (
+    <div>
+      {articles?.map((article) => (
+        <h1 id={article}>{article}</h1>
+      ))}
+    </div>
+  );
+};
+
+const SearchBar = ({ setArticles }: { setArticles: any }) => {
   const {
     register,
     handleSubmit,
@@ -15,8 +26,14 @@ const SearchBar = () => {
     resolver: zodResolver(searchQueryValidator),
   });
 
+  const mutationResponse = trpc.query.getArticles.useMutation({
+    onSuccess: (data) => {
+      setArticles(data.articles);
+    },
+  });
   const onSubmit = (data: SearchQueryType) => {
     console.log({ searchParameter: data });
+    mutationResponse.mutate(data);
   };
 
   // useForm
@@ -41,6 +58,7 @@ const SearchBar = () => {
 
 const Home: NextPage = () => {
   const hello = trpc.example.hello.useQuery({ text: "from tRPC" });
+  const [articles, setArticles] = useState<string[]>([]);
 
   return (
     <>
@@ -56,7 +74,8 @@ const Home: NextPage = () => {
           </h1>
           <AuthShowcase />
         </div>
-        <SearchBar />
+        <SearchBar setArticles={setArticles} />
+        <Articles articles={articles}></Articles>
       </main>
     </>
   );

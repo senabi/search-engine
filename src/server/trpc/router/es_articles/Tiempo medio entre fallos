@@ -1,0 +1,24 @@
+El tiempo medio entre fallos (, comúnmente abreviado MTBF)  es la media aritmética (promedio) del tiempo entre fallos de un sistema. El MTBF es típicamente parte de un modelo que asume que el sistema fallido se repara inmediatamente (el tiempo transcurrido es cero), como parte de un proceso de renovación. En cambio, el MTTF (Mean Time To Failure) mide el tiempo medio entre fallo con la suposición de un modelo en que el sistema fallido no se repara.
+
+En definitiva, el MTBF es una medida de la confiabilidad de un sistema, mientras que el MTTF es una medida de su mantenibilidad.
+
+Definición formal de MTBF 
+El MTBF es simplemente el recíproco de la cadencia de fallos.
+
+El MTBF se denota a menudo por el símbolo , o
+
+.
+
+Dado que la cadencia del MTBF son recíprocos, se encuentran ambas notaciones en la literatura, dependiendo de cual sea la más apropiada para la aplicación.
+
+El MTBF puede definirse en términos del (valor esperado) de la función de densidad de fallos f(t)
+
+ 
+
+con
+
+Referencias 
+
+Categoría:Análisis de series temporales
+Categoría:Análisis de fiabilidad
+Categoría:Mantenimiento

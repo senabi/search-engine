@@ -1,0 +1,55 @@
+El alojamiento compartido o alojamiento virtual, en inglés Virtual hosting, es una de las modalidades más utilizadas por las empresas dedicadas al negocio del alojamiento web. Dependiendo de los recursos disponibles, permite tener una cantidad variable de dominios y sitios web en una misma máquina.
+
+Es, generalmente, la forma más económica de alojamiento web y ha supuesto una pequeña revolución ya que sus reducidos costes (generalmente menos de 10€ al mes) han hecho posible que muchos profesionales hayan podido llevar su actividad también al mundo en línea.
+
+Características 
+
+En el alojamiento compartido, todos los sitios web alojados comparten los recursos disponibles. Dependiendo del tipo de procesador, memoria, espacio de disco y carga del sistema, la cantidad de sitios alojados puede variar desde unos cuantos pocos a cientos e incluso miles.  El alojamiento compartido es una alternativa económica frente a los servidores dedicados y los servidores virtuales.
+
+Las empresas de alojamiento web generalmente se asisten utilizando paneles de control (programas asistentes que permiten manejar los dominios, sitios y servidores de forma automática o semiautomática desde una interfaz, generalmente web), como cPanel, DirectAdmin, Plesk, InterWorx, H-Sphere e ISPConfig.
+
+La mayoría de las empresas de alojamiento web utilizan sistemas operativos GNU/Linux, aunque también algunos proveedores ofrecen soluciones basadas en Microsoft Windows o FreeBSD.
+
+Ventajas 
+
+ Los costos de alojamiento web han ido disminuyendo debido a una demanda creciente por parte de organizaciones, empresas y personas que desean tener presencia en Internet.
+ Los avances tecnológicos han resultado en importantes incrementos del poder de cómputo de las máquinas servidores, lo que ha permitido que las empresas alojen más sitios en una misma máquina. Además, las prestaciones de un buen hosting hoy en día son suficientes para alojar incluso más de una web (con diferentes dominios) en una sola cuenta de alojamiento web, lo que se conoce también como hosting multidominio.
+ Los avances tecnológicos también se han reflejado en una disminución del costo de arriendo de las máquinas servidores, lo que ha resultado en una disminución de los costos de operación de las empresas dedicadas al negocio del alojamiento web.
+
+Inconvenientes 
+
+ Es común que, con el tiempo, aparezcan fallos de seguridad en un sistema de alojamiento compartido. Esto se debe a que, generalmente, existe una gran cantidad de sitios web alojados en una misma máquina, con administradores (webmasters) que son independientes uno de otro, los cuales realizan sus desarrollos utilizando una gran cantidad de aplicaciones distintas (una gran diversidad de CMS, Sistemas de Administración de Contenidos), lo que dificulta el mantenimiento de los programas que corren en el servidor web. Esto resulta, con el tiempo, en el aumento de la cantidad de fallos de seguridad, a medida que se descubren vulnerabilidades en aplicaciones que no son actualizadas regularmente. Esto aumenta la vulnerabilidad global del sistema.
+ Todos los sitios comparten recursos del servidor, por lo tanto una sobreventa puede producir problemas de rendimiento que terminan por afectar a todos los sitios alojados en la máquina.
+ En un hosting compartido, todos los sitios dependen de "lo que haga el vecino", tanto en términos de seguridad como de rendimiento.
+
+Implementación 
+
+Comúnmente las empresas de alojamiento web alojan sus sitios utilizando el servidor Apache y el método de virtual hosting, o alojamiento virtual. Este método permite alojar múltiples nombres de dominio en una máquina con sólo una dirección IP.
+
+La implementación de la mayoría de los servidores con alojamiento compartido tiene los siguientes componentes:
+
+ Un servidor web, como Apache, que procesa los pedidos de páginas web de los clientes.
+ Un servidor de bases de datos, como MySQL, el cual es utilizado por muchas aplicaciones web para almacenar datos dinámicos.
+ Un servidor de nombres de dominio, como Bind9, que permite traducir un nombre de dominio en un número IP.
+ Un servidor FTP, como proftpd, para la transferencia de archivos entre la máquina del cliente y el servidor.
+ Un servidor ssh, como openssh, para la administración remota.
+ Un servidor de correos, como Postfix, que permite enviar y recibir correos a nivel de servidor.
+ Un cliente de correo con interface web, como Squirrelmail, Horde o RoundCube, que permite visualizar, borrar, enviar y recibir mensajes, en forma similar a gmail o hotmail.
+ Un panel de control, como Cpanel, que permite automatizar la creación de usuarios, sitios, cuentas FTP, cuentas de correo, bases de datos, etc.
+ Un cliente FTP como Filezilla para transferir archivos de tu ordenador al servidor.
+
+Tipos de webs populares en hosting compartido 
+Aparte de webs muy simples, creadas con páginas HTML estáticas, hoy en día las webs típicas explotadas en un hosting compartido son webs con software libre con una arquitectura LAMP.
+
+Entre las aplicaciones más populares cabe destacar los blogs basados WordPress, webs creadas con sistemas CMS como Joomla, foros de discusión como phpBB y tiendas en línea creadas con Prestashop.
+
+En este caso es necesario que el hosting contratado se adecue a los requisitos necesarios para este tipo de aplicaciones (soportar aplicaciones PHP y bases de datos MySQL).
+
+Véase también 
+ Alojamiento dedicado
+ Servidor virtual privado
+
+Referencias 
+
+Categoría:Alojamiento de Internet
+Categoría:Desarrollo web

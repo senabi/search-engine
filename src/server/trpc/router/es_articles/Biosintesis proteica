@@ -1,0 +1,67 @@
+La biosíntesis de proteínas o síntesis de proteínas  es el proceso anabólico mediante el cual se forman las proteínas. El proceso consta de dos etapas, la traducción del ARN mensajero, mediante el cual los aminoácidos del polipéptido son ordenados de manera precisa a partir de la información contenida en la secuencia de nucleótidos del ADN, y las modificaciones postraduccionales que sufren los polipéptidos así formados hasta alcanzar su estado funcional. Dado que la traducción es la fase más importante, la biosíntesis de proteínas a menudo se considera sinónimo de traducción.
+
+Traducción
+thumb|250px|Elongación del polipéptido. El ribosoma es verde y amarillo, los ARNt son azul oscuro y las demás proteínas implicadas son azul claro.
+
+Componentes del equipo de traducción 
+
+El ARN mensajero (ARNm) transmite la información genética almacenada en el ADN. Mediante el proceso conocido como transcripción, secuencias específicas de ADN son copiadas en forma de ARNm que transporta el mensaje contenido en el ADN a los sitios de síntesis proteica (los ribosomas).
+
+Los aminoácidos (componentes de las proteínas) son unidos a los ARN de transferencia (ARNt) que los llevarán hasta el lugar de síntesis proteica, donde serán encadenados uno tras otro. La enzima aminoacil-ARNt-sintetasa se encarga de dicha unión, en un proceso que consume ATP.
+
+Los ribosomas son los orgánulos citoplasmáticos encargados de la biosíntesis proteica; ellos son los encargados de la unión de los aminoácidos que transportan los ARNt siguiendo la secuencia de codones del ARNm según las equivalencias del código genético.
+
+Inicio de la traducción 
+
+Es la primera etapa de la biosíntesis de proteínas.  El ARNm se une a la subunidad menor de los ribosomas. A estos se asocia el aminoacil-ARNt, gracias a que el ARNt tiene en una de sus asas un triplete de nucleótidos denominado anticodón, que se asocia al primer codón del ARNm según la complementariedad de las bases. A este grupo de moléculas se une la subunidad ribosómica mayor, formándose el complejo ribosomal o complejo activo. Todos estos procesos están catalizados por los llamados factores de iniciación (FI). El primer  codón que se traduce es generalmente el AUG, que corresponde con el aminoácido metionina en eucariotas. En procariotas es la formilmetionina.
+
+Elongación de la cadena polipeptídica 
+
+El complejo ribosomal posee dos sitios de unión o centros. El centro peptidil o centro P, donde se sitúa el primer aminoacil-ARNt y el centro aceptor de nuevos aminoacil-ARNt o centro A. El carboxilo terminal (-COOH) del aminoácido iniciado se une con el amino terminal (-NH2) del aminoácido siguiente mediante enlace peptídico. Esta unión es  catalizada por la enzima peptidil transferasa. El centro P queda pues ocupado por un ARNt sin aminoácido. El ARNt sin aminoácido sale del ribosoma. Se produce la translocación ribosomal. El dipeptil-ARNt queda ahora en el centro P. Todo ello es catalizado por los factores de elongación (FE) y precisa GTP. Según la terminación del tercer codón, aparece el tercer aminoacil-ARNt y ocupa el centro A. Luego se forma el tripéptido en A y posteriormente el ribosoma realiza su segunda translocación. Estos pasos se pueden repetir múltiples veces, hasta cientos de veces, según el número de aminoácidos que contenga el polipéptido. La traslocación del ribosoma implica el desplazamiento del ribosoma a lo largo de ARNm en sentido 5'→ 3'.
+
+Terminación de la síntesis de la cadena polipeptídica 
+
+Los codones UAA, UAG y UGA son señales de paro que no especifican ningún aminoácido y se conocen como codones de terminación; determinan el final de la síntesis proteica. No existe ningún ARNt cuyo anticodón sea complementario de dichos codones y, por lo tanto, la biosíntesis del polipéptido se interrumpe. Indican que la cadena polipeptídica ya ha terminado. Este proceso viene regulado por los factores de liberación, de naturaleza proteica, que se sitúan en el sitio A y hacen que la peptidil transferasa separe, por hidrólisis, la cadena polipeptídica del ARNt.
+Un ARNm, si es lo suficientemente largo, puede ser leído o traducido, por varios ribosomas a la vez, uno detrás de otro. Al microscopio electrónico, se observa como un rosario de ribosomas, que se denomina polirribosoma o polisoma.
+
+Una vez finalizada la síntesis de una proteína, el ARN mensajero queda libre y puede ser leído de nuevo. De hecho, es muy frecuente que antes de que finalice una proteína ya está comenzando otra, con lo cual, una misma molécula de ARN mensajero, está siendo utilizada por varios ribosomas simultáneamente.
+
+Modificaciones postraducción 
+
+Algunas proteínas emergen del ribosoma preparadas para ejercer su función de inmediato, mientras que otras experimentan diversas modificaciones postraducción, que pueden conducir a la proteína a la adquisición de su forma funcional, a su traslado a un compartimento subcelular determinado, a su secreción al exterior de la célula, etc.
+
+Plegamiento 
+
+Las proteínas deben adquirir su estructura tridimensional nativa, la que desempeña la función, a partir de la estructura primaria. Christian B. Anfinsen en sus trabajos con la ribonucleasa A, postuló su hipótesis que propone que toda la información necesaria para el plegamiento se encuentra contenida en la estructura primaria. Esto dio pie a que en 1969 Levinthal sugiriese la existencia de una paradoja a la que se conoce como la paradoja de Levinthal: si una proteína se pliega explorando al azar todas las conformaciones posibles necesitaría un tiempo mayor que la edad del propio Universo. Dado que las proteínas se pliegan en un tiempo razonable y de forma espontánea, se ha resuelto esta paradoja indicando que las proteínas no prueban todas las conformaciones posibles, sino que eligen una vía de plegamiento específica con un número de pasos finitos, es decir, se reduce el hiperespacio potencial. Así, muchas proteínas adquieren espontáneamente la correcta conformación tridimensional, pero otras muchas solo adquieren la conformación correcta con la ayuda de una o más proteínas chaperonas. Las chaperonas se unen reversiblemente a regiones hidrofóbicas de las proteínas desplegadas y a los intemediarios de plegamiento; pueden estabilizar intermediarios, mantener proteínas desplegadas para que pasen con facilidad a través de membranas, ayudar a desplegar segmentos plegados incorrectamente, impedir la formación de intermediarios incorrectos o impedir interacciones inadecuadas con otras proteínas.
+
+Glucosilación 
+
+La glucosilación es la adición de uno o más glúcidos a una proteína lo que da lugar a las glucoproteínas, que son esenciales en los mecanismos de reconocimiento celular. La glucosilación puede implicar la adición de unas pocas moléculas glucídicas o de grandes cadenas ramificadas de oligosacáridos. Existe un centenar de glucosiltransferasas distintas, las enzimas encargadas de realizar este proceso. El mecanismo es básicamente el mismo en todos los casos; un azúcar es transferido desde un sustrato dador activado hasta un aceptor apropiado.
+
+Proteólisis parcial 
+
+La proteólisis parcial es una etapa frecuente en los procesos de maduración de las proteínas. Pueden eliminarse secuencias de aminoácidos en ambos extremos o en el interior de la proteína. La proteólisis en el retículo endoplasmático y en el aparato de Golgi son, por ejemplo, esenciales en la maduración de la insulina; la preproinsulina  codificada por el ARNm es introducida en el retículo endoplasmático; una peptidasa la corta y origina la proinsulina que se pliega para formar los puentes disulfuro correctamente; la proinsulina es transportada al aparato de Golgi, donde es empaquetada en gránulos de secreción; entonces se elimina un fragmento (péptido C) por proteólisis originando la insulina funcional, que es secretada. La hiperproinsulinemia familiar es una enfermedad genética autosómica dominante causada por en defecto en el proceso de maduración de la proinsulina, que da lugar a la presencia en el torrente circulatorio de insulina y de proinsulina en cantidades similares.
+
+Modificación de aminoácidos 
+
+Sólo 20 aminoácidos están codificados genéticamente y son incorporados durante la traducción. Sin embargo, las modificaciones postraducción conducen a la formación de 100 o más derivados de los aminoácidos. Las modificaciones de los aminoácidos juegan con frecuencia un papel de gran importancia en la correcta funcionalidad de la proteína.
+
+Son numerosos los ejemplo de modificación postraducción de aminoácidos. La formación postraducción de puentes disulfuro, básicos en la estabilización de la estructura terciaria de las proteínas está catalizada por una disulfuro isomerasa. En las histonas tiene lugar la metilación de las lisinas. En el colágeno abunda el aminoácido 4-hidroxiprolina, que es el resultado de la hidroxilación de la prolina. La traducción comienza con el codón "AUG" que es además de señal de inicio significa el aminoácido metionina, que casi siempre es eliminada por proteólisis.
+
+Véase también 
+
+ Código genético
+ Codón
+ RNA
+ Proteólisis
+ Transcripción genética
+ Traducción genética
+
+Referencias
+
+Enlaces externos 
+
+ https://web.archive.org/web/20041025072031/http://www.soko.com.ar/Biologia/Sintesis_Proteinas.htm
+
+Categoría:Proteínas
+Categoría:Biosíntesis de proteínas

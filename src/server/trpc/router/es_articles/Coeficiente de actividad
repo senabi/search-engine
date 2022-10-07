@@ -1,0 +1,126 @@
+El coeficiente de actividad es un número que expresa el factor de actividad química de una sustancia en su concentración molar. Se designa normalmente con la letra griega  (gamma). La IUPAC lo define como un factor usado en la termodinámica que responde a desviaciones de la conducta ideal en una mezcla de sustancias químicas.  En una mezcla ideal, las interacciones microscópicas entre cada una de las especies químicas es exactamente igual (en su equivalente macroscópico, el cambio de entalpía de la solución y la variación del volumen al mezclarse es cero) y como resultado, las propiedades de la mezcla pueden ser expresadas directamente en términos de simples concentraciones o presiones parciales de las sustancias presentes (ejemplo: la ley de Raoult). Las desviaciones de la idealidad son descritas matemáticamente mediante la modificación de las concentraciones a través de un coeficiente de actividad. De forma análoga, las ecuaciones que involucran gases, pueden ser ajustadas a la no-idealidad al multiplicar las presiones parciales por un coeficiente de fugacidad.
+
+Definición Termodinámica 
+El potencial químico (μB) de una sustancia B en una mezcla ideal de líquidos o en una solución ideal está dada por la ecuación
+
+Donde  es el potencial químico de la sustancia pura  y xB es la fracción molar de la sustancia en la mezcla.
+
+Esto se puede generalizar para incluir las conductas no ideales al reescribirlo de la siguiente forma:
+
+donde aB es la actividad de la sustancia en la mezcla, siendo que:
+
+donde es el coeficiente de actividad que puede depender en sí mismo de xB. Mientras más se acerque el valor de  a 1, la sustancia se comportará más como si fuera ideal. De hecho, cuando , la ley de Raoult es exacta. para  > 1 y  <1, la sustancia  muestra una desviación positiva y negativa de la ley de Raoult, respectivamente. Una desviación positiva implica que la sustancia B es más volátil.
+
+En la mayoría de los casos, mientras XB se aproxime más a cero, el coeficiente de actividad de  se aproximará a una constante. Esta relación es la ley de Henry para el disolvente. Estas relaciones están ligadas mediante la ecuación de Gibbs-Duhem. Nótese que, en general, los coeficientes de actividad son adimensionales.
+
+Líquidos puros 
+En detalle, la ley de Raoult establece que la presión parcial de un componente  está relacionada con su presión de vapor (presión de saturación) y con su fracción molar XB en la fase líquida
+
+En el caso límite , se obtiene la ecuación:
+
+Lo que quiere decir que un líquido puro representa el caso ideal.
+
+A dilución infinita 
+A dilución infinita, el coeficiente de actividad se aproxima a su valor límite . Al compararse con la ley de Henry:
+
+lo que inmediatamente nos regresa:
+
+En otras palabras, el compuesto muestra comportamiento no ideal en el caso de la dilución infinita.
+
+Para electrolitos o compuestos bioquímicos 
+La definición anterior del coeficiente de actividad es impráctica si el compuesto no existe como un líquido puro. Este suele ser el caso de los electrolitos y compuestos bioquímicos. En dichos casos se utiliza una definición diferente que considera la dilución infinita como el estado ideal, de forma que:
+
+considerando
+
+ 
+
+y
+
+El símbolo  se utiliza aquí para distinguir ambos tipos de coeficientes de actividad. Usualmente es omitido pues el contexto brinda la distinción, pero hay casos donde ambos tipos de coeficiente de actividad son utilizados e incluso pueden llegar a aparecer en la misma ecuación como en soluciones salinas en mezclas de agua y alcohol. Esto es, algunas veces, una fuente de errores.
+
+La modificación de las fracciones molares o concentraciones mediante coeficientes de actividad resulta en las actividades efectivas o concentraciones efectivas de los componentes de la mezcla y por lo tanto permite que expresiones como la ley de Raoult o las constantes de equilibrio químico puedan ser aplicadas a mezclas ideales y no ideales.
+
+El correcto uso de los coeficientes de actividad es particularmente importante en el campo de la electroquímica pues el comportamiento de soluciones electrolíticas se encuentra lejos de lo ideal debido a los efectos de la atmósfera iónica. Adicionalmente, dichos coeficientes son importantes en el campo de la química de suelos debido a los bajos volúmenes de solvente y, en consecuencia, a las altas concentraciones de electrolitos.
+
+Soluciones iónicas 
+Para soluciones de sustancias que se ionizan, el coeficiente de actividad del catión y el anión no pueden ser determinados experimentalmente de forma independiente pues las propiedades de la disolución dependen de ambos iones. Los coeficientes de actividad de cada ion individual deben ser ligadas al coeficiente de actividad del electrolito disuelto como si estuviera no disociado. En este caso se utiliza un simple coeficiente de actividad estequiométrico del electrolito disuelto . Se le llama estequiométrico debido a que expresa tanto la desviación de la idealidad como la disociación iónica incompleta, que ocurre especialmente con el incremento de su concentración.
+
+Para un electrolito 1:1 como el NaCl, el coeficiente estequiométrico está dado mediante la ecuación:
+
+Donde  y son los coeficientes de actividad del catión y el anión respectivamente.
+
+De forma más general, el coeficiente de actividad combinado de un compuesto de fórmula ApBq está dado por:
+
+Los coeficientes de actividad de un ion individual pueden ser calculados de forma teórica utilizando, por ejemplo, la ecuación de Debye-Huckel. La ecuación teórica puede ser, posteriormente, evaluada al combinar los coeficientes calculados de cada ion para dar valores combinados que pueden ser comparados con valores experimentales.
+
+La concepción predominante de que los coeficientes de actividad de iones individuales no son medibles y que incluso pueden carecer de significado físico tiene sus raíces en el trabajo de Edward Guggenheim, de finales de la década de 1920. Sin embargo, los químicos nunca han abandonado la idea de las actividades de iones individuales y, en consecuencia, de los coeficientes de actividad individuales. Por ejemplo, el pH es definido como el negativo del logaritmo de la actividad del ión hidrógeno. Si la concepción prevaleciente del significado físico y la mensurabilidad de las actividades de iones individuales es correcta, entonces definir el pH como el negativo del logaritmo de dicho ión es absolutamente erróneo, pues además de implicar que no sería medible, tampoco tendría significado físico. Reconociendo esta contradicción lógica, la IUPAC establece que la definición de pH basada en la actividad es una definición hipotética únicamente. A pesar del rechazo al concepto de los coeficientes de iones individuales, dicho concepto continúa siendo discutido en la literatura y por lo menos un autor presenta la definición de la actividad de un ion individual únicamente en términos de propiedades termodinámicas y propone un método de medir la actividad de iones individuales basándose en ´procesos termodinámicos únicamente.
+
+Determinación experimental de coeficientes de actividad 
+Los coeficientes de actividad pueden ser determinados experimentalmente mediante mediciones de mezclas no ideales. Se puede utilizar la ley de Raoult o la ley de Henry para proveer un valor para una mezcla ideal con el que comparar el valor experimental para obtener el coeficiente de actividad. Otras propiedades coligativas como la presión osmótica pueden ser utilizadas también.
+
+Métodos Radioquímicos 
+Los coeficientes pueden ser determinados por métodos radioquímicos.
+
+A dilución infinita 
+Los coeficientes de actividad para mezclas binarias son usualmente reportados a dilución infinita para cada componente. Debido a que los modelos de coeficientes de actividad se simplifican a dilución infinita, dichos valores empíricos pueden ser usados para estimar las energías de interacción. A continuación, un ejemplo con agua
+
+Cálculo teórico de los coeficientes de actividad 
+Los coeficientes de actividad de soluciones electrolíticas pueden ser calculados teóricamente utilizando la ecuación de Debye-Hückel o extensiones de esta como la ecuación de Davies, las ecuaciones de Pitzer o el modelo TCPC. La teoría específica de la interacción de los iones (SIT) también puede ser utilizada.
+
+Para soluciones no electrolíticas, se pueden utilizar métodos correlativos como UNIQUAC, NRTL, MOSCED o UNIFAC, siempre que haya disponibles parámetros del modelo o de los componentes. COSMO-RS es un método teórico que es menos dependiente de los parámetros del mismo debido a que la información requerida es obtenida de cálculos mecano-cuánticos específicos para cada molécula en combinación con un tratamiento de datos de termodinámica estadística.
+
+Para especies sin carga, el coeficiente de actividad sigue un modelo de precipitación salina.
+
+Este modelo simple predice las actividades de diversas especies, desde gases disueltos no disociados como CO2, H2S, NH3, hasta ácidos y bases no disociados en medios con fuerzas iónicas altas (hasta 5 mol/Kg). El valor de la constante b para CO2 es 0.11 a 10°C y 0.20 a 330 °C.
+
+Para agua como disolvente, la actividad de esta puede ser calculada utilizando la ecuación:
+
+donde  es el número de iones producidos en la disociación de una molécula de la sal disuelta,  es la molalidad de la sal disuelta en agua.  es el coeficiente osmótico del agua y la constante 55.51 representa la molalidad del agua. En la ecuación de arriba, la actividad del solvente es representada como inversamente proporcional al número de partículas de sal contra el número de partículas del disolvente.
+
+Relación con el radio iónico 
+El coeficiente de actividad iónico está relacionado con el radio iónico mediante la ley ampliada de Debye-Hückel para electrolitos:
+
+Donde A y B son constantes que dependen del disolvente y la temperatura, zi es la carga de la especie i,  es la fuerza iónica y  es el radio iónico solvatado de la especie en cuestión.
+
+Dependencia de las propiedades de estado 
+La derivada de un coeficiente de actividad respecto a la temperatura está relacionado con la entalpía molar de exceso mediante la ecuación:
+
+De forma similar, la derivada de un coeficiente de actividad respecto a la presión puede ser relacionado al Volumen molar de exceso mediante:
+
+Soluciones concentradas de electrolitos 
+Para soluciones iónicas concentradas, la hidratación de los iones puede ser tomada en consideración según el modelo de Stokes y Robinson en su modelo de hidratación de 1948. El coeficiente de actividad del electrolito se divide en una componente eléctrica y una estadística según una modificación hecha por E. Glueckauf al modelo original.
+
+La componente estadística incluye el índice de hidratación h, el número de iones de la disociación y la relación r entre el volumen molar aparente del electrolito, el volumen molar del agua y la molalidad b.
+
+La componente estadística del coeficiente de actividad es descrita por:
+
+El modelo de Stokes-Robinson también ha sido analizado y mejorado por otros investigadores.
+
+Aplicaciones en el equilibrio químico 
+Al equilibrio, la suma de los potenciales químicos de los reactivos es igual a la suma de los potenciales químicos de los productos. El cambio en la energía libre de Gibbs para las reacciones  es igual a la diferencia entre estas sumas y, en consecuencia, al equilibrio se iguala a cero. Entonces, para un equilibrio de la forma
+
+la expresión para la energía libre de Gibbs adquiere la siguiente forma:
+
+Al sustituir el potencial químico de cada reactante:
+
+Al aplicar un rearreglo de esta expresión, se transforma en:
+
+La suma de  es el cambio de energía libre estándar para la reacción  y por lo tanto
+
+Donde K es la constante de equilibrio. Note que las actividades y las constantes de equilibrio son número adimensionales.
+
+Esta derivacion sirve para dos cosas. Muestra la relación entre el cambio de energía libre estándar y la constante de equilibrio y muestra que una constante de equilibrio es definida como el cociente de las actividades. En términos prácticos esto es inconveniente. Cuando cada actividad es reemplazada por el producto de una concentración y su coeficiente de actividad, la constante de equilibrio se define como:
+
+Donde los términos entre corchetes [ ] son las concentraciones. En la práctica, las constantes de equilibrio se determinan en un medio tal que el cociente de las actividades sea constante y pueda ser ignorado, conduciendo a la expresión típica
+
+Que aplica bajo la condición de que el cociente de las actividades tenga un valor constante.
+
+Referencias
+
+Véase también
+Mol
+Disociación (química)
+
+Categoría:Magnitudes químicas
+Categoría:Magnitudes termodinámicas
+Categoría:Números adimensionales

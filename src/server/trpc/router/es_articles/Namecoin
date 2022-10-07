@@ -1,0 +1,42 @@
+Namecoin (Símbolo: ℕ o NMC) es una criptomoneda y primera copia del programa informático bitcoin en funcionamiento. Está basado en el mismo código de bitcoin con pequeñas modificaciones y utiliza el mismo algoritmo de distribución SHA-256. Está limitado a 21 millones de unidades y se puede dividir hasta 8 decimales.
+
+A diferencia de Bitcoin, Namecoin puede almacenar datos dentro de su propia cadena de bloques. La propuesta original para Namecoin pedía un sistema DNS decentralizado que usase la base de datos de bitcoin directamente. Anticipando dificultades de escalabilidad de esta manera, se decidió crear una nueva moneda digital separada del bitcoin completamente pero en la que los mineros de bitcoin ayudasen a su seguridad sin tener que dedicar recursos extra. 
+
+El registro sin censura alguna de dominios .bit es la función principal de Namecoin. Este es funcionalmente similar a .com o .net pero es totalmente alternativo e independiente de la ICANN, el organismo que controla los nombres de dominio de nivel superior.
+
+Registros 
+
+Cada uno de los valores consiste en una clave y un valor asociado de hasta 520 byte de tamaño. Cada clave en realidad es una ruta con el nombre de dominio precediendo al nombre del registro. La clave d/ejemplo se interpreta como un registro guardado en el dominio de DNS dcon el nombre ejemplo y corresponde a la web ejemplo.bit. El contenido de d/ejemplo se supone que debe guardarse de acuerdo a las especificaciones de los nombres de dominio DNS .
+
+Actualmente la comisión por registro de cada valor es de 0.01 NMC y los registro caducan a los 200 días excepto si se actualizan o renuevan. Los namecoins usados para cada registro son marcados como usados y no pueden ser usado para pagos, ya que dar estas comisiones a los mineros les permitiría registrar dominios a muy bajo precio.
+
+Usos 
+Usos potenciales propuestos para Namecoin además del registro de DNS:
+ Sistemas de identidad
+ Comunicación entre procesos
+ Espacio de nombres
+ Sistemas de notaría / huella de tiempo
+ Sistemas de alias
+ Distribución de bonos y participaciones
+
+Vea también 
+ DNS Alternativo
+ Bitcoin
+ Cadena de bloques 
+ Namespace
+ Casa de cambio
+ criptomonedas
+
+Referencias
+
+Enlaces externos 
+ Página web oficial de Namecoin
+ Código fuente en github
+ Foro de Namecoin (inglés)
+ Comunidad reddit de Namecoin
+ Explorador de bloques de Namecoin
+ Principales mercados de Namecoin
+ Dificultad de minado de Namecoin
+
+Categoría:Criptomonedas
+Categoría:Domain Name System

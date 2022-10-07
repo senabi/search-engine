@@ -1,0 +1,92 @@
+miniaturadeimagen|Ejemplo de Grafo Ponderado|350px
+
+En la teoría de grafos, el problema del camino más corto es el problema que consiste en encontrar un camino entre dos vértices (o nodos) de tal manera que la suma de los pesos de las aristas que lo constituyen es mínima. Un ejemplo de esto es encontrar el camino más rápido para ir de una ciudad a otra en un mapa. En este caso, los vértices representarían las ciudades y las aristas las carreteras que las unen, cuya ponderación viene dada por el tiempo que se emplea en atravesarlas.
+
+Definición 
+El problema del camino más corto puede ser definido para grafos no dirigidos, dirigidos o mixtos. La siguiente es una definición para grafos no dirigidos, en el caso de grafos dirigidos la definición de camino requiere que los vértices adyacentes estén conectados por una apropiada arista dirigida.
+
+Dos vértices son adyacentes cuando poseen una arista común. Un camino en un grafo no dirigido es una secuencia de vértices  tal que todo vértice  es adyacente con el vértice . Un camino  se dice que es de longitud  si va desde  hasta .
+
+Sea  la arista incidente con los vértices  y . Dada una función de variable real ponderada  y un grafo no dirigido , el camino más corto desde  hasta  es el camino  (donde  y ) sobre todos los posibles  que minimiza la suma  Cuando cada arista en el grafo tiene un peso unitario o , hallar el camino más corto es equivalente a encontrar el camino con menor número de aristas.
+
+El problema es también conocido como el problema de los caminos más cortos entre dos nodos, para diferenciarlo de las siguientes generalizaciones:
+
+ El problema de los caminos más cortos desde un origen, en el cual tenemos que encontrar los caminos más cortos de un vértice origen  a todos los demás vértices del grafo.
+ El problema de los caminos más cortos con un destino, en el cual tenemos que encontrar los caminos más cortos desde todos los vértices del grafo a un único vértice destino, esto puede ser reducido al problema anterior invirtiendo el orden.
+ El problema de los caminos más cortos entre todos los pares de vértices, el cual tenemos que encontrar los caminos más cortos entre cada par de vértices (, ) en el grafo.
+
+Algoritmos 
+Los algoritmos más importantes para resolver este problema son:
+
+ Algoritmo de Dijkstra, resuelve el problema de los caminos más cortos desde un único vértice origen hasta todos los otros vértices del grafo.
+ Algoritmo de Bellman - Ford, resuelve el problema de los caminos más cortos desde un origen si la ponderación de las aristas es negativa.
+ Algoritmo de Búsqueda A*, resuelve el problema de los caminos más cortos entre un par de vértices usando la heurística para intentar agilizar la búsqueda.
+ Algoritmo de Floyd - Warshall, resuelve el problema de los caminos más cortos entre todos los vértices.
+ Algoritmo de Johnson, resuelve el problema de los caminos más cortos entre todos los vértices y puede ser más rápido que el de Floyd-Warshall en grafos de baja densidad.
+ Algoritmo de Viterbi, resuelve el problema del camino estocástico más corto con un peso probabilístico adicional en cada vértice.
+
+Anexo: Ejemplo de Algoritmo de Dijkstra
+
+Anexo: Ejemplo de Algoritmo de Bellman - Ford 
+
+Otros algoritmos y evaluaciones asociadas pueden se encontradas en el artículo de Cherkassky et al.
+
+Algoritmos para caminos más cortos desde un origen
+
+Grafos no dirigidos
+
+Grafos dirigidos no ponderados
+
+Grafos acíclicos dirigidos 
+Un algoritmo usando ordenación topológica puede resolver el problema del camino más corto desde un origen en tiempo lineal, , en DAG ponderados.
+
+Grafos dirigidos con ponderación no negativa 
+La siguiente tabla es tomada del Schrijver (2004).
+
+Grafos dirigidos con ponderaciones arbitrarias
+
+Algoritmos para caminos más cortos entre todos los pares de vértices 
+El problema del camino más corto entre todos los pares de vértices encuentra los caminos que sean más cortos entre todas las parejas de vértices ,  en el grafo. El problema para grafos dirigidos no ponderados fue introducido por , quien observó que podría ser resuelto por una serie lineal de multiplicaciones matriciales que toma un tiempo total de .
+
+Grafos no dirigidos
+
+Grafos dirigidos
+
+Aplicaciones 
+
+Los algoritmos de los caminos más cortos se aplican para encontrar direcciones de forma automática entre lugares físicos, como las rutas de conducción en sitios de mapas web como MapQuest o Google Maps. Para estas aplicaciones están disponibles rápidos algoritmos especializados.
+
+Si un algoritmo representa una máquina abstracta no determinista como un grafo, donde los vértices describen estados, y las aristas posibles transiciones, el algoritmo del camino más cortos puede ser usado para encontrar una secuencia óptima de decisiones para llegar a un cierto estado final o para establecer límites más bajos en el tiempo necesario para alcanzar un estado dado. Por ejemplo, si los vértices representan los estados de un puzle como el Cubo de Rubik y cada arista dirigida corresponde a un simple movimiento o giro, los algoritmos del camino más corto se pueden usar para encontrar la solución que utiliza el menor número posible de movimientos.
+
+En el argot de las telecomunicaciones, a este algoritmo es también conocido como el problema del mínimo retraso, y con frecuencia va ligado con el problema del camino más ancho. Por ejemplo, el algoritmo podría buscar el camino más corto entre los más anchos, o el camino más ancho entre los más cortos.
+
+Una aplicación más coloquial es la teoría de los "Seis grados de separación", a partir de la cual se intenta encontrar el camino más corto entre dos personas cualesquiera.
+
+Otras aplicaciones incluyen la investigación de operaciones, instalaciones y facilidad de diseño, robótica, transporte y el diseño VLSI.
+
+Problemas relacionados 
+
+En la geometría computacional, el problema del camino euclidiano más corto, en el cual dados un conjunto de obstáculos poliédricos en un espacio euclídeo y dos puntos, trata de encontrar el camino más corto entre los puntos tal que no se interseca con ninguno de los obstáculos.
+
+El problema de viajante de comercio, es el problema que trata de encontrar el camino más corto que pasa sólo una vez por cada vértice y regresa al comienzo. A diferencia del problema del camino más corto, el cual puede ser resuelto en un tiempo polinomial en grafos sin ciclos negativos, este problema es NP-completo, y como tal, no tiene una resolución eficiente (ver Clases de complejidad P y NP). El problema de encontrar el camino más largo también es NP-completo.
+
+El problema del viajero canadiense y el problema del camino estocástico más corto son generalizaciones donde el grafo no es completamente conocido por el viajero, cambia con el tiempo, o donde los recorridos son probabilisticos.
+
+Véase también 
+ Búsqueda de ruta
+ IEEE 802.1aq
+ Red de flujo
+
+Referencias
+
+Enlaces externos 
+
+ Caminos más cortos - Dr J.B.Hayet
+ Álgebra matricial y Teoría de grafos - Luis M. Torres
+ Demostración del Algoritmo de Dijkstra
+ Demostración del Algoritmo de Bellman Ford
+ Ejemplo de Ejercicio de Bellman Ford
+ 
+ Caminos más Cortos desde un Origen a muchos Destinos - Julio César López
+
+Categoría:Problemas computacionales de teoría de grafos

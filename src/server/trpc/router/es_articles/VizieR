@@ -1,0 +1,20 @@
+VizieR es un servicio de catálogos astronómicos proporcionado por el Centre de Données astronomiques de Strasbourg (CDS).
+
+El origen de VizieR se remonta a 1993, cuando surge el European Space Information System Catalogue Browser (ESIS) de la Agencia Espacial Europea. Inicialmente pretendía atender a la comunidad científica, precediendo a la World Wide Web como una base de datos de red que permitiera el acceso uniforme a un conjunto heterogéneo de catálogos y datos.
+
+El Centre de Données astronomiques de Strasbourg siempre ha sido un centro de referencia para la recopilación y divulgación de datos astronómicos, por lo que no es casual que el navegador ESIS original estuviera radicado en el CDS. Desde su inicio en 1996, VizieR ha sido un punto de referencia para astrónomos de todo el mundo involucrados en la investigación, teniendo acceso a datos catalogados con regularidad y publicados en diarios astronómicos. El nuevo servicio VizieR fue restaurado en 1997 por el CDS para servir mejor la comunidad en términos de capacidad de búsqueda y volumen de datos. Desde entonces se ha convertido en el servidor de catálogos más conocido dentro de la astronomía, con más de 7300 catálogos hasta la fecha, excediendo de lejos cualquier servicio de esta clase en su campo.
+
+Con el advenimiento del Astrophysical Virtual Observatory el catálogo de VizieR ha ganado la importancia al ser la fuente de todos los datos catalogados dentro de la comunidad.
+
+Referencias
+<div class="references-small">
+ F. Ochsenbein; P. Bauer; J. Marcout 2000, The VizieR database of astronomical catalogues, Astronomy and Astrophysics Supplement, 143, 23
+ S.G. Ansari; P. Donzelli; E. Simonsen; F. Ochsenbein; May 1996, Transfer of ESIS to Scientific Institutes, ESA Bulletin No. 86
+ Ochsenbein, F.; Genova, F.; Egret, D.; Bourekeb, I.; Sadat, R.; Ansari, S. G.; Simonsen, E., 1995, A new research tool to retrieve data from astronomical catalogues and tables, American Astronomical Society, 187th AAS Meeting, #91.03; Bulletin of the American Astronomical Society, Vol. 27, p.1418
+ Ochsenbein, F., 1996, VizieR, the new catalogue interface at CDS, Bull. Inf. Centre Donnees Stellaires, Vol. 48, p.47
+</div class="references-small">
+
+Enlaces externos
+ VizieR
+
+Categoría:Catálogos astronómicos

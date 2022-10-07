@@ -1,0 +1,34 @@
+En química analítica, la argentometría es un tipo de valoración por precipitación que involucra al ion plata(I). Típicamente se usa para determinar la cantidad de cloruro presente en una muestra. La solución problema se titula contra una solución de nitrato de plata de concentración conocida. Los aniones cloruro reaccionan con los cationes plata(I) para producir el cloruro de plata, insoluble:
+
+Cl− (aq) + Ag+ (aq) → AgCl (s) (Ksp = 1.7 × 10−10)
+
+donde Kps es la constante de solubilidad del producto.
+
+Método de Volhard o por retorno
+Un ejemplo de valoración por retroceso, el método de Volhard, involucra adición de un exceso de nitrato de plata a la solución problema. Se filtra el cloruro de plata, y el exceso de nitrato de plata se valora contra tiocianato, con hierro(III) como indicador, que en el punto final genera [Fe(SCN)(H2O)5]2+, rojo sangre:
+
+Ag+ (aq) + SCN− (aq) → AgSCN (s) (Ksp = 1.16 × 10−12)
+Fe(OH)(OH2)52+ (aq) + SCN− (aq)→ [Fe(OH2)5(SCN)]2+ + OH−
+
+Método de Mohr 
+En el método de Mohr el cromato de potasio es un indicador, el cual después de que los iones cloruro han reaccionado produce cromato de plata, rojo, amarillo y lila.
+
+2Ag+ (aq) + CrO42- (aq) → Ag2CrO4 (s) (Ksp = 1.9 × 10−12)
+
+La solución necesita ser neutra, o casi neutra: pH 7-10, debido a que a pH alto se genera hidróxido de plata. Por el contrario, a pH bajo el cromato produce H2CrO4, reduce el contenido de iones cromato y retarda la formación del precipitado. Los carbonatos y fosfatos precipitan con la plata. Para evitar resultados inexactos se necesita que no haya estos aniones.
+
+El método de Mohr se puede adaptar para determinar el contenido total de cloro de una muestra, al encender la muestra con acetato de calcio, y luego acetato de hierro(III). El acetato de calcio «fija» el cloro libre, precipita los carbonatos y neutraliza la solución resultante. El acetato de hierro(III) remueve los fosfatos. Se disuelven todos los cloruros del residuo y luego se les titula.
+
+Método de Paneth-Fajans-Hahn 
+En el comúnmente llamado método de Fajans, típicamente se utiliza diclorofluoresceína como indicador. Se marca el punto final porque la suspensión verde se vuelve rosa. Previo al punto final de la titulación, los iones cloruro permanecen en exceso. Se adsorben a la superficie del AgCl e imparten una carga negativa a las partículas. En el punto de equivalencia los iones cloruro se encuentran completamente precipitados y debido al exceso de iones Ag+ imparte una carga positiva al precipitado, los pigmentos aniónicos como la diclorofluoresceína son atraídos a las partículas y al ser adsorbidos cambian de color, lo cual representa el punto final.
+
+La eosina (tetrabromofluoresceína) es apta para titulación contra aniones bromuro, yoduro y tiocianato. Aporta un punto final más definido que la diclorofluoresceína. No es apta para la titulación contra aniones cloruro, porque se une al AgCl más fuertemente que como lo hace el cloruro.
+
+Véase también 
+
+ Yodometría
+ Permanganometría
+
+Referencias 
+
+Categoría:Análisis volumétrico

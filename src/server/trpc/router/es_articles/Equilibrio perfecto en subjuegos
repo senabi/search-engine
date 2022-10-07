@@ -1,0 +1,18 @@
+En teoría de juegos, un equilibrio perfecto en subjuegos (o equilibrio de Nash perfecto en subjuegos) es un concepto de solución de un equilibrio de Nash utilizado en juegos dinámicos. Un perfil de estrategias es un equilibrio perfecto en subjuegos si genera un equilibrio de Nash en cada subjuego del juego original. Informalmente, esto significa que, si los jugadores juegan cualquier subjuego que consista en solo una parte del juego original y si su comportamiento representa un equilibrio de Nash de ese subjuego más pequeño, entonces su comportamiento es un equilibrio perfecto en subjuegos. Es bien conocido que cada juego extensivo finito tiene un equilibrio perfecto en subjuegos.
+
+Un método común para determinar los equilibrios perfectos en subjuegos para el caso de un juego finito es la inducción hacia atrás. En este tipo de resolución se consideran primero las últimas acciones del juego y a partir de ahí se determinan las acciones que los jugadores deben tomar en cada nodo del juego para maximizar su utilidad. Este proceso continúa hasta que se alcanza el nodo inicial. Las estrategias que permanecen son el conjunto de todos los equilibrios perfectos en subjuegos para la forma extensiva de un juego de horizonte finito con información perfecta. Sin embargo, la inducción hacia atrás no puede ser aplicada a juegos imperfectos o de información incompleta porque esto implica tomar decisiones a través de conjuntos de información en lo que no se tiene información disponible.
+
+El conjunto de equilibrios perfectos en subjuegos para un juego dado es siempre un subconjunto del conjunto de equilibrios de Nash para ese juego. En algunos casos, los conjuntos pueden ser idénticos.
+
+El juego del ultimátum es un ejemplo intuitivo de un juego con menos equilibrios perfectos en subjuegos que equilibrios de Nash.
+
+Encontrar equilibrio perfecto en subjuegos
+300px|thumb|La ilustración muestra la diferencia entre un equilibrio perfecto en subjuegos y un equilibrio de Nash. El equilibrio en color azul es un equilibrio de Nash, pero no es un equilibrio perfecto en subjuegos porque el jugador dos hace una amenaza no creíble en 2(2) de ser poco amable (U).
+
+Reinhard Selten demostró que cualquier juego que se pueda dividir en "subjuegos" contiene un subconjunto de todas las opciones disponibles en el juego principal y que por lo tanto tendrá una estrategia de equilibrio perfecto en subjuegos (posiblemente una estrategia mixta). La perfección en subjuegos solo se utiliza con juegos de información completa. El equilibrio perfecto en subjuegos puede utilizarse con juegos completos de forma extensiva, pero de información imperfecta.
+
+El equilibrio de Nash perfecto en subjuegos es normalmente deducido por "inducción hacia atrás" de los distintos resultados finales del juego, eliminando las ramas que impliquen cualquier jugador que hace un movimiento que no es creíble (porque no es óptimo) de ese nodo.
+
+Referencias 
+
+Categoría:Teoría de juegos

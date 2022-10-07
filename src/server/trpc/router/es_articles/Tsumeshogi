@@ -1,0 +1,36 @@
+o tsume es el término en Japonés para un problema de shogi cuya meta u objetivo final es hacer jaque mate al rey del adversario.  Los problemas de Tsume presentan una situación que podría ocurrir en una partida de shogi y el resolvedor debe averiguar como realizar el jaque mate.  Es similar a un problema de ajedrez.
+
+Reglas
+Los problemas de tsume tienen un conjunto de reglas sobre como deben ser construidos y completados.  Si el resolvedor rompe alguna de las reglas, él no tiene resuelto el problema correctamente.  Si el creador de un problema de tsumeshogi rompe algunas reglas, él no ha creado un tsumeshogi.
+
+ El lado del atacante es ; lo que significa que él juega primero.
+ El rey del lado atacante normalmente no está presente en el tablero.
+ Todos los movimientos del lado del atacante deben ser jaques.
+ Cuando el jaque mate es alcanzado, el lado del atacante no debe tener piezas en mano.
+ Blanco (el defensor, o el lado con el rey) debe moverse de forma que consiga retrasar el jaque mate, siempre y cuando sea posible.
+ Blanco tiene en mano todas las piezas que no están sobre el tablero o en la mano del atacante, no contando el otro rey.
+ Blanco puede reingresar algunas piezas de las que tiene en mano para retrasar o prevenir el jaque mate.
+ Blanco no debe recurrir a la interposición inútil, p.ej.: reingresar para bloquear la acción de una lanza, alfil, o el ataque de una torre que sólo conseguiría hacer más lento el ataque y no cambiaría para nada el resto de los movimientos de la solución.
+
+Propósitos de los problemas de tsume
+
+Los problemas de tsume pueden ser utilizados para cumplir con uno de los dos objetivos siguientes: para entrenar en la estrategia del shogi o para ser creados como una obra de arte.
+
+Entrenamiento en el Shogi
+Los problemas de tsume son considerados un muy buen entrenamiento para jugar al shogi.  Enseñan no sólo como realizar de forma efectiva el jaque mate al rey, si no que también enseñan a predecir movimientos y a planear detalladamente una larga y compleja serie de movimientos antes de alcanzar una meta.  Hay muchas páginas web y libros dedicados a los problemas de tsume con este propósito.
+
+Como una Obra de Arte
+Muchos jugadores de shogi durante siglos han creado problemas de tsume con una larga y deliberada unión líneas, como una obra de arte.  Ello podría consistir en que las piezas hagan formas geométricas, un tema que es frecuentemente utilizado por todo el problema, el eliminar todas las piezas que hay sobre el tablero (el llamado Mate del Humo), un número de movimientos, o cualquier otra cosa que el compositor puede desear expresar.  Uno de los artistas tsume más famoso es Kanjou Itou, quien escribió en 1755 Shogi Zukou (将棋図巧), una famosa colección artística de problemas de tsume. El principal premio de tsume shogi dentro del mundo del shogi es el "Premio Kanju".
+
+Notas y referencias
+
+Bibliografía 
+
+Tsume Puzzles for Japanese Chess: Introduction to Shogi Mating Riddles (2011) by T. Gene Davis
+
+Enlaces externos
+ Tsume Shogi (Problemas de Mates en el Shogi) (en Inglés)
+ Tsumeshogi Q&A (en Inglés)
+ How to play Shogi(??) -Lesson #30- Checkmate Problems (YouTube) ( Vídeo en Inglés con subtítulos en Español)
+
+Categoría:Shōgi

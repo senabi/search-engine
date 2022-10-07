@@ -1,0 +1,32 @@
+MSDN Library (Biblioteca de desarrollo de Microsoft, en Español) es la biblioteca oficial de Microsoft con la  documentación técnica dirigida a los desarrolladores de la plataforma Microsoft Windows. MSDN representa la red de desarrolladores de Microsoft.
+
+La biblioteca contiene documentación sobre el API utilizado con los productos de Microsoft así como código de ejemplo, artículos técnicos, y sugerencias de programación. MSDN Library está disponible en la web y en CD y DVD para suscriptores de pago. Inicialmente, la versión física solo estaba disponible como parte de una suscripción a MSDN y actualizada de forma trimestral. Sin embargo, a partir del año 2006 puede ser descargada gratuitamente desde el Centro de descarga de Microsoft en formato de imagen ISO
+y el CD/DVD ya no se publica trimestralmente. En su lugar, su publicación coincide con las actualizaciones de las versiones de software más importantes (como Visual Studio y la publicación de Service Packs de Windows).
+
+Desde mayo de 2006, Microsoft también ha empezado a producir gratuitamente una versión en CD de la comunidad de MSDN Library disponible para su descarga como imagen ISO también en su Centro de descargas, que sólo contiene las actualizaciones de contenido. El formato físico de la biblioteca de la comunidad de MSDN está dirigida mayormente a desarrolladores de países donde las conexiones de banda ancha a Internet no están disponibles. 
+
+La edición de Visual Studio Express se distribuye solo con la biblioteca de MSDN Express, que forma parte de la biblioteca completa, aunque pueden ser descargada libremente e instalada independiente.
+
+La integración con Visual Studio 
+Cada edición de MSDN Library solo se puede acceder con un visor de ayuda (Microsoft Document Explorer o el visor de ayudar a otros), que está integrado con la única versión vigente en ese momento o, a veces dos versiones de Visual Studio. Además, cada nueva versión de Visual Studio no se integra con una versión anterior de MSDN. Una Biblioteca compatibles MSDN se libera con cada nueva versión de Visual Studio e incluido en el DVD de Visual Studio. Medida que se lanzan nuevas versiones de Visual Studio, nuevas ediciones de MSDN Library no se integran con las versiones anteriores de Visual Studio y ni siquiera son de edad y / o documentación obsoleta para los productos obsoletos o suspender. MSDN Library versiones se puede instalar de lado a lado, es decir, tanto los de más edad, así como la versión más reciente de MSDN Library, pueden co-existir.
+
+Versiones 
+ De octubre de 2001 MSDN Library es la última versión que incluye la documentación y la integración con Visual Studio 6.0.
+ La de enero de 2003 MSDN Library es la última versión que incluye la documentación y la integración con Visual Studio. NET (2002).
+ La de enero de 2006 MSDN Library es la última versión que incluye la documentación y la integración con Visual Studio. NET 2003.
+ De abril de 2007 MSDN Library fue la última versión que incluye la documentación y la integración con Visual Studio 2005 (Service Pack 1).
+ La versión 2008 de enero y más tarde para incluir la documentación y la integración con Visual Studio 2008.
+ La versión de noviembre de 2008 y más tarde para incluir la documentación y la integración con Visual Studio 2008 SP1.
+
+Véase también 
+ MSDN
+ TechNet
+ SDK de Windows (antes SDK de la plataforma)
+
+Referencias
+
+Enlaces externos 
+ Diario de MSDN Library website
+
+Categoría:Sitios web de Microsoft
+Categoría:Microsoft Visual Studio

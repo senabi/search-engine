@@ -1,0 +1,23 @@
+El programa R1 (luego llamado XCON, por eXpert CONfigurer) era un sistema de producción basado en reglas escrito en OPS5 por John P. McDermott de CMU en 1978 para asistir a los pedidos de los sistemas de computadores VAX de DEC (Digital Equipment Corporation) seleccionando los componentes del sistema de acuerdo a los requerimientos del cliente. El desarrollo de XCON siguió a dos fracasos de escribir un sistema experto para esta tarea en FORTRAN y BASIC.
+
+Características 
+XCON se usó por primera vez en la planta de DEC en Salem, New Hampshire. Éste tenía alrededor de 2500 reglas. Para 1986, había procesado 80.000 órdenes y alcanzaba un 95-98% de precisión. Se estimaba que le ahorraba a DEC 25 millones de dólares al año reduciendo la necesidad de dar a los clientes componentes gratuitos cuando los técnicos cometían errores, aumentando la velocidad del proceso de ensamblaje e incrementando la satisfacción del cliente.
+
+Antes de XCON, cuando se pedía una VAX de DEC, cada cable, conexión y bit del software tenía que pedirse por separado (las computadoras y periféricos no se vendían completas en cajas como hoy en día). El personal de ventas no siempre era experto técnicamente, así que los clientes podían encontrar que tenían hardware sin los cables correctos, impresoras sin los drivers correctos, procesadores sin el lenguaje correcto, etc. Esto significaba demoras y provocaba una gran insatisfacción en el cliente y podía terminar en una acción legal. XCON interactuó con el personal de Ventas, haciendo preguntas críticas antes de imprimir una hoja de especificaciones para sistema coherente y efectivo.
+
+El éxito de XCON llevó a DEC a reescribir XCON como XSEL (una versión de XCON creada para ser usada por el departamento de ventas de DEC para auxiliar a los clientes a configurar apropiadamente su VAX, así ellos no elegirían una computadora demasiado grande como para pasar a través de su puerta de entrada o con gabinetes muy pequeños para los componentes). Los problemas de locación y de configuración todavía eran manejados por otro sistema experto, XSITE.
+
+El paper de McDermott sobre el R1 ganó el AAAI Clasic Paper Award en 1999. Legendariamente, el nombre de R1 viene de McDermott, quien se supone que dijo mientras lo escribía, "tres años atrás quería ser un ingeniero de conocimientos, y hoy soy uno" -->
+"Three years ago I wanted to be a Knowledge engineer, and today I are one".  ("Are one" en inglés tiene el mismo sonido que R1).
+
+Referencias
+The AI Business: The commercial uses of artificial intelligence, ed. Patrick Winston y Karen A. Prendergast. ISBN 0-262-73077-4
+
+Enlaces externos
+
+"Configuration with R1/XCon (1978)"
+"AAAI Classic Paper Award"
+"R1-SOAR: A Research Experiment in Computer Learning"
+
+Categoría:Sistemas expertos
+Categoría:Historia de la inteligencia artificial

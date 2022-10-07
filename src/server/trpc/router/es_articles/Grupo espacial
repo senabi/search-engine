@@ -1,0 +1,56 @@
+En matemáticas y física, un grupo espacial es el grupo simétrico de una configuración en el espacio, generalmente en tres dimensiones. En tres dimensiones, existen 219 tipos distintos, o bien 230 si se consideran distintas las copias quirales. Los grupos espaciales estudiados en más de 3 dimensiones se denominan Grupos de Bieberbach, y son grupos discretos compactos de isometrías de un espacio euclídeo orientado.
+En cristalografía, los grupos espaciales también se suelen denominar grupos de Fedorov o cristalográficos, y representan la descripción de la simetría del cristal. Una fuente bibliográfica representativa de los grupos espaciales tridimensionales es el International Tables for Crystallography (Hann (2002)).
+
+Historia
+Los grupos espaciales en 2 dimensiones son 17 grupos de simetría plana los cuales se conocen desde hace siglos aunque la prueba de que la lista estaba completa no se dio hasta 1891, después de que se hubieran considerado casos más complejos de grupos espaciales. 
+
+En 1879 Leonhard Sohncke enumeró los 65 grupos espaciales (en ocasiones llamados Grupos espaciales de Sohncke o Grupos espaciales quirales) cuyos elementos preservaban la orientación. Más detalladamente, listó 66 grupos, pero Fedorov y Schönflies advirtieron que en realidad dos de ellos eran el mismo. Los grupos espaciales en 3 dimensiones fueron enumerados por primera vez por Fedorov (1891) (cuya lista tenía dos omisiones (I3d y Fdd2) y una duplicación (Fmm2)), y poco después fueron enumerados de forma independiente por Schönflies (1891) (cuya lista tenía cuatro omisiones (I3d, Pc, Cc, ?) y una duplicación (P21m)). La lista correcta de los 230 grupos espaciales fue descubierta en 1892 durante la correspondencia entre Fedorov y Schönflies. Más tarde Barlow (1894) enumeró los grupos con un método diferente, pero omitió cuatro grupos (Fdd2, I2d, P21d, yP21c) incluso cuando ya tenía la lista correcta de los 230 grupos creada por Fedorov y Schönflies. 
+
+Burckhardt (1967) describe en detalle la historia del descubrimiento de los grupos espaciales.
+
+Elementos de un grupo espacial
+
+Los grupos espaciales en tres dimensiones están formados por combinaciones de los 32 grupos de puntos cristalográficos con las 14 redes de Bravais, y cada una de estas pertenece a uno de los 7 sistemas de redes. Este resultado exprime que cada grupo espacial es una combinación de la simetría de traslación de una celda unitaria incluyendo el centro de redes, las operaciones de simetría del grupo de puntos de reflexión, rotación y/o rotación impropia (también llamada rotoreflexión), y el eje helicoidal y el plano de deslizamiento de operaciones simétricas. La combinación de todas estas operaciones de simetría dan lugar a un total de 230 grupos espaciales diferentes que describen todas las posibles simetrías cristalinas.
+
+Elementos de fijación de un punto
+Los elementos de los grupos espaciales que permiten fijar un punto del espacio son rotaciones, reflexiones, el elemento de identidad y la rotación impropia
+
+Traslaciones
+Las traslaciones forman un subgrupo abeliano normal de rango 3, llamado red de Bravais. Hay 14 posibles tipos de redes de Bravais. El cociente entre grupos espaciales y la red de Bravais da como resultado un grupo finito que será uno de los 32 posibles grupos puntuales. La traslación se define como el movimiento de un punto de un lado a otro de la cara.
+
+Planos de deslizamiento
+Un plano de deslizamiento es una reflexión en un plano, seguida por una traslación paralela con ese mismo plano. Se denota a, b,c, dependiendo del eje de deslizamiento sobre el que se produce. Existe también el deslizamiento n, que es un deslizamiento a lo largo de la mitad de la diagonal de una cara; y el deslizamiento d, que es un deslizamiento a lo largo de un cuarto del camino de cualquier cara o espacio diagonal de una celda unitaria. Se conoce también como plano de deslizamiento del diamante al aparecer en la estructura del diamante.
+
+Ejes helicoidales
+Un eje helicoidal es una rotación sobre un eje, seguida de una traslación a lo largo de la dirección del eje. Se denotan con un número, n, que describe el grado de rotación ya que es el número de operaciones que se necesita aplicar para obtener una rotación total. El grado de traslación se añade como subíndice mostrando cuán lejos en el eje se produce la traslación, como una porción del vector de red paralelo. Por ejemplo, 21 es una rotación doble seguida de una traslación de ½ del vector de red.
+
+Fórmula general
+La fórmula general para la acción de un elemento de un grupo espacial es y = M • x + D donde M es la matriz, D es el vector, y las transformaciones elementales transforman el punto x en el punto y. En general, D = D(red) + D(M), donde D(M) es una función única de M que se hace cero cuando M es la identidad. Las matrices M forman un grupo puntual que es la base del grupo espacial; la red debe ser simétrica bajo ese grupo puntual.
+
+La dimensión de la red puede ser menor que la dimensión total, dando lugar a un grupo espacial “subperiódico”. Para (dimensión total, dimensión de la red):
+ (1,1): grupo lineal unidimensional
+ (2,1): grupo lineal bidimensional: frisos
+ (2,2): grupo de simetría plana
+ (3,1): grupo lineal tridimensional; con los grupos puntuales cristalográficos en 3D
+ (3,2): layer group
+ (3,3): grupos espaciales (los discutidos en este artículo)
+
+Tabla de grupos espaciales en 2 dimensiones (simetría plana)
+
+Tabla de la simetría plana utilizando la clasificación de grupos espaciales tridimensionales:
+
+Para cada clasificación geométrica, las posibles clases aritméticas son:
+ Ninguna: no hay líneas de reflexión
+ Linear: las líneas de reflexión van a lo largo de las direcciones de la red
+ Intervalo: la mitad de las líneas de reflexión están comprendidas en las direcciones de red 
+ Ambas: se dan las dos anteriores
+
+Tabla de grupos espaciales en 3 dimensiones
+
+Nota. Un plano e es un doble plano de deslizamiento, al tener deslizamientos en dos direcciones diferentes. Se encuentran en siete grupos espaciales ortorrómbicos, grupos espaciales cinco tetragonales y grupos espaciales cinco cúbicos, todos con su centro de red. El uso del símbolo e se hizo oficial con Hahn (2202).
+
+Si el sistema cristalino no es trigonal entonces el sistema de red es del mismo tipo. Si es sistema cristalino sí es trigonal entonces el sistema de red es hexagonal a no ser que el grupo espacial sea uno de los 7 sistemas de red romboédricos consistentes en 7 grupos espaciales trigonales en la tabla superior cuyo nombre comienza con R. El sistema de red hexagonal es mayor que el sistema cristalino hexagonal, y consiste en sistemas cristalinos hexagonales con 18 grupos de sistemas cristalinos trigonales además de los siete cuyo nombre empieza por R.
+
+La red de Bravais de un grupo espacial viene determinada por el sistema de red junto con la letra inicial de su nombre, la cual para los grupos no romboédricos es P, I, F o C que corresponden a principal, centrado en el cuerpo, centrado en la cara, o centrado en la cara C.
+
+Categoría:Simetría

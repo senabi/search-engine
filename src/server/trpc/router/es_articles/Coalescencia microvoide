@@ -1,0 +1,15 @@
+miniaturadeimagen| Imagen SEM de coalescencia microvoide vista en una superficie de fractura dúctil de 6061-T6 Al 
+La coalescencia microvoide (MVC del inglés Microvoid coalescence) es un mecanismo de fractura microscópica de alta energía que se observa en la mayoría de las aleaciones metálicas y en algunos plásticos de ingeniería. 
+miniaturadeimagen| Morfologías de la superficie de fractura MVC para a) tensión, b) cizalladura y c) fallas de flexión
+
+Proceso de fractura 
+La MVC procede en tres etapas: nucleación, crecimiento y coalescencia de microvoides. La nucleación de microvoides puede ser causada por el agrietamiento de partículas o la falla interfacial entre partículas precipitadas y la matriz. Además, a menudo se forman microvoides en los límites de grano o inclusiones dentro del material. Los microvoides crecen durante el flujo plástico de la matriz, y los microvoides se unen cuando los microvoides adyacentes se unen o el material entre microvoides experimenta un estrechamiento. La coalescencia microvoide conduce a la fractura. Las tasas de crecimiento nulas pueden predecirse suponiendo una plasticidad continua usando el modelo Rice-Tracey: 
+
+dónde  es una constante típicamente igual a 0.283 (pero depende de la triaxialidad del estrés),  es el límite elástico  es el estrés medio  es la cepa plástica equivalente de Von Mises,  es el tamaño de partícula y   producido por la triaxidad del estrés:
+
+Morfologías de superficie de fractura 
+La MVC puede dar lugar a tres morfologías de fractura distintas según el tipo de carga en caso de falla. La carga de tracción da como resultado hoyuelos equiaxiales, que son depresiones esféricas de unos pocos micrómetros de diámetro que se unen de manera normal al eje de carga. Las tensiones de corte producirán hoyuelos alargados, que son depresiones parabólicas que se unen en planos de máxima tensión de corte. Las depresiones apuntan de nuevo al origen de la grieta, y la falla influenciada por el corte producirá depresiones que apuntan en direcciones opuestas en las superficies de fractura opuestas. La tensión y la flexión combinadas también producirán la morfología alargada del hoyuelo, pero las direcciones de las depresiones estarán en la misma dirección en ambas superficies de fractura.
+
+Referencias 
+
+Categoría:Fracturas mecánicas

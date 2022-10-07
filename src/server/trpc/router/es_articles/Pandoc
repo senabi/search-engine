@@ -1,0 +1,27 @@
+Pandoc es un conversor de documentos libre y de código abierto, mayormente usado como una herramienta de escritura (especialmente por académicos), y es una base para la publicación de flujos de trabajo. Fue creado originalmente por John MacFarlane, un profesor de Filosofía en la Universidad de California, Berkeley.
+
+El programa es usado por Architect y por RStudio para producir documentos en una variedad de formatos desde archivos Markdown los cuales incluyen análisis estadísticos escritos en R y procesados con Knitr.
+
+Formatos de archivo soportados 
+El formato de archivo mejor soportado por Pandoc es una versión extendida de Markdown, pero también puede leer otros formatos como lenguajes de marcado ligeros, HTML, ReStructuredText, LaTeX, OPML, Org-mode, DocBook, y Office Open XML (Microsoft Word .docx).
+
+Puede ser usado para convertir documentos a diferentes formatos, incluyendo Office Open XML, OpenDocument, HTML, Wiki markup, InDesign ICML, ebooks, OPML, y varios formatos basados en TeX (desde donde se puede producir un PDF). También se puede convertir ecuaciones matemáticas de LaTeX a MathML y MathJax, además de otros formatos.
+
+Plug-ins para otros formatos pueden ser escritos también en Lua, los cuales son usados para crear herramientas de exportación para el Journal Article Tag Suite.
+
+Integración con gestores de referencias 
+El módulo pandoc-citeproc, permite al programa usar datos desde un programa gestor de referencias como BibTeX, EndNote, Mendeley, o Papers. También se puede integrar directamente con Zotero. La información es automáticamente transformada en una cita en varios estilos (como son APA, Chicago, o MLA) usando una implementación de Citation Style Language. Esto ayuda a pandoc para ser algo más que una simple alternativa a LaTeX para producir textos académicos.
+
+Ejemplos
+
+De Markdown a HTML 
+pandoc test1.md -f markdown -t html -s -o test1.html
+
+De Markdown a LaTeX 
+pandoc test1.md -f markdown -t latex -s -o test1.tex
+
+De Markdown a PDF 
+pandoc test1.md -s -o test1.pdf
+
+Categoría:Software de 2006
+Categoría:Haskell

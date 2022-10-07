@@ -1,0 +1,31 @@
+En matemática, y más en concreto en optimización, el método de los planos de corte es un procedimiento para encontrar soluciones enteras de un problema lineal. Fue introducido por Gomory.
+
+Funciona resolviendo un programa lineal no entero, después comprobando si la optimización encontrada es también una solución entera. Si no es así, es añadida una nueva restricción que corta la solución no entera pero no corta ningún otro punto de la región factible. Esto se repite hasta que se encuentra la solución entera óptima .
+
+Interpretación geométrica, una restricción es equivalente a un hiperplano, permitiendo solo soluciones en uno de los lados del plano.
+
+Cortes de Gomory   
+
+Tengo una solución x admisible y tengo una base B asociada a x tal que:
+
+  
+
+Si tengo una solución fraccionaria entonces tengo un elemento enésimo de x fraccionario.
+
+ 
+
+  
+
+es un corte o formulación entera del corte de Gomory.
+
+Véase también 
+
+Ramificación y poda (Branch and Bound))
+
+Enlaces externos 
+Algoritmo del Plano de Corte en el Problema del Vendedor Viajero
+Método de Ramificar y Acotar Método de Branch and Bound: Ramificar y Acotar
+
+M
+M
+M

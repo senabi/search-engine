@@ -1,0 +1,35 @@
+Un sistema de filtrado de información (Information filtering system en inglés) es un sistema que remueve la información redundante o no deseada de un flujo de información utilizando métodos semiautomáticos o computarizados previo a la presentación de la información al usuario. El objetivo es administrar sobrecarga informativa y el incremento de la Relación señal/ruido semántica. Para hacer esto el perfil de usuario es comparado con unos atributos de referencia. Estas características pueden originarse a partir del elemento de información ( el enfoque basado en contenidos ) o el entorno social del usuario (el enfoque de filtrado colaborativo).
+
+Mientras el filtro de procesamiento de señal del flujo de información es usado para reducir la perturbación por ruido a nivel de bit los métodos empleados en el filtrado de información operan en el nivel semántico.
+
+El rango de los métodos empleados se basa en los mismos principios que la extracción de la información. Un excelente ejemplo son los sistemas de filtrado de correo no deseado (spam). Los sistemas de filtrado de información no solo se utilizan para reducir la explosión de información que necesita ser filtrada sino también para reducir la pseudo información maliciosa.
+
+En el nivel de presentación el filtrado de información funciona a partir de las preferencias del usuario basado en agregadores de noticias etc.
+
+Los sistemas de recomendación pretenden presentar a el usuario elementos de información (películas, televisión, música, libros, noticias, páginas web) en los que el usuario está interesado.Este sistema agrega elementos de información a el usuario en oposición a eliminar elementos del flujo de información.
+Los sistemas de recomendación utilizan normalmente filtrado colaborativo o una combinación de filtrado colaborativo y filtrado basado en contenido aunque existen sistemas de recomendación basados en contenido.
+
+Historia 
+Antes de la llegada de internet ya existían varios métodos de filtrado de información. Por ejemplo gobiernos podían controlar y restringir el flujo de información hacia un determinado país mediante censura formal o informal.
+
+Ahora bien si vamos a hablar de filtrado de información tenemos que hablar de la prensa escrita y periodistas cuando seleccionan la información que van a difundir a sus lectores o televidentes basados en lo que creen les interesará más o en la línea editorial del medio. Este tipo de filtrado también es usado en escuelas y universidades donde existe una selección de información basada en criterios académicos enfocado a sus clientes, los estudiantes. Con la llegada de internet se incrementa sustancialmente la posibilidad de que cualquiera pueda publicar a bajo costo lo que desee. Esto incrementa considerablemente la cantidad de información poco útil y consecuentemente calidad de la información se ve reducida. Con este problema en mente se comenzó a idear nuevas características de filtrado con la que podemos obtener la información requerida para cada tema específico de manera fácil y eficiente .as caracterísCon este problema, se comenzó a idear nuevas características de filtrado con la que podemos obtener la información requerida para cada tema específico de manera fácil y eficiente .
+
+Operación
+Un sistema de filtrado de información consta de varias herramientas que ayudan a las personas a encontrar la información más valiosa de tal manera que el tiempo dedicado a leer, escuchar o ver es mucho más productivamente empleado. Estos filtros también son utilizados para organizar y estructurar la información de una manera más entendible. Estos filtros son necesarios en los resultados obtenidos en los motores de búsqueda en Internet. Los sistemas de filtrado se mejoran día a día con el fin de poder bajar documentos o acceder a mensajes.
+
+Campo de uso
+Hoy en día, existen numerosas técnicas para desarrollar filtros de información, algunas de ellas alcanzan tasas de error inferior al 10 % en varios experimentos. Entre estas técnicas se encuentran árboles de decisión, las máquinas de vectores de soporte, redes neuronales, redes bayesianas, discriminantes lineales, regresión logística, etc. En la actualidad estas técnicas se utilizan en diferentes aplicaciones, no solo en el contexto web, pero en cuestiones temáticas como variados como el reconocimiento del habla, la clasificación de la astronomía o la evaluación de riesgo financiero.
+
+Véase también 
+ Alfabetización informacional
+ Filtro de Kalman
+
+Referencias
+ Hanani, U., Shapira, B., Shoval, P. (2001) Information filtering: Overview of issues, research and systems. User Modeling and User-Adapted Interaction, 11, pp. 203–259.
+ el filtro de información humana
+
+Enlaces externos
+ Infoworld
+ IEEXplore
+
+Categoría:Sistemas de información

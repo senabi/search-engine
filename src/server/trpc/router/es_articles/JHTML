@@ -1,0 +1,24 @@
+HTML con scripts de servidor de J# (J++).
+
+El  JHTML está desarrollado para la Plataforma de Java y HTML. Los archivos de este lenguaje terminan con la extensión de ".jhtml".
+
+Ejemplo de J# con ASP 
+
+WebApplication.localhost.Service server = new WebApplication.localhost.Service(1);
+
+Label2.set_Text(server.Holamundo());
+
+Véase también 
+
+ J#
+ ASP.NET
+ ASP
+ Java
+ HTML: Formularios. Artículo en el cual se detallan todos los atributos del elemento FORM.
+
+Enlaces externos 
+
+ Sitio de Sun Microsystems.
+
+Categoría:Formatos de archivos informáticos
+Categoría:HTML

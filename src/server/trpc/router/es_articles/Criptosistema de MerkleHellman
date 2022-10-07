@@ -1,0 +1,93 @@
+Merkle-Hellman (MH) fue uno de los primeros criptosistemas de llave pública y fue inventado por Ralph Merkle y Martin Hellman en 1978. Aunque sus ideas eran elegantes, y mucho más simples que RSA, no tuvo el mismo éxito que este último, debido a que MH ya fue roto, y además no ofrece funcionalidades para firmar.
+
+Descripción 
+Merkle-Hellman es un criptosistema asimétrico, esto significa que para la comunicación, se necesitan dos llaves: una llave pública y una privada. Otra diferencia con RSA, es que sirve solo para cifrado, es decir, la llave pública es usada solo para cifrar (no para verificar firma) y la llave privada es usada solo para descifrar (no para firmar). De este modo, no se puede usar para tareas de autentificación por firma electrónica.
+
+El algoritmo de Merkle-Hellman está basado en el problema de la mochila de decisión (un caso especial del problema de la mochila de optimización): dados una secuencia de números y un número, determinar si existe un subconjunto de la secuencia cuya suma dé dicho número. En general, es sabido que este problema es de clase NP-completo. Sin embargo, si la secuencia de números es supercreciente -- esto es, si cada elemento de la secuencia es mayor que la suma de todos los anteriores -- el problema es "fácil", y es posible resolverlo en tiempo polinómico con un simple algoritmo voraz.
+
+Generación de las claves 
+En Merkle-Hellman, las claves están compuestas por secuencias. La clave pública es una secuencia "difícil", y la clave privada es una "fácil", o secuencia de valores supercrecientes, junto con dos números adicionales, un multiplicador y un módulo, los cuales son usados para convertir la secuencia supercreciente en una secuencia difícil. Estos mismos números son usados para transformar la suma de la subsecuencia de la secuencia "difícil" en la suma de la subsecuencia de la secuencia "fácil", la cual se puede solucionar en tiempo polinómico.
+
+Cifrado 
+Para cifrar un mensaje, el cual debe ser una secuencia de bits de la misma longitud de la secuencia difícil, se eligen los elementos de la secuencia difícil que correspondan a bits en 1 del mensaje (mientras que los elementos correspondientes a bits en 0 son descartados). Luego se suman los elementos así elegidos, y el resultado de esto es el texto cifrado.
+
+En caso que el mensaje no sea de la misma longitud de la llave, se subdivide en secuencias que tengan esta longitud y se aplica el mismo procedimiento.
+
+Descifrado 
+El descifrado es posible, porque el multiplicador y el módulo usados para transformar la secuencia supercreciente (la llave privada) y por tanto "fácil" en la secuencia general (la llave pública) y por tanto difícil, también pueden ser usados para transformar el texto cifrado (representado por un número) en la suma de los elementos que conforman la subsecuencia supercreciente (una subsecuencia de una secuencia supercreciente, también es supercreciente). Luego, usando un algoritmo voraz, el problema "fácil" de la mochila puede ser resuelto usando O(n) operaciones, con lo cual se logra descifrar el mensaje.
+
+Método Matemático
+
+Generación de las claves 
+Para cifrar un mensaje de n-bits, elegir una secuencia supercreciente :
+
+de n números naturales (distintos de cero). Elegir un número q (preferiblemente al azar), tal que 
+
+y otro número entero, r tal que mcd(r,q) = 1.
+
+q es escogido de esta forma para asegurar la unicidad del texto cifrado. Si fuera menor, podría haber varios textos claros que resultarían en el mismo texto cifrado. r debe ser coprimo con q puesto que de otra forma podría no tener inverso en . La existencia del inverso de r es necesaria para que se pueda realizar el descifrado.
+
+A continuación, se calcula la secuencia:
+
+La clave pública es  , mientras que la llave privada es .
+
+Cifrado 
+Para cifrar un mensaje de n-bits
+
+ 
+donde  es el i-ésimo bit del mensaje y , calcular 
+
+. 
+El criptograma o texto cifrado es c.
+
+Descifrado 
+Para descifrar el criptograma c, el receptor tiene que encontrar los bits del mensaje  tales que satisfacen
+. 
+Este problema sería difícil de resolver si los  fueran valores aleatorios, debido a que el receptor tendría que resolver una instancia del problema de la mochila, el cual se sabe que es NP-hard. Sin embargo, los valores  fueron elegidos de forma que el descifrado sea fácil si la clave privada  es conocida.
+
+Para el descifrado se debe encontrar un entero s tal que es el inverso de r módulo q. Esto es, s satisface la ecuación :
+
+ 
+
+o equivalentemente, existe un entero k tal que sr = kq + 1. Dado que r fue escogido como un coprimo de q
+es posible encontrar s y k usando el Algoritmo de Euclides extendido. Luego el receptor del criptograma c calcula: 
+
+Por tanto
+ 
+
+Ya que  y  entonces
+ 
+
+Con esto 
+ 
+La suma de todos los valores  es menor que q y por ende  también está en el intervalo .
+
+De este modo el receptor tiene que resolver el siguiente problema de la mochila.
+ 
+
+Este problema es fácil debido a que la secuencia w es supercreciente.
+
+El algoritmo avaro para resolver esto consiste en lo siguiente: 
+
+    Tomar el elemento más grande en , digamos . 
+    Si , luego ,
+    Sino 
+    Disminuímos  c'  en  
+    y repetimos estos pasos hasta que se haya alcanzado c'.
+
+El pseudo código para este algoritmo sería:
+
+    While {
+        
+        If 
+           then ,
+        Else 
+           
+    }
+
+Este algoritmo no se puede usar para firmar puesto que el criptograma es un número (c) y no un texto, de este modo no se puede descifrar un mensaje claro y por ende no se puede firmar.
+
+Referencias 
+
+Categoría:Algoritmos criptográficos
+Categoría:Epónimos relacionados con las matemáticas

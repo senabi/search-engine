@@ -1,0 +1,13 @@
+Cookies entre sitios (cross-site cooking en inglés), cada sitio debe tener sus propias cookies, de forma que un sitio "malo.net" no tenga posibilidad de modificar o definir cookies de otro sitio como "bueno.net". Las vulnerabilidades cross-site cooking de los navegadores permiten a sitios maliciosos romper esta regla. Esto es similar a la falsificación de cookies, pero el atacante se aprovecha de usuarios no malintencionados con navegadores vulnerables, en vez de atacar al sitio web directamente. El objetivo de estos ataques puede ser realizar una fijación de sesión (robo de sesión en un sitio web).
+
+thumb|200px|En Cookies entre sitios, el atacante explota un error de software de una navegador para enviar una cookie inválida a un servidor.
+
+Cookies entre sitios, son un tipo de exploit del navegador que permite al sitio atacante establecer una cookie para un navegador dentro del dominio cookie de otro servidor.
+
+Las cookies entre sitios pueden ser utilizadas para realizar ataques de fijación de sesión, como un sitio, malicioso puede fijar el identificador de sesión cookie de algún otro sitio.
+
+Otros escenarios posibles de ataque por ejemplo: el atacante, debe saber de una vulnerabilidad de seguridad en el servidor, que es explotable usando una cookie. Pero si esta vulnerabilidad de seguridad requiere p.e. una contraseña de administrador que el atacante no conoce, las cookies entre sitios pueden ser utilizadas para engañar a usuarios inocentes a realizar el ataque inintencionadamente.
+
+El concepto de cookies entre sitios, es similar a XSS, XSRF, XST, Scripting entre zonas, etc., que envuelve la habilidad de mover datos o código entre diferentes sitios web (o en algunos casos entre correo electrónico o mensajes instantáneos y sitios). Estos problemas están ligados al hecho de que un navegador web es una plataforma compartida para diferentes aplicaciones, sitios e información. Sólo las fronteras lógicas de seguridad mantenidas por navegadores aseguran que un sitio no pueda corromper o robar datos de otro. Sin embargo un exploit del navegador como cookies entre sitios, pueden ser usados para mover cosas entre las fronteras de seguridad lógica.
+
+Categoría:Problemas de seguridad informática

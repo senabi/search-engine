@@ -1,0 +1,49 @@
+El PowerBook 165 (llamado Dart LC durante su desarrollo) fue un ordenador portátil que Apple lanzó el 16 de agosto de 1993 como sustituto del PowerBook 160, con un coste inicial de 1.700  dólares. Utilizaba la misma carcasa que el PowerBook 140, y era básicamente un PowerBook 165c con pantalla en escala de grises y sin la FPU Motorola 68882. Fue descatalogado el 18 de julio de 1994.
+
+Detalles Técnicos
+CPU: Motorola 68030 a 33 MHz, con MMU integrado, sin FPU.
+Bus del sistema de 32 bits a 33 MHz.
+ROM: 1 MB (ROM ID: $067C)
+RAM : 4 Megabytes ampliables a 14 MB de RAM pseudoestática.
+Pantalla: de 9,8 pulgadas, matriz pasiva LCD integrada, soporta una resolución interna de 640 × 400 en 4 bits (niveles de gris). La GPU de Apple viene equipada con un doble juego de VRAM: 128 KB para la pantalla interna y 512 KB para al externa.  Mediante un monitor externo soporta las siguientes resoluciones:
+ 512 × 384 en 8 bits (256 colores)
+ 640 × 400 en 8 bits
+ 640 × 480 en 8 bits
+ 800 × 600 en 8 bits
+ 832 × 624 en 8 bits
+Almacenamiento
+Una unidad de disquete SuperDrive de 3,5 y 1,44 MB.
+Un disco duro SCSI de 80 a 160 MB
+Cualquier dispositivo SCSI externo, como:
+Unidades Iomega Bernoulli Box
+Unidades de Disco magneto-óptico
+Unidades Iomega Zip
+Unidad SuperDisk (LS-120)
+Unidad Iomega Jaz
+Unidad Castlewood Orb
+Unidad CD-ROM y grabadoras 
+Conectores:
+ 1 puerto SCSI (HDI-30)
+ 2 puertos serie RS-422 con Conector mini-DIN 8 (modem y printer)
+ 1 puerto ADB
+ 1 conector minijack de auriculares: mono 8 bits
+ 1 conector minijack de micrófono: mono 8 bits
+ Conector de video PowerBook
+ Conector de seguridad Kensington
+ Carcasa: en plástico gris de 57 × 286 × 236 mm (2,25 × 11,25 × 9,3 pulgadas) y un peso de 3,1 kilogramos (6,8 libras). Presenta dos patillas retraíbles para mantener la caja en un plano inclinado. En el lateral derecho se encuentra la unidad de disquete y la unidad interna de disco duro. En la trasera, protegido por una trampilla, el conector de módem, puerto SCSI, el puerto ADB, los conectores RS-422, puerto de video y pulsador de encendido/apagado. La batería se encuentra en el lado izquierdo, pudiendo ser sustituida por el usuario. En el eje de la pantalla se sitúan los controles de brillo y contraste.
+Teclado estándar de Apple de 64 teclas, ocupando 2/3 de la zona interior de la carcasa. El otro tercio ocupado por una trackball con un pulsador en la zona superior y otra en la inferior, situada debajo de la barra espaciadora.
+Expansión:
+ 1 conector específico de ampliaciones de memoria (PB 1xx) SRAM, con una velocidad mínima de 85 nanosegundos
+ 1 slot comunicaciones para el módem opcional.
+Alimentación: fuente de alimentación externa 922-0376 (válida para los PowerBook 140-145-160-165-165c-180-180c) 24 W 2 A autoconmutable 100-240 V AC, 50-60 Hz. El equipo tiene un consumo de 17 W. Utiliza una batería de níquel cadmio interna, con entre 150 a 180 minutos de autonomía.
+ Sistema operativo: System 7.0.1 a System 7.6.1
+
+Enlaces externos
+everymac.com
+Anuncios y características
+68kMLA Wiki
+Ficha oficial
+Manual
+lowendmac
+
+Categoría:Computadores Macintosh

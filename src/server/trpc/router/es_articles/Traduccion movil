@@ -1,0 +1,54 @@
+La traducción móvil es el servicio de traducción automática para los dispositivos de mano, incluyendo los teléfonos móviles, las PDA's, los Pocket PC's y los Teléfonos inteligentes. Este servicio se basa en la programación lingüística computacional y en la tecnología de comunicación del dispositivo móvil. La traducción móvil ofrece a los usuarios tener un dispositivo capaz de traducir instantáneamente de un idioma a otro, utilizando una cuota de servicio de datos, mucho menos significativa que una cuota de un traductor humano.
+
+Historia
+El primer sistema de traducción móvil fue creado el año 1999 por Advanced Telecomunicacions Research Institute Internacional-Interpreting, en los laboratorios de investigación de las telecomunicaciones situado en la ciudad de la ciencia de Kansai, en Japón. En este primer sistema, se grababan unas palabras en un idioma desde un dispositivo móvil, éstas se traducían en palabras del idioma de destino, se sintetizaban y se enviaba el audio traducido al otro dispositivo móvil. El año 2004, se comercializó un programa de traducción automática para los dispotivos móviles que era capaz de traducir texto de entrada del usuario, mensajes SMS, de correo electrónico y mensajes instantáneos, por la empresa Transclick. Sin embargo, no fue patentado hasta el año 2006.
+En noviembre de 2005, otra empresa japonesa, NEC Corporation anunció el desarrollo de un sistema de traducción que podría instalarse en teléfonos móviles. Este nuevo sistema era capaz de reconocer 50.000 palabras japonesas y 30.000 en inglés. A pesar de eso, no fue hasta enero del 2009 que se oficializó el producto.
+El año 2007, la empresa Moka LCC de los Estados Unidos, empezó a ofrecer productos de aprendizaje multilingüe, donde utilizaban los mensajes SMS para enviar las traducciones.
+En la actualidad, Google Translate es el líder de la traducción en línea, donde ha desarrollado la versión móvil para cualquier dispositivo de mano, y es capaz de traducir diferentes fuentes de entrada en otros idiomas, como por ejemplo, mensajes SMS, correo electrónico, mensajes de voz, imágenes, etc.
+
+Especificaciones
+Un dispositivo móvil necesita comunicarse con un servidor externo para que pueda enviar los datos de entrada y recibirlos traducidos en la lengua deseada. En la actualidad, se utilizan tecnologías de comunicación como WAP, GPRS, EDGE, UMTS o Wi-Fi, pero las tecnologías más antiguas utilizan la comunicación vía SMS para enviar y recibir los datos. 
+
+Los proveedores japoneses ofrecen traducciones entre el japonés, chino, inglés y coreano, pero existen otros proveedores ofrecen más lenguas, como el inglés, el francés, el alemán, el italiano, el catalán o el español. La generación de voz pero, esta por el momento limitada a los idiomas más hablados, como el inglés, el chino, el español, el italiano, el francés o el alemán.
+
+Características
+La traducción móvil contiene un número considerable de características que hacen que se realice correctamente dicha traducción. El usuario puede introducir texto utilizando el teclado del dispositivo, grabando unas palabras o una frase con el micrófono del aparato o utilizando textos preexistentes como correos electrónicos, mensajes SMS o también imágenes o fotografías tomadas de un texto. Algunas aplicaciones de traducción móvil también ofrecen servicios que facilitan aún más el proceso de traducción.
+
+Reconocimiento de voz
+La aplicación permite que el usuario pueda grabar un fragmento de palabras, como una frase, dónde ésta se envía al servidor de traducción y este se encarga de convertir dicha grabación de voz en texto para que después, sea traducido. Para convertir el audio a texto, se utilizan técnicas del reconocimiento del habla y se basan en la acústica, en el procesamiento del señal, en la fisiología, en la inteligencia artificial y en la ciencia computacional. El principal problema de este sistema es trabajar con diferentes fuentes de conocimiento que varían según la lengua de entrada y según la persona que habla o pronuncia las palabras, como la fonética, la fonológica, el léxico, la sintáctica, la semántica y la pragmática.
+
+Síntesis de voz
+El servicio convierte un texto en voz. De esta forma, en algunas aplicaciones de traducción móvil se puede reproducir en audio, el texto que el servidor de traducción nos ha traducido en el idioma deseado. La voz sintética es una voz artificial generada a partir de un proceso de sintetización del habla. La calidad de voz sintética vendrá dada por su inteligibilidad y su naturalidad.
+
+Traducción de imágenes
+La aplicación permite que el usuario haga una fotografía de un texto con la cámara del dispositivo móvil (o utilice una fotografía existente), y una vez hecha, se envíe al servidor de traducción dónde este, realiza un reconocimiento óptico de caracteres (OCR), de dónde extrae el texto a partir de la imagen para que después pueda traducirlo en el idioma deseado.
+
+Usos y ventajas
+Disponer de un dispositivo de traducción automática a tiempo real conlleva diferentes usos y ventajas:
+Viajar: la traducción móvil puede ayudar a las personas que viajan a entenderse fácilmente con la gente de otros países.
+Redes de negocios: las negociaciones con clientes o empresas de otros países permite ahorrar dinero y tiempo con las aplicaciones de traducción móvil, comparado con los servicios de llamada multilingüe y traducción intermedia.
+Globalización de las redes sociales: la traducción móvil permite chatear y enviar mensajes con amigos de nivel internacional así como conocer nuevas amistades traspasando la barrera del idioma.
+Aprender un idioma extranjero: aprender un idioma puede ser más fácil y económico si se dispone de un dispositivo móvil capaz de utilitzar la traducción a tiempo real.
+
+Inconvenientes
+El reto más importante que enfrenta la industria de traducción móvil es la calidad lingüística y las comunicaciones para llevar a cabo las traducciones. Aunque algunos proveedores afirman haber conseguido una exactitud de hasta un 95%, la tecnología no es capaz de entender modismos ni el lenguaje coloquial. Por eso, la traducción automática es, de momento, de menos calidad que la traducción humana y conlleva a utilizarlos conociendo este criterio y algunas veces requieren corrección.
+Otra desventaja es la necesidad de tener una conexión de datos al dispositivo móvil del usuario para poder enviar y recibir los datos. En comparación al coste de los mensajes SMS es una buena opción, pero en zonas aún con coberturas bajas, hace que el servicio no sea realmente estable.
+
+Véase también
+Traducción automática
+Traducción asistida por computadora
+Traducción e interpretación
+Reconocimiento de voz
+Síntesis de voz
+Reconocimiento óptico de caracteres
+
+Enlaces externos
+Google Translate Mobile (en inglés)
+Patente de sistemas de traducción (en inglés) 
+Teléfono móvil y traducción automática: dos en uno (en inglés)
+NEC desarrolla un software de reconocimiento de voz (en inglés) 
+Aprendizaje de idiomas móvil (en inglés)
+Traducción de un texto fotografiado (en inglés)
+
+Categoría:Traducción automática
+Categoría:Telecomunicaciones

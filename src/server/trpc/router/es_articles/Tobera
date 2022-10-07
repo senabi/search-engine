@@ -1,0 +1,85 @@
+thumb|Tobera de un cohete V2.
+Una tobera es un dispositivo que convierte la energía térmica y de presión de un fluido (conocida como entalpía) en energía cinética. Como tal, es utilizado en turbomáquinas y otras máquinas, como inyectores, surtidores, propulsión a chorro, etc. El fluido sufre un aumento de velocidad a medida que la sección de la tobera va disminuyendo , por lo que sufre también una disminución de presión y temperatura al conservarse la energía. Existen diseños y tipos de tobera muy usados en diferentes campos de la ingeniería, como la de Laval, Rateau, Curtis, etc.
+
+Tobera de Laval 
+Gustav de Laval estudió el flujo supersónico en toberas y resolvió el problema de aceleración máxima dentro de la tobera llegando al diseño de toberas con sección convergente-divergente en las que se logra un flujo sónico M = 1 (M = número de Mach) en la garganta para posteriormente expandir la tobera y lograr flujos supersónicos M > 1. 
+
+Estas toberas deben tener una expansión adecuada para evitar la generación de ondas de choque o de contracción dentro del flujo. 
+
+La tobera es la encargada de convertir energías, adaptando las presiones y velocidades de los gases eyectados. Son de uso común a régimen de vuelo subsónico (M<1) y supersónico (M>1). En el caso supersónico se hace necesaria la existencia de un sistema de ondas de choque al inicio del difusor de entrada para decelerar el fluido y así producirse la combustión en condiciones óptimas.
+
+La tobera que usan los cohetes experimentales se denomina De Laval y los flujos que recorren dicha tobera se consideran compresibles al moverse a velocidades supersónicas, por lo que, las diferentes secciones transversales, producen durante el avance de los gases, variaciones en la densidad y en la velocidad del fluido. Todo ello está supuesto para condiciones de flujo isoentrópico, es decir, condiciones adiabáticas y sin rozamiento. En la práctica, no existe la condición de flujo isentrópico ideal, por lo que se aplica un coeficiente de rendimiento que ajusta el cálculo.
+
+La ley de la conservación de la energía se encarga de aumentar la velocidad en el cono de salida, no por cumplimiento de la dinámica de fluidos, ya que aquí aparecen como compresibles, sino por la conservación del producto «velocidad x temperatura».
+
+Estudio matemático de la tobera ideal 
+Idealmente las transformaciones del fluido en una tobera cumplirían las siguientes condiciones:
+
+ Son isoentrópicas (se trataría de un proceso reversible, sin pérdidas), y por tanto adiabáticas (no hay una transmisión de calor del fluido a la tobera o al exterior).
+
+ Se mantendría en régimen estacionario (con lo cual, el flujo másico de fluido (compresible) que se desplaza a lo largo de la tobera permanecería constante todo a lo largo de la misma).
+
+Por tanto se deben cumplir en cualquier punto de la tobera las siguientes dos condiciones:
+
+(1) 
+
+donde h es la entalpía y c la velocidad del fluido.
+
+(2) 
+
+donde G es el gasto másico en cualquier punto (constante); ρ, la densidad del fluido en ese punto; y A, la sección de paso en ese mismo punto.
+
+De las anteriores ecuaciones se deduce que:
+
+(3) 
+
+donde a es la velocidad del sonido:
+
+(4) 
+ 
+donde Cp y Cv son las capacidades caloríficas del fluido a presión y volumen contantes, respectivamente; p es la presión del fluido en ese punto.
+
+La ecuación (3) nos puede dar una indicación del perfil que debe tener la tobera. Si se desea que la velocidad del fluido aumente a lo largo de ella, se debe cumplir que dc>0. Entonces:
+
+ Si c<a (lo que ha de ocurrir al principio, en que el fluido empieza teniendo poca velocidad), entonces dA<0, es decir: mientras la velocidad sea menor que la del sonido, para que el fluido siga acelerándose, la sección ha de ir disminuyendo. Es lo que se denomina la parte convergente de la tobera.
+
+ Si c>a ( esto ocurrirá si el fluido se acelera lo suficiente como para superar la velocidad del sonido), entonces dA>0. Es decir, si el fluido supera la velocidad del sonido, para que siga acelerándose, la sección de la tobera ha de ser creciente. Es lo que se denomina la parte divergente de la tobera.
+
+ Entre la parte convergente y divergente de una tobera, existe un punto en que se cumple que dA=0 (la sección permanecería constante) y en ese punto, denominado garganta de la tobera, la velocidad del fluido es la del sonido c=a (se entiende que para ese fluido en esas condiciones).
+
+Las conclusiones son que para empezar la aceleración de un fluido, la tobera necesariamente ha de ser convergente en su primera sección, pero si se quiere que la velocidad del fluido supere la del sonido, debe tener una segunda sección divergente. En el punto entre ambas secciones, llamado garganta de la tobera, la velocidad del fluido es la del sonido.
+
+Suponiendo que el fluido cumple la Ley de los gases ideales () podríamos obtener la velocidad en cada punto de la tobera en función de la presión, según la ecuación:
+
+(5) 
+
+A partir de la ecuación anterior, podríamos hallar cuál debe ser la presión en la garganta de la tobera:
+
+(6) 
+
+donde  es la presión inicial del fluido a la entrada de la tobera y γ es característica del fluido en cuestión. De este modo se puede determinar el valor de la presión en la garganta para cualquier fluido. Por ejemplo:
+
+ Para el aire:
+
+ Para el vapor de agua seco:
+
+Cálculo Másico de la velocidad de un flujo líquido ideal a través de una tobera: 
+Utilizando las ecuaciones de Energía Potencial y Energia Cinética, es posible deducir la velocidad por la que sale un fluido a través de una tobera.
+
+Donde m es la masa, v la velocidad, g la constante de aceleración gravitatoria y h la altura, en este caso manometrica.
+
+Reduciendo al ser las masas iguales:
+
+De donde
+
+Toberas magnéticas 
+
+Una alternativa al uso de toberas materiales para la aceleración de un plasma en aplicaciones de propulsión espacial eléctrica y de procesado avanzado de materiales con haces de partículas, es emplear un campo magnético que confina, expande y acelera el chorro de plasma que proviene de una fuente adecuada, constituyendo así una tobera magnética.
+
+Referencias
+
+Véase también 
+ Tobera del motor cohete
+
+Categoría:Componentes de aeronaves
+Categoría:Mecánica de fluidos

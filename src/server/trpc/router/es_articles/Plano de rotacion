@@ -1,0 +1,189 @@
+En geometría, un plano de rotación es un objeto abstracto utilizado para definir o visualizar rotaciones en el espacio. En el espacio tridimensional es una alternativa a un eje de rotación, pero a diferencia del eje de este, se puede usar en otras dimensiones, como dos, cuatro o más dimensiones.
+
+Matemáticamente, dichos planos se pueden describir en términos de planos y de ángulos de rotación, y se pueden asociar con bivectores según los principios del álgebra geométrica. Están relacionados con los vectores propios y los valores propios de una matriz de rotación. Y, en particular, sus dimensiones están relacionadas con otras propiedades algebraicas y geométricas, que pueden generalizarse a otras dimensiones.
+
+Los planos de rotación no se usan mucho en dos y tres dimensiones, ya que en dos dimensiones solo hay un plano, por lo que la identificación del plano de rotación es trivial y rara vez se usa, mientras que en tres dimensiones el eje de rotación sirve para el mismo propósito y es un enfoque más establecido. El uso principal de los planos de rotación es en la definición de rotaciones más complejas en dimensiones más altas, donde se pueden usar para dividir las rotaciones en partes más simples. Esto se puede hacer usando álgebra geométrica, con los planos de rotación asociados con bivectores simples en el álgebra correspondiente.
+
+Definiciones
+
+Plano
+Para este artículo, todos los planos pasan a través del origen de coordenadas, es decir, contienen el vector cero. Estos planos en el espacio -dimensional es un subespacio vectorial bidimensional del espacio. Está completamente especificado por dos vectores distintos de cero y no paralelos que se encuentran en el plano, es decir, por dos vectores cualesquiera  y , de manera que
+
+ 
+
+donde  es el producto exterior del álgebra exterior o álgebra geométrica (en tres dimensiones se puede usar el producto vectorial). Más precisamente, la cantidad  es el bivector asociado con el plano especificado por  y , y tiene una magnitud , donde  es el ángulo entre los vectores; de ahí el requisito de que los vectores sean distintos de cero y no paralelos.
+
+Si el bivector  se escribe , entonces la condición de que un punto se encuentre en el plano asociado con  es simplemente 
+
+ 
+
+Esto es cierto en todas las dimensiones y puede tomarse como la definición del plano. En particular, desde las propiedades del producto exterior se satisface tanto con  como con , y por lo tanto con cualquier vector de la forma
+
+ 
+
+con números reales  y . Como  y  abarcan todos los números reales,  abarca todo el plano, por lo que puede tomarse como otra definición del propio plano.
+
+Plano de rotación
+Un plano de rotación para una rotación particular implica una aplicación lineal sobre sí mismo, definida por la rotación dada. El plano no es fijo, pero todos los vectores en el plano se asignan a otros vectores en el mismo plano mediante la rotación. Esta transformación del plano sobre sí mismo siempre es una rotación respecto al origen, a través de un ángulo que es el ángulo de rotación para el plano.
+
+Cada rotación, excepto la rotación identidad (mediante la matriz identidad) tiene al menos un plano de rotación, y hasta
+
+ 
+
+planos de rotación, donde  es la dimensión. El número máximo de planos hasta ocho dimensiones se muestra en esta tabla:
+
+ {| class="wikitable" border="1"
+! Dimensión
+| 2 || 3 || 4 || 5 || 6 || 7 || 8
+|-
+! Número de planos
+| 1 || 1 || 2 || 2 || 3 || 3 || 4
+|}
+
+Cuando una rotación tiene múltiples planos de rotación, siempre son ortogonales entre sí, con únicamente el origen en común. Esta es una condición más fuerte que decir que los planos forman ángulos rectos. Significa que los planos no tienen vectores comunes distintos de cero, y que cada vector en un plano es ortogonal a cada vector en el otro plano. Esto solo puede suceder en cuatro o más dimensiones. En dos dimensiones solo hay un plano, mientras que en tres dimensiones todos los planos tienen al menos un vector distinto de cero en común, en su recta de intersección.
+
+En más de tres dimensiones los planos de rotación no son siempre únicos. Por ejemplo, la matriz identidad negativa en cuatro dimensiones (la inversión central),
+
+ 
+
+describe una rotación en cuatro dimensiones en la que cada plano a través del origen es un plano de rotación a través de un ángulo Π, por lo que cualquier par de planos ortogonales genera la rotación. Pero para una rotación general es al menos teóricamente posible identificar un conjunto único de planos ortogonales, en cada uno de los cuales los puntos se giran a través de un ángulo, por lo que el conjunto de planos y ángulos caracteriza completamente la rotación.
+
+Dos dimensiones
+En el espacio bidimensional solo hay un plano de rotación, el plano del espacio mismo. En un sistema de coordenadas cartesianas es el plano cartesiano, y en números complejos es el plano complejo. Por lo tanto, cualquier rotación es de todo el plano, es decir, del espacio, manteniendo solo el origen de coordenadas fijo. Se especifica completamente por el ángulo de rotación con signo, en el rango, por ejemplo, −Π a Π. Entonces, si el ángulo es , la rotación en el plano complejo viene dada por la fórmula de Euler:
+
+ 
+
+mientras que la rotación en un plano cartesiano viene dada por la matriz de rotación de orden :
+
+Tres dimensiones
+
+En el espacio tridimensional hay un número infinito de planos de rotación, con solo uno involucrado en cualquier rotación dada. Es decir, para una rotación general hay precisamente un plano que está asociado con él o en el que tiene lugar la rotación. La única excepción es la rotación trivial, correspondiente a la matriz identidad, cuando no tiene lugar ninguna rotación.
+
+En cualquier rotación en tres dimensiones siempre hay un eje fijo, el eje de rotación. La rotación se puede describir definiendo este eje, con el ángulo a través del cual la rotación gira alrededor de él; esta es la notación axial-angular de una rotación. El plano de rotación es el plano ortogonal a este eje, por lo que el eje es un vector normal del plano. La rotación hace girar este plano a el mismo ángulo que gira alrededor del eje, es decir, todo en el plano gira en el mismo ángulo alrededor del origen.
+
+Un ejemplo se muestra en el diagrama, donde la rotación tiene lugar alrededor del eje . El plano de rotación es el plano , por lo que todos sus puntos se mantienen en el propio plano tras la rotación. Esto podría ser descrito por una matriz como la siguiente, con la rotación a través de un ángulo  (respecto al eje o en el plano):
+ 
+
+Otro ejemplo es la rotación de la Tierra. El eje de rotación es la línea que une el polo norte y el polo sur; y el plano de rotación es el plano a través del ecuador terrestre entre los hemisferios norte y sur. Otros ejemplos incluyen dispositivos mecánicos como un giróscopo o un volante de inercia, que almacenan la energía cinética rotacional de una masa generalmente en el plano de rotación.
+
+En cualquier rotación tridimensional, el plano de rotación se define de forma única. Junto con el ángulo de rotación, define por completo la rotación. O en un objeto que gira continuamente, las propiedades de rotación, como la velocidad de rotación, se pueden describir en términos del plano de rotación. Cualquier rotación definida en términos de un plano de rotación; se puede definir respecto a un eje de rotación, y viceversa. Pero, a diferencia del eje de rotación, el plano se generaliza en otras dimensiones, en particular las más altas.
+
+Cuatro dimensiones
+
+Una rotación general en cuatro dimensiones tiene solo un punto fijo, el origen. Por lo tanto, un eje de rotación no se puede utilizar en cuatro dimensiones. Pero se pueden usar planos de rotación, y cada rotación no trivial en cuatro dimensiones tiene uno o dos planos de rotación.
+
+Rotaciones simples
+Una rotación con un solo plano de rotación es una rotación simple. En una rotación simple hay un plano fijo, y se puede decir que la rotación tiene lugar alrededor de este plano, por lo que los puntos a medida que giran no cambian su distancia respecto a este plano. El plano de rotación es ortogonal a este plano, y se puede decir que la rotación tiene lugar en este plano.
+
+Por ejemplo, la siguiente matriz representa un giro en el plano : los puntos en ese plano y solo en ese plano no cambian. El plano de rotación es el plano , los puntos en este plano se giran en un ángulo . Un punto general gira solo en el plano , es decir, gira alrededor del plano  cambiando solo sus coordenadas  y .
+
+ 
+
+En dos y tres dimensiones, todas las rotaciones son simples, ya que solo tienen un plano de rotación. solo en cuatro y más dimensiones hay rotaciones que no son rotaciones simples. En particular, en cuatro dimensiones también hay rotaciones dobles e isoclínicas.
+
+Rotaciones dobles
+En una rotación doble hay dos planos de rotación, no hay planos fijos, y el único punto fijo es el origen. Se puede decir que la rotación tiene lugar en ambos planos de rotación, ya que los puntos en ellos se rotan dentro de los planos. Estos planos son ortogonales, es decir, no tienen vectores en común, por lo que cada vector en un plano está en ángulo recto con cada vector en el otro plano. Los dos planos de rotación abarcan el espacio de cuatro dimensiones, por lo que cada punto del espacio se puede especificar mediante dos puntos, uno en cada uno de los planos.
+
+Una rotación doble tiene dos ángulos de rotación, uno para cada plano de rotación. La rotación se especifica dando los dos planos y dos ángulos distintos de cero,  y  (si cualquiera de los ángulos es cero, la rotación es simple). Los puntos en el primer plano giran un ángulo , mientras que los puntos en el segundo plano giran un ángulo . Todos los demás puntos giran a través de un ángulo comprendido entre  y , por lo que en un sentido determinan la cantidad de rotación. Para una doble rotación general, los planos de rotación y los ángulos son únicos y, dada una rotación general, se pueden calcular. Por ejemplo, una rotación de  en el plano  y  en el plano  viene dada por la matriz
+
+Rotaciones isoclínicas
+
+Un caso especial de la doble rotación es cuando los ángulos son iguales, es decir, si . Esto se denomina rotación isoclínica, y difiere de una doble rotación general en varios aspectos. Por ejemplo, en una rotación isoclínica, todos los puntos que no son cero giran en el mismo ángulo, . Lo más importante es que los planos de rotación no están identificados de manera única. En cambio, hay un número infinito de pares de planos ortogonales que pueden tratarse como planos de rotación. Por ejemplo, se puede tomar cualquier punto, y el plano en el que gira junto con el plano ortogonal a él se pueden usar como dos planos de rotación.
+
+Dimensiones superiores
+Como ya se ha señalado, el número máximo de planos de rotación en  dimensiones es
+
+ 
+
+por lo tanto, la complejidad aumenta rápidamente con más de cuatro dimensiones y la clasificación de rotaciones como la anterior se vuelve demasiado compleja para ser práctica, pero se pueden hacer algunas observaciones.
+
+Las rotaciones simples se pueden identificar en todas las dimensiones, como rotaciones con un solo plano de rotación. Una rotación simple en  dimensiones  tiene lugar aproximadamente (es decir, a una distancia fija de) en un subespacio  dimensional ortogonal al plano de rotación.
+
+Una rotación general no es simple, y tiene el número máximo de planos de rotación indicados anteriormente. En el caso general, los ángulos de rotación en estos planos son distintos y los planos están definidos de manera única. Si alguno de los ángulos es el mismo, entonces los planos no son únicos, como en cuatro dimensiones con una rotación isoclínica.
+
+En las dimensiones pares () hay hasta  planos de rotación que abarcan el espacio, por lo que una rotación general rota todos los puntos excepto el origen, que es el único punto fijo. En dimensiones impares () hay  planos y ángulos de rotación, igual que la dimensión par una más baja. Estos no abarcan el espacio, pero dejan una línea que no gira, como el eje de rotación en tres dimensiones, excepto que las rotaciones no tienen lugar respecto a esta línea sino en múltiples planos ortogonales a ella.
+
+Propiedades matemáticas
+Los ejemplos dados anteriormente fueron elegidos para ser casos claros y simples de rotaciones, con planos generalmente paralelos a los ejes de coordenadas en tres y cuatro dimensiones. Pero este no suele ser el caso: los planos no suelen ser paralelos a los ejes de coordenadas, y las matrices no se pueden escribir de forma tan sencilla. En todas las dimensiones, las rotaciones quedan completamente definidas por los planos de rotación y sus ángulos asociados, por lo que es útil poder determinarlas, o al menos encontrar formas de describirlas matemáticamente.
+
+Reflexiones
+
+Cada rotación simple puede ser generada por dos reflexiones. Las reflexiones se pueden especificar en  dimensiones al proporcionar un subespacio  dimensional para efectuar la reflexión, de modo que una reflexión bidimensional se produce respecto a una recta, una reflexión tridimensional respecto a un plano, etc. Pero esto se vuelve cada vez más difícil de aplicar en dimensiones más altas, por lo que es mejor usar vectores en lugar del método descrito a continuación.
+
+Una reflexión en  dimensiones se especifica mediante un vector perpendicular al subespacio dimensional . Para generar rotaciones simples, solo se necesitan reflexiones que fijen el origen, por lo que el vector no tiene una posición, solo la dirección. Tampoco importa en qué dirección se encuentre: se puede reemplazar con su negativo sin cambiar el resultado. De manera similar, se pueden usar vectores unitarios para simplificar los cálculos.
+
+Entonces, la reflexión en un espacio -dimensional viene dada por el vector unitario perpendicular a él, , y por lo tanto:
+
+ 
+
+donde el producto es el producto geométrico del álgebra geométrica.
+
+Si  se refleja en otro espacio -dimensional distinto, descrito por un vector unitario  perpendicular a él, el resultado es
+
+ 
+
+Esta es una rotación simple en  dimensiones, a través del doble del ángulo entre los subespacios, que también es el ángulo entre los vectores  y . Se puede verificar usando álgebra geométrica que esto es una rotación y que rota todos los vectores como se espera.
+
+La cantidad  es un rotor, y  es su inverso como
+
+ 
+
+Así se puede escribir la rotación.
+
+ 
+
+donde  es el rotor.
+
+El plano de rotación es el plano que contiene  y , que deben ser distintos. De lo contrario, las reflexiones son las mismas,se anulan entre sí, y no se produce rotación. Como cualquiera de los vectores puede ser reemplazado por su negativo, el ángulo entre ellos siempre puede ser agudo, o como máximo . La rotación absrca dos veces el ángulo entre los vectores, hasta Π o media vuelta. El sentido de la rotación es rotar de  hacia : el producto geométrico no es conmutativo, por lo que el producto  es la rotación inversa, con sentido de  a .
+
+A la inversa, todas las rotaciones simples se pueden generar de esta manera, con dos reflexiones, mediante dos vectores unitarios en el plano de rotación, separados por la mitad del ángulo de rotación deseado. Se pueden componer para producir rotaciones más generales, utilizando hasta  reflexiones si la dimensión  es par, o  si  es impar, eligiendo pares de reflexiones dadas por dos vectores en cada plano de rotación.
+
+Bivectores
+Los bivectores son elementos del álgebra geométrica, del álgebra de Clifford y del álgebra exterior, que generalizan la idea de vectores en dos dimensiones. Al igual que los vectores representan rectas, los bivectores representan planos. Entonces, cada plano (en cualquier dimensión) puede asociarse con un bivector, y cada bivector simple está asociado con un plano. Esto los convierte en una útil herramienta para definir planos de rotación.
+
+Cada plano de rotación tiene un bivector simple asociado, paralelo al plano y con una magnitud igual al ángulo de rotación en el plano. 
+
+Estos bivectores se suman para producir un bivector único, generalmente no simple, para definir cualquier rotación. Esto puede generar un rotor a través de la función exponencial, que se puede usar para rotar un objeto.
+
+Los bivectores están relacionados con los rotores a través de la función exponencial (que aplicada a los bivectores genera rotores y rotaciones según la fórmula de De Moivre). En particular, dado cualquier bivector , el rotor asociado con él es
+
+ 
+
+Esta es una rotación simple si el bivector es simple, de lo contrario, es una rotación más general. Cuando al cuadrado,
+
+ 
+
+se obtiene un rotor que gira a través del doble del ángulo. Si  es simple, entonces esta es la misma rotación generada por dos reflexiones, ya que el producto  da una rotación de dos veces el ángulo entre los vectores. Estos pueden ser equiparados,
+
+ 
+
+de lo que se deduce que el bivector asociado con el plano de rotación que contiene  y  que gira  a  es
+
+ 
+
+Este es un bivector simple, asociado con la rotación simple descrita. Las rotaciones más generales en cuatro o más dimensiones están asociadas con sumas de bivectores simples, uno para cada plano de rotación, calculados como se ha mostrado anteriormente.
+
+Los ejemplos incluyen las dos rotaciones en cuatro dimensiones dadas anteriormente. La rotación simple en el plano  por un ángulo  tiene bivector , un bivector simple. La doble rotación de  y  en los planos  y  tiene un bivector , la suma de dos bivectores simples  y  que son paralelos a los dos planos de rotación y tienen magnitudes iguales a los ángulos de rotación.
+
+Dado un rotor, el bivector asociado con él se puede recuperar calculando el logaritmo del rotor, que luego se puede dividir en bivectores simples para determinar los planos de rotación, aunque en la práctica para todos los casos, salvo el más simple, esto puede ser poco práctico. Pero dado un bivector simple, el álgebra geométrica es una herramienta útil para estudiar los planos de rotación utilizando álgebra como la anterior.
+
+Valores propios y planos propios
+Los planos de rotaciones para una rotación particular se pueden definir utilizando los vectores y valores propios. Dada una matriz de rotación general en  dimensiones, su ecuación característica tiene una raíz real (en dimensiones impares) o cero (en dimensiones pares). Las otras raíces están en pares conjugados complejos, exactamente
+
+ 
+
+Tales pares corresponden a los planos de rotación, los planos propios de la matriz, que pueden calcularse utilizando técnicas algebraicas. Además, los argumentos de las raíces complejas son las magnitudes de los bivectores asociados con los planos de rotación. La forma de la ecuación característica está relacionada con los planos, lo que hace posible relacionar sus propiedades algebraicas como raíces repetidas con los bivectores, donde las magnitudes repetidas del bivector tienen interpretaciones geométricas particulares.
+
+Véase también
+ Cuaternión
+
+Referencias
+
+Bibliografía
+ 
+ 
+ 
+
+Categoría:Simetría rotacional
+Categoría:Orientación
+Categoría:Rotación

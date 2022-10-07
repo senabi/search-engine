@@ -1,0 +1,17 @@
+La constante de los inversos de Fibonacci, o ψ, se define como la suma de los recíprocos de los números de Fibonacci:
+
+La razón entre dos términos consecutivos de esta suma tiende al inverso del número áureo. Como este número es menor que 1, el criterio de d'Alembert establece que la suma converge.
+
+Se sabe que ψ es aproximadamente igual a
+
+No se conoce una fórmula cerrada que dé el valor de ψ, pero Gosper describe un algoritmo para obtener una aproximación rápida de su valor.
+ψ es irracional. Esta propiedad fue conjeturada por Paul Erdős, Ronald Graham y Leonard Carlitz, y comprobada en 1989 por Richard André-Jeannin.
+
+La representación de esta constante en fracción continua es:
+
+Referencias 
+
+Categoría:Constantes matemáticas
+Categoría:Números de Fibonacci
+Categoría:Epónimos relacionados con las matemáticas
+Categoría:Números irracionales

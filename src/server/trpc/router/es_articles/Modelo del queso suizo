@@ -1,0 +1,48 @@
+El modelo del queso suizo de causalidad de los accidentes es un modelo utilizado en el análisis de riesgos y gestión de riesgos, usado en la aviación, la ingeniería y la asistencia sanitaria. Compara los sistemas humanos a varias rebanadas de queso suizo, que se apilan. Esto fue propuesto originalmente por James T. Reason de la Universidad de Mánchester, y se ha ganado ya una amplia aceptación. A veces se llama el modelo del efecto acumulativo.
+
+Aunque el modelo de queso suizo es respetado y considerado como un método útil para relacionar conceptos, ha sido objeto de críticas ya que a veces se usa sin suficientes apoyo de otros modelos.
+
+Dominios de fallo
+
+Reason planteo la hipótesis de que la mayoría de los accidentes se pueden remontar a uno o más de los cuatro dominios de fallo: influencias de organización, supervisión, condiciones previas y los actos específicos. Condiciones previas para actos inseguros incluyen personal de vuelo fatigado o prácticas de comunicación inadecuados. Supervisión insegura que abarca, por ejemplo, el vínculo de los pilotos sin experiencia en un vuelo nocturno en tiempo adverso conocido. Influencias organizacionales abarcan aspectos tales como la reducción de los gastos en formación de pilotos en tiempos de austeridad financiera.
+
+Agujeros y cortes
+
+En el modelo de queso suizo, las defensas de una organización contra el fracaso se modelan como una serie de barreras, representadas como rebanadas de queso. Los agujeros en las rebanadas representan debilidades en partes individuales del sistema y están variando continuamente en tamaño y posición a través de las cortes. El sistema produce fallos cuando un agujero en cada rebanada se alinea momentáneamente, lo que permite (en las palabras de Orlandella y Reason) "una trayectoria de oportunidad de accidente", de manera que un peligro pasa a través de los agujeros en todas las rebanadas, lo que conduce a un fallo.
+
+Frosch describe el modelo de Reason en términos matemáticos como un modelo en la teoría de la percolación, que analiza una celosía de Bethe.
+
+Las fallas activas y latentes
+
+El modelo del queso suizo incluye tanto las fallas activas como las latentes. Las fallas activas abarcan los actos inseguros que pueden estar directamente vinculadas a un accidente, como por ejemplo (en el caso de los accidentes de aviación) errores del piloto. Las fallas latentes incluyen factores contributivos que pueden permanecer en estado latente durante días, semanas o meses hasta que contribuyen al accidente. Las fallas latentes abarcan los tres primeros dominios del fracaso en el modelo de Reason.
+
+Aplicaciones
+
+El mismo marco se aplica en la asistencia sanitaria. Por ejemplo, una falla latente podría ser el embalaje similar de dos medicamentos que a continuación se almacenan cerca uno del otro en una farmacia. Tal fracaso podría ser un factor contribuyente en la administración de la droga equivocada a un paciente. Esta investigación llevó a la conclusión de que los errores médicos puede ser el resultado de "fallas del sistema, no defectos de carácter", y que la codicia, la ignorancia, la malicia o la pereza no son las únicas causas de error.
+
+Lubnau, Lubnau y Okray  aplican el modelo de la ingeniería de sistemas de extinción de incendios, con el objetivo de reducir los errores humanos por "la inserción de capas adicionales de queso en el sistema", es decir, las técnicas de Gestión de Recursos de la Tripulación.
+
+Referencias
+
+Bibliografía Adicional
+
+ 
+  (read online: JSTOR)
+ 
+ 
+ 
+  — Westrum and Adamski relate Reason's Swiss Cheese model to Westrum's "human envelope" model, where "around every complex operation there is a human envelope that develops, operates, maintains, interfaces, and evaluates the function of the sociotechnological system" and where the system "depends on the integrity of this envelope, on its thickness and strength".  Westrum models latent failures as voids within this envelope, and active failures as factors external to the envelope that are acting to breach it.
+ 
+ 
+ 
+  (also available on-line here) — a reminder that while Reason's model extends causation to latent failures, this is not at the expense of eliminating active failure entirely
+ 
+ 
+  — the application of the Swiss Cheese model to a specific case of medical error
+
+Categoría:Error
+Categoría:Fallo
+Categoría:Seguridad
+Categoría:Ingeniería de sistemas
+Categoría:Análisis de riesgo
+Categoría:Modelos científicos

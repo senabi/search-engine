@@ -1,0 +1,49 @@
+AWStats es una herramienta open source de informes de análisis web, apta para analizar datos de servicios de Internet como un servidor web, streaming, mail y FTP. AWstats analiza los archivos de log del servidor, y basándose en ellos produce informes HTML. Los datos son presentados visualmente en informes de tablas y gráficos de barra. Pueden crearse informes estáticos mediante una interfaz de línea de comando, y se pueden obtener informes on-demand a través de un navegador web, gracias a un programa CGI.
+
+AWStats soporta la mayoría de los formatos de archivos log de servidor web conocidos, entre ellos Apache (formato de log NCSA combinado/XLF/ELF o formato común/CLFt), WebStar, IIS (formato de log del W3C) y muchos otros formatos comunes de Internet. Los desarrolladores pueden contribuir con el proyecto AWStats a través de SourceForge.
+
+Disponibilidad en las distintas plataformas 
+Escrito en Perl, AWStats puede ser utilizado en la mayoría de los sistemas operativos. Es una aplicación muy popular como herramienta de administración de servidores, con paquetes disponibles para las mayoría de las distribuciones Linux. AWStats puede ser instalado en una estación de trabajo, como MS Windows, para uso local en situaciones donde los archivos de log pueden ser descargados desde servidores remotos.
+
+Licencia 
+AWStats utiliza la GNU General Public License (GPL).
+
+Soporte 
+La configuración apropiada de Awstats requiere un poco de conocimientos técnicos y de negocios. Está disponible la documentación de Awstats, y el foro de la comunidad de usuarios
+
+Consideraciones de seguridad 
+El programa CGI ha sido objeto de exploits, como muchos otros programas CGI. Las organizaciones que quieran dar acceso público a sus informes de análisis web deberían considerar generar informes estáticos en HTML. La utilidad on-demand puede aun así ser usada restringiendo su acceso a miembros internos.
+
+Alternativas 
+Hay tres alternativas open source principales a Awstats.
+ Analog ofrece una riqueza de opciones de informes para los usuarios técnicos. No está diseñado para visitantes, y es usualmente usado para análisis de negocios.
+ Webalizer es ofrecido por muchos ISPs porque es sencillo y simple. Tiene muy pocas funcionalidades en comparación con AWStats. El desarrollo y el soporte parecen haberse detenido el 2002. Esto conduce a desperfectos, como el considerar al navegador Firefox como Netscape.
+ W3Perl, una poderosa alternativa que tiene características muy similares a AWStats.
+
+También hay algunas alternativas menores open source a AWStats.
+
+ Visitors (program)
+ phpMyVisites
+ Obsessive Website Statistics
+The AWStats project provides a detailed comparison chart.
+
+Véase también 
+
+ Análisis Web
+ SourceForge
+ Open source
+
+Enlaces externos 
+ Sitio web oficial de AWStats incluye documentación, novedades, descarga de software y foros de soporte de la comunidad.
+ Antezeta AWStats Resource Center incluye informes personalizados (Extra Sections) y extensiones de funcionalidad.
+ InternetOfficer AWStats Library con add-on de AWStats Referrers, utilidad aws2xls y muchas Extra Sections.
+ Documentación de AWStats
+ Maxmind GeoIP
+
+Categoría:Distribución de software
+Categoría:Software libre
+Categoría:Tecnología web
+Categoría:Análisis web
+Categoría:Proyecto GNU
+Categoría:Licencias de software libre
+Categoría:Cultura Libre

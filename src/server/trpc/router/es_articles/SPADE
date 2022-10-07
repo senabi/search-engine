@@ -1,0 +1,41 @@
+SPADE (del inglés "Smart Python multi-Agent Development Environment") es una plataforma libre de sistemas multi-agente desarrollada en Python y basada en la tecnología de mensajería instantánea XMPP. Algunas de las características más notables de la plataforma SPADE son: soporte de  organizaciones virtuales, notificación de presencia, compatible con FIPA e independencia del lenguaje y la plataforma.
+
+Resumen 
+SPADE es una plataforma de sistemas multi-agente desarrollada en 2005 en la Universidad Politécnica de Valencia. La plataforma nació como una prueba de concepto para probar la tecnología de la mensajería instantánea como protocolo de transporte para los agentes inteligentes. Desde ese momento el proyecto ha seguido creciendo y añadiendo nuevas características aprovechando la flexibilidad del protocolo de mensajería instantánea basado en XML y la cantidad de extensiones desarrolladas para el mismo que son aprovechables dentro del marco de los sistemas multi-agente.
+La plataforma SPADE está basada en un conjunto de estándares, siendo los más destacables FIPA y XMPP/Jabber.
+
+Características 
+Las principales características de la plataforma SPADE son:
+ Soporte del estándar FIPA mediante el protocolo de mensajería instantánea XMPP (Agentes AMS y DF incluidos)
+ Notificación de presencia entre agentes.
+ Organizaciones Virtuales basadas en el protocolo de multi-conferencia MUC.
+ Comunicación P2P entre agentes.
+ Invocación remota de servicios entre agentes usando el estándar XML-RPC.
+ Procesadores de lenguajes de contenido en SL0 y RDF.
+ Modelo de agente BDI basado en Conocimiento, Deseos e Intenciones.
+ Modelo de comportamientos: Cíclicos, Periódicos, Timeout, una ejecución, máquina de estados finita y basado en eventos.
+ Soporte de comunicación con otras plataformas mediante diversos protocolos de transporte: JADE (via HTTP o XMPP) y SIMBA.
+ Publicación y subscripción de eventos mediante el estándar PubSub.
+ Interfaz gráfica basada en web.
+
+Interfaz Gráfica 
+SPADE es una plataforma de agentes interoperable y multiplataforma, dado que el protocolo de comunicación está basado en XML y el lenguaje de implementación es Python. Del mismo modo la interfaz gráfica está basada en HTTP, siendo accesible desde multitud de dispositivos.
+Las características de la interfaz son las siguientes:
+ La plataforma y los agentes exportan su propia interfaz web.
+ La interfaz es configurable a través de plantillas.
+ Cada agente exporta su identificador como un código QR.
+ Instrospector de agente.
+ Visor de mensajes enviados.
+ Búsqueda de agentes y servicios.
+
+Publicaciones Relacionadas
+
+Enlaces externos 
+
+ .
+ pyChatter Software de mensajería instantánea basado en SPADE.
+ Comentario de la Asociación Francófona de Python
+
+Categoría:Inteligencia artificial
+Categoría:Software programado en Python
+Categoría:Software multiplataforma

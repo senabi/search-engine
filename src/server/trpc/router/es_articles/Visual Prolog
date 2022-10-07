@@ -1,0 +1,46 @@
+Turbo Prolog es un completo sistema de desarrollo de software que incluye un compilador y un entorno de desarrollo integrado (IDE) para el lenguaje de programación PROLOG, desarrollado por Borland, dentro de la familia de productos Turbo (Turbo C, Turbo Pascal, Turbo Assembler, Turbo Basic, etc).
+
+Versiones
+
+Turbo Prolog 
+Borland lanzó dos versiones de Turbo Prolog. La versión 1.0 fue lanzada en 1986 para MS-DOS y, posteriormente, la 2.0 en 1988, la cual estaba previsto que saliera también para el sistema operativo OS/2, cosa que no llegó a ocurrir. Como otras implementaciones PROLOG de la época (por ejemplo, micro-PROLOG) no se atenía al estándar propuesto por la Universidad de Edimburgo (que posteriormente daría lugar al ISO-PROLOG como norma para el lenguaje, ISO/IEC 13211-1), produciendo un dialecto muy diferenciado, en el que la programación estructurada impuesta por el lenguaje es una señal distintiva.
+
+PDC Prolog / Visual Prolog 
+La licencia del programa fue vendida por Borland a la división de la empresa que se había encargado de su desarrollo, la cual había creado en 1984 la compañía PDC (Prolog Development Center) y se hizo cargo del producto; pasó a comercializarlo con el nombre de PDC Prolog (para primero para los sistemas operativos MS-DOS y OS/2, y posteriormente para Windows 3.1) y en 1996 renombró el software a Visual Prolog, actualizando y manteniendo el producto en el mercado hasta la actualidad. A partir de la versión 6.0 (lanzada en 2002) el lenguaje era completamente orientado a objetos.
+
+Ejemplo 
+El siguiente código fuente corresponde con el clásico problema de las Torres de Hanói:
+
+class hanoi 
+   predicates 
+       hanoi : (unsigned N). 
+end class hanoi 
+ 
+implement hanoi 
+   domains 
+       pole = string. 
+ 
+   clauses 
+       hanoi(N) :- move(N, "left", "centre", "right"). 
+ 
+   class predicates 
+       move : (unsigned N, pole A, pole B, pole C). 
+   clauses 
+       move(0, _, _, _) :- !. 
+       move(N, A, B, C) :- 
+           move(N-1, A, C, B), 
+           stdio::writef("move a disc from % pole to the % pole\n", A, C), 
+           move(N-1, B, A, C). 
+end implement hanoi 
+ 
+goal 
+   console::init(), 
+   hanoi::hanoi(4).
+
+Enlaces externos 
+Turbo Prolog Goodies
+Museo de Borland, permite la descarga gratuita de software antiguo
+
+Categoría:Programación lógica
+Categoría:Borland Software Corporation
+Categoría:Historia del software
